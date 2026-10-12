@@ -1,0 +1,1712 @@
+[
+  {
+    "word": "bright",
+    "pos": "adverb",
+    "word_cn": "明亮地",
+    "definition": "In a bright way",
+    "definition_cn": "明亮地",
+    "example": "Do it bright.",
+    "example_cn": "明亮地做。"
+  },
+  {
+    "word": "cheap",
+    "pos": "adverb",
+    "word_cn": "便宜地",
+    "definition": "In a cheap way",
+    "definition_cn": "便宜地",
+    "example": "Do it cheap.",
+    "example_cn": "便宜地做。"
+  },
+  {
+    "word": "close",
+    "pos": "adverb",
+    "word_cn": "近地",
+    "definition": "In a close way",
+    "definition_cn": "近地",
+    "example": "Come close.",
+    "example_cn": "近地过来。"
+  },
+  {
+    "word": "common",
+    "pos": "adverb",
+    "word_cn": "常见地",
+    "definition": "In a common way",
+    "definition_cn": "常见地",
+    "example": "Do it common.",
+    "example_cn": "常见地做。"
+  },
+  {
+    "word": "cruel",
+    "pos": "adverb",
+    "word_cn": "残忍地",
+    "definition": "In a cruel way",
+    "definition_cn": "残忍地",
+    "example": "Do it cruel.",
+    "example_cn": "残忍地做。"
+  },
+  {
+    "word": "dangerous",
+    "pos": "adverb",
+    "word_cn": "危险地",
+    "definition": "In a dangerous way",
+    "definition_cn": "危险地",
+    "example": "Do it dangerous.",
+    "example_cn": "危险地做。"
+  },
+  {
+    "word": "dear",
+    "pos": "adverb",
+    "word_cn": "亲爱地",
+    "definition": "In a dear way",
+    "definition_cn": "亲爱地",
+    "example": "Do it dear.",
+    "example_cn": "亲爱地做。"
+  },
+  {
+    "word": "different",
+    "pos": "adverb",
+    "word_cn": "不同地",
+    "definition": "In a different way",
+    "definition_cn": "不同地",
+    "example": "Do it different.",
+    "example_cn": "不同地做。"
+  },
+  {
+    "word": "difficult",
+    "pos": "adverb",
+    "word_cn": "困难地",
+    "definition": "In a difficult way",
+    "definition_cn": "困难地",
+    "example": "Do it difficult.",
+    "example_cn": "困难地做。"
+  },
+  {
+    "word": "early",
+    "pos": "adverb",
+    "word_cn": "早地",
+    "definition": "In a early way",
+    "definition_cn": "早地",
+    "example": "Do it early.",
+    "example_cn": "早地做。"
+  },
+  {
+    "word": "easy",
+    "pos": "adverb",
+    "word_cn": "容易地",
+    "definition": "In a easy way",
+    "definition_cn": "容易地",
+    "example": "Do it easy.",
+    "example_cn": "容易地做。"
+  },
+  {
+    "word": "exact",
+    "pos": "adverb",
+    "word_cn": "精确地",
+    "definition": "In a exact way",
+    "definition_cn": "精确地",
+    "example": "Do it exact.",
+    "example_cn": "精确地做。"
+  },
+  {
+    "word": "excellent",
+    "pos": "adverb",
+    "word_cn": "优秀地",
+    "definition": "In a excellent way",
+    "definition_cn": "优秀地",
+    "example": "Do it excellent.",
+    "example_cn": "优秀地做。"
+  },
+  {
+    "word": "expensive",
+    "pos": "adverb",
+    "word_cn": "昂贵地",
+    "definition": "In a expensive way",
+    "definition_cn": "昂贵地",
+    "example": "Do it expensive.",
+    "example_cn": "昂贵地做。"
+  },
+  {
+    "word": "false",
+    "pos": "adverb",
+    "word_cn": "错误地",
+    "definition": "In a false way",
+    "definition_cn": "错误地",
+    "example": "Do it false.",
+    "example_cn": "错误地做。"
+  },
+  {
+    "word": "famous",
+    "pos": "adverb",
+    "word_cn": "著名地",
+    "definition": "In a famous way",
+    "definition_cn": "著名地",
+    "example": "Do it famous.",
+    "example_cn": "著名地做。"
+  },
+  {
+    "word": "far",
+    "pos": "adverb",
+    "word_cn": "远地",
+    "definition": "In a far way",
+    "definition_cn": "远地",
+    "example": "Do it far.",
+    "example_cn": "远地做。"
+  },
+  {
+    "word": "fatal",
+    "pos": "adverb",
+    "word_cn": "a. 致命地",
+    "definition": "In a fatal way",
+    "definition_cn": "a. 致命地",
+    "example": "Do it fatal.",
+    "example_cn": "a. 致命地做。"
+  },
+  {
+    "word": "fearful",
+    "pos": "adverb",
+    "word_cn": "a. 可怕地",
+    "definition": "In a fearful way",
+    "definition_cn": "a. 可怕地",
+    "example": "Do it fearful.",
+    "example_cn": "a. 可怕地做。"
+  },
+  {
+    "word": "fierce",
+    "pos": "adverb",
+    "word_cn": "凶猛地",
+    "definition": "In a fierce way",
+    "definition_cn": "凶猛地",
+    "example": "Do it fierce.",
+    "example_cn": "凶猛地做。"
+  },
+  {
+    "word": "fond",
+    "pos": "adverb",
+    "word_cn": "a. 喜欢地",
+    "definition": "In a fond way",
+    "definition_cn": "a. 喜欢地",
+    "example": "Do it fond.",
+    "example_cn": "a. 喜欢地做。"
+  },
+  {
+    "word": "foolish",
+    "pos": "adverb",
+    "word_cn": "foolish地",
+    "definition": "In a foolish way",
+    "definition_cn": "foolish地",
+    "example": "Do it foolish.",
+    "example_cn": "foolish地做。"
+  },
+  {
+    "word": "foreign",
+    "pos": "adverb",
+    "word_cn": "外国地",
+    "definition": "In a foreign way",
+    "definition_cn": "外国地",
+    "example": "Do it foreign.",
+    "example_cn": "外国地做。"
+  },
+  {
+    "word": "formal",
+    "pos": "adverb",
+    "word_cn": "正式地",
+    "definition": "In a formal way",
+    "definition_cn": "正式地",
+    "example": "Do it formal.",
+    "example_cn": "正式地做。"
+  },
+  {
+    "word": "fortunate",
+    "pos": "adverb",
+    "word_cn": "幸运地",
+    "definition": "In a fortunate way",
+    "definition_cn": "幸运地",
+    "example": "Do it fortunate.",
+    "example_cn": "幸运地做。"
+  },
+  {
+    "word": "fresh",
+    "pos": "adverb",
+    "word_cn": "新鲜地",
+    "definition": "In a fresh way",
+    "definition_cn": "新鲜地",
+    "example": "Do it fresh.",
+    "example_cn": "新鲜地做。"
+  },
+  {
+    "word": "friendly",
+    "pos": "adverb",
+    "word_cn": "a. 友好地",
+    "definition": "In a friendly way",
+    "definition_cn": "a. 友好地",
+    "example": "Do it friendly.",
+    "example_cn": "a. 友好地做。"
+  },
+  {
+    "word": "frightened",
+    "pos": "adverb",
+    "word_cn": "a. 受惊吓地",
+    "definition": "In a frightened way",
+    "definition_cn": "a. 受惊吓地",
+    "example": "Do it frightened.",
+    "example_cn": "a. 受惊吓地做。"
+  },
+  {
+    "word": "glad",
+    "pos": "adverb",
+    "word_cn": "高兴地",
+    "definition": "In a glad way",
+    "definition_cn": "高兴地",
+    "example": "Do it glad.",
+    "example_cn": "高兴地做。"
+  },
+  {
+    "word": "grand",
+    "pos": "adverb",
+    "word_cn": "宏伟地",
+    "definition": "In a grand way",
+    "definition_cn": "宏伟地",
+    "example": "Do it grand.",
+    "example_cn": "宏伟地做。"
+  },
+  {
+    "word": "grateful",
+    "pos": "adverb",
+    "word_cn": "a. 感谢地",
+    "definition": "In a grateful way",
+    "definition_cn": "a. 感谢地",
+    "example": "Do it grateful.",
+    "example_cn": "a. 感谢地做。"
+  },
+  {
+    "word": "guilty",
+    "pos": "adverb",
+    "word_cn": "有罪地",
+    "definition": "In a guilty way",
+    "definition_cn": "有罪地",
+    "example": "Do it guilty.",
+    "example_cn": "有罪地做。"
+  },
+  {
+    "word": "happy",
+    "pos": "adverb",
+    "word_cn": "快乐地",
+    "definition": "In a happy way",
+    "definition_cn": "快乐地",
+    "example": "Do it happy.",
+    "example_cn": "快乐地做。"
+  },
+  {
+    "word": "harmful",
+    "pos": "adverb",
+    "word_cn": "有害地",
+    "definition": "In a harmful way",
+    "definition_cn": "有害地",
+    "example": "Do it harmful.",
+    "example_cn": "有害地做。"
+  },
+  {
+    "word": "healthy",
+    "pos": "adverb",
+    "word_cn": "健康地",
+    "definition": "In a healthy way",
+    "definition_cn": "健康地",
+    "example": "Do it healthy.",
+    "example_cn": "健康地做。"
+  },
+  {
+    "word": "helpful",
+    "pos": "adverb",
+    "word_cn": "有帮助地",
+    "definition": "In a helpful way",
+    "definition_cn": "有帮助地",
+    "example": "Do it helpful.",
+    "example_cn": "有帮助地做。"
+  },
+  {
+    "word": "honest",
+    "pos": "adverb",
+    "word_cn": "诚实地",
+    "definition": "In a honest way",
+    "definition_cn": "诚实地",
+    "example": "Do it honest.",
+    "example_cn": "诚实地做。"
+  },
+  {
+    "word": "horrible",
+    "pos": "adverb",
+    "word_cn": "horrible地",
+    "definition": "In a horrible way",
+    "definition_cn": "horrible地",
+    "example": "Do it horrible.",
+    "example_cn": "horrible地做。"
+  },
+  {
+    "word": "hot",
+    "pos": "adverb",
+    "word_cn": "热地",
+    "definition": "In a hot way",
+    "definition_cn": "热地",
+    "example": "Do it hot.",
+    "example_cn": "热地做。"
+  },
+  {
+    "word": "huge",
+    "pos": "adverb",
+    "word_cn": "巨大地",
+    "definition": "In a huge way",
+    "definition_cn": "巨大地",
+    "example": "Do it huge.",
+    "example_cn": "巨大地做。"
+  },
+  {
+    "word": "human",
+    "pos": "adverb",
+    "word_cn": "人类地",
+    "definition": "In a human way",
+    "definition_cn": "人类地",
+    "example": "Do it human.",
+    "example_cn": "人类地做。"
+  },
+  {
+    "word": "hungry",
+    "pos": "adverb",
+    "word_cn": "饿地",
+    "definition": "In a hungry way",
+    "definition_cn": "饿地",
+    "example": "Do it hungry.",
+    "example_cn": "饿地做。"
+  },
+  {
+    "word": "ill",
+    "pos": "adverb",
+    "word_cn": "生病地",
+    "definition": "In a ill way",
+    "definition_cn": "生病地",
+    "example": "Do it ill.",
+    "example_cn": "生病地做。"
+  },
+  {
+    "word": "immediate",
+    "pos": "adverb",
+    "word_cn": "立即地",
+    "definition": "In a immediate way",
+    "definition_cn": "立即地",
+    "example": "Do it immediate.",
+    "example_cn": "立即地做。"
+  },
+  {
+    "word": "important",
+    "pos": "adverb",
+    "word_cn": "重要地",
+    "definition": "In a important way",
+    "definition_cn": "重要地",
+    "example": "Do it important.",
+    "example_cn": "重要地做。"
+  },
+  {
+    "word": "innocent",
+    "pos": "adverb",
+    "word_cn": "a. 无罪地",
+    "definition": "In a innocent way",
+    "definition_cn": "a. 无罪地",
+    "example": "Do it innocent.",
+    "example_cn": "a. 无罪地做。"
+  },
+  {
+    "word": "intense",
+    "pos": "adverb",
+    "word_cn": "强烈地",
+    "definition": "In a intense way",
+    "definition_cn": "强烈地",
+    "example": "Do it intense.",
+    "example_cn": "强烈地做。"
+  },
+  {
+    "word": "internal",
+    "pos": "adverb",
+    "word_cn": "内部地",
+    "definition": "In a internal way",
+    "definition_cn": "内部地",
+    "example": "Do it internal.",
+    "example_cn": "内部地做。"
+  },
+  {
+    "word": "invisible",
+    "pos": "adverb",
+    "word_cn": "a. 看不见地",
+    "definition": "In a invisible way",
+    "definition_cn": "a. 看不见地",
+    "example": "Do it invisible.",
+    "example_cn": "a. 看不见地做。"
+  },
+  {
+    "word": "jealous",
+    "pos": "adverb",
+    "word_cn": "嫉妒地",
+    "definition": "In a jealous way",
+    "definition_cn": "嫉妒地",
+    "example": "Do it jealous.",
+    "example_cn": "嫉妒地做。"
+  },
+  {
+    "word": "just",
+    "pos": "adverb",
+    "word_cn": "公正地",
+    "definition": "In a just way",
+    "definition_cn": "公正地",
+    "example": "Do it just.",
+    "example_cn": "公正地做。"
+  },
+  {
+    "word": "kind",
+    "pos": "adverb",
+    "word_cn": "善良地",
+    "definition": "In a kind way",
+    "definition_cn": "善良地",
+    "example": "Do it kind.",
+    "example_cn": "善良地做。"
+  },
+  {
+    "word": "late",
+    "pos": "adverb",
+    "word_cn": "晚地",
+    "definition": "In a late way",
+    "definition_cn": "晚地",
+    "example": "Do it late.",
+    "example_cn": "晚地做。"
+  },
+  {
+    "word": "lazy",
+    "pos": "adverb",
+    "word_cn": "懒惰地",
+    "definition": "In a lazy way",
+    "definition_cn": "懒惰地",
+    "example": "Do it lazy.",
+    "example_cn": "懒惰地做。"
+  },
+  {
+    "word": "left",
+    "pos": "adverb",
+    "word_cn": "左边地",
+    "definition": "In a left way",
+    "definition_cn": "左边地",
+    "example": "Do it left.",
+    "example_cn": "左边地做。"
+  },
+  {
+    "word": "legal",
+    "pos": "adverb",
+    "word_cn": "合法地",
+    "definition": "In a legal way",
+    "definition_cn": "合法地",
+    "example": "Do it legal.",
+    "example_cn": "合法地做。"
+  },
+  {
+    "word": "light",
+    "pos": "adverb",
+    "word_cn": "轻地",
+    "definition": "In a light way",
+    "definition_cn": "轻地",
+    "example": "Do it light.",
+    "example_cn": "轻地做。"
+  },
+  {
+    "word": "lonely",
+    "pos": "adverb",
+    "word_cn": "孤独地",
+    "definition": "In a lonely way",
+    "definition_cn": "孤独地",
+    "example": "Do it lonely.",
+    "example_cn": "孤独地做。"
+  },
+  {
+    "word": "loose",
+    "pos": "adverb",
+    "word_cn": "松地",
+    "definition": "In a loose way",
+    "definition_cn": "松地",
+    "example": "Do it loose.",
+    "example_cn": "松地做。"
+  },
+  {
+    "word": "loud",
+    "pos": "adverb",
+    "word_cn": "大声地",
+    "definition": "In a loud way",
+    "definition_cn": "大声地",
+    "example": "Run loud.",
+    "example_cn": "大声地跑。"
+  },
+  {
+    "word": "lovely",
+    "pos": "adverb",
+    "word_cn": "可爱地",
+    "definition": "In a lovely way",
+    "definition_cn": "可爱地",
+    "example": "Do it lovely.",
+    "example_cn": "可爱地做。"
+  },
+  {
+    "word": "loyal",
+    "pos": "adverb",
+    "word_cn": "忠诚地",
+    "definition": "In a loyal way",
+    "definition_cn": "忠诚地",
+    "example": "Do it loyal.",
+    "example_cn": "忠诚地做。"
+  },
+  {
+    "word": "lucky",
+    "pos": "adverb",
+    "word_cn": "幸运地",
+    "definition": "In a lucky way",
+    "definition_cn": "幸运地",
+    "example": "Do it lucky.",
+    "example_cn": "幸运地做。"
+  },
+  {
+    "word": "mad",
+    "pos": "adverb",
+    "word_cn": "疯狂地",
+    "definition": "In a mad way",
+    "definition_cn": "疯狂地",
+    "example": "Do it mad.",
+    "example_cn": "疯狂地做。"
+  },
+  {
+    "word": "male",
+    "pos": "adverb",
+    "word_cn": "男性地",
+    "definition": "In a male way",
+    "definition_cn": "男性地",
+    "example": "Do it male.",
+    "example_cn": "男性地做。"
+  },
+  {
+    "word": "mental",
+    "pos": "adverb",
+    "word_cn": "精神地",
+    "definition": "In a mental way",
+    "definition_cn": "精神地",
+    "example": "Do it mental.",
+    "example_cn": "精神地做。"
+  },
+  {
+    "word": "mild",
+    "pos": "adverb",
+    "word_cn": "温和地",
+    "definition": "In a mild way",
+    "definition_cn": "温和地",
+    "example": "Do it mild.",
+    "example_cn": "温和地做。"
+  },
+  {
+    "word": "minor",
+    "pos": "adverb",
+    "word_cn": "较小地",
+    "definition": "In a minor way",
+    "definition_cn": "较小地",
+    "example": "Do it minor.",
+    "example_cn": "较小地做。"
+  },
+  {
+    "word": "miserable",
+    "pos": "adverb",
+    "word_cn": "a. 悲惨的；痛苦的；卑鄙地",
+    "definition": "In a miserable way",
+    "definition_cn": "a. 悲惨的；痛苦的；卑鄙地",
+    "example": "Do it miserable.",
+    "example_cn": "a. 悲惨的；痛苦的；卑鄙地做。"
+  },
+  {
+    "word": "modest",
+    "pos": "adverb",
+    "word_cn": "a. 谦逊地",
+    "definition": "In a modest way",
+    "definition_cn": "a. 谦逊地",
+    "example": "Do it modest.",
+    "example_cn": "a. 谦逊地做。"
+  },
+  {
+    "word": "nasty",
+    "pos": "adverb",
+    "word_cn": "a. 污秽地",
+    "definition": "In a nasty way",
+    "definition_cn": "a. 污秽地",
+    "example": "Do it nasty.",
+    "example_cn": "a. 污秽地做。"
+  },
+  {
+    "word": "near",
+    "pos": "adverb",
+    "word_cn": "近地",
+    "definition": "In a near way",
+    "definition_cn": "近地",
+    "example": "Come near.",
+    "example_cn": "近地过来。"
+  },
+  {
+    "word": "neat",
+    "pos": "adverb",
+    "word_cn": "整洁地",
+    "definition": "In a neat way",
+    "definition_cn": "整洁地",
+    "example": "Do it neat.",
+    "example_cn": "整洁地做。"
+  },
+  {
+    "word": "nervous",
+    "pos": "adverb",
+    "word_cn": "紧张地",
+    "definition": "In a nervous way",
+    "definition_cn": "紧张地",
+    "example": "Do it nervous.",
+    "example_cn": "紧张地做。"
+  },
+  {
+    "word": "noble",
+    "pos": "adverb",
+    "word_cn": "高贵地",
+    "definition": "In a noble way",
+    "definition_cn": "高贵地",
+    "example": "Do it noble.",
+    "example_cn": "高贵地做。"
+  },
+  {
+    "word": "noisy",
+    "pos": "adverb",
+    "word_cn": "充满...地",
+    "definition": "In a noisy way",
+    "definition_cn": "充满...地",
+    "example": "Do it noisy.",
+    "example_cn": "充满...地做。"
+  },
+  {
+    "word": "normal",
+    "pos": "adverb",
+    "word_cn": "正常地",
+    "definition": "In a normal way",
+    "definition_cn": "正常地",
+    "example": "Do it normal.",
+    "example_cn": "正常地做。"
+  },
+  {
+    "word": "noticeable",
+    "pos": "adverb",
+    "word_cn": "a. 显而易见地",
+    "definition": "In a noticeable way",
+    "definition_cn": "a. 显而易见地",
+    "example": "Do it noticeable.",
+    "example_cn": "a. 显而易见地做。"
+  },
+  {
+    "word": "novel",
+    "pos": "adverb",
+    "word_cn": "新奇地",
+    "definition": "In a novel way",
+    "definition_cn": "新奇地",
+    "example": "Do it novel.",
+    "example_cn": "新奇地做。"
+  },
+  {
+    "word": "obvious",
+    "pos": "adverb",
+    "word_cn": "a. 明显地",
+    "definition": "In a obvious way",
+    "definition_cn": "a. 明显地",
+    "example": "Do it obvious.",
+    "example_cn": "a. 明显地做。"
+  },
+  {
+    "word": "odd",
+    "pos": "adverb",
+    "word_cn": "古怪地",
+    "definition": "In a odd way",
+    "definition_cn": "古怪地",
+    "example": "Do it odd.",
+    "example_cn": "古怪地做。"
+  },
+  {
+    "word": "open",
+    "pos": "adverb",
+    "word_cn": "开着地",
+    "definition": "In a open way",
+    "definition_cn": "开着地",
+    "example": "Do it open.",
+    "example_cn": "开着地做。"
+  },
+  {
+    "word": "opposite",
+    "pos": "adverb",
+    "word_cn": "相反地",
+    "definition": "In a opposite way",
+    "definition_cn": "相反地",
+    "example": "Do it opposite.",
+    "example_cn": "相反地做。"
+  },
+  {
+    "word": "optimistic",
+    "pos": "adverb",
+    "word_cn": "乐观地",
+    "definition": "In a optimistic way",
+    "definition_cn": "乐观地",
+    "example": "Do it optimistic.",
+    "example_cn": "乐观地做。"
+  },
+  {
+    "word": "other",
+    "pos": "adverb",
+    "word_cn": "其他地",
+    "definition": "In a other way",
+    "definition_cn": "其他地",
+    "example": "Do it other.",
+    "example_cn": "其他地做。"
+  },
+  {
+    "word": "outstanding",
+    "pos": "adverb",
+    "word_cn": "a. 杰出地",
+    "definition": "In a outstanding way",
+    "definition_cn": "a. 杰出地",
+    "example": "Do it outstanding.",
+    "example_cn": "a. 杰出地做。"
+  },
+  {
+    "word": "passive",
+    "pos": "adverb",
+    "word_cn": "被动地",
+    "definition": "In a passive way",
+    "definition_cn": "被动地",
+    "example": "Do it passive.",
+    "example_cn": "被动地做。"
+  },
+  {
+    "word": "personal",
+    "pos": "adverb",
+    "word_cn": "a. 私人地",
+    "definition": "In a personal way",
+    "definition_cn": "a. 私人地",
+    "example": "Do it personal.",
+    "example_cn": "a. 私人地做。"
+  },
+  {
+    "word": "physical",
+    "pos": "adverb",
+    "word_cn": "身体地",
+    "definition": "In a physical way",
+    "definition_cn": "身体地",
+    "example": "Do it physical.",
+    "example_cn": "身体地做。"
+  },
+  {
+    "word": "pleasant",
+    "pos": "adverb",
+    "word_cn": "a. 愉快地",
+    "definition": "In a pleasant way",
+    "definition_cn": "a. 愉快地",
+    "example": "Do it pleasant.",
+    "example_cn": "a. 愉快地做。"
+  },
+  {
+    "word": "pleased",
+    "pos": "adverb",
+    "word_cn": "a. 高兴地",
+    "definition": "In a pleased way",
+    "definition_cn": "a. 高兴地",
+    "example": "Do it pleased.",
+    "example_cn": "a. 高兴地做。"
+  },
+  {
+    "word": "poor",
+    "pos": "adverb",
+    "word_cn": "贫穷地",
+    "definition": "In a poor way",
+    "definition_cn": "贫穷地",
+    "example": "Do it poor.",
+    "example_cn": "贫穷地做。"
+  },
+  {
+    "word": "popular",
+    "pos": "adverb",
+    "word_cn": "流行地",
+    "definition": "In a popular way",
+    "definition_cn": "流行地",
+    "example": "Do it popular.",
+    "example_cn": "流行地做。"
+  },
+  {
+    "word": "powerful",
+    "pos": "adverb",
+    "word_cn": "强大地",
+    "definition": "In a powerful way",
+    "definition_cn": "强大地",
+    "example": "Do it powerful.",
+    "example_cn": "强大地做。"
+  },
+  {
+    "word": "practical",
+    "pos": "adverb",
+    "word_cn": "实际地",
+    "definition": "In a practical way",
+    "definition_cn": "实际地",
+    "example": "Do it practical.",
+    "example_cn": "实际地做。"
+  },
+  {
+    "word": "precious",
+    "pos": "adverb",
+    "word_cn": "precious地",
+    "definition": "In a precious way",
+    "definition_cn": "precious地",
+    "example": "Do it precious.",
+    "example_cn": "precious地做。"
+  },
+  {
+    "word": "precise",
+    "pos": "adverb",
+    "word_cn": "precise地",
+    "definition": "In a precise way",
+    "definition_cn": "precise地",
+    "example": "Do it precise.",
+    "example_cn": "precise地做。"
+  },
+  {
+    "word": "pretty",
+    "pos": "adverb",
+    "word_cn": "漂亮地",
+    "definition": "In a pretty way",
+    "definition_cn": "漂亮地",
+    "example": "Do it pretty.",
+    "example_cn": "漂亮地做。"
+  },
+  {
+    "word": "productive",
+    "pos": "adverb",
+    "word_cn": "产品地",
+    "definition": "In a productive way",
+    "definition_cn": "产品地",
+    "example": "Do it productive.",
+    "example_cn": "产品地做。"
+  },
+  {
+    "word": "profitable",
+    "pos": "adverb",
+    "word_cn": "a. 有利润地",
+    "definition": "In a profitable way",
+    "definition_cn": "a. 有利润地",
+    "example": "Do it profitable.",
+    "example_cn": "a. 有利润地做。"
+  },
+  {
+    "word": "profound",
+    "pos": "adverb",
+    "word_cn": "支持建立地",
+    "definition": "In a profound way",
+    "definition_cn": "支持建立地",
+    "example": "Do it profound.",
+    "example_cn": "支持建立地做。"
+  },
+  {
+    "word": "prominent",
+    "pos": "adverb",
+    "word_cn": "突出地",
+    "definition": "In a prominent way",
+    "definition_cn": "突出地",
+    "example": "Do it prominent.",
+    "example_cn": "突出地做。"
+  },
+  {
+    "word": "proper",
+    "pos": "adverb",
+    "word_cn": "适当地",
+    "definition": "In a proper way",
+    "definition_cn": "适当地",
+    "example": "Do it proper.",
+    "example_cn": "适当地做。"
+  },
+  {
+    "word": "proud",
+    "pos": "adverb",
+    "word_cn": "骄傲地",
+    "definition": "In a proud way",
+    "definition_cn": "骄傲地",
+    "example": "Do it proud.",
+    "example_cn": "骄傲地做。"
+  },
+  {
+    "word": "pure",
+    "pos": "adverb",
+    "word_cn": "纯地",
+    "definition": "In a pure way",
+    "definition_cn": "纯地",
+    "example": "Do it pure.",
+    "example_cn": "纯地做。"
+  },
+  {
+    "word": "quiet",
+    "pos": "adverb",
+    "word_cn": "安静地",
+    "definition": "In a quiet way",
+    "definition_cn": "安静地",
+    "example": "Run quiet.",
+    "example_cn": "安静地跑。"
+  },
+  {
+    "word": "random",
+    "pos": "adverb",
+    "word_cn": "缺少...地",
+    "definition": "In a random way",
+    "definition_cn": "缺少...地",
+    "example": "Do it random.",
+    "example_cn": "缺少...地做。"
+  },
+  {
+    "word": "rare",
+    "pos": "adverb",
+    "word_cn": "稀有地",
+    "definition": "In a rare way",
+    "definition_cn": "稀有地",
+    "example": "Do it rare.",
+    "example_cn": "稀有地做。"
+  },
+  {
+    "word": "rational",
+    "pos": "adverb",
+    "word_cn": "rational地",
+    "definition": "In a rational way",
+    "definition_cn": "rational地",
+    "example": "Do it rational.",
+    "example_cn": "rational地做。"
+  },
+  {
+    "word": "recent",
+    "pos": "adverb",
+    "word_cn": "最近地",
+    "definition": "In a recent way",
+    "definition_cn": "最近地",
+    "example": "Do it recent.",
+    "example_cn": "最近地做。"
+  },
+  {
+    "word": "related",
+    "pos": "adverb",
+    "word_cn": "a. 讲述地",
+    "definition": "In a related way",
+    "definition_cn": "a. 讲述地",
+    "example": "Do it related.",
+    "example_cn": "a. 讲述地做。"
+  },
+  {
+    "word": "relevant",
+    "pos": "adverb",
+    "word_cn": "a. 有关联地",
+    "definition": "In a relevant way",
+    "definition_cn": "a. 有关联地",
+    "example": "Do it relevant.",
+    "example_cn": "a. 有关联地做。"
+  },
+  {
+    "word": "reliable",
+    "pos": "adverb",
+    "word_cn": "a. 可靠地",
+    "definition": "In a reliable way",
+    "definition_cn": "a. 可靠地",
+    "example": "Do it reliable.",
+    "example_cn": "a. 可靠地做。"
+  },
+  {
+    "word": "reluctant",
+    "pos": "adverb",
+    "word_cn": "a. 不情愿地",
+    "definition": "In a reluctant way",
+    "definition_cn": "a. 不情愿地",
+    "example": "Do it reluctant.",
+    "example_cn": "a. 不情愿地做。"
+  },
+  {
+    "word": "remarkable",
+    "pos": "adverb",
+    "word_cn": "非凡地",
+    "definition": "In a remarkable way",
+    "definition_cn": "非凡地",
+    "example": "Do it remarkable.",
+    "example_cn": "非凡地做。"
+  },
+  {
+    "word": "responsible",
+    "pos": "adverb",
+    "word_cn": "a. 有责任地",
+    "definition": "In a responsible way",
+    "definition_cn": "a. 有责任地",
+    "example": "Do it responsible.",
+    "example_cn": "a. 有责任地做。"
+  },
+  {
+    "word": "rich",
+    "pos": "adverb",
+    "word_cn": "富有地",
+    "definition": "In a rich way",
+    "definition_cn": "富有地",
+    "example": "Do it rich.",
+    "example_cn": "富有地做。"
+  },
+  {
+    "word": "rigid",
+    "pos": "adverb",
+    "word_cn": "rigid地",
+    "definition": "In a rigid way",
+    "definition_cn": "rigid地",
+    "example": "Do it rigid.",
+    "example_cn": "rigid地做。"
+  },
+  {
+    "word": "risky",
+    "pos": "adverb",
+    "word_cn": "a. 危险地",
+    "definition": "In a risky way",
+    "definition_cn": "a. 危险地",
+    "example": "Do it risky.",
+    "example_cn": "a. 危险地做。"
+  },
+  {
+    "word": "rotten",
+    "pos": "adverb",
+    "word_cn": "rotten地",
+    "definition": "In a rotten way",
+    "definition_cn": "rotten地",
+    "example": "Do it rotten.",
+    "example_cn": "rotten地做。"
+  },
+  {
+    "word": "rude",
+    "pos": "adverb",
+    "word_cn": "粗鲁地",
+    "definition": "In a rude way",
+    "definition_cn": "粗鲁地",
+    "example": "Do it rude.",
+    "example_cn": "粗鲁地做。"
+  },
+  {
+    "word": "sacred",
+    "pos": "adverb",
+    "word_cn": "神圣地",
+    "definition": "In a sacred way",
+    "definition_cn": "神圣地",
+    "example": "Do it sacred.",
+    "example_cn": "神圣地做。"
+  },
+  {
+    "word": "sad",
+    "pos": "adverb",
+    "word_cn": "悲伤地",
+    "definition": "In a sad way",
+    "definition_cn": "悲伤地",
+    "example": "Do it sad.",
+    "example_cn": "悲伤地做。"
+  },
+  {
+    "word": "same",
+    "pos": "adverb",
+    "word_cn": "相同地",
+    "definition": "In a same way",
+    "definition_cn": "相同地",
+    "example": "Do it same.",
+    "example_cn": "相同地做。"
+  },
+  {
+    "word": "satisfied",
+    "pos": "adverb",
+    "word_cn": "a. 感到满意地",
+    "definition": "In a satisfied way",
+    "definition_cn": "a. 感到满意地",
+    "example": "Do it satisfied.",
+    "example_cn": "a. 感到满意地做。"
+  },
+  {
+    "word": "sensible",
+    "pos": "adverb",
+    "word_cn": "a. 有感觉地",
+    "definition": "In a sensible way",
+    "definition_cn": "a. 有感觉地",
+    "example": "Do it sensible.",
+    "example_cn": "a. 有感觉地做。"
+  },
+  {
+    "word": "sensitive",
+    "pos": "adverb",
+    "word_cn": "a. 敏感地",
+    "definition": "In a sensitive way",
+    "definition_cn": "a. 敏感地",
+    "example": "Do it sensitive.",
+    "example_cn": "a. 敏感地做。"
+  },
+  {
+    "word": "serious",
+    "pos": "adverb",
+    "word_cn": "严肃地",
+    "definition": "In a serious way",
+    "definition_cn": "严肃地",
+    "example": "Do it serious.",
+    "example_cn": "严肃地做。"
+  },
+  {
+    "word": "severe",
+    "pos": "adverb",
+    "word_cn": "a. 严格地",
+    "definition": "In a severe way",
+    "definition_cn": "a. 严格地",
+    "example": "Do it severe.",
+    "example_cn": "a. 严格地做。"
+  },
+  {
+    "word": "significant",
+    "pos": "adverb",
+    "word_cn": "a. 重要地",
+    "definition": "In a significant way",
+    "definition_cn": "a. 重要地",
+    "example": "Do it significant.",
+    "example_cn": "a. 重要地做。"
+  },
+  {
+    "word": "silent",
+    "pos": "adverb",
+    "word_cn": "安静地",
+    "definition": "In a silent way",
+    "definition_cn": "安静地",
+    "example": "Do it silent.",
+    "example_cn": "安静地做。"
+  },
+  {
+    "word": "similar",
+    "pos": "adverb",
+    "word_cn": "相似地",
+    "definition": "In a similar way",
+    "definition_cn": "相似地",
+    "example": "Do it similar.",
+    "example_cn": "相似地做。"
+  },
+  {
+    "word": "sleepy",
+    "pos": "adverb",
+    "word_cn": "睡觉地",
+    "definition": "In a sleepy way",
+    "definition_cn": "睡觉地",
+    "example": "Do it sleepy.",
+    "example_cn": "睡觉地做。"
+  },
+  {
+    "word": "slim",
+    "pos": "adverb",
+    "word_cn": "苗条地",
+    "definition": "In a slim way",
+    "definition_cn": "苗条地",
+    "example": "Do it slim.",
+    "example_cn": "苗条地做。"
+  },
+  {
+    "word": "social",
+    "pos": "adverb",
+    "word_cn": "社会地",
+    "definition": "In a social way",
+    "definition_cn": "社会地",
+    "example": "Do it social.",
+    "example_cn": "社会地做。"
+  },
+  {
+    "word": "soft",
+    "pos": "adverb",
+    "word_cn": "软地",
+    "definition": "In a soft way",
+    "definition_cn": "软地",
+    "example": "Do it soft.",
+    "example_cn": "软地做。"
+  },
+  {
+    "word": "sorry",
+    "pos": "adverb",
+    "word_cn": "sorry地",
+    "definition": "In a sorry way",
+    "definition_cn": "sorry地",
+    "example": "Do it sorry.",
+    "example_cn": "sorry地做。"
+  },
+  {
+    "word": "strange",
+    "pos": "adverb",
+    "word_cn": "奇怪地",
+    "definition": "In a strange way",
+    "definition_cn": "奇怪地",
+    "example": "Do it strange.",
+    "example_cn": "奇怪地做。"
+  },
+  {
+    "word": "strict",
+    "pos": "adverb",
+    "word_cn": "严格地",
+    "definition": "In a strict way",
+    "definition_cn": "严格地",
+    "example": "Do it strict.",
+    "example_cn": "严格地做。"
+  },
+  {
+    "word": "strong",
+    "pos": "adverb",
+    "word_cn": "强壮地",
+    "definition": "In a strong way",
+    "definition_cn": "强壮地",
+    "example": "Do it strong.",
+    "example_cn": "强壮地做。"
+  },
+  {
+    "word": "substantial",
+    "pos": "adverb",
+    "word_cn": "substantial地",
+    "definition": "In a substantial way",
+    "definition_cn": "substantial地",
+    "example": "Do it substantial.",
+    "example_cn": "substantial地做。"
+  },
+  {
+    "word": "successful",
+    "pos": "adverb",
+    "word_cn": "成功地",
+    "definition": "In a successful way",
+    "definition_cn": "成功地",
+    "example": "Do it successful.",
+    "example_cn": "成功地做。"
+  },
+  {
+    "word": "sudden",
+    "pos": "adverb",
+    "word_cn": "突然地",
+    "definition": "In a sudden way",
+    "definition_cn": "突然地",
+    "example": "Do it sudden.",
+    "example_cn": "突然地做。"
+  },
+  {
+    "word": "sufficient",
+    "pos": "adverb",
+    "word_cn": "sufficient地",
+    "definition": "In a sufficient way",
+    "definition_cn": "sufficient地",
+    "example": "Do it sufficient.",
+    "example_cn": "sufficient地做。"
+  },
+  {
+    "word": "sunny",
+    "pos": "adverb",
+    "word_cn": "sunny地",
+    "definition": "In a sunny way",
+    "definition_cn": "sunny地",
+    "example": "Do it sunny.",
+    "example_cn": "sunny地做。"
+  },
+  {
+    "word": "super",
+    "pos": "adverb",
+    "word_cn": "超级地",
+    "definition": "In a super way",
+    "definition_cn": "超级地",
+    "example": "Do it super.",
+    "example_cn": "超级地做。"
+  },
+  {
+    "word": "sure",
+    "pos": "adverb",
+    "word_cn": "确定地",
+    "definition": "In a sure way",
+    "definition_cn": "确定地",
+    "example": "Do it sure.",
+    "example_cn": "确定地做。"
+  },
+  {
+    "word": "sympathetic",
+    "pos": "adverb",
+    "word_cn": "a. 有同情心地",
+    "definition": "In a sympathetic way",
+    "definition_cn": "a. 有同情心地",
+    "example": "Do it sympathetic.",
+    "example_cn": "a. 有同情心地做。"
+  },
+  {
+    "word": "tender",
+    "pos": "adverb",
+    "word_cn": "a. 嫩地",
+    "definition": "In a tender way",
+    "definition_cn": "a. 嫩地",
+    "example": "Do it tender.",
+    "example_cn": "a. 嫩地做。"
+  },
+  {
+    "word": "tense",
+    "pos": "adverb",
+    "word_cn": "a. 紧张地",
+    "definition": "In a tense way",
+    "definition_cn": "a. 紧张地",
+    "example": "Do it tense.",
+    "example_cn": "a. 紧张地做。"
+  },
+  {
+    "word": "terrible",
+    "pos": "adverb",
+    "word_cn": "可怕地",
+    "definition": "In a terrible way",
+    "definition_cn": "可怕地",
+    "example": "Do it terrible.",
+    "example_cn": "可怕地做。"
+  },
+  {
+    "word": "thick",
+    "pos": "adverb",
+    "word_cn": "厚地",
+    "definition": "In a thick way",
+    "definition_cn": "厚地",
+    "example": "Do it thick.",
+    "example_cn": "厚地做。"
+  },
+  {
+    "word": "thirsty",
+    "pos": "adverb",
+    "word_cn": "口渴地",
+    "definition": "In a thirsty way",
+    "definition_cn": "口渴地",
+    "example": "Do it thirsty.",
+    "example_cn": "口渴地做。"
+  },
+  {
+    "word": "tiny",
+    "pos": "adverb",
+    "word_cn": "微小地",
+    "definition": "In a tiny way",
+    "definition_cn": "微小地",
+    "example": "Do it tiny.",
+    "example_cn": "微小地做。"
+  },
+  {
+    "word": "tough",
+    "pos": "adverb",
+    "word_cn": "坚韧地",
+    "definition": "In a tough way",
+    "definition_cn": "坚韧地",
+    "example": "Do it tough.",
+    "example_cn": "坚韧地做。"
+  },
+  {
+    "word": "tragic",
+    "pos": "adverb",
+    "word_cn": "a. 悲惨地",
+    "definition": "In a tragic way",
+    "definition_cn": "a. 悲惨地",
+    "example": "Do it tragic.",
+    "example_cn": "a. 悲惨地做。"
+  },
+  {
+    "word": "typical",
+    "pos": "adverb",
+    "word_cn": "典型地",
+    "definition": "In a typical way",
+    "definition_cn": "典型地",
+    "example": "Do it typical.",
+    "example_cn": "典型地做。"
+  },
+  {
+    "word": "ugly",
+    "pos": "adverb",
+    "word_cn": "丑陋地",
+    "definition": "In a ugly way",
+    "definition_cn": "丑陋地",
+    "example": "Do it ugly.",
+    "example_cn": "丑陋地做。"
+  },
+  {
+    "word": "unable",
+    "pos": "adverb",
+    "word_cn": "不能够地",
+    "definition": "In a unable way",
+    "definition_cn": "不能够地",
+    "example": "Do it unable.",
+    "example_cn": "不能够地做。"
+  },
+  {
+    "word": "unacceptable",
+    "pos": "adverb",
+    "word_cn": "a. 无法接受地",
+    "definition": "In a unacceptable way",
+    "definition_cn": "a. 无法接受地",
+    "example": "Do it unacceptable.",
+    "example_cn": "a. 无法接受地做。"
+  },
+  {
+    "word": "uncommon",
+    "pos": "adverb",
+    "word_cn": "a. 不寻常地",
+    "definition": "In a uncommon way",
+    "definition_cn": "a. 不寻常地",
+    "example": "Do it uncommon.",
+    "example_cn": "a. 不寻常地做。"
+  },
+  {
+    "word": "unfair",
+    "pos": "adverb",
+    "word_cn": "不公平地",
+    "definition": "In a unfair way",
+    "definition_cn": "不公平地",
+    "example": "Do it unfair.",
+    "example_cn": "不公平地做。"
+  },
+  {
+    "word": "unfortunate",
+    "pos": "adverb",
+    "word_cn": "a. 不幸地",
+    "definition": "In a unfortunate way",
+    "definition_cn": "a. 不幸地",
+    "example": "Do it unfortunate.",
+    "example_cn": "a. 不幸地做。"
+  },
+  {
+    "word": "unhappy",
+    "pos": "adverb",
+    "word_cn": "不快乐地",
+    "definition": "In a unhappy way",
+    "definition_cn": "不快乐地",
+    "example": "Do it unhappy.",
+    "example_cn": "不快乐地做。"
+  },
+  {
+    "word": "unhealthy",
+    "pos": "adverb",
+    "word_cn": "a. 不健康地",
+    "definition": "In a unhealthy way",
+    "definition_cn": "a. 不健康地",
+    "example": "Do it unhealthy.",
+    "example_cn": "a. 不健康地做。"
+  },
+  {
+    "word": "uniform",
+    "pos": "adverb",
+    "word_cn": "统一地",
+    "definition": "In a uniform way",
+    "definition_cn": "统一地",
+    "example": "Do it uniform.",
+    "example_cn": "统一地做。"
+  },
+  {
+    "word": "unique",
+    "pos": "adverb",
+    "word_cn": "独特地",
+    "definition": "In a unique way",
+    "definition_cn": "独特地",
+    "example": "Do it unique.",
+    "example_cn": "独特地做。"
+  },
+  {
+    "word": "unlike",
+    "pos": "adverb",
+    "word_cn": "不喜欢地",
+    "definition": "In a unlike way",
+    "definition_cn": "不喜欢地",
+    "example": "Do it unlike.",
+    "example_cn": "不喜欢地做。"
+  },
+  {
+    "word": "unpleasant",
+    "pos": "adverb",
+    "word_cn": "a. 使人不愉快地",
+    "definition": "In a unpleasant way",
+    "definition_cn": "a. 使人不愉快地",
+    "example": "Do it unpleasant.",
+    "example_cn": "a. 使人不愉快地做。"
+  },
+  {
+    "word": "unsafe",
+    "pos": "adverb",
+    "word_cn": "a. 不安全地",
+    "definition": "In a unsafe way",
+    "definition_cn": "a. 不安全地",
+    "example": "Do it unsafe.",
+    "example_cn": "a. 不安全地做。"
+  },
+  {
+    "word": "unusual",
+    "pos": "adverb",
+    "word_cn": "不通常地",
+    "definition": "In a unusual way",
+    "definition_cn": "不通常地",
+    "example": "Do it unusual.",
+    "example_cn": "不通常地做。"
+  },
+  {
+    "word": "upset",
+    "pos": "adverb",
+    "word_cn": "a. 弄翻地",
+    "definition": "In a upset way",
+    "definition_cn": "a. 弄翻地",
+    "example": "Do it upset.",
+    "example_cn": "a. 弄翻地做。"
+  },
+  {
+    "word": "useful",
+    "pos": "adverb",
+    "word_cn": "有用地",
+    "definition": "In a useful way",
+    "definition_cn": "有用地",
+    "example": "Do it useful.",
+    "example_cn": "有用地做。"
+  },
+  {
+    "word": "useless",
+    "pos": "adverb",
+    "word_cn": "无使用地",
+    "definition": "In a useless way",
+    "definition_cn": "无使用地",
+    "example": "Do it useless.",
+    "example_cn": "无使用地做。"
+  },
+  {
+    "word": "usual",
+    "pos": "adverb",
+    "word_cn": "通常地",
+    "definition": "In a usual way",
+    "definition_cn": "通常地",
+    "example": "Do it usual.",
+    "example_cn": "通常地做。"
+  },
+  {
+    "word": "vague",
+    "pos": "adverb",
+    "word_cn": "vague地",
+    "definition": "In a vague way",
+    "definition_cn": "vague地",
+    "example": "Do it vague.",
+    "example_cn": "vague地做。"
+  },
+  {
+    "word": "vain",
+    "pos": "adverb",
+    "word_cn": "a. 无价值地",
+    "definition": "In a vain way",
+    "definition_cn": "a. 无价值地",
+    "example": "Do it vain.",
+    "example_cn": "a. 无价值地做。"
+  },
+  {
+    "word": "valid",
+    "pos": "adverb",
+    "word_cn": "valid地",
+    "definition": "In a valid way",
+    "definition_cn": "valid地",
+    "example": "Do it valid.",
+    "example_cn": "valid地做。"
+  },
+  {
+    "word": "vast",
+    "pos": "adverb",
+    "word_cn": "巨大地",
+    "definition": "In a vast way",
+    "definition_cn": "巨大地",
+    "example": "Do it vast.",
+    "example_cn": "巨大地做。"
+  },
+  {
+    "word": "vertical",
+    "pos": "adverb",
+    "word_cn": "a. 垂直地",
+    "definition": "In a vertical way",
+    "definition_cn": "a. 垂直地",
+    "example": "Do it vertical.",
+    "example_cn": "a. 垂直地做。"
+  },
+  {
+    "word": "victorious",
+    "pos": "adverb",
+    "word_cn": "a. 胜利地",
+    "definition": "In a victorious way",
+    "definition_cn": "a. 胜利地",
+    "example": "Do it victorious.",
+    "example_cn": "a. 胜利地做。"
+  },
+  {
+    "word": "violent",
+    "pos": "adverb",
+    "word_cn": "a. 暴力地",
+    "definition": "In a violent way",
+    "definition_cn": "a. 暴力地",
+    "example": "Do it violent.",
+    "example_cn": "a. 暴力地做。"
+  },
+  {
+    "word": "visible",
+    "pos": "adverb",
+    "word_cn": "可见地",
+    "definition": "In a visible way",
+    "definition_cn": "可见地",
+    "example": "Do it visible.",
+    "example_cn": "可见地做。"
+  },
+  {
+    "word": "visual",
+    "pos": "adverb",
+    "word_cn": "视觉地",
+    "definition": "In a visual way",
+    "definition_cn": "视觉地",
+    "example": "Do it visual.",
+    "example_cn": "视觉地做。"
+  },
+  {
+    "word": "vital",
+    "pos": "adverb",
+    "word_cn": "至关重要地",
+    "definition": "In a vital way",
+    "definition_cn": "至关重要地",
+    "example": "Do it vital.",
+    "example_cn": "至关重要地做。"
+  },
+  {
+    "word": "voluntary",
+    "pos": "adverb",
+    "word_cn": "a. 自动地",
+    "definition": "In a voluntary way",
+    "definition_cn": "a. 自动地",
+    "example": "Do it voluntary.",
+    "example_cn": "a. 自动地做。"
+  },
+  {
+    "word": "vulnerable",
+    "pos": "adverb",
+    "word_cn": "a. 易受伤害地",
+    "definition": "In a vulnerable way",
+    "definition_cn": "a. 易受伤害地",
+    "example": "Do it vulnerable.",
+    "example_cn": "a. 易受伤害地做。"
+  },
+  {
+    "word": "weak",
+    "pos": "adverb",
+    "word_cn": "虚弱地",
+    "definition": "In a weak way",
+    "definition_cn": "虚弱地",
+    "example": "Do it weak.",
+    "example_cn": "虚弱地做。"
+  },
+  {
+    "word": "wonderful",
+    "pos": "adverb",
+    "word_cn": "精彩地",
+    "definition": "In a wonderful way",
+    "definition_cn": "精彩地",
+    "example": "Do it wonderful.",
+    "example_cn": "精彩地做。"
+  },
+  {
+    "word": "worried",
+    "pos": "adverb",
+    "word_cn": "a. 担心地",
+    "definition": "In a worried way",
+    "definition_cn": "a. 担心地",
+    "example": "Do it worried.",
+    "example_cn": "a. 担心地做。"
+  }
+]

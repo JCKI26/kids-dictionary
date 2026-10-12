@@ -1,0 +1,385 @@
+{
+  "count": 76,
+  "words": [
+    {
+      "word": "ceasefire",
+      "word_cn": "通常指永久性的",
+      "definition_cn": "通常指永久性的"
+    },
+    {
+      "word": "chapterhouse",
+      "word_cn": "教士会礼堂",
+      "definition_cn": "教士会礼堂"
+    },
+    {
+      "word": "comedic",
+      "word_cn": "喜剧的",
+      "definition_cn": "喜剧的"
+    },
+    {
+      "word": "concernment",
+      "word_cn": "所关心的事",
+      "definition_cn": "所关心的事"
+    },
+    {
+      "word": "confliction",
+      "word_cn": "冲突",
+      "definition_cn": "冲突"
+    },
+    {
+      "word": "constructible",
+      "word_cn": "可构造的",
+      "definition_cn": "可构造的"
+    },
+    {
+      "word": "courseware",
+      "word_cn": "课件",
+      "definition_cn": "课件"
+    },
+    {
+      "word": "crewmate",
+      "word_cn": "同船工作之船员",
+      "definition_cn": "同船工作之船员"
+    },
+    {
+      "word": "crushable",
+      "word_cn": "可压碎的",
+      "definition_cn": "可压碎的"
+    },
+    {
+      "word": "debateable",
+      "word_cn": "可争论的",
+      "definition_cn": "可争论的"
+    },
+    {
+      "word": "deceptional",
+      "word_cn": "的变形",
+      "definition_cn": "的变形"
+    },
+    {
+      "word": "delightfulness",
+      "word_cn": "欣然",
+      "definition_cn": "欣然"
+    },
+    {
+      "word": "destructional",
+      "word_cn": "破坏的",
+      "definition_cn": "破坏的"
+    },
+    {
+      "word": "disasterous",
+      "word_cn": "灾难性的",
+      "definition_cn": "灾难性的"
+    },
+    {
+      "word": "discardable",
+      "word_cn": "可丢弃的",
+      "definition_cn": "可丢弃的"
+    },
+    {
+      "word": "distinguishability",
+      "word_cn": "可区别性",
+      "definition_cn": "可区别性"
+    },
+    {
+      "word": "domainal",
+      "word_cn": "拥有领土的",
+      "definition_cn": "拥有领土的"
+    },
+    {
+      "word": "draftable",
+      "word_cn": "可征召入伍的",
+      "definition_cn": "可征召入伍的"
+    },
+    {
+      "word": "drawerful",
+      "word_cn": "一",
+      "definition_cn": "一"
+    },
+    {
+      "word": "drillable",
+      "word_cn": "可钻孔的",
+      "definition_cn": "可钻孔的"
+    },
+    {
+      "word": "driveable",
+      "word_cn": "可驾驶的",
+      "definition_cn": "可驾驶的"
+    },
+    {
+      "word": "enforceability",
+      "word_cn": "强制性",
+      "definition_cn": "强制性"
+    },
+    {
+      "word": "establishable",
+      "word_cn": "可建立的",
+      "definition_cn": "可建立的"
+    },
+    {
+      "word": "evaluable",
+      "word_cn": "可估价的",
+      "definition_cn": "可估价的"
+    },
+    {
+      "word": "expansionary",
+      "word_cn": "扩张性的",
+      "definition_cn": "扩张性的"
+    },
+    {
+      "word": "forecastable",
+      "word_cn": "的变形",
+      "definition_cn": "的变形"
+    },
+    {
+      "word": "forestation",
+      "word_cn": "造林",
+      "definition_cn": "造林"
+    },
+    {
+      "word": "forgeable",
+      "word_cn": "可锻造的",
+      "definition_cn": "可锻造的"
+    },
+    {
+      "word": "harvestable",
+      "word_cn": "随时可收获的",
+      "definition_cn": "随时可收获的"
+    },
+    {
+      "word": "hireable",
+      "word_cn": "能租用的",
+      "definition_cn": "能租用的"
+    },
+    {
+      "word": "impactful",
+      "word_cn": "有效的",
+      "definition_cn": "有效的"
+    },
+    {
+      "word": "interruptable",
+      "word_cn": "可中断的",
+      "definition_cn": "可中断的"
+    },
+    {
+      "word": "jacuzzi",
+      "word_cn": "极可意水流按摩浴缸",
+      "definition_cn": "极可意水流按摩浴缸"
+    },
+    {
+      "word": "lifecycle",
+      "word_cn": "生活周期",
+      "definition_cn": "生活周期"
+    },
+    {
+      "word": "limitational",
+      "word_cn": "的变形",
+      "definition_cn": "的变形"
+    },
+    {
+      "word": "loadable",
+      "word_cn": "适于承载的",
+      "definition_cn": "适于承载的"
+    },
+    {
+      "word": "locational",
+      "word_cn": "位置上的",
+      "definition_cn": "位置上的"
+    },
+    {
+      "word": "maskable",
+      "word_cn": "可屏蔽的",
+      "definition_cn": "可屏蔽的"
+    },
+    {
+      "word": "membrance",
+      "word_cn": "膜类",
+      "definition_cn": "膜类"
+    },
+    {
+      "word": "multicore",
+      "word_cn": "多芯的",
+      "definition_cn": "多芯的"
+    },
+    {
+      "word": "neglectable",
+      "word_cn": "可忽视的",
+      "definition_cn": "可忽视的"
+    },
+    {
+      "word": "networkable",
+      "word_cn": "可使用的网络",
+      "definition_cn": "可使用的网络"
+    },
+    {
+      "word": "onboard",
+      "word_cn": "在板上",
+      "definition_cn": "在板上"
+    },
+    {
+      "word": "optionality",
+      "word_cn": "期权性风险",
+      "definition_cn": "期权性风险"
+    },
+    {
+      "word": "ovenable",
+      "word_cn": "烤箱适用的",
+      "definition_cn": "烤箱适用的"
+    },
+    {
+      "word": "peelable",
+      "word_cn": "剥离强度",
+      "definition_cn": "剥离强度"
+    },
+    {
+      "word": "perceptional",
+      "word_cn": "知觉作用的",
+      "definition_cn": "知觉作用的"
+    },
+    {
+      "word": "plotline",
+      "word_cn": "戏剧、小说等的",
+      "definition_cn": "戏剧、小说等的"
+    },
+    {
+      "word": "pluggable",
+      "word_cn": "插接式连接",
+      "definition_cn": "插接式连接"
+    },
+    {
+      "word": "pollutional",
+      "word_cn": "污染的",
+      "definition_cn": "污染的"
+    },
+    {
+      "word": "populational",
+      "word_cn": "全体居民",
+      "definition_cn": "全体居民"
+    },
+    {
+      "word": "programmatic",
+      "word_cn": "标题音乐的",
+      "definition_cn": "标题音乐的"
+    },
+    {
+      "word": "pumpable",
+      "word_cn": "可用泵抽吸",
+      "definition_cn": "可用泵抽吸"
+    },
+    {
+      "word": "quartal",
+      "word_cn": "和声",
+      "definition_cn": "和声"
+    },
+    {
+      "word": "radiational",
+      "word_cn": "放射的",
+      "definition_cn": "放射的"
+    },
+    {
+      "word": "realisable",
+      "word_cn": "主英",
+      "definition_cn": "主英"
+    },
+    {
+      "word": "recalibrate",
+      "word_cn": "重新刻度",
+      "definition_cn": "重新刻度"
+    },
+    {
+      "word": "recognitional",
+      "word_cn": "的变形",
+      "definition_cn": "的变形"
+    },
+    {
+      "word": "recordable",
+      "word_cn": "可记录的",
+      "definition_cn": "可记录的"
+    },
+    {
+      "word": "registerable",
+      "word_cn": "可登记的",
+      "definition_cn": "可登记的"
+    },
+    {
+      "word": "relativeal",
+      "word_cn": "亲戚的",
+      "definition_cn": "亲戚的"
+    },
+    {
+      "word": "reputational",
+      "word_cn": "名声",
+      "definition_cn": "名声"
+    },
+    {
+      "word": "researchable",
+      "word_cn": "可调查的",
+      "definition_cn": "可调查的"
+    },
+    {
+      "word": "riverine",
+      "word_cn": "河的",
+      "definition_cn": "河的"
+    },
+    {
+      "word": "scientifical",
+      "word_cn": "科学的",
+      "definition_cn": "科学的"
+    },
+    {
+      "word": "screenable",
+      "word_cn": "可放映的",
+      "definition_cn": "可放映的"
+    },
+    {
+      "word": "selectable",
+      "word_cn": "可选择的",
+      "definition_cn": "可选择的"
+    },
+    {
+      "word": "selectional",
+      "word_cn": "选择的",
+      "definition_cn": "选择的"
+    },
+    {
+      "word": "shapeable",
+      "word_cn": "可成形的",
+      "definition_cn": "可成形的"
+    },
+    {
+      "word": "shareable",
+      "word_cn": "可共享的",
+      "definition_cn": "可共享的"
+    },
+    {
+      "word": "sliceable",
+      "word_cn": "可切成",
+      "definition_cn": "可切成"
+    },
+    {
+      "word": "spongeable",
+      "word_cn": "可用海绵擦拭的",
+      "definition_cn": "可用海绵擦拭的"
+    },
+    {
+      "word": "sprayable",
+      "word_cn": "可喷射的",
+      "definition_cn": "可喷射的"
+    },
+    {
+      "word": "spreadable",
+      "word_cn": "黄油等",
+      "definition_cn": "黄油等"
+    },
+    {
+      "word": "stackable",
+      "word_cn": "可叠起堆放的",
+      "definition_cn": "可叠起堆放的"
+    },
+    {
+      "word": "stressable",
+      "word_cn": "可用重音读的",
+      "definition_cn": "可用重音读的"
+    }
+  ]
+}

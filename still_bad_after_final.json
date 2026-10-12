@@ -1,0 +1,553 @@
+[
+  {
+    "row": 166,
+    "word": "cozy",
+    "pos": "adjective",
+    "text": "Warm, comfortable, and snug. \"Cozy means warm and comfortable, often[5D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 168,
+    "word": "craft",
+    "pos": "noun",
+    "text": "Skill in making things by hand. \"Craft is skill in making things by[2D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 179,
+    "word": "crude",
+    "pos": "adjective",
+    "text": "Rough or unrefined in quality or manner. \"Crude means rough and not[3D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 199,
+    "word": "ice",
+    "pos": "noun",
+    "text": "Frozen water used to cool or as solid water. \"Ice is frozen water.\" T[1D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 537,
+    "word": "born",
+    "pos": "adjective",
+    "text": "Brought into life by birth.\" Complete sentence? Yes.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 548,
+    "word": "briny",
+    "pos": "adjective",
+    "text": "Tasting of or containing salt; salty.\" Could be \"Of or like salt wa[2D[K.",
+    "reasons": [
+      "quote",
+      "commentary"
+    ]
+  },
+  {
+    "row": 555,
+    "word": "bumpy",
+    "pos": "adjective",
+    "text": "Having many bumps or rough spots.\" Good.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 606,
+    "word": "cleft",
+    "pos": "noun",
+    "text": "A cleft is a split or deep indentation in something.\" cloth:[6D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 614,
+    "word": "cloth",
+    "pos": "noun",
+    "text": "Cloth is woven or felted fabric made from fibers.\" clout: \"c[2D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 674,
+    "word": "death",
+    "pos": "noun",
+    "text": "The end of life or the permanent cessation of all vital functions.\"[11D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 811,
+    "word": "erly",
+    "pos": "adjective",
+    "text": "A nonstandard or informal spelling of \"early.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 1652,
+    "word": "salty",
+    "pos": "adjective",
+    "text": "Tasting of or containing salt.\" \"scarce: Not enough to meet demand;[7D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 1768,
+    "word": "slice",
+    "pos": "noun",
+    "text": "A thin, flat piece of something that has been cut off.",
+    "reasons": [
+      "commentary"
+    ]
+  },
+  {
+    "row": 2199,
+    "word": "absolute",
+    "pos": "adjective",
+    "text": "Something that is complete and total in every way.\" Good. \"accla[6D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2205,
+    "word": "acclaim",
+    "pos": "noun",
+    "text": "Enthusiastic public praise given to a person or achievement.\" Tha[3D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2219,
+    "word": "advertent",
+    "pos": "adjective",
+    "text": "Paying careful attention to something; attentive.\" \"amiable: Fr[2D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2251,
+    "word": "animated",
+    "pos": "adjective",
+    "text": "Full of life, energy, and movement.\" Fragment. Full: \"An animate[7D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2260,
+    "word": "appealing",
+    "pos": "adjective",
+    "text": "Attractive or interesting; pleasing. \"Pleasing and attractive; a[1D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2262,
+    "word": "applause",
+    "pos": "noun",
+    "text": "Clapping or other expressions of approval. \"The sound of people c[1D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2426,
+    "word": "certainty",
+    "pos": "noun",
+    "text": "The state of being completely sure about something.\" That is a [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2883,
+    "word": "equity",
+    "pos": "noun",
+    "text": "The quality of being fair and impartial.\" or \"Fairness in treatmen[8D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2886,
+    "word": "erratic",
+    "pos": "adjective",
+    "text": "Not regular or predictable in movement, behavior, or occurrence.\"[12D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2889,
+    "word": "essential",
+    "pos": "adjective",
+    "text": "Absolutely necessary; extremely important.\" complete sentence: [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2891,
+    "word": "esteem",
+    "pos": "noun",
+    "text": "Respect and admiration for someone or something.\" Complete sentenc[7D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2892,
+    "word": "eternal",
+    "pos": "adjective",
+    "text": "Lasting forever; without beginning or end.\" Good.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 2893,
+    "word": "ethical",
+    "pos": "adjective",
+    "text": "Relating to moral principles or what is right and wrong.\" Good.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 3404,
+    "word": "nephew",
+    "pos": "noun",
+    "text": "A son of one's brother or sister. \"the son of a person's brother or[2D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 3613,
+    "word": "rancher",
+    "pos": "noun",
+    "text": "A rancher is a person who owns or manages a cattle ranch.\" But ma[2D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 3626,
+    "word": "riches",
+    "pos": "noun",
+    "text": "Currently \"material wealth.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 5612,
+    "word": "radiational",
+    "pos": "adjective",
+    "text": "Relating to or involving radiation. Wait \"radiational\" rare; d[1D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 5666,
+    "word": "relativeal",
+    "pos": "adjective",
+    "text": "This is not a standard word. Could be typo of \"relational\". Use[3D[K.",
+    "reasons": [
+      "quote",
+      "commentary"
+    ]
+  },
+  {
+    "row": 6062,
+    "word": "miscellaneous",
+    "pos": "adjective",
+    "text": "It describes a collection of various different things.\" Goo[3D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 6540,
+    "word": "booze",
+    "pos": "noun",
+    "text": "An alcoholic drink.\" The colon after word, space, definition. Need [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 6646,
+    "word": "ceaseless",
+    "pos": "adjective",
+    "text": "Continuing without pause or interruption.\" Good.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 6655,
+    "word": "cerulean",
+    "pos": "adjective",
+    "text": "A deep blue color like that of a clear sky.\" Good.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 6672,
+    "word": "choc",
+    "pos": "noun",
+    "text": "An informal short form of chocolate.\" Good.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7717,
+    "word": "infrequently",
+    "pos": "adjective",
+    "text": "In an infrequent manner; not very often. \"Not happening very [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7737,
+    "word": "insolent",
+    "pos": "noun",
+    "text": "Rude and disrespectful. \"Rude and disrespectful.\" already complet[7D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7748,
+    "word": "intentionally",
+    "pos": "adjective",
+    "text": "In an intentional manner; on purpose. \"Done on purpose.\" Com[3D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7905,
+    "word": "listless",
+    "pos": "adjective",
+    "text": "Lacking energy or enthusiasm. \"Lacking energy or enthusiasm.\" As [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7915,
+    "word": "locomotive",
+    "pos": "adjective",
+    "text": "Moving from one place to another; relating to locomotion. \"Rela[5D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7975,
+    "word": "maternal",
+    "pos": "adjective",
+    "text": "Relating to a mother or motherhood. \"Relating to or typical of a [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7976,
+    "word": "mathematical",
+    "pos": "adjective",
+    "text": "Relating to mathematics. \"Relating to mathematics.\" Good.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7983,
+    "word": "meaningful",
+    "pos": "adjective",
+    "text": "Full of meaning; significant. \"Full of meaning or significance.[13D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 7995,
+    "word": "methodical",
+    "pos": "adjective",
+    "text": "Done in an orderly, systematic way. Full sentence: \"Done in an [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8067,
+    "word": "mt",
+    "pos": "noun",
+    "text": "Abbreviation for mountain or mount. Full sentence: \"An abbreviation for[3D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8091,
+    "word": "neb",
+    "pos": "noun",
+    "text": "Old word for beak or nose; also dialect. \"An old word for a bird's bea[3D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8096,
+    "word": "needless",
+    "pos": "adjective",
+    "text": "Unnecessary. \"Not needed; unnecessary.\" That's fine complete sent[4D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8130,
+    "word": "northward",
+    "pos": "adjective",
+    "text": "Toward the north. \"Toward or in the north.\" Full sentence.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8171,
+    "word": "officiate",
+    "pos": "verb",
+    "text": "To perform a ceremony/duties of an official. \"To perform the dut[3D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8174,
+    "word": "older",
+    "pos": "noun",
+    "text": "Comparative of old. \"Having lived or existed for a longer time than [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8181,
+    "word": "onlooker",
+    "pos": "noun",
+    "text": "A spectator. \"A person who watches an event or incident without t[1D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8182,
+    "word": "onward",
+    "pos": "adjective",
+    "text": "Moving forward; continuing. \"Moving forward or continuing in a part[4D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8745,
+    "word": "se",
+    "pos": "noun",
+    "text": "A short form of \"southeast\" used on maps and signs.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8785,
+    "word": "server",
+    "pos": "noun",
+    "text": "Could be a person who serves food/drinks, a sports player, or com[3D[K.",
+    "reasons": [
+      "commentary"
+    ]
+  },
+  {
+    "row": 8793,
+    "word": "sexuality",
+    "pos": "adjective",
+    "text": "Define: \"A person's sexual feelings, attractions, identity, or[2D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8800,
+    "word": "shamrock",
+    "pos": "noun",
+    "text": "A plant with three leaves, national symbol of Ireland. \"A small[5D[K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8858,
+    "word": "slash",
+    "pos": "noun",
+    "text": "Punctuation mark \"/\" or cut with sharp blade. Need short natural. [K.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8883,
+    "word": "smallest",
+    "pos": "noun",
+    "text": "Actually \"leas.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 8914,
+    "word": "songster",
+    "pos": "noun",
+    "text": "Could define \"a sing.",
+    "reasons": [
+      "quote"
+    ]
+  },
+  {
+    "row": 9007,
+    "word": "statuary",
+    "pos": "adjective",
+    "text": "W.",
+    "reasons": [
+      "too_short"
+    ]
+  }
+]

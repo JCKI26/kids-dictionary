@@ -1,0 +1,1370 @@
+[
+  {
+    "word": "minor",
+    "pos": "noun",
+    "word_cn": "未成年人",
+    "definition": "A person who is not yet an adult",
+    "definition_cn": "未成年人",
+    "example": "The minor is important.",
+    "example_cn": "未成年人很重要。"
+  },
+  {
+    "word": "internal",
+    "pos": "noun",
+    "word_cn": "内脏",
+    "definition": "An inner organ of the body",
+    "definition_cn": "内脏",
+    "example": "The internal is important.",
+    "example_cn": "内脏很重要。"
+  },
+  {
+    "word": "critical",
+    "pos": "noun",
+    "word_cn": "关键时刻",
+    "definition": "A very important point",
+    "definition_cn": "关键时刻",
+    "example": "The critical is important.",
+    "example_cn": "关键时刻很重要。"
+  },
+  {
+    "word": "formal",
+    "pos": "noun",
+    "word_cn": "正式舞会",
+    "definition": "A special evening dance or event",
+    "definition_cn": "正式舞会",
+    "example": "The formal is important.",
+    "example_cn": "正式舞会很重要。"
+  },
+  {
+    "word": "account",
+    "pos": "verb",
+    "word_cn": "解释",
+    "definition": "Explain the reason for",
+    "definition_cn": "解释",
+    "example": "I can account.",
+    "example_cn": "我能解释。"
+  },
+  {
+    "word": "act",
+    "pos": "verb",
+    "word_cn": "表演",
+    "definition": "Perform in a play or film",
+    "definition_cn": "表演",
+    "example": "I can act.",
+    "example_cn": "我能表演。"
+  },
+  {
+    "word": "address",
+    "pos": "verb",
+    "word_cn": "写地址",
+    "definition": "Write the destination on an envelope",
+    "definition_cn": "写地址",
+    "example": "I can address.",
+    "example_cn": "我能写地址。"
+  },
+  {
+    "word": "advance",
+    "pos": "verb",
+    "word_cn": "前进",
+    "definition": "Move forward",
+    "definition_cn": "前进",
+    "example": "I can advance.",
+    "example_cn": "我能前进。"
+  },
+  {
+    "word": "age",
+    "pos": "verb",
+    "word_cn": "变老",
+    "definition": "Grow older",
+    "definition_cn": "变老",
+    "example": "I can age.",
+    "example_cn": "我能变老。"
+  },
+  {
+    "word": "aim",
+    "pos": "verb",
+    "word_cn": "瞄准",
+    "definition": "Point at a target",
+    "definition_cn": "瞄准",
+    "example": "I can aim.",
+    "example_cn": "我能瞄准。"
+  },
+  {
+    "word": "air",
+    "pos": "verb",
+    "word_cn": "晾",
+    "definition": "Expose to fresh air",
+    "definition_cn": "晾",
+    "example": "I can air.",
+    "example_cn": "我能晾。"
+  },
+  {
+    "word": "alert",
+    "pos": "verb",
+    "word_cn": "警告",
+    "definition": "Warn someone of danger",
+    "definition_cn": "警告",
+    "example": "I can alert.",
+    "example_cn": "我能警告。"
+  },
+  {
+    "word": "amount",
+    "pos": "verb",
+    "word_cn": "总计",
+    "definition": "Add up to a total",
+    "definition_cn": "总计",
+    "example": "I can amount.",
+    "example_cn": "我能总计。"
+  },
+  {
+    "word": "angle",
+    "pos": "verb",
+    "word_cn": "斜向移动",
+    "definition": "Move or place at an angle",
+    "definition_cn": "斜向移动",
+    "example": "I can angle.",
+    "example_cn": "我能斜向移动。"
+  },
+  {
+    "word": "appeal",
+    "pos": "verb",
+    "word_cn": "吸引",
+    "definition": "Be attractive or interesting",
+    "definition_cn": "吸引",
+    "example": "I can appeal.",
+    "example_cn": "我能吸引。"
+  },
+  {
+    "word": "appearance",
+    "pos": "verb",
+    "word_cn": "出现",
+    "definition": "Come into sight",
+    "definition_cn": "出现",
+    "example": "I can appearance.",
+    "example_cn": "我能出现。"
+  },
+  {
+    "word": "application",
+    "pos": "verb",
+    "word_cn": "申请",
+    "definition": "Make a formal request",
+    "definition_cn": "申请",
+    "example": "I can application.",
+    "example_cn": "我能申请。"
+  },
+  {
+    "word": "approach",
+    "pos": "verb",
+    "word_cn": "接近",
+    "definition": "Come near in distance or time",
+    "definition_cn": "接近",
+    "example": "I can approach.",
+    "example_cn": "我能接近。"
+  },
+  {
+    "word": "area",
+    "pos": "verb",
+    "word_cn": "划分区域",
+    "definition": "Divide into areas",
+    "definition_cn": "划分区域",
+    "example": "I can area.",
+    "example_cn": "我能划分区域。"
+  },
+  {
+    "word": "argument",
+    "pos": "verb",
+    "word_cn": "争论",
+    "definition": "Have a disagreement",
+    "definition_cn": "争论",
+    "example": "I can argument.",
+    "example_cn": "我能争论。"
+  },
+  {
+    "word": "art",
+    "pos": "verb",
+    "word_cn": "用艺术装饰",
+    "definition": "Decorate with art",
+    "definition_cn": "用艺术装饰",
+    "example": "I can art.",
+    "example_cn": "我能用艺术装饰。"
+  },
+  {
+    "word": "article",
+    "pos": "verb",
+    "word_cn": "签约受雇",
+    "definition": "Employ under contract",
+    "definition_cn": "签约受雇",
+    "example": "I can article.",
+    "example_cn": "我能签约受雇。"
+  },
+  {
+    "word": "ash",
+    "pos": "verb",
+    "word_cn": "把...烧成灰",
+    "definition": "Reduce to ashes",
+    "definition_cn": "把...烧成灰",
+    "example": "I can ash.",
+    "example_cn": "我能把...烧成灰。"
+  },
+  {
+    "word": "aspect",
+    "pos": "verb",
+    "word_cn": "朝向",
+    "definition": "Face a particular direction",
+    "definition_cn": "朝向",
+    "example": "I can aspect.",
+    "example_cn": "我能朝向。"
+  },
+  {
+    "word": "assignment",
+    "pos": "verb",
+    "word_cn": "分配",
+    "definition": "Give out as a task",
+    "definition_cn": "分配",
+    "example": "I can assignment.",
+    "example_cn": "我能分配。"
+  },
+  {
+    "word": "associate",
+    "pos": "verb",
+    "word_cn": "联想",
+    "definition": "Connect in the mind",
+    "definition_cn": "联想",
+    "example": "I can associate.",
+    "example_cn": "我能联想。"
+  },
+  {
+    "word": "attack",
+    "pos": "verb",
+    "word_cn": "攻击",
+    "definition": "Act violently against",
+    "definition_cn": "攻击",
+    "example": "I can attack.",
+    "example_cn": "我能攻击。"
+  },
+  {
+    "word": "attempt",
+    "pos": "verb",
+    "word_cn": "尝试",
+    "definition": "Try to do something",
+    "definition_cn": "尝试",
+    "example": "I can attempt.",
+    "example_cn": "我能尝试。"
+  },
+  {
+    "word": "attention",
+    "pos": "verb",
+    "word_cn": "注意",
+    "definition": "Pay notice to",
+    "definition_cn": "注意",
+    "example": "I can attention.",
+    "example_cn": "我能注意。"
+  },
+  {
+    "word": "average",
+    "pos": "verb",
+    "word_cn": "平均为",
+    "definition": "Amount to an average",
+    "definition_cn": "平均为",
+    "example": "I can average.",
+    "example_cn": "我能平均为。"
+  },
+  {
+    "word": "award",
+    "pos": "verb",
+    "word_cn": "授予",
+    "definition": "Give as a prize",
+    "definition_cn": "授予",
+    "example": "I can award.",
+    "example_cn": "我能授予。"
+  },
+  {
+    "word": "background",
+    "pos": "verb",
+    "word_cn": "做背景",
+    "definition": "Provide a background",
+    "definition_cn": "做背景",
+    "example": "I can background.",
+    "example_cn": "我能做背景。"
+  },
+  {
+    "word": "badge",
+    "pos": "verb",
+    "word_cn": "佩戴徽章",
+    "definition": "Wear or show a badge",
+    "definition_cn": "佩戴徽章",
+    "example": "I can badge.",
+    "example_cn": "我能佩戴徽章。"
+  },
+  {
+    "word": "balance",
+    "pos": "verb",
+    "word_cn": "平衡",
+    "definition": "Keep steady",
+    "definition_cn": "平衡",
+    "example": "I can balance.",
+    "example_cn": "我能平衡。"
+  },
+  {
+    "word": "bath",
+    "pos": "verb",
+    "word_cn": "洗澡",
+    "definition": "Wash in a bath",
+    "definition_cn": "洗澡",
+    "example": "I can bath.",
+    "example_cn": "我能洗澡。"
+  },
+  {
+    "word": "beam",
+    "pos": "verb",
+    "word_cn": "发光",
+    "definition": "Shine brightly",
+    "definition_cn": "发光",
+    "example": "I can beam.",
+    "example_cn": "我能发光。"
+  },
+  {
+    "word": "bean",
+    "pos": "verb",
+    "word_cn": "打头部",
+    "definition": "Hit on the head",
+    "definition_cn": "打头部",
+    "example": "I can bean.",
+    "example_cn": "我能打头部。"
+  },
+  {
+    "word": "beef",
+    "pos": "verb",
+    "word_cn": "抱怨",
+    "definition": "Complain about something",
+    "definition_cn": "抱怨",
+    "example": "I can beef.",
+    "example_cn": "我能抱怨。"
+  },
+  {
+    "word": "beer",
+    "pos": "verb",
+    "word_cn": "喝啤酒",
+    "definition": "Drink beer",
+    "definition_cn": "喝啤酒",
+    "example": "I can beer.",
+    "example_cn": "我能喝啤酒。"
+  },
+  {
+    "word": "bell",
+    "pos": "verb",
+    "word_cn": "系铃",
+    "definition": "Put a bell on",
+    "definition_cn": "系铃",
+    "example": "I can bell.",
+    "example_cn": "我能系铃。"
+  },
+  {
+    "word": "belt",
+    "pos": "verb",
+    "word_cn": "用带抽打",
+    "definition": "Hit with a belt",
+    "definition_cn": "用带抽打",
+    "example": "I can belt.",
+    "example_cn": "我能用带抽打。"
+  },
+  {
+    "word": "bill",
+    "pos": "verb",
+    "word_cn": "开账单",
+    "definition": "Charge for services",
+    "definition_cn": "开账单",
+    "example": "I can bill.",
+    "example_cn": "我能开账单。"
+  },
+  {
+    "word": "bin",
+    "pos": "verb",
+    "word_cn": "丢弃",
+    "definition": "Throw away",
+    "definition_cn": "丢弃",
+    "example": "I can bin.",
+    "example_cn": "我能丢弃。"
+  },
+  {
+    "word": "bind",
+    "pos": "verb",
+    "word_cn": "捆绑",
+    "definition": "Tie or fasten",
+    "definition_cn": "捆绑",
+    "example": "I can bind.",
+    "example_cn": "我能捆绑。"
+  },
+  {
+    "word": "bit",
+    "pos": "verb",
+    "word_cn": "咬",
+    "definition": "Take into the mouth",
+    "definition_cn": "咬",
+    "example": "I can bit.",
+    "example_cn": "我能咬。"
+  },
+  {
+    "word": "blame",
+    "pos": "verb",
+    "word_cn": "责怪",
+    "definition": "Say someone is responsible",
+    "definition_cn": "责怪",
+    "example": "I can blame.",
+    "example_cn": "我能责怪。"
+  },
+  {
+    "word": "blank",
+    "pos": "verb",
+    "word_cn": "删除",
+    "definition": "Remove or cover completely",
+    "definition_cn": "删除",
+    "example": "I can blank.",
+    "example_cn": "我能删除。"
+  },
+  {
+    "word": "blood",
+    "pos": "verb",
+    "word_cn": "使出血",
+    "definition": "Cause to bleed",
+    "definition_cn": "使出血",
+    "example": "I can blood.",
+    "example_cn": "我能使出血。"
+  },
+  {
+    "word": "body",
+    "pos": "verb",
+    "word_cn": "赋予形体",
+    "definition": "Give shape to",
+    "definition_cn": "赋予形体",
+    "example": "I can body.",
+    "example_cn": "我能赋予形体。"
+  },
+  {
+    "word": "boil",
+    "pos": "verb",
+    "word_cn": "煮沸",
+    "definition": "Heat to bubbling",
+    "definition_cn": "煮沸",
+    "example": "I can boil.",
+    "example_cn": "我能煮沸。"
+  },
+  {
+    "word": "bonus",
+    "pos": "verb",
+    "word_cn": "额外给予",
+    "definition": "Give as an extra benefit",
+    "definition_cn": "额外给予",
+    "example": "I can bonus.",
+    "example_cn": "我能额外给予。"
+  },
+  {
+    "word": "boom",
+    "pos": "verb",
+    "word_cn": "迅速发展",
+    "definition": "Grow quickly",
+    "definition_cn": "迅速发展",
+    "example": "I can boom.",
+    "example_cn": "我能迅速发展。"
+  },
+  {
+    "word": "border",
+    "pos": "verb",
+    "word_cn": "毗邻",
+    "definition": "Form an edge next to",
+    "definition_cn": "毗邻",
+    "example": "I can border.",
+    "example_cn": "我能毗邻。"
+  },
+  {
+    "word": "bowl",
+    "pos": "verb",
+    "word_cn": "打保龄球",
+    "definition": "Play the game of bowls",
+    "definition_cn": "打保龄球",
+    "example": "I can bowl.",
+    "example_cn": "我能打保龄球。"
+  },
+  {
+    "word": "boy",
+    "pos": "verb",
+    "word_cn": "把...当男孩用",
+    "definition": "Treat as a boy",
+    "definition_cn": "把...当男孩用",
+    "example": "I can boy.",
+    "example_cn": "我能把...当男孩用。"
+  },
+  {
+    "word": "brass",
+    "pos": "verb",
+    "word_cn": "镀黄铜",
+    "definition": "Cover with brass",
+    "definition_cn": "镀黄铜",
+    "example": "I can brass.",
+    "example_cn": "我能镀黄铜。"
+  },
+  {
+    "word": "bread",
+    "pos": "verb",
+    "word_cn": "裹面包屑",
+    "definition": "Cover with breadcrumbs",
+    "definition_cn": "裹面包屑",
+    "example": "I can bread.",
+    "example_cn": "我能裹面包屑。"
+  },
+  {
+    "word": "breath",
+    "pos": "verb",
+    "word_cn": "呼吸",
+    "definition": "Draw air into the lungs",
+    "definition_cn": "呼吸",
+    "example": "I can breath.",
+    "example_cn": "我能呼吸。"
+  },
+  {
+    "word": "brick",
+    "pos": "verb",
+    "word_cn": "用砖砌",
+    "definition": "Build with bricks",
+    "definition_cn": "用砖砌",
+    "example": "I can brick.",
+    "example_cn": "我能用砖砌。"
+  },
+  {
+    "word": "brief",
+    "pos": "verb",
+    "word_cn": "向...简报",
+    "definition": "Give a short summary",
+    "definition_cn": "向...简报",
+    "example": "I can brief.",
+    "example_cn": "我能向...简报。"
+  },
+  {
+    "word": "bright",
+    "pos": "verb",
+    "word_cn": "发亮",
+    "definition": "Shine brightly",
+    "definition_cn": "发亮",
+    "example": "I can bright.",
+    "example_cn": "我能发亮。"
+  },
+  {
+    "word": "brilliant",
+    "pos": "verb",
+    "word_cn": "灿烂地发光",
+    "definition": "Shine with great brightness",
+    "definition_cn": "灿烂地发光",
+    "example": "I can brilliant.",
+    "example_cn": "我能灿烂地发光。"
+  },
+  {
+    "word": "broad",
+    "pos": "verb",
+    "word_cn": "加宽",
+    "definition": "Make broader",
+    "definition_cn": "加宽",
+    "example": "I can broad.",
+    "example_cn": "我能加宽。"
+  },
+  {
+    "word": "brown",
+    "pos": "verb",
+    "word_cn": "使变褐",
+    "definition": "Make brown in colour",
+    "definition_cn": "使变褐",
+    "example": "I can brown.",
+    "example_cn": "我能使变褐。"
+  },
+  {
+    "word": "bubble",
+    "pos": "verb",
+    "word_cn": "冒泡",
+    "definition": "Form bubbles",
+    "definition_cn": "冒泡",
+    "example": "I can bubble.",
+    "example_cn": "我能冒泡。"
+  },
+  {
+    "word": "buck",
+    "pos": "verb",
+    "word_cn": "猛然弓背",
+    "definition": "Jump with back arched",
+    "definition_cn": "猛然弓背",
+    "example": "I can buck.",
+    "example_cn": "我能猛然弓背。"
+  },
+  {
+    "word": "budget",
+    "pos": "verb",
+    "word_cn": "预算",
+    "definition": "Plan spending",
+    "definition_cn": "预算",
+    "example": "I can budget.",
+    "example_cn": "我能预算。"
+  },
+  {
+    "word": "bump",
+    "pos": "verb",
+    "word_cn": "碰撞",
+    "definition": "Hit by accident",
+    "definition_cn": "碰撞",
+    "example": "I can bump.",
+    "example_cn": "我能碰撞。"
+  },
+  {
+    "word": "bunch",
+    "pos": "verb",
+    "word_cn": "成束",
+    "definition": "Gather into a group",
+    "definition_cn": "成束",
+    "example": "I can bunch.",
+    "example_cn": "我能成束。"
+  },
+  {
+    "word": "bus",
+    "pos": "verb",
+    "word_cn": "乘巴士",
+    "definition": "Transport by bus",
+    "definition_cn": "乘巴士",
+    "example": "I can bus.",
+    "example_cn": "我能乘巴士。"
+  },
+  {
+    "word": "bush",
+    "pos": "verb",
+    "word_cn": "丛生",
+    "definition": "Grow thickly",
+    "definition_cn": "丛生",
+    "example": "I can bush.",
+    "example_cn": "我能丛生。"
+  },
+  {
+    "word": "but",
+    "pos": "verb",
+    "word_cn": "除...之外",
+    "definition": "Except for",
+    "definition_cn": "除...之外",
+    "example": "I can but.",
+    "example_cn": "我能除...之外。"
+  },
+  {
+    "word": "butter",
+    "pos": "verb",
+    "word_cn": "涂黄油",
+    "definition": "Spread with butter",
+    "definition_cn": "涂黄油",
+    "example": "I can butter.",
+    "example_cn": "我能涂黄油。"
+  },
+  {
+    "word": "buzz",
+    "pos": "verb",
+    "word_cn": "嗡嗡叫",
+    "definition": "Make a humming sound",
+    "definition_cn": "嗡嗡叫",
+    "example": "I can buzz.",
+    "example_cn": "我能嗡嗡叫。"
+  },
+  {
+    "word": "cabin",
+    "pos": "verb",
+    "word_cn": "住在小木屋",
+    "definition": "Live in a cabin",
+    "definition_cn": "住在小木屋",
+    "example": "I can cabin.",
+    "example_cn": "我能住在小木屋。"
+  },
+  {
+    "word": "cable",
+    "pos": "verb",
+    "word_cn": "发电报",
+    "definition": "Send a message by cable",
+    "definition_cn": "发电报",
+    "example": "I can cable.",
+    "example_cn": "我能发电报。"
+  },
+  {
+    "word": "cake",
+    "pos": "verb",
+    "word_cn": "结块",
+    "definition": "Form into a solid mass",
+    "definition_cn": "结块",
+    "example": "I can cake.",
+    "example_cn": "我能结块。"
+  },
+  {
+    "word": "camera",
+    "pos": "verb",
+    "word_cn": "拍摄",
+    "definition": "Film with a camera",
+    "definition_cn": "拍摄",
+    "example": "I can camera.",
+    "example_cn": "我能拍摄。"
+  },
+  {
+    "word": "cancer",
+    "pos": "verb",
+    "word_cn": "像癌症般扩散",
+    "definition": "Spread like cancer",
+    "definition_cn": "像癌症般扩散",
+    "example": "I can cancer.",
+    "example_cn": "我能像癌症般扩散。"
+  },
+  {
+    "word": "candle",
+    "pos": "verb",
+    "word_cn": "对光检查",
+    "definition": "Hold up to the light",
+    "definition_cn": "对光检查",
+    "example": "I can candle.",
+    "example_cn": "我能对光检查。"
+  },
+  {
+    "word": "candy",
+    "pos": "verb",
+    "word_cn": "使结晶",
+    "definition": "Form sugar crystals",
+    "definition_cn": "使结晶",
+    "example": "I can candy.",
+    "example_cn": "我能使结晶。"
+  },
+  {
+    "word": "capital",
+    "pos": "verb",
+    "word_cn": "用大写",
+    "definition": "Write in capital letters",
+    "definition_cn": "用大写",
+    "example": "I can capital.",
+    "example_cn": "我能用大写。"
+  },
+  {
+    "word": "captain",
+    "pos": "verb",
+    "word_cn": "担任队长",
+    "definition": "Lead as captain",
+    "definition_cn": "担任队长",
+    "example": "I can captain.",
+    "example_cn": "我能担任队长。"
+  },
+  {
+    "word": "car",
+    "pos": "verb",
+    "word_cn": "乘汽车",
+    "definition": "Travel by car",
+    "definition_cn": "乘汽车",
+    "example": "I can car.",
+    "example_cn": "我能乘汽车。"
+  },
+  {
+    "word": "career",
+    "pos": "verb",
+    "word_cn": "猛冲",
+    "definition": "Move at high speed",
+    "definition_cn": "猛冲",
+    "example": "I can career.",
+    "example_cn": "我能猛冲。"
+  },
+  {
+    "word": "carpet",
+    "pos": "verb",
+    "word_cn": "铺地毯",
+    "definition": "Cover with carpet",
+    "definition_cn": "铺地毯",
+    "example": "I can carpet.",
+    "example_cn": "我能铺地毯。"
+  },
+  {
+    "word": "ceiling",
+    "pos": "verb",
+    "word_cn": "设上限",
+    "definition": "Set an upper limit",
+    "definition_cn": "设上限",
+    "example": "I can ceiling.",
+    "example_cn": "我能设上限。"
+  },
+  {
+    "word": "cell",
+    "pos": "verb",
+    "word_cn": "囚禁",
+    "definition": "Put in a prison cell",
+    "definition_cn": "囚禁",
+    "example": "I can cell.",
+    "example_cn": "我能囚禁。"
+  },
+  {
+    "word": "challenge",
+    "pos": "verb",
+    "word_cn": "挑战",
+    "definition": "Invite to compete",
+    "definition_cn": "挑战",
+    "example": "I can challenge.",
+    "example_cn": "我能挑战。"
+  },
+  {
+    "word": "champion",
+    "pos": "verb",
+    "word_cn": "支持",
+    "definition": "Defend or support",
+    "definition_cn": "支持",
+    "example": "I can champion.",
+    "example_cn": "我能支持。"
+  },
+  {
+    "word": "channel",
+    "pos": "verb",
+    "word_cn": "引导",
+    "definition": "Direct into a course",
+    "definition_cn": "引导",
+    "example": "I can channel.",
+    "example_cn": "我能引导。"
+  },
+  {
+    "word": "chapter",
+    "pos": "verb",
+    "word_cn": "把...分成章节",
+    "definition": "Divide into chapters",
+    "definition_cn": "把...分成章节",
+    "example": "I can chapter.",
+    "example_cn": "我能把...分成章节。"
+  },
+  {
+    "word": "character",
+    "pos": "verb",
+    "word_cn": "刻写",
+    "definition": "Write or inscribe",
+    "definition_cn": "刻写",
+    "example": "I can character.",
+    "example_cn": "我能刻写。"
+  },
+  {
+    "word": "charity",
+    "pos": "verb",
+    "word_cn": "施舍",
+    "definition": "Give help to the poor",
+    "definition_cn": "施舍",
+    "example": "I can charity.",
+    "example_cn": "我能施舍。"
+  },
+  {
+    "word": "chart",
+    "pos": "verb",
+    "word_cn": "制图",
+    "definition": "Make a map or diagram",
+    "definition_cn": "制图",
+    "example": "I can chart.",
+    "example_cn": "我能制图。"
+  },
+  {
+    "word": "cheek",
+    "pos": "verb",
+    "word_cn": "无礼地说",
+    "definition": "Speak rudely",
+    "definition_cn": "无礼地说",
+    "example": "I can cheek.",
+    "example_cn": "我能无礼地说。"
+  },
+  {
+    "word": "cheese",
+    "pos": "verb",
+    "word_cn": "停止",
+    "definition": "Stop or desist",
+    "definition_cn": "停止",
+    "example": "I can cheese.",
+    "example_cn": "我能停止。"
+  },
+  {
+    "word": "chest",
+    "pos": "verb",
+    "word_cn": "把...装入箱",
+    "definition": "Put in a chest",
+    "definition_cn": "把...装入箱",
+    "example": "I can chest.",
+    "example_cn": "我能把...装入箱。"
+  },
+  {
+    "word": "chicken",
+    "pos": "verb",
+    "word_cn": "退缩",
+    "definition": "Show fear",
+    "definition_cn": "退缩",
+    "example": "I can chicken.",
+    "example_cn": "我能退缩。"
+  },
+  {
+    "word": "chief",
+    "pos": "verb",
+    "word_cn": "率领",
+    "definition": "Lead",
+    "definition_cn": "率领",
+    "example": "I can chief.",
+    "example_cn": "我能率领。"
+  },
+  {
+    "word": "child",
+    "pos": "verb",
+    "word_cn": "使显得孩子气",
+    "definition": "Treat as a child",
+    "definition_cn": "使显得孩子气",
+    "example": "I can child.",
+    "example_cn": "我能使显得孩子气。"
+  },
+  {
+    "word": "chin",
+    "pos": "verb",
+    "word_cn": "用下巴顶",
+    "definition": "Lift with the chin",
+    "definition_cn": "用下巴顶",
+    "example": "I can chin.",
+    "example_cn": "我能用下巴顶。"
+  },
+  {
+    "word": "chocolate",
+    "pos": "verb",
+    "word_cn": "涂巧克力",
+    "definition": "Cover with chocolate",
+    "definition_cn": "涂巧克力",
+    "example": "I can chocolate.",
+    "example_cn": "我能涂巧克力。"
+  },
+  {
+    "word": "choice",
+    "pos": "verb",
+    "word_cn": "精心挑选",
+    "definition": "Select carefully",
+    "definition_cn": "精心挑选",
+    "example": "I can choice.",
+    "example_cn": "我能精心挑选。"
+  },
+  {
+    "word": "church",
+    "pos": "verb",
+    "word_cn": "去做礼拜",
+    "definition": "Attend church services",
+    "definition_cn": "去做礼拜",
+    "example": "I can church.",
+    "example_cn": "我能去做礼拜。"
+  },
+  {
+    "word": "cigarette",
+    "pos": "verb",
+    "word_cn": "吸烟",
+    "definition": "Smoke cigarettes",
+    "definition_cn": "吸烟",
+    "example": "I can cigarette.",
+    "example_cn": "我能吸烟。"
+  },
+  {
+    "word": "circle",
+    "pos": "verb",
+    "word_cn": "围绕",
+    "definition": "Move around",
+    "definition_cn": "围绕",
+    "example": "I can circle.",
+    "example_cn": "我能围绕。"
+  },
+  {
+    "word": "clerk",
+    "pos": "verb",
+    "word_cn": "当职员",
+    "definition": "Work as a clerk",
+    "definition_cn": "当职员",
+    "example": "I can clerk.",
+    "example_cn": "我能当职员。"
+  },
+  {
+    "word": "click",
+    "pos": "verb",
+    "word_cn": "点击",
+    "definition": "Press a mouse button",
+    "definition_cn": "点击",
+    "example": "I can click.",
+    "example_cn": "我能点击。"
+  },
+  {
+    "word": "client",
+    "pos": "verb",
+    "word_cn": "使用客户端",
+    "definition": "Use a client program",
+    "definition_cn": "使用客户端",
+    "example": "I can client.",
+    "example_cn": "我能使用客户端。"
+  },
+  {
+    "word": "cliff",
+    "pos": "verb",
+    "word_cn": "攀爬悬崖",
+    "definition": "Climb a cliff",
+    "definition_cn": "攀爬悬崖",
+    "example": "I can cliff.",
+    "example_cn": "我能攀爬悬崖。"
+  },
+  {
+    "word": "climb",
+    "pos": "verb",
+    "word_cn": "攀登",
+    "definition": "Go up",
+    "definition_cn": "攀登",
+    "example": "I can climb.",
+    "example_cn": "我能攀登。"
+  },
+  {
+    "word": "cloth",
+    "pos": "verb",
+    "word_cn": "给...穿衣",
+    "definition": "Cover with cloth",
+    "definition_cn": "给...穿衣",
+    "example": "I can cloth.",
+    "example_cn": "我能给...穿衣。"
+  },
+  {
+    "word": "clue",
+    "pos": "verb",
+    "word_cn": "提供线索",
+    "definition": "Give information",
+    "definition_cn": "提供线索",
+    "example": "I can clue.",
+    "example_cn": "我能提供线索。"
+  },
+  {
+    "word": "coal",
+    "pos": "verb",
+    "word_cn": "加煤",
+    "definition": "Supply with coal",
+    "definition_cn": "加煤",
+    "example": "I can coal.",
+    "example_cn": "我能加煤。"
+  },
+  {
+    "word": "coast",
+    "pos": "verb",
+    "word_cn": "惯性滑行",
+    "definition": "Move without power",
+    "definition_cn": "惯性滑行",
+    "example": "I can coast.",
+    "example_cn": "我能惯性滑行。"
+  },
+  {
+    "word": "coffee",
+    "pos": "verb",
+    "word_cn": "喝咖啡",
+    "definition": "Drink coffee",
+    "definition_cn": "喝咖啡",
+    "example": "I can coffee.",
+    "example_cn": "我能喝咖啡。"
+  },
+  {
+    "word": "cold",
+    "pos": "verb",
+    "word_cn": "变冷",
+    "definition": "Lose heat",
+    "definition_cn": "变冷",
+    "example": "I can cold.",
+    "example_cn": "我能变冷。"
+  },
+  {
+    "word": "collar",
+    "pos": "verb",
+    "word_cn": "抓住",
+    "definition": "Catch or arrest",
+    "definition_cn": "抓住",
+    "example": "I can collar.",
+    "example_cn": "我能抓住。"
+  },
+  {
+    "word": "collect",
+    "pos": "verb",
+    "word_cn": "收集",
+    "definition": "Gather together",
+    "definition_cn": "收集",
+    "example": "I can collect.",
+    "example_cn": "我能收集。"
+  },
+  {
+    "word": "college",
+    "pos": "verb",
+    "word_cn": "上大学",
+    "definition": "Attend college",
+    "definition_cn": "上大学",
+    "example": "I can college.",
+    "example_cn": "我能上大学。"
+  },
+  {
+    "word": "column",
+    "pos": "verb",
+    "word_cn": "列队行进",
+    "definition": "March in columns",
+    "definition_cn": "列队行进",
+    "example": "I can column.",
+    "example_cn": "我能列队行进。"
+  },
+  {
+    "word": "committee",
+    "pos": "verb",
+    "word_cn": "委派委员会",
+    "definition": "Assign to a committee",
+    "definition_cn": "委派委员会",
+    "example": "I can committee.",
+    "example_cn": "我能委派委员会。"
+  },
+  {
+    "word": "common",
+    "pos": "verb",
+    "word_cn": "共享",
+    "definition": "Use together",
+    "definition_cn": "共享",
+    "example": "I can common.",
+    "example_cn": "我能共享。"
+  },
+  {
+    "word": "complex",
+    "pos": "verb",
+    "word_cn": "使复杂",
+    "definition": "Make complicated",
+    "definition_cn": "使复杂",
+    "example": "I can complex.",
+    "example_cn": "我能使复杂。"
+  },
+  {
+    "word": "computer",
+    "pos": "verb",
+    "word_cn": "用计算机处理",
+    "definition": "Process by computer",
+    "definition_cn": "用计算机处理",
+    "example": "I can computer.",
+    "example_cn": "我能用计算机处理。"
+  },
+  {
+    "word": "concert",
+    "pos": "verb",
+    "word_cn": "协调",
+    "definition": "Plan together",
+    "definition_cn": "协调",
+    "example": "I can concert.",
+    "example_cn": "我能协调。"
+  },
+  {
+    "word": "conference",
+    "pos": "verb",
+    "word_cn": "开会",
+    "definition": "Hold a conference",
+    "definition_cn": "开会",
+    "example": "I can conference.",
+    "example_cn": "我能开会。"
+  },
+  {
+    "word": "confidence",
+    "pos": "verb",
+    "word_cn": "信任",
+    "definition": "Trust",
+    "definition_cn": "信任",
+    "example": "I can confidence.",
+    "example_cn": "我能信任。"
+  },
+  {
+    "word": "conflict",
+    "pos": "verb",
+    "word_cn": "冲突",
+    "definition": "Clash",
+    "definition_cn": "冲突",
+    "example": "I can conflict.",
+    "example_cn": "我能冲突。"
+  },
+  {
+    "word": "consequence",
+    "pos": "verb",
+    "word_cn": "导致",
+    "definition": "Result in",
+    "definition_cn": "导致",
+    "example": "I can consequence.",
+    "example_cn": "我能导致。"
+  },
+  {
+    "word": "constant",
+    "pos": "verb",
+    "word_cn": "持续",
+    "definition": "Continue without change",
+    "definition_cn": "持续",
+    "example": "I can constant.",
+    "example_cn": "我能持续。"
+  },
+  {
+    "word": "corner",
+    "pos": "verb",
+    "word_cn": "逼入困境",
+    "definition": "Trap or force into a corner",
+    "definition_cn": "逼入困境",
+    "example": "I can corner.",
+    "example_cn": "我能逼入困境。"
+  },
+  {
+    "word": "cottage",
+    "pos": "verb",
+    "word_cn": "住小屋",
+    "definition": "Live in a cottage",
+    "definition_cn": "住小屋",
+    "example": "I can cottage.",
+    "example_cn": "我能住小屋。"
+  },
+  {
+    "word": "cotton",
+    "pos": "verb",
+    "word_cn": "吻合",
+    "definition": "Get along well",
+    "definition_cn": "吻合",
+    "example": "I can cotton.",
+    "example_cn": "我能吻合。"
+  },
+  {
+    "word": "council",
+    "pos": "verb",
+    "word_cn": "商议",
+    "definition": "Give advice",
+    "definition_cn": "商议",
+    "example": "I can council.",
+    "example_cn": "我能商议。"
+  },
+  {
+    "word": "country",
+    "pos": "verb",
+    "word_cn": "乡村风格",
+    "definition": "Make suitable for the country",
+    "definition_cn": "乡村风格",
+    "example": "I can country.",
+    "example_cn": "我能乡村风格。"
+  },
+  {
+    "word": "couple",
+    "pos": "verb",
+    "word_cn": "连接",
+    "definition": "Join together",
+    "definition_cn": "连接",
+    "example": "I can couple.",
+    "example_cn": "我能连接。"
+  },
+  {
+    "word": "courage",
+    "pos": "verb",
+    "word_cn": "鼓励",
+    "definition": "Give courage to",
+    "definition_cn": "鼓励",
+    "example": "I can courage.",
+    "example_cn": "我能鼓励。"
+  },
+  {
+    "word": "cousin",
+    "pos": "verb",
+    "word_cn": "使成表亲关系",
+    "definition": "Treat as a cousin",
+    "definition_cn": "使成表亲关系",
+    "example": "I can cousin.",
+    "example_cn": "我能使成表亲关系。"
+  },
+  {
+    "word": "cow",
+    "pos": "verb",
+    "word_cn": "威胁",
+    "definition": "Frighten into submission",
+    "definition_cn": "威胁",
+    "example": "I can cow.",
+    "example_cn": "我能威胁。"
+  },
+  {
+    "word": "crazy",
+    "pos": "verb",
+    "word_cn": "使发疯",
+    "definition": "Drive mad",
+    "definition_cn": "使发疯",
+    "example": "I can crazy.",
+    "example_cn": "我能使发疯。"
+  },
+  {
+    "word": "cream",
+    "pos": "verb",
+    "word_cn": "使成奶油状",
+    "definition": "Beat into a soft mass",
+    "definition_cn": "使成奶油状",
+    "example": "I can cream.",
+    "example_cn": "我能使成奶油状。"
+  },
+  {
+    "word": "cricket",
+    "pos": "verb",
+    "word_cn": "打板球",
+    "definition": "Play cricket",
+    "definition_cn": "打板球",
+    "example": "I can cricket.",
+    "example_cn": "我能打板球。"
+  },
+  {
+    "word": "crime",
+    "pos": "verb",
+    "word_cn": "犯罪",
+    "definition": "Commit an offence",
+    "definition_cn": "犯罪",
+    "example": "I can crime.",
+    "example_cn": "我能犯罪。"
+  },
+  {
+    "word": "cruel",
+    "pos": "verb",
+    "word_cn": "残忍对待",
+    "definition": "Cause pain to",
+    "definition_cn": "残忍对待",
+    "example": "I can cruel.",
+    "example_cn": "我能残忍对待。"
+  },
+  {
+    "word": "crush",
+    "pos": "verb",
+    "word_cn": "压碎",
+    "definition": "Press into small pieces",
+    "definition_cn": "压碎",
+    "example": "I can crush.",
+    "example_cn": "我能压碎。"
+  },
+  {
+    "word": "culture",
+    "pos": "verb",
+    "word_cn": "培养",
+    "definition": "Grow in a controlled way",
+    "definition_cn": "培养",
+    "example": "I can culture.",
+    "example_cn": "我能培养。"
+  },
+  {
+    "word": "cupboard",
+    "pos": "verb",
+    "word_cn": "把...放柜中",
+    "definition": "Store in a cupboard",
+    "definition_cn": "把...放柜中",
+    "example": "I can cupboard.",
+    "example_cn": "我能把...放柜中。"
+  },
+  {
+    "word": "current",
+    "pos": "verb",
+    "word_cn": "流动",
+    "definition": "Flow",
+    "definition_cn": "流动",
+    "example": "I can current.",
+    "example_cn": "我能流动。"
+  },
+  {
+    "word": "curtain",
+    "pos": "verb",
+    "word_cn": "给...挂帘",
+    "definition": "Cover with curtains",
+    "definition_cn": "给...挂帘",
+    "example": "I can curtain.",
+    "example_cn": "我能给...挂帘。"
+  },
+  {
+    "word": "cushion",
+    "pos": "verb",
+    "word_cn": "缓冲",
+    "definition": "Protect from shock",
+    "definition_cn": "缓冲",
+    "example": "I can cushion.",
+    "example_cn": "我能缓冲。"
+  }
+]

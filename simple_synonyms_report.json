@@ -1,0 +1,7394 @@
+[
+  {
+    "row": 8,
+    "word": "than",
+    "pos": "conjunction",
+    "text": "used in comparisons."
+  },
+  {
+    "row": 23,
+    "word": "food",
+    "pos": "noun",
+    "text": "things we eat."
+  },
+  {
+    "row": 30,
+    "word": "once",
+    "pos": "adverb",
+    "text": "one time."
+  },
+  {
+    "row": 45,
+    "word": "fragile",
+    "pos": "adjective",
+    "text": "easily broken."
+  },
+  {
+    "row": 51,
+    "word": "noble",
+    "pos": "adjective",
+    "text": "honourable and fine."
+  },
+  {
+    "row": 55,
+    "word": "rare",
+    "pos": "adjective",
+    "text": "not common."
+  },
+  {
+    "row": 62,
+    "word": "silence",
+    "pos": "noun",
+    "text": "complete quiet."
+  },
+  {
+    "row": 82,
+    "word": "brief",
+    "pos": "adjective",
+    "text": "short, not long."
+  },
+  {
+    "row": 84,
+    "word": "brisk",
+    "pos": "adjective",
+    "text": "quick, active."
+  },
+  {
+    "row": 85,
+    "word": "broad",
+    "pos": "adjective",
+    "text": "wide, large across."
+  },
+  {
+    "row": 91,
+    "word": "cause",
+    "pos": "noun",
+    "text": "why something happens."
+  },
+  {
+    "row": 106,
+    "word": "civil",
+    "pos": "adjective",
+    "text": "relating to citizens."
+  },
+  {
+    "row": 118,
+    "word": "comic",
+    "pos": "adjective",
+    "text": "funny."
+  },
+  {
+    "row": 123,
+    "word": "complete",
+    "pos": "adjective",
+    "text": "whole, finished."
+  },
+  {
+    "row": 130,
+    "word": "concern",
+    "pos": "noun",
+    "text": "worry or interest."
+  },
+  {
+    "row": 140,
+    "word": "consent",
+    "pos": "noun",
+    "text": "agreement."
+  },
+  {
+    "row": 144,
+    "word": "contact",
+    "pos": "noun",
+    "text": "communication, touching."
+  },
+  {
+    "row": 157,
+    "word": "cord",
+    "pos": "noun",
+    "text": "thin string."
+  },
+  {
+    "row": 160,
+    "word": "correct",
+    "pos": "adjective",
+    "text": "right, true."
+  },
+  {
+    "row": 166,
+    "word": "cozy",
+    "pos": "adjective",
+    "text": "warm and comfortable."
+  },
+  {
+    "row": 168,
+    "word": "craft",
+    "pos": "noun",
+    "text": "skill with hands."
+  },
+  {
+    "row": 179,
+    "word": "crude",
+    "pos": "adjective",
+    "text": "rough, not refined."
+  },
+  {
+    "row": 199,
+    "word": "ice",
+    "pos": "noun",
+    "text": "frozen water."
+  },
+  {
+    "row": 214,
+    "word": "sweet",
+    "pos": "adjective",
+    "text": "tasting like sugar."
+  },
+  {
+    "row": 304,
+    "word": "extend",
+    "pos": "verb",
+    "text": "current."
+  },
+  {
+    "row": 309,
+    "word": "faith",
+    "pos": "noun",
+    "text": "trust, belief."
+  },
+  {
+    "row": 328,
+    "word": "finance",
+    "pos": "noun",
+    "text": "money matters."
+  },
+  {
+    "row": 329,
+    "word": "fine",
+    "pos": "adjective",
+    "text": "very good, thin."
+  },
+  {
+    "row": 336,
+    "word": "flat",
+    "pos": "adjective",
+    "text": "smooth, level."
+  },
+  {
+    "row": 341,
+    "word": "flood",
+    "pos": "noun",
+    "text": "too much water."
+  },
+  {
+    "row": 345,
+    "word": "fog",
+    "pos": "noun",
+    "text": "thick mist."
+  },
+  {
+    "row": 351,
+    "word": "forward",
+    "pos": "adverb",
+    "text": "towards the front."
+  },
+  {
+    "row": 355,
+    "word": "fresh",
+    "pos": "adjective",
+    "text": "new, not stale."
+  },
+  {
+    "row": 359,
+    "word": "function",
+    "pos": "noun",
+    "text": "what something does."
+  },
+  {
+    "row": 374,
+    "word": "gloom",
+    "pos": "noun",
+    "text": "darkness, sadness."
+  },
+  {
+    "row": 375,
+    "word": "glory",
+    "pos": "noun",
+    "text": "fame be."
+  },
+  {
+    "row": 388,
+    "word": "grief",
+    "pos": "noun",
+    "text": "sadness."
+  },
+  {
+    "row": 405,
+    "word": "harm",
+    "pos": "noun",
+    "text": "hurt or damage."
+  },
+  {
+    "row": 423,
+    "word": "holy",
+    "pos": "adjective",
+    "text": "religious, good."
+  },
+  {
+    "row": 440,
+    "word": "acute",
+    "pos": "adjective",
+    "text": "sharp, severe."
+  },
+  {
+    "row": 447,
+    "word": "ajar",
+    "pos": "adjective",
+    "text": "slightly open."
+  },
+  {
+    "row": 450,
+    "word": "alert",
+    "pos": "adjective",
+    "text": "watchful."
+  },
+  {
+    "row": 453,
+    "word": "alike",
+    "pos": "adjective",
+    "text": "similar."
+  },
+  {
+    "row": 454,
+    "word": "alive",
+    "pos": "adjective",
+    "text": "living."
+  },
+  {
+    "row": 458,
+    "word": "aloof",
+    "pos": "adjective",
+    "text": "distant, unfriendly."
+  },
+  {
+    "row": 465,
+    "word": "ample",
+    "pos": "adjective",
+    "text": "plenty."
+  },
+  {
+    "row": 472,
+    "word": "apart",
+    "pos": "adverb",
+    "text": "separate."
+  },
+  {
+    "row": 476,
+    "word": "ashen",
+    "pos": "adjective",
+    "text": "pale grey."
+  },
+  {
+    "row": 480,
+    "word": "awake",
+    "pos": "adjective",
+    "text": "not sleeping."
+  },
+  {
+    "row": 481,
+    "word": "aware",
+    "pos": "adjective",
+    "text": "knowing."
+  },
+  {
+    "row": 483,
+    "word": "awful",
+    "pos": "adjective",
+    "text": "very bad."
+  },
+  {
+    "row": 491,
+    "word": "bare",
+    "pos": "adjective",
+    "text": "without covering."
+  },
+  {
+    "row": 493,
+    "word": "basic",
+    "pos": "adjective",
+    "text": "simple, fundamental."
+  },
+  {
+    "row": 497,
+    "word": "bath",
+    "pos": "noun",
+    "text": "washing in water."
+  },
+  {
+    "row": 507,
+    "word": "bent",
+    "pos": "adjective",
+    "text": "curved."
+  },
+  {
+    "row": 515,
+    "word": "birth",
+    "pos": "noun",
+    "text": "being born."
+  },
+  {
+    "row": 521,
+    "word": "bleak",
+    "pos": "adjective",
+    "text": "cold and cheerless."
+  },
+  {
+    "row": 525,
+    "word": "blond",
+    "pos": "adjective",
+    "text": "pale yellow hair."
+  },
+  {
+    "row": 530,
+    "word": "bold",
+    "pos": "adjective",
+    "text": "brave, clear."
+  },
+  {
+    "row": 537,
+    "word": "born",
+    "pos": "adjective",
+    "text": "given birth to."
+  },
+  {
+    "row": 540,
+    "word": "bound",
+    "pos": "adjective",
+    "text": "going, tied."
+  },
+  {
+    "row": 548,
+    "word": "briny",
+    "pos": "adjective",
+    "text": "brook."
+  },
+  {
+    "row": 555,
+    "word": "bumpy",
+    "pos": "adjective",
+    "text": "bunch."
+  },
+  {
+    "row": 563,
+    "word": "cab",
+    "pos": "noun",
+    "text": "cable."
+  },
+  {
+    "row": 587,
+    "word": "chain",
+    "pos": "noun",
+    "text": "metal links."
+  },
+  {
+    "row": 590,
+    "word": "chaos",
+    "pos": "noun",
+    "text": "complete confusion."
+  },
+  {
+    "row": 591,
+    "word": "cheap",
+    "pos": "adjective",
+    "text": "low in price."
+  },
+  {
+    "row": 593,
+    "word": "chic",
+    "pos": "adjective",
+    "text": "chide."
+  },
+  {
+    "row": 596,
+    "word": "china",
+    "pos": "noun",
+    "text": "porcelain."
+  },
+  {
+    "row": 600,
+    "word": "churn",
+    "pos": "verb",
+    "text": "clamp."
+  },
+  {
+    "row": 606,
+    "word": "cleft",
+    "pos": "noun",
+    "text": "clerk."
+  },
+  {
+    "row": 614,
+    "word": "cloth",
+    "pos": "noun",
+    "text": "woven material."
+  },
+  {
+    "row": 615,
+    "word": "clout",
+    "pos": "noun",
+    "text": "influence."
+  },
+  {
+    "row": 616,
+    "word": "clove",
+    "pos": "noun",
+    "text": "clown."
+  },
+  {
+    "row": 622,
+    "word": "coil",
+    "pos": "noun",
+    "text": "colon."
+  },
+  {
+    "row": 626,
+    "word": "complement",
+    "pos": "noun",
+    "text": "something that completes."
+  },
+  {
+    "row": 634,
+    "word": "counsel",
+    "pos": "noun",
+    "text": "advice."
+  },
+  {
+    "row": 638,
+    "word": "crass",
+    "pos": "adjective",
+    "text": "stupid."
+  },
+  {
+    "row": 647,
+    "word": "cried",
+    "pos": "verb past",
+    "text": "wept."
+  },
+  {
+    "row": 648,
+    "word": "crisp",
+    "pos": "adjective",
+    "text": "crunchy."
+  },
+  {
+    "row": 656,
+    "word": "cute",
+    "pos": "adjective",
+    "text": "adorable."
+  },
+  {
+    "row": 657,
+    "word": "cyan",
+    "pos": "adjective",
+    "text": "blue-green."
+  },
+  {
+    "row": 658,
+    "word": "dad",
+    "pos": "noun",
+    "text": "father."
+  },
+  {
+    "row": 664,
+    "word": "damp",
+    "pos": "adjective",
+    "text": "slightly wet."
+  },
+  {
+    "row": 666,
+    "word": "data",
+    "pos": "noun",
+    "text": "facts."
+  },
+  {
+    "row": 669,
+    "word": "dawn",
+    "pos": "noun",
+    "text": "sunrise."
+  },
+  {
+    "row": 670,
+    "word": "dead",
+    "pos": "adjective",
+    "text": "not living."
+  },
+  {
+    "row": 671,
+    "word": "deaf",
+    "pos": "adjective",
+    "text": "unable to hear."
+  },
+  {
+    "row": 673,
+    "word": "dear",
+    "pos": "adjective",
+    "text": "beloved."
+  },
+  {
+    "row": 674,
+    "word": "death",
+    "pos": "noun",
+    "text": "dying."
+  },
+  {
+    "row": 676,
+    "word": "debt",
+    "pos": "noun",
+    "text": "money owed."
+  },
+  {
+    "row": 690,
+    "word": "dense",
+    "pos": "adjective",
+    "text": "thick."
+  },
+  {
+    "row": 694,
+    "word": "depth",
+    "pos": "noun",
+    "text": "how deep."
+  },
+  {
+    "row": 699,
+    "word": "dew",
+    "pos": "noun",
+    "text": "morning moisture."
+  },
+  {
+    "row": 702,
+    "word": "dice",
+    "pos": "noun",
+    "text": "small cubes -."
+  },
+  {
+    "row": 706,
+    "word": "dim",
+    "pos": "adjective",
+    "text": "not bright."
+  },
+  {
+    "row": 709,
+    "word": "dingy",
+    "pos": "adjective",
+    "text": "dark and dirty."
+  },
+  {
+    "row": 718,
+    "word": "discourse",
+    "pos": "noun",
+    "text": "speech."
+  },
+  {
+    "row": 724,
+    "word": "distance",
+    "pos": "noun",
+    "text": "how far."
+  },
+  {
+    "row": 729,
+    "word": "distrust",
+    "pos": "noun",
+    "text": "not trusting."
+  },
+  {
+    "row": 740,
+    "word": "dozen",
+    "pos": "noun",
+    "text": "twelve."
+  },
+  {
+    "row": 741,
+    "word": "drab",
+    "pos": "adjective",
+    "text": "dull."
+  },
+  {
+    "row": 746,
+    "word": "dread",
+    "pos": "noun",
+    "text": "fear."
+  },
+  {
+    "row": 752,
+    "word": "dual",
+    "pos": "adjective",
+    "text": "having two parts."
+  },
+  {
+    "row": 754,
+    "word": "due",
+    "pos": "adjective",
+    "text": "expected."
+  },
+  {
+    "row": 760,
+    "word": "dusk",
+    "pos": "noun",
+    "text": "sunset time."
+  },
+  {
+    "row": 761,
+    "word": "dust",
+    "pos": "noun",
+    "text": "fine dry powder."
+  },
+  {
+    "row": 762,
+    "word": "dusty",
+    "pos": "adjective",
+    "text": "covered in dust."
+  },
+  {
+    "row": 766,
+    "word": "eager",
+    "pos": "adjective",
+    "text": "keen."
+  },
+  {
+    "row": 769,
+    "word": "ease",
+    "pos": "noun",
+    "text": "comfort."
+  },
+  {
+    "row": 781,
+    "word": "else",
+    "pos": "adverb",
+    "text": "other."
+  },
+  {
+    "row": 783,
+    "word": "email",
+    "pos": "noun",
+    "text": "electronic mail."
+  },
+  {
+    "row": 795,
+    "word": "ended",
+    "pos": "adjective",
+    "text": "finished."
+  },
+  {
+    "row": 804,
+    "word": "epic",
+    "pos": "adjective",
+    "text": "grand."
+  },
+  {
+    "row": 810,
+    "word": "erect",
+    "pos": "adjective",
+    "text": "upright."
+  },
+  {
+    "row": 811,
+    "word": "erly",
+    "pos": "adjective",
+    "text": "early."
+  },
+  {
+    "row": 816,
+    "word": "euro",
+    "pos": "noun",
+    "text": "European money."
+  },
+  {
+    "row": 819,
+    "word": "event",
+    "pos": "noun",
+    "text": "something that happens."
+  },
+  {
+    "row": 821,
+    "word": "evil",
+    "pos": "adjective",
+    "text": "very bad."
+  },
+  {
+    "row": 823,
+    "word": "exact",
+    "pos": "adjective",
+    "text": "precise."
+  },
+  {
+    "row": 828,
+    "word": "exempt",
+    "pos": "adjective",
+    "text": "free from."
+  },
+  {
+    "row": 833,
+    "word": "explicit",
+    "pos": "adjective",
+    "text": "clear."
+  },
+  {
+    "row": 835,
+    "word": "extra",
+    "pos": "adjective",
+    "text": "more."
+  },
+  {
+    "row": 849,
+    "word": "feeble",
+    "pos": "adjective",
+    "text": "lacking strength; weak."
+  },
+  {
+    "row": 912,
+    "word": "glad",
+    "pos": "adjective",
+    "text": "pleased and happy."
+  },
+  {
+    "row": 922,
+    "word": "glum",
+    "pos": "adjective",
+    "text": "sad and moody."
+  },
+  {
+    "row": 945,
+    "word": "hated",
+    "pos": "adjective",
+    "text": "disliked intensely."
+  },
+  {
+    "row": 968,
+    "word": "hr",
+    "pos": "abbreviation",
+    "text": "hour."
+  },
+  {
+    "row": 971,
+    "word": "huge",
+    "pos": "adjective",
+    "text": "extremely large."
+  },
+  {
+    "row": 973,
+    "word": "humble",
+    "pos": "adjective",
+    "text": "not proud; modest."
+  },
+  {
+    "row": 1046,
+    "word": "jail",
+    "pos": "noun",
+    "text": "prison. Could."
+  },
+  {
+    "row": 1119,
+    "word": "licit",
+    "pos": "adjective",
+    "text": "lawful, permitted. Good."
+  },
+  {
+    "row": 1145,
+    "word": "lofty",
+    "pos": "adjective",
+    "text": "very high -."
+  },
+  {
+    "row": 1147,
+    "word": "logic",
+    "pos": "noun",
+    "text": "reasoning -."
+  },
+  {
+    "row": 1157,
+    "word": "luck",
+    "pos": "noun",
+    "text": "good fortune -."
+  },
+  {
+    "row": 1160,
+    "word": "lunch",
+    "pos": "noun",
+    "text": "midday meal -."
+  },
+  {
+    "row": 1165,
+    "word": "mad",
+    "pos": "adjective",
+    "text": "crazy -."
+  },
+  {
+    "row": 1167,
+    "word": "main",
+    "pos": "adjective",
+    "text": "chief -."
+  },
+  {
+    "row": 1170,
+    "word": "major",
+    "pos": "adjective",
+    "text": "large -."
+  },
+  {
+    "row": 1177,
+    "word": "marsh",
+    "pos": "noun",
+    "text": "wet land -."
+  },
+  {
+    "row": 1184,
+    "word": "maths",
+    "pos": "noun",
+    "text": "mathematics."
+  },
+  {
+    "row": 1186,
+    "word": "mature",
+    "pos": "adjective",
+    "text": "fully grown -."
+  },
+  {
+    "row": 1203,
+    "word": "mere",
+    "pos": "adjective",
+    "text": "only -."
+  },
+  {
+    "row": 1206,
+    "word": "merry",
+    "pos": "adjective",
+    "text": "happy -."
+  },
+  {
+    "row": 1209,
+    "word": "messy",
+    "pos": "adjective",
+    "text": "untidy -."
+  },
+  {
+    "row": 1215,
+    "word": "mini",
+    "pos": "adjective",
+    "text": "small -."
+  },
+  {
+    "row": 1217,
+    "word": "minor",
+    "pos": "adjective",
+    "text": "small -."
+  },
+  {
+    "row": 1220,
+    "word": "misery",
+    "pos": "noun",
+    "text": "great unhappiness -."
+  },
+  {
+    "row": 1232,
+    "word": "moist",
+    "pos": "adjective",
+    "text": "slightly wet -."
+  },
+  {
+    "row": 1239,
+    "word": "morn",
+    "pos": "noun",
+    "text": "morning -."
+  },
+  {
+    "row": 1265,
+    "word": "naked",
+    "pos": "adjective",
+    "text": "without clothes; uncovered."
+  },
+  {
+    "row": 1300,
+    "word": "nude",
+    "pos": "adjective",
+    "text": "naked; without clothes."
+  },
+  {
+    "row": 1303,
+    "word": "numb",
+    "pos": "adjective",
+    "text": "without feeling."
+  },
+  {
+    "row": 1333,
+    "word": "ours",
+    "pos": "pronoun",
+    "text": "belonging to us."
+  },
+  {
+    "row": 1338,
+    "word": "oval",
+    "pos": "adjective",
+    "text": "egg-shaped."
+  },
+  {
+    "row": 1394,
+    "word": "perhaps",
+    "pos": "adverb",
+    "text": "maybe; possibly."
+  },
+  {
+    "row": 1395,
+    "word": "peril",
+    "pos": "noun",
+    "text": "serious danger."
+  },
+  {
+    "row": 1428,
+    "word": "plump",
+    "pos": "adjective",
+    "text": "slightly fat; chubby."
+  },
+  {
+    "row": 1487,
+    "word": "pron",
+    "pos": "abbreviation",
+    "text": "abbreviation for pronoun."
+  },
+  {
+    "row": 1516,
+    "word": "quench",
+    "pos": "verb",
+    "text": "current says."
+  },
+  {
+    "row": 1523,
+    "word": "quota",
+    "pos": "noun",
+    "text": "current."
+  },
+  {
+    "row": 1530,
+    "word": "rainy",
+    "pos": "adjective",
+    "text": "having much rain."
+  },
+  {
+    "row": 1537,
+    "word": "rapid",
+    "pos": "adjective",
+    "text": "fast or sudden."
+  },
+  {
+    "row": 1652,
+    "word": "salty",
+    "pos": "adjective",
+    "text": "tasting of salt."
+  },
+  {
+    "row": 1660,
+    "word": "scarce",
+    "pos": "adjective",
+    "text": "not enough; rare."
+  },
+  {
+    "row": 1662,
+    "word": "scary",
+    "pos": "adjective",
+    "text": "frightening."
+  },
+  {
+    "row": 1709,
+    "word": "sheer",
+    "pos": "adjective",
+    "text": "complete; very steep."
+  },
+  {
+    "row": 1715,
+    "word": "shiny",
+    "pos": "adjective",
+    "text": "bright or glossy."
+  },
+  {
+    "row": 1731,
+    "word": "sick",
+    "pos": "adjective",
+    "text": "ill; unwell."
+  },
+  {
+    "row": 1788,
+    "word": "smug",
+    "pos": "adjective",
+    "text": "self-satisfied - good."
+  },
+  {
+    "row": 1866,
+    "word": "tardy",
+    "pos": "adjective",
+    "text": "late; slow. okay."
+  },
+  {
+    "row": 1907,
+    "word": "torn",
+    "pos": "adjective",
+    "text": "ripped; divided. okay."
+  },
+  {
+    "row": 1931,
+    "word": "true",
+    "pos": "adjective",
+    "text": "correct; real. okay."
+  },
+  {
+    "row": 1940,
+    "word": "upset",
+    "pos": "adjective",
+    "text": "distressed; overthrown. okay."
+  },
+  {
+    "row": 1973,
+    "word": "wire",
+    "pos": "noun",
+    "text": "thin metal thread."
+  },
+  {
+    "row": 1981,
+    "word": "worship",
+    "pos": "noun",
+    "text": "religious veneration; adoration."
+  },
+  {
+    "row": 1984,
+    "word": "wrong",
+    "pos": "adjective",
+    "text": "incorrect; immoral."
+  },
+  {
+    "row": 1986,
+    "word": "zeal",
+    "pos": "noun",
+    "text": "great enthusiasm."
+  },
+  {
+    "row": 2005,
+    "word": "bargain",
+    "pos": "noun",
+    "text": "something bought cheaply."
+  },
+  {
+    "row": 2011,
+    "word": "curious",
+    "pos": "adjective",
+    "text": "wanting to know."
+  },
+  {
+    "row": 2012,
+    "word": "delight",
+    "pos": "noun",
+    "text": "great pleasure."
+  },
+  {
+    "row": 2013,
+    "word": "distant",
+    "pos": "adjective",
+    "text": "far away."
+  },
+  {
+    "row": 2019,
+    "word": "leisure",
+    "pos": "noun",
+    "text": "free time."
+  },
+  {
+    "row": 2025,
+    "word": "mystery",
+    "pos": "noun",
+    "text": "something unknown."
+  },
+  {
+    "row": 2028,
+    "word": "proper",
+    "pos": "adjective",
+    "text": "right, suitable."
+  },
+  {
+    "row": 2029,
+    "word": "quaint",
+    "pos": "adjective",
+    "text": "charmingly old-fashioned."
+  },
+  {
+    "row": 2030,
+    "word": "ragged",
+    "pos": "adjective",
+    "text": "torn and worn."
+  },
+  {
+    "row": 2033,
+    "word": "society",
+    "pos": "noun",
+    "text": "people in general."
+  },
+  {
+    "row": 2046,
+    "word": "adverse",
+    "pos": "adjective",
+    "text": "bad, unfavourable."
+  },
+  {
+    "row": 2063,
+    "word": "authentic",
+    "pos": "adjective",
+    "text": "real, genuine."
+  },
+  {
+    "row": 2065,
+    "word": "awkward",
+    "pos": "adjective",
+    "text": "embarrassed, not comfortable."
+  },
+  {
+    "row": 2070,
+    "word": "benefit",
+    "pos": "noun",
+    "text": "something that helps."
+  },
+  {
+    "row": 2081,
+    "word": "candid",
+    "pos": "adjective",
+    "text": "open and honest."
+  },
+  {
+    "row": 2085,
+    "word": "casual",
+    "pos": "adjective",
+    "text": "not formal, relaxed."
+  },
+  {
+    "row": 2101,
+    "word": "coarse",
+    "pos": "adjective",
+    "text": "rough, not fine."
+  },
+  {
+    "row": 2108,
+    "word": "common",
+    "pos": "adjective",
+    "text": "usual, ordinary."
+  },
+  {
+    "row": 2118,
+    "word": "constant",
+    "pos": "adjective",
+    "text": "never stopping, regular."
+  },
+  {
+    "row": 2119,
+    "word": "content",
+    "pos": "adjective",
+    "text": "happy, satisfied."
+  },
+  {
+    "row": 2128,
+    "word": "couple",
+    "pos": "noun",
+    "text": "two together."
+  },
+  {
+    "row": 2129,
+    "word": "courage",
+    "pos": "noun",
+    "text": "bravery."
+  },
+  {
+    "row": 2131,
+    "word": "credit",
+    "pos": "noun",
+    "text": "praise, belief in."
+  },
+  {
+    "row": 2135,
+    "word": "critical",
+    "pos": "adjective",
+    "text": "very important, judging."
+  },
+  {
+    "row": 2193,
+    "word": "horror",
+    "pos": "noun",
+    "text": "fear."
+  },
+  {
+    "row": 2199,
+    "word": "absolute",
+    "pos": "adjective",
+    "text": "complete and total."
+  },
+  {
+    "row": 2205,
+    "word": "acclaim",
+    "pos": "noun",
+    "text": "enthusiastic public praise."
+  },
+  {
+    "row": 2219,
+    "word": "advertent",
+    "pos": "adjective",
+    "text": "paying attention; attentive."
+  },
+  {
+    "row": 2243,
+    "word": "amiable",
+    "pos": "adjective",
+    "text": "friendly and pleasant."
+  },
+  {
+    "row": 2251,
+    "word": "animated",
+    "pos": "adjective",
+    "text": "lively."
+  },
+  {
+    "row": 2256,
+    "word": "anymore",
+    "pos": "adverb",
+    "text": "any longer."
+  },
+  {
+    "row": 2258,
+    "word": "apathetic",
+    "pos": "adjective",
+    "text": "not interested."
+  },
+  {
+    "row": 2260,
+    "word": "appealing",
+    "pos": "adjective",
+    "text": "attractive."
+  },
+  {
+    "row": 2262,
+    "word": "applause",
+    "pos": "noun",
+    "text": "clapping."
+  },
+  {
+    "row": 2264,
+    "word": "approval",
+    "pos": "noun",
+    "text": "agreement, praise."
+  },
+  {
+    "row": 2272,
+    "word": "artistic",
+    "pos": "adjective",
+    "text": "relating to art."
+  },
+  {
+    "row": 2274,
+    "word": "asleep",
+    "pos": "adjective",
+    "text": "sleeping."
+  },
+  {
+    "row": 2282,
+    "word": "attire",
+    "pos": "noun",
+    "text": "clothes."
+  },
+  {
+    "row": 2288,
+    "word": "awesome",
+    "pos": "adjective",
+    "text": "very good, amazing."
+  },
+  {
+    "row": 2292,
+    "word": "backward",
+    "pos": "adjective",
+    "text": "towards the back."
+  },
+  {
+    "row": 2294,
+    "word": "bacteria",
+    "pos": "noun",
+    "text": "tiny living things."
+  },
+  {
+    "row": 2295,
+    "word": "badly",
+    "pos": "adverb",
+    "text": "very much, poorly."
+  },
+  {
+    "row": 2298,
+    "word": "baggage",
+    "pos": "noun",
+    "text": "suitcases and bags."
+  },
+  {
+    "row": 2302,
+    "word": "barely",
+    "pos": "adverb",
+    "text": "almost not."
+  },
+  {
+    "row": 2303,
+    "word": "barrier",
+    "pos": "noun",
+    "text": "something that blocks."
+  },
+  {
+    "row": 2310,
+    "word": "beauty",
+    "pos": "noun",
+    "text": "being beautiful."
+  },
+  {
+    "row": 2317,
+    "word": "beloved",
+    "pos": "adjective",
+    "text": "much loved."
+  },
+  {
+    "row": 2318,
+    "word": "beneath",
+    "pos": "preposition",
+    "text": "under."
+  },
+  {
+    "row": 2323,
+    "word": "bitter",
+    "pos": "adjective",
+    "text": "sharp, unpleasant taste."
+  },
+  {
+    "row": 2327,
+    "word": "blonde",
+    "pos": "adjective",
+    "text": "pale yellow hair."
+  },
+  {
+    "row": 2333,
+    "word": "booming",
+    "pos": "adjective",
+    "text": "growing fast."
+  },
+  {
+    "row": 2335,
+    "word": "boring",
+    "pos": "adjective",
+    "text": "not interesting."
+  },
+  {
+    "row": 2342,
+    "word": "bravery",
+    "pos": "noun",
+    "text": "being brave."
+  },
+  {
+    "row": 2343,
+    "word": "breadth",
+    "pos": "noun",
+    "text": "width."
+  },
+  {
+    "row": 2348,
+    "word": "brilliant",
+    "pos": "adjective",
+    "text": "very clever, shining."
+  },
+  {
+    "row": 2352,
+    "word": "brutal",
+    "pos": "adjective",
+    "text": "cruel, severe —."
+  },
+  {
+    "row": 2362,
+    "word": "cadence",
+    "pos": "noun",
+    "text": "rhythm or beat."
+  },
+  {
+    "row": 2365,
+    "word": "calculus",
+    "pos": "noun",
+    "text": "advanced mathematics."
+  },
+  {
+    "row": 2372,
+    "word": "candour",
+    "pos": "noun",
+    "text": "honest openness."
+  },
+  {
+    "row": 2373,
+    "word": "canine",
+    "pos": "adjective",
+    "text": "relating to dogs."
+  },
+  {
+    "row": 2375,
+    "word": "cannot",
+    "pos": "verb",
+    "text": "can not."
+  },
+  {
+    "row": 2377,
+    "word": "canvas",
+    "pos": "noun",
+    "text": "strong cloth."
+  },
+  {
+    "row": 2380,
+    "word": "capita",
+    "pos": "noun",
+    "text": "per person —."
+  },
+  {
+    "row": 2389,
+    "word": "carefree",
+    "pos": "adjective",
+    "text": "free from worry."
+  },
+  {
+    "row": 2391,
+    "word": "caring",
+    "pos": "adjective",
+    "text": "kind and helpful."
+  },
+  {
+    "row": 2394,
+    "word": "carpeted",
+    "pos": "adjective",
+    "text": "covered with carpet."
+  },
+  {
+    "row": 2416,
+    "word": "cellular",
+    "pos": "adjective",
+    "text": "relating to cells."
+  },
+  {
+    "row": 2422,
+    "word": "century",
+    "pos": "noun",
+    "text": "100 years."
+  },
+  {
+    "row": 2423,
+    "word": "ceramic",
+    "pos": "adjective",
+    "text": "made of clay."
+  },
+  {
+    "row": 2425,
+    "word": "certain",
+    "pos": "adjective",
+    "text": "sure."
+  },
+  {
+    "row": 2426,
+    "word": "certainty",
+    "pos": "noun",
+    "text": "being certain."
+  },
+  {
+    "row": 2427,
+    "word": "certitude",
+    "pos": "noun",
+    "text": "absolute certainty —."
+  },
+  {
+    "row": 2429,
+    "word": "chagrin",
+    "pos": "noun",
+    "text": "embarrassment or disappointment."
+  },
+  {
+    "row": 2440,
+    "word": "charming",
+    "pos": "adjective",
+    "text": "very pleasant."
+  },
+  {
+    "row": 2442,
+    "word": "chaste",
+    "pos": "adjective",
+    "text": "pure, simple."
+  },
+  {
+    "row": 2455,
+    "word": "chilly",
+    "pos": "adjective",
+    "text": "somewhat cold."
+  },
+  {
+    "row": 2477,
+    "word": "clayey",
+    "pos": "adjective",
+    "text": "like clay."
+  },
+  {
+    "row": 2485,
+    "word": "climatic",
+    "pos": "adjective",
+    "text": "relating to climate."
+  },
+  {
+    "row": 2508,
+    "word": "coherent",
+    "pos": "adjective",
+    "text": "logical and consistent."
+  },
+  {
+    "row": 2515,
+    "word": "colonial",
+    "pos": "adjective",
+    "text": "relating to colonies."
+  },
+  {
+    "row": 2519,
+    "word": "comedic",
+    "pos": "adjective",
+    "text": "funny."
+  },
+  {
+    "row": 2523,
+    "word": "comical",
+    "pos": "adjective",
+    "text": "funny; causing laughter."
+  },
+  {
+    "row": 2536,
+    "word": "composure",
+    "pos": "noun",
+    "text": "calmness and self-control."
+  },
+  {
+    "row": 2542,
+    "word": "concord",
+    "pos": "noun",
+    "text": "agreement or harmony."
+  },
+  {
+    "row": 2548,
+    "word": "congruent",
+    "pos": "adjective",
+    "text": "matching."
+  },
+  {
+    "row": 2553,
+    "word": "consensus",
+    "pos": "noun",
+    "text": "general agreement."
+  },
+  {
+    "row": 2556,
+    "word": "constancy",
+    "pos": "noun",
+    "text": "steadiness."
+  },
+  {
+    "row": 2561,
+    "word": "contempt",
+    "pos": "noun",
+    "text": "scorn."
+  },
+  {
+    "row": 2562,
+    "word": "contents",
+    "pos": "noun",
+    "text": "what is inside."
+  },
+  {
+    "row": 2566,
+    "word": "convex",
+    "pos": "adjective",
+    "text": "curved outward."
+  },
+  {
+    "row": 2568,
+    "word": "convinced",
+    "pos": "adjective",
+    "text": "certain."
+  },
+  {
+    "row": 2569,
+    "word": "cooked",
+    "pos": "adjective",
+    "text": "heated."
+  },
+  {
+    "row": 2571,
+    "word": "cookery",
+    "pos": "noun",
+    "text": "cooking."
+  },
+  {
+    "row": 2576,
+    "word": "corrupt",
+    "pos": "adjective",
+    "text": "dishonest."
+  },
+  {
+    "row": 2577,
+    "word": "cosmetic",
+    "pos": "adjective",
+    "text": "relating to beauty."
+  },
+  {
+    "row": 2580,
+    "word": "costly",
+    "pos": "adjective",
+    "text": "expensive."
+  },
+  {
+    "row": 2583,
+    "word": "courtesy",
+    "pos": "noun",
+    "text": "politeness."
+  },
+  {
+    "row": 2586,
+    "word": "coverage",
+    "pos": "noun",
+    "text": "reporting."
+  },
+  {
+    "row": 2588,
+    "word": "cowardice",
+    "pos": "noun",
+    "text": "fear."
+  },
+  {
+    "row": 2597,
+    "word": "crimson",
+    "pos": "adjective",
+    "text": "deep red."
+  },
+  {
+    "row": 2600,
+    "word": "crooked",
+    "pos": "adjective",
+    "text": "bent."
+  },
+  {
+    "row": 2604,
+    "word": "crowded",
+    "pos": "adjective",
+    "text": "full of people."
+  },
+  {
+    "row": 2605,
+    "word": "crucial",
+    "pos": "adjective",
+    "text": "very important."
+  },
+  {
+    "row": 2615,
+    "word": "cultural",
+    "pos": "adjective",
+    "text": "relating to culture."
+  },
+  {
+    "row": 2617,
+    "word": "cunning",
+    "pos": "adjective",
+    "text": "clever."
+  },
+  {
+    "row": 2620,
+    "word": "curly",
+    "pos": "adjective",
+    "text": "full of curls."
+  },
+  {
+    "row": 2621,
+    "word": "currency",
+    "pos": "noun",
+    "text": "money."
+  },
+  {
+    "row": 2624,
+    "word": "curved",
+    "pos": "adjective",
+    "text": "bent."
+  },
+  {
+    "row": 2625,
+    "word": "custody",
+    "pos": "noun",
+    "text": "guardianship."
+  },
+  {
+    "row": 2626,
+    "word": "customs",
+    "pos": "noun",
+    "text": "taxes on imports."
+  },
+  {
+    "row": 2627,
+    "word": "cutlery",
+    "pos": "noun",
+    "text": "knives and forks."
+  },
+  {
+    "row": 2629,
+    "word": "cyclical",
+    "pos": "adjective",
+    "text": "happening in cycles."
+  },
+  {
+    "row": 2632,
+    "word": "daily",
+    "pos": "adjective",
+    "text": "every day."
+  },
+  {
+    "row": 2633,
+    "word": "damaged",
+    "pos": "adjective",
+    "text": "harmed."
+  },
+  {
+    "row": 2634,
+    "word": "damaging",
+    "pos": "adjective",
+    "text": "harmful."
+  },
+  {
+    "row": 2639,
+    "word": "daring",
+    "pos": "adjective",
+    "text": "brave."
+  },
+  {
+    "row": 2643,
+    "word": "daylight",
+    "pos": "noun",
+    "text": "natural light."
+  },
+  {
+    "row": 2646,
+    "word": "deadly",
+    "pos": "adjective",
+    "text": "fatal."
+  },
+  {
+    "row": 2647,
+    "word": "deafening",
+    "pos": "adjective",
+    "text": "very loud."
+  },
+  {
+    "row": 2649,
+    "word": "dealing",
+    "pos": "noun",
+    "text": "business."
+  },
+  {
+    "row": 2650,
+    "word": "dearer",
+    "pos": "adjective",
+    "text": "more beloved."
+  },
+  {
+    "row": 2651,
+    "word": "deathly",
+    "pos": "adjective",
+    "text": "like death."
+  },
+  {
+    "row": 2653,
+    "word": "decade",
+    "pos": "noun",
+    "text": "ten years."
+  },
+  {
+    "row": 2656,
+    "word": "deceit",
+    "pos": "noun",
+    "text": "trickery."
+  },
+  {
+    "row": 2657,
+    "word": "decency",
+    "pos": "noun",
+    "text": "good behaviour."
+  },
+  {
+    "row": 2658,
+    "word": "decent",
+    "pos": "adjective",
+    "text": "proper."
+  },
+  {
+    "row": 2661,
+    "word": "decorum",
+    "pos": "noun",
+    "text": "proper behaviour."
+  },
+  {
+    "row": 2662,
+    "word": "decrepit",
+    "pos": "adjective",
+    "text": "worn out."
+  },
+  {
+    "row": 2663,
+    "word": "deedful",
+    "pos": "adjective",
+    "text": "full of deeds."
+  },
+  {
+    "row": 2664,
+    "word": "defeated",
+    "pos": "adjective",
+    "text": "beaten."
+  },
+  {
+    "row": 2665,
+    "word": "defence",
+    "pos": "noun",
+    "text": "protection."
+  },
+  {
+    "row": 2667,
+    "word": "defiance",
+    "pos": "noun",
+    "text": "resistance."
+  },
+  {
+    "row": 2669,
+    "word": "definite",
+    "pos": "adjective",
+    "text": "certain."
+  },
+  {
+    "row": 2675,
+    "word": "delayed",
+    "pos": "adjective",
+    "text": "late."
+  },
+  {
+    "row": 2679,
+    "word": "delighted",
+    "pos": "adjective",
+    "text": "very happy."
+  },
+  {
+    "row": 2683,
+    "word": "density",
+    "pos": "noun",
+    "text": "thickness."
+  },
+  {
+    "row": 2684,
+    "word": "dental",
+    "pos": "adjective",
+    "text": "relating to teeth."
+  },
+  {
+    "row": 2686,
+    "word": "departed",
+    "pos": "adjective",
+    "text": "dead."
+  },
+  {
+    "row": 2687,
+    "word": "departure",
+    "pos": "noun",
+    "text": "leaving."
+  },
+  {
+    "row": 2689,
+    "word": "dependent",
+    "pos": "adjective",
+    "text": "needing support."
+  },
+  {
+    "row": 2703,
+    "word": "despair",
+    "pos": "noun",
+    "text": "hopelessness."
+  },
+  {
+    "row": 2707,
+    "word": "destiny",
+    "pos": "noun",
+    "text": "fate."
+  },
+  {
+    "row": 2708,
+    "word": "destitute",
+    "pos": "adjective",
+    "text": "poor."
+  },
+  {
+    "row": 2711,
+    "word": "detailed",
+    "pos": "adjective",
+    "text": "thorough."
+  },
+  {
+    "row": 2714,
+    "word": "devoted",
+    "pos": "adjective",
+    "text": "loyal."
+  },
+  {
+    "row": 2722,
+    "word": "dietary",
+    "pos": "adjective",
+    "text": "relating to diet."
+  },
+  {
+    "row": 2724,
+    "word": "digested",
+    "pos": "adjective",
+    "text": "understood, eaten."
+  },
+  {
+    "row": 2725,
+    "word": "digital",
+    "pos": "adjective",
+    "text": "using digits."
+  },
+  {
+    "row": 2726,
+    "word": "dignity",
+    "pos": "noun",
+    "text": "self-respect."
+  },
+  {
+    "row": 2729,
+    "word": "diligence",
+    "pos": "noun",
+    "text": "carefulness."
+  },
+  {
+    "row": 2730,
+    "word": "diligent",
+    "pos": "adjective",
+    "text": "hardworking."
+  },
+  {
+    "row": 2736,
+    "word": "discord",
+    "pos": "noun",
+    "text": "disagreement."
+  },
+  {
+    "row": 2738,
+    "word": "disdain",
+    "pos": "noun",
+    "text": "scorn."
+  },
+  {
+    "row": 2739,
+    "word": "dislike",
+    "pos": "noun",
+    "text": "not liking."
+  },
+  {
+    "row": 2740,
+    "word": "dismal",
+    "pos": "adjective",
+    "text": "gloomy."
+  },
+  {
+    "row": 2741,
+    "word": "dismay",
+    "pos": "noun",
+    "text": "horror."
+  },
+  {
+    "row": 2743,
+    "word": "dissent",
+    "pos": "noun",
+    "text": "disagreement."
+  },
+  {
+    "row": 2746,
+    "word": "diverse",
+    "pos": "adjective",
+    "text": "varied."
+  },
+  {
+    "row": 2749,
+    "word": "docile",
+    "pos": "adjective",
+    "text": "obedient."
+  },
+  {
+    "row": 2750,
+    "word": "dogmatic",
+    "pos": "adjective",
+    "text": "rigid."
+  },
+  {
+    "row": 2771,
+    "word": "drastic",
+    "pos": "adjective",
+    "text": "severe or extreme."
+  },
+  {
+    "row": 2778,
+    "word": "drowsy",
+    "pos": "adjective",
+    "text": "sleepy and lethargic."
+  },
+  {
+    "row": 2793,
+    "word": "earnest",
+    "pos": "adjective",
+    "text": "serious and sincere."
+  },
+  {
+    "row": 2796,
+    "word": "easeful",
+    "pos": "adjective",
+    "text": "comfortable and restful."
+  },
+  {
+    "row": 2798,
+    "word": "easygoing",
+    "pos": "adjective",
+    "text": "relaxed and tolerant."
+  },
+  {
+    "row": 2817,
+    "word": "elderly",
+    "pos": "adjective",
+    "text": "old or aging."
+  },
+  {
+    "row": 2858,
+    "word": "energetic",
+    "pos": "adjective",
+    "text": "active —."
+  },
+  {
+    "row": 2867,
+    "word": "entire",
+    "pos": "adjective",
+    "text": "whole — good."
+  },
+  {
+    "row": 2873,
+    "word": "envious",
+    "pos": "adjective",
+    "text": "jealous — good."
+  },
+  {
+    "row": 2876,
+    "word": "ephemeral",
+    "pos": "adjective",
+    "text": "short-lived — good."
+  },
+  {
+    "row": 2882,
+    "word": "equipage",
+    "pos": "noun",
+    "text": "Equipment."
+  },
+  {
+    "row": 2883,
+    "word": "equity",
+    "pos": "noun",
+    "text": "Fairness."
+  },
+  {
+    "row": 2885,
+    "word": "erosion",
+    "pos": "noun",
+    "text": "Wearing away."
+  },
+  {
+    "row": 2886,
+    "word": "erratic",
+    "pos": "adjective",
+    "text": "irregular —."
+  },
+  {
+    "row": 2889,
+    "word": "essential",
+    "pos": "adjective",
+    "text": "necessary —."
+  },
+  {
+    "row": 2890,
+    "word": "estate",
+    "pos": "noun",
+    "text": "Property."
+  },
+  {
+    "row": 2891,
+    "word": "esteem",
+    "pos": "noun",
+    "text": "respect —."
+  },
+  {
+    "row": 2892,
+    "word": "eternal",
+    "pos": "adjective",
+    "text": "forever —."
+  },
+  {
+    "row": 2893,
+    "word": "ethical",
+    "pos": "adjective",
+    "text": "Moral."
+  },
+  {
+    "row": 2896,
+    "word": "etiquette",
+    "pos": "noun",
+    "text": "Proper manners."
+  },
+  {
+    "row": 2897,
+    "word": "evasive",
+    "pos": "adjective",
+    "text": "Avoiding."
+  },
+  {
+    "row": 2898,
+    "word": "eventide",
+    "pos": "noun",
+    "text": "evening —."
+  },
+  {
+    "row": 2899,
+    "word": "eventual",
+    "pos": "adjective",
+    "text": "final —."
+  },
+  {
+    "row": 2900,
+    "word": "everyday",
+    "pos": "adjective",
+    "text": "common —."
+  },
+  {
+    "row": 2901,
+    "word": "evident",
+    "pos": "adjective",
+    "text": "obvious —."
+  },
+  {
+    "row": 2902,
+    "word": "exactly",
+    "pos": "adverb",
+    "text": "precisely —."
+  },
+  {
+    "row": 2903,
+    "word": "excellent",
+    "pos": "adjective",
+    "text": "very good —."
+  },
+  {
+    "row": 2904,
+    "word": "except",
+    "pos": "preposition",
+    "text": "not including —."
+  },
+  {
+    "row": 2906,
+    "word": "excess",
+    "pos": "noun",
+    "text": "Too much."
+  },
+  {
+    "row": 2911,
+    "word": "existence",
+    "pos": "noun",
+    "text": "being —."
+  },
+  {
+    "row": 2912,
+    "word": "exists",
+    "pos": "verb",
+    "text": "is real —."
+  },
+  {
+    "row": 2914,
+    "word": "exotic",
+    "pos": "adjective",
+    "text": "Foreign."
+  },
+  {
+    "row": 2915,
+    "word": "expense",
+    "pos": "noun",
+    "text": "cost —."
+  },
+  {
+    "row": 2918,
+    "word": "exposed",
+    "pos": "adjective",
+    "text": "Unprotected."
+  },
+  {
+    "row": 2919,
+    "word": "exposure",
+    "pos": "noun",
+    "text": "Being exposed."
+  },
+  {
+    "row": 2920,
+    "word": "extended",
+    "pos": "adjective",
+    "text": "Longer."
+  },
+  {
+    "row": 2922,
+    "word": "exterior",
+    "pos": "adjective",
+    "text": "outer —."
+  },
+  {
+    "row": 2923,
+    "word": "external",
+    "pos": "adjective",
+    "text": "Outside."
+  },
+  {
+    "row": 2925,
+    "word": "extreme",
+    "pos": "adjective",
+    "text": "Very great."
+  },
+  {
+    "row": 2928,
+    "word": "fabric",
+    "pos": "noun",
+    "text": "cloth —."
+  },
+  {
+    "row": 2930,
+    "word": "factories",
+    "pos": "noun",
+    "text": "Could use plural."
+  },
+  {
+    "row": 2932,
+    "word": "factual",
+    "pos": "adjective",
+    "text": "True."
+  },
+  {
+    "row": 2934,
+    "word": "failure",
+    "pos": "noun",
+    "text": "Not succeeding."
+  },
+  {
+    "row": 2936,
+    "word": "falsely",
+    "pos": "adverb",
+    "text": "wrongly —."
+  },
+  {
+    "row": 2938,
+    "word": "familiar",
+    "pos": "adjective",
+    "text": "known —."
+  },
+  {
+    "row": 2939,
+    "word": "famine",
+    "pos": "noun",
+    "text": "hunger —."
+  },
+  {
+    "row": 2942,
+    "word": "fantastic",
+    "pos": "adjective",
+    "text": "great —."
+  },
+  {
+    "row": 2943,
+    "word": "fantasy",
+    "pos": "noun",
+    "text": "Imagination."
+  },
+  {
+    "row": 2944,
+    "word": "farewell",
+    "pos": "noun",
+    "text": "goodbye —."
+  },
+  {
+    "row": 2945,
+    "word": "farmland",
+    "pos": "noun",
+    "text": "agricultural land —."
+  },
+  {
+    "row": 2948,
+    "word": "fatigue",
+    "pos": "noun",
+    "text": "Tiredness."
+  },
+  {
+    "row": 2950,
+    "word": "favourite",
+    "pos": "adjective",
+    "text": "liked most —."
+  },
+  {
+    "row": 2951,
+    "word": "fearful",
+    "pos": "adjective",
+    "text": "afraid —."
+  },
+  {
+    "row": 2953,
+    "word": "federal",
+    "pos": "adjective",
+    "text": "National."
+  },
+  {
+    "row": 2956,
+    "word": "female",
+    "pos": "adjective",
+    "text": "Relating to women."
+  },
+  {
+    "row": 2958,
+    "word": "fertile",
+    "pos": "adjective",
+    "text": "Productive."
+  },
+  {
+    "row": 2959,
+    "word": "fervent",
+    "pos": "adjective",
+    "text": "passionate - clear."
+  },
+  {
+    "row": 2960,
+    "word": "fervour",
+    "pos": "noun",
+    "text": "Passion."
+  },
+  {
+    "row": 2961,
+    "word": "festive",
+    "pos": "adjective",
+    "text": "celebratory - clear."
+  },
+  {
+    "row": 2962,
+    "word": "fewest",
+    "pos": "adjective",
+    "text": "least - clear."
+  },
+  {
+    "row": 2968,
+    "word": "filled",
+    "pos": "adjective",
+    "text": "full - clear."
+  },
+  {
+    "row": 2972,
+    "word": "finesse",
+    "pos": "noun",
+    "text": "Skill."
+  },
+  {
+    "row": 2973,
+    "word": "finished",
+    "pos": "adjective",
+    "text": "completed - clear."
+  },
+  {
+    "row": 2974,
+    "word": "finite",
+    "pos": "adjective",
+    "text": "Limited."
+  },
+  {
+    "row": 2976,
+    "word": "firmly",
+    "pos": "adverb",
+    "text": "Strongly."
+  },
+  {
+    "row": 2977,
+    "word": "firstly",
+    "pos": "adverb",
+    "text": "First."
+  },
+  {
+    "row": 2978,
+    "word": "fiscal",
+    "pos": "adjective",
+    "text": "Financial."
+  },
+  {
+    "row": 2981,
+    "word": "fitness",
+    "pos": "noun",
+    "text": "Health."
+  },
+  {
+    "row": 2984,
+    "word": "flagrant",
+    "pos": "adjective",
+    "text": "Shocking."
+  },
+  {
+    "row": 2991,
+    "word": "fluent",
+    "pos": "adjective",
+    "text": "Smooth."
+  },
+  {
+    "row": 2996,
+    "word": "following",
+    "pos": "adjective",
+    "text": "next - clear."
+  },
+  {
+    "row": 2997,
+    "word": "folly",
+    "pos": "noun",
+    "text": "foolishness - clear."
+  },
+  {
+    "row": 2999,
+    "word": "foolish",
+    "pos": "adjective",
+    "text": "silly - clear."
+  },
+  {
+    "row": 3007,
+    "word": "forever",
+    "pos": "adverb",
+    "text": "always - clear."
+  },
+  {
+    "row": 3009,
+    "word": "forgiving",
+    "pos": "adjective",
+    "text": "merciful - clear."
+  },
+  {
+    "row": 3012,
+    "word": "formulaic",
+    "pos": "adjective",
+    "text": "Routine."
+  },
+  {
+    "row": 3017,
+    "word": "fragrant",
+    "pos": "adjective",
+    "text": "sweet-smelling - clear."
+  },
+  {
+    "row": 3020,
+    "word": "freedom",
+    "pos": "noun",
+    "text": "Being free."
+  },
+  {
+    "row": 3021,
+    "word": "freestyle",
+    "pos": "adjective",
+    "text": "Free."
+  },
+  {
+    "row": 3022,
+    "word": "freight",
+    "pos": "noun",
+    "text": "cargo - clear."
+  },
+  {
+    "row": 3031,
+    "word": "frostbite",
+    "pos": "noun",
+    "text": "Frozen skin."
+  },
+  {
+    "row": 3033,
+    "word": "frugal",
+    "pos": "adjective",
+    "text": "thrifty - clear."
+  },
+  {
+    "row": 3039,
+    "word": "futile",
+    "pos": "adjective",
+    "text": "useless - clear."
+  },
+  {
+    "row": 3066,
+    "word": "gigantic",
+    "pos": "adjective",
+    "text": "extremely large; huge."
+  },
+  {
+    "row": 3154,
+    "word": "horrific",
+    "pos": "adjective",
+    "text": "causing horror."
+  },
+  {
+    "row": 3156,
+    "word": "hostile",
+    "pos": "adjective",
+    "text": "unfriendly."
+  },
+  {
+    "row": 3159,
+    "word": "hubbub",
+    "pos": "noun",
+    "text": "noise and confusion."
+  },
+  {
+    "row": 3160,
+    "word": "hungry",
+    "pos": "adjective",
+    "text": "needing food."
+  },
+  {
+    "row": 3164,
+    "word": "hygiene",
+    "pos": "noun",
+    "text": "cleanliness."
+  },
+  {
+    "row": 3165,
+    "word": "hyperbole",
+    "pos": "noun",
+    "text": "exaggeration."
+  },
+  {
+    "row": 3168,
+    "word": "identical",
+    "pos": "adjective",
+    "text": "exactly alike."
+  },
+  {
+    "row": 3169,
+    "word": "ignoble",
+    "pos": "adjective",
+    "text": "not noble."
+  },
+  {
+    "row": 3170,
+    "word": "ignorance",
+    "pos": "noun",
+    "text": "lack of knowledge."
+  },
+  {
+    "row": 3171,
+    "word": "ignorant",
+    "pos": "adjective",
+    "text": "unaware."
+  },
+  {
+    "row": 3172,
+    "word": "illegal",
+    "pos": "adjective",
+    "text": "against the law."
+  },
+  {
+    "row": 3173,
+    "word": "illiberal",
+    "pos": "adjective",
+    "text": "not tolerant."
+  },
+  {
+    "row": 3174,
+    "word": "illicit",
+    "pos": "adjective",
+    "text": "not allowed."
+  },
+  {
+    "row": 3175,
+    "word": "immense",
+    "pos": "adjective",
+    "text": "huge."
+  },
+  {
+    "row": 3176,
+    "word": "immoral",
+    "pos": "adjective",
+    "text": "wrong."
+  },
+  {
+    "row": 3177,
+    "word": "immune",
+    "pos": "adjective",
+    "text": "protected."
+  },
+  {
+    "row": 3180,
+    "word": "inert",
+    "pos": "adjective",
+    "text": "not moving."
+  },
+  {
+    "row": 3182,
+    "word": "inner",
+    "pos": "adjective",
+    "text": "inside."
+  },
+  {
+    "row": 3183,
+    "word": "ironic",
+    "pos": "adjective",
+    "text": "opposite of expected."
+  },
+  {
+    "row": 3184,
+    "word": "irregular",
+    "pos": "adjective",
+    "text": "uneven."
+  },
+  {
+    "row": 3187,
+    "word": "jargon",
+    "pos": "noun",
+    "text": "specialised language."
+  },
+  {
+    "row": 3190,
+    "word": "jittery",
+    "pos": "adjective",
+    "text": "nervous."
+  },
+  {
+    "row": 3193,
+    "word": "jollity",
+    "pos": "noun",
+    "text": "cheerfulness."
+  },
+  {
+    "row": 3194,
+    "word": "jolly",
+    "pos": "adjective",
+    "text": "happy."
+  },
+  {
+    "row": 3196,
+    "word": "jovial",
+    "pos": "adjective",
+    "text": "cheerful."
+  },
+  {
+    "row": 3197,
+    "word": "joyful",
+    "pos": "adjective",
+    "text": "full of joy."
+  },
+  {
+    "row": 3199,
+    "word": "judging",
+    "pos": "verb",
+    "text": "forming an opinion."
+  },
+  {
+    "row": 3203,
+    "word": "junior",
+    "pos": "adjective",
+    "text": "younger."
+  },
+  {
+    "row": 3204,
+    "word": "justice",
+    "pos": "noun",
+    "text": "fairness."
+  },
+  {
+    "row": 3214,
+    "word": "kinetic",
+    "pos": "adjective",
+    "text": "relating to motion."
+  },
+  {
+    "row": 3220,
+    "word": "knotty",
+    "pos": "adjective",
+    "text": "full of knots."
+  },
+  {
+    "row": 3221,
+    "word": "knowledge",
+    "pos": "noun",
+    "text": "what is known."
+  },
+  {
+    "row": 3223,
+    "word": "labour",
+    "pos": "noun",
+    "text": "work."
+  },
+  {
+    "row": 3225,
+    "word": "lacking",
+    "pos": "adjective",
+    "text": "missing."
+  },
+  {
+    "row": 3226,
+    "word": "ladder",
+    "pos": "noun",
+    "text": "steps."
+  },
+  {
+    "row": 3231,
+    "word": "larceny",
+    "pos": "noun",
+    "text": "theft."
+  },
+  {
+    "row": 3232,
+    "word": "latency",
+    "pos": "noun",
+    "text": "delay."
+  },
+  {
+    "row": 3233,
+    "word": "lateral",
+    "pos": "adjective",
+    "text": "sideways."
+  },
+  {
+    "row": 3234,
+    "word": "latest",
+    "pos": "adjective",
+    "text": "most recent."
+  },
+  {
+    "row": 3236,
+    "word": "laundry",
+    "pos": "noun",
+    "text": "clothes to wash."
+  },
+  {
+    "row": 3237,
+    "word": "lawful",
+    "pos": "adjective",
+    "text": "legal."
+  },
+  {
+    "row": 3238,
+    "word": "lawless",
+    "pos": "adjective",
+    "text": "without law."
+  },
+  {
+    "row": 3242,
+    "word": "leading",
+    "pos": "adjective",
+    "text": "main."
+  },
+  {
+    "row": 3243,
+    "word": "leafy",
+    "pos": "adjective",
+    "text": "full of leaves."
+  },
+  {
+    "row": 3245,
+    "word": "leather",
+    "pos": "noun",
+    "text": "animal skin."
+  },
+  {
+    "row": 3247,
+    "word": "legacy",
+    "pos": "noun",
+    "text": "something left behind."
+  },
+  {
+    "row": 3249,
+    "word": "legible",
+    "pos": "adjective",
+    "text": "clear to read."
+  },
+  {
+    "row": 3251,
+    "word": "length",
+    "pos": "noun",
+    "text": "how long."
+  },
+  {
+    "row": 3252,
+    "word": "lengthy",
+    "pos": "adjective",
+    "text": "very long."
+  },
+  {
+    "row": 3253,
+    "word": "lenient",
+    "pos": "adjective",
+    "text": "not strict."
+  },
+  {
+    "row": 3254,
+    "word": "lethal",
+    "pos": "adjective",
+    "text": "deadly."
+  },
+  {
+    "row": 3255,
+    "word": "lethargic",
+    "pos": "adjective",
+    "text": "tired."
+  },
+  {
+    "row": 3257,
+    "word": "liable",
+    "pos": "adjective",
+    "text": "likely."
+  },
+  {
+    "row": 3258,
+    "word": "liberal",
+    "pos": "adjective",
+    "text": "generous, tolerant."
+  },
+  {
+    "row": 3259,
+    "word": "liberty",
+    "pos": "noun",
+    "text": "freedom."
+  },
+  {
+    "row": 3265,
+    "word": "likely",
+    "pos": "adjective",
+    "text": "probable."
+  },
+  {
+    "row": 3266,
+    "word": "limelight",
+    "pos": "noun",
+    "text": "public attention."
+  },
+  {
+    "row": 3267,
+    "word": "lineage",
+    "pos": "noun",
+    "text": "family descent."
+  },
+  {
+    "row": 3269,
+    "word": "lingering",
+    "pos": "adjective",
+    "text": "lasting."
+  },
+  {
+    "row": 3273,
+    "word": "literal",
+    "pos": "adjective",
+    "text": "exact."
+  },
+  {
+    "row": 3274,
+    "word": "lively",
+    "pos": "adjective",
+    "text": "full of life."
+  },
+  {
+    "row": 3275,
+    "word": "livestock",
+    "pos": "noun",
+    "text": "farm animals."
+  },
+  {
+    "row": 3279,
+    "word": "logical",
+    "pos": "adjective",
+    "text": "reasonable."
+  },
+  {
+    "row": 3281,
+    "word": "lonely",
+    "pos": "adjective",
+    "text": "alone."
+  },
+  {
+    "row": 3283,
+    "word": "longitude",
+    "pos": "noun",
+    "text": "distance east/west."
+  },
+  {
+    "row": 3288,
+    "word": "lovely",
+    "pos": "adjective",
+    "text": "beautiful."
+  },
+  {
+    "row": 3289,
+    "word": "loving",
+    "pos": "adjective",
+    "text": "affectionate."
+  },
+  {
+    "row": 3290,
+    "word": "lubricant",
+    "pos": "noun",
+    "text": "Oil."
+  },
+  {
+    "row": 3291,
+    "word": "lucid",
+    "pos": "adjective",
+    "text": "clear."
+  },
+  {
+    "row": 3292,
+    "word": "lucky",
+    "pos": "adjective",
+    "text": "having luck."
+  },
+  {
+    "row": 3293,
+    "word": "luggage",
+    "pos": "noun",
+    "text": "bags."
+  },
+  {
+    "row": 3294,
+    "word": "lunacy",
+    "pos": "noun",
+    "text": "madness."
+  },
+  {
+    "row": 3295,
+    "word": "luxury",
+    "pos": "noun",
+    "text": "great comfort."
+  },
+  {
+    "row": 3296,
+    "word": "lyrical",
+    "pos": "adjective",
+    "text": "expressive."
+  },
+  {
+    "row": 3297,
+    "word": "magnitude",
+    "pos": "noun",
+    "text": "size."
+  },
+  {
+    "row": 3299,
+    "word": "majesty",
+    "pos": "noun",
+    "text": "great beauty."
+  },
+  {
+    "row": 3302,
+    "word": "malice",
+    "pos": "noun",
+    "text": "ill will."
+  },
+  {
+    "row": 3304,
+    "word": "malignant",
+    "pos": "adjective",
+    "text": "harmful."
+  },
+  {
+    "row": 3309,
+    "word": "mankind",
+    "pos": "noun",
+    "text": "human beings."
+  },
+  {
+    "row": 3317,
+    "word": "martial",
+    "pos": "adjective",
+    "text": "relating to war."
+  },
+  {
+    "row": 3318,
+    "word": "masculine",
+    "pos": "adjective",
+    "text": "like a man."
+  },
+  {
+    "row": 3319,
+    "word": "masonry",
+    "pos": "noun",
+    "text": "stonework."
+  },
+  {
+    "row": 3320,
+    "word": "massive",
+    "pos": "adjective",
+    "text": "very large."
+  },
+  {
+    "row": 3322,
+    "word": "mastery",
+    "pos": "noun",
+    "text": "great skill."
+  },
+  {
+    "row": 3326,
+    "word": "meagre",
+    "pos": "adjective",
+    "text": "scanty."
+  },
+  {
+    "row": 3330,
+    "word": "medical",
+    "pos": "adjective",
+    "text": "relating to medicine."
+  },
+  {
+    "row": 3331,
+    "word": "medicinal",
+    "pos": "adjective",
+    "text": "healing."
+  },
+  {
+    "row": 3339,
+    "word": "merely",
+    "pos": "adverb",
+    "text": "only."
+  },
+  {
+    "row": 3340,
+    "word": "metabolic",
+    "pos": "adjective",
+    "text": "relating to metabolism."
+  },
+  {
+    "row": 3344,
+    "word": "midday",
+    "pos": "noun",
+    "text": "noon."
+  },
+  {
+    "row": 3348,
+    "word": "mileage",
+    "pos": "noun",
+    "text": "distance in miles."
+  },
+  {
+    "row": 3351,
+    "word": "minimal",
+    "pos": "adjective",
+    "text": "very small."
+  },
+  {
+    "row": 3358,
+    "word": "modest",
+    "pos": "adjective",
+    "text": "having a."
+  },
+  {
+    "row": 3361,
+    "word": "molecular",
+    "pos": "adjective",
+    "text": "relating to molecules."
+  },
+  {
+    "row": 3362,
+    "word": "molten",
+    "pos": "adjective",
+    "text": "melted, especiall."
+  },
+  {
+    "row": 3373,
+    "word": "mostly",
+    "pos": "adverb",
+    "text": "mainly."
+  },
+  {
+    "row": 3381,
+    "word": "multicore",
+    "pos": "adjective",
+    "text": "having multiple cores."
+  },
+  {
+    "row": 3386,
+    "word": "musical",
+    "pos": "adjective",
+    "text": "relating to music."
+  },
+  {
+    "row": 3388,
+    "word": "mutable",
+    "pos": "adjective",
+    "text": "changeable."
+  },
+  {
+    "row": 3397,
+    "word": "naughty",
+    "pos": "adjective",
+    "text": "badly behaved."
+  },
+  {
+    "row": 3398,
+    "word": "nearby",
+    "pos": "adverb",
+    "text": "close."
+  },
+  {
+    "row": 3399,
+    "word": "nearly",
+    "pos": "adverb",
+    "text": "almost."
+  },
+  {
+    "row": 3403,
+    "word": "negligent",
+    "pos": "adjective",
+    "text": "careless."
+  },
+  {
+    "row": 3404,
+    "word": "nephew",
+    "pos": "noun",
+    "text": "a."
+  },
+  {
+    "row": 3405,
+    "word": "neutral",
+    "pos": "adjective",
+    "text": "not taking sides."
+  },
+  {
+    "row": 3408,
+    "word": "nicely",
+    "pos": "adverb",
+    "text": "well."
+  },
+  {
+    "row": 3415,
+    "word": "nocturnal",
+    "pos": "adjective",
+    "text": "active at night."
+  },
+  {
+    "row": 3418,
+    "word": "normal",
+    "pos": "adjective",
+    "text": "usual."
+  },
+  {
+    "row": 3424,
+    "word": "nuclear",
+    "pos": "adjective",
+    "text": "Relating to atoms."
+  },
+  {
+    "row": 3426,
+    "word": "numerical",
+    "pos": "adjective",
+    "text": "relating to numbers."
+  },
+  {
+    "row": 3428,
+    "word": "oblique",
+    "pos": "adjective",
+    "text": "slanted."
+  },
+  {
+    "row": 3429,
+    "word": "obvious",
+    "pos": "adjective",
+    "text": "clear."
+  },
+  {
+    "row": 3439,
+    "word": "onerous",
+    "pos": "adjective",
+    "text": "burdensome."
+  },
+  {
+    "row": 3440,
+    "word": "ongoing",
+    "pos": "adjective",
+    "text": "continuing."
+  },
+  {
+    "row": 3443,
+    "word": "opaque",
+    "pos": "adjective",
+    "text": "not transparent."
+  },
+  {
+    "row": 3446,
+    "word": "optimal",
+    "pos": "adjective",
+    "text": "best."
+  },
+  {
+    "row": 3507,
+    "word": "petite",
+    "pos": "adjective",
+    "text": "small and slender."
+  },
+  {
+    "row": 3554,
+    "word": "posture",
+    "pos": "noun",
+    "text": "body position."
+  },
+  {
+    "row": 3555,
+    "word": "potency",
+    "pos": "noun",
+    "text": "power."
+  },
+  {
+    "row": 3556,
+    "word": "potential",
+    "pos": "adjective",
+    "text": "possible."
+  },
+  {
+    "row": 3557,
+    "word": "poultry",
+    "pos": "noun",
+    "text": "farm birds."
+  },
+  {
+    "row": 3558,
+    "word": "poverty",
+    "pos": "noun",
+    "text": "being poor."
+  },
+  {
+    "row": 3559,
+    "word": "powder",
+    "pos": "noun",
+    "text": "fine dust."
+  },
+  {
+    "row": 3560,
+    "word": "practical",
+    "pos": "adjective",
+    "text": "useful."
+  },
+  {
+    "row": 3561,
+    "word": "pragmatic",
+    "pos": "adjective",
+    "text": "practical."
+  },
+  {
+    "row": 3565,
+    "word": "primacy",
+    "pos": "noun",
+    "text": "first position."
+  },
+  {
+    "row": 3566,
+    "word": "primary",
+    "pos": "adjective",
+    "text": "main."
+  },
+  {
+    "row": 3567,
+    "word": "principal",
+    "pos": "adjective",
+    "text": "main."
+  },
+  {
+    "row": 3570,
+    "word": "privacy",
+    "pos": "noun",
+    "text": "being private."
+  },
+  {
+    "row": 3574,
+    "word": "product",
+    "pos": "noun",
+    "text": "something made."
+  },
+  {
+    "row": 3578,
+    "word": "prominent",
+    "pos": "adjective",
+    "text": "well known."
+  },
+  {
+    "row": 3579,
+    "word": "prophetic",
+    "pos": "adjective",
+    "text": "predictive."
+  },
+  {
+    "row": 3580,
+    "word": "protected",
+    "pos": "adjective",
+    "text": "safe."
+  },
+  {
+    "row": 3582,
+    "word": "prudent",
+    "pos": "adjective",
+    "text": "wise."
+  },
+  {
+    "row": 3585,
+    "word": "puberty",
+    "pos": "noun",
+    "text": "maturing."
+  },
+  {
+    "row": 3589,
+    "word": "pulsive",
+    "pos": "adjective",
+    "text": "impelling."
+  },
+  {
+    "row": 3593,
+    "word": "pursuit",
+    "pos": "noun",
+    "text": "chasing."
+  },
+  {
+    "row": 3594,
+    "word": "putrid",
+    "pos": "adjective",
+    "text": "rotten."
+  },
+  {
+    "row": 3595,
+    "word": "pyjamas",
+    "pos": "noun",
+    "text": "sleepwear."
+  },
+  {
+    "row": 3601,
+    "word": "quartal",
+    "pos": "adjective",
+    "text": "But m."
+  },
+  {
+    "row": 3612,
+    "word": "rampant",
+    "pos": "adjective",
+    "text": "getting unchecked everywhere."
+  },
+  {
+    "row": 3613,
+    "word": "rancher",
+    "pos": "noun",
+    "text": "reader."
+  },
+  {
+    "row": 3626,
+    "word": "riches",
+    "pos": "noun",
+    "text": "material wealth. Good."
+  },
+  {
+    "row": 3638,
+    "word": "roughly",
+    "pos": "adverb",
+    "text": "approximately. Good."
+  },
+  {
+    "row": 3640,
+    "word": "rubbish",
+    "pos": "noun",
+    "text": "waste material. Good."
+  },
+  {
+    "row": 3642,
+    "word": "ruinous",
+    "pos": "adjective",
+    "text": "bringing ruin. Good."
+  },
+  {
+    "row": 3645,
+    "word": "runner",
+    "pos": "noun",
+    "text": "secretary."
+  },
+  {
+    "row": 3693,
+    "word": "secrecy",
+    "pos": "noun",
+    "text": "The."
+  },
+  {
+    "row": 3698,
+    "word": "seldom",
+    "pos": "adverb",
+    "text": "not often; rarely."
+  },
+  {
+    "row": 3732,
+    "word": "shortly",
+    "pos": "adverb",
+    "text": "soon; briefly."
+  },
+  {
+    "row": 3739,
+    "word": "silly",
+    "pos": "adjective",
+    "text": "foolish; not serious."
+  },
+  {
+    "row": 3741,
+    "word": "sincere",
+    "pos": "adjective",
+    "text": "genuine and honest."
+  },
+  {
+    "row": 3743,
+    "word": "single",
+    "pos": "adjective",
+    "text": "one only; unmarried."
+  },
+  {
+    "row": 3764,
+    "word": "soccer",
+    "pos": "noun",
+    "text": "association football."
+  },
+  {
+    "row": 3765,
+    "word": "social",
+    "pos": "adjective",
+    "text": "relating to society."
+  },
+  {
+    "row": 3769,
+    "word": "softly",
+    "pos": "adverb",
+    "text": "gently; quietly."
+  },
+  {
+    "row": 3771,
+    "word": "solely",
+    "pos": "adverb",
+    "text": "only; alone."
+  },
+  {
+    "row": 3772,
+    "word": "solemn",
+    "pos": "adjective",
+    "text": "serious and dignified."
+  },
+  {
+    "row": 3777,
+    "word": "sombre",
+    "pos": "adjective",
+    "text": "dark; gloomy."
+  },
+  {
+    "row": 3780,
+    "word": "soulful",
+    "pos": "adjective",
+    "text": "full of feeling."
+  },
+  {
+    "row": 3788,
+    "word": "sparse",
+    "pos": "adjective",
+    "text": "thinly scattered."
+  },
+  {
+    "row": 3789,
+    "word": "spatial",
+    "pos": "adjective",
+    "text": "relating to space."
+  },
+  {
+    "row": 3802,
+    "word": "talent",
+    "pos": "noun",
+    "text": "natural ability."
+  },
+  {
+    "row": 3810,
+    "word": "terrified",
+    "pos": "adjective",
+    "text": "greatly afraid."
+  },
+  {
+    "row": 3811,
+    "word": "terror",
+    "pos": "noun",
+    "text": "extreme fear."
+  },
+  {
+    "row": 3816,
+    "word": "thirsty",
+    "pos": "adjective",
+    "text": "needing to drink."
+  },
+  {
+    "row": 3822,
+    "word": "timber",
+    "pos": "noun",
+    "text": "wood for building."
+  },
+  {
+    "row": 3824,
+    "word": "timid",
+    "pos": "adjective",
+    "text": "fearful; shy."
+  },
+  {
+    "row": 3826,
+    "word": "tiny",
+    "pos": "adjective",
+    "text": "very small."
+  },
+  {
+    "row": 3835,
+    "word": "tough",
+    "pos": "adjective",
+    "text": "strong; difficult."
+  },
+  {
+    "row": 3838,
+    "word": "toxic",
+    "pos": "adjective",
+    "text": "poisonous."
+  },
+  {
+    "row": 3842,
+    "word": "tragic",
+    "pos": "adjective",
+    "text": "disastrous; very sad."
+  },
+  {
+    "row": 3846,
+    "word": "treasured",
+    "pos": "adjective",
+    "text": "cherished."
+  },
+  {
+    "row": 3847,
+    "word": "trivial",
+    "pos": "adjective",
+    "text": "unimportant."
+  },
+  {
+    "row": 3849,
+    "word": "truly",
+    "pos": "adverb",
+    "text": "really; genuinely."
+  },
+  {
+    "row": 3859,
+    "word": "twice",
+    "pos": "adverb",
+    "text": "two times."
+  },
+  {
+    "row": 3861,
+    "word": "twine",
+    "pos": "noun",
+    "text": "strong string."
+  },
+  {
+    "row": 3863,
+    "word": "typical",
+    "pos": "adjective",
+    "text": "representative; usual."
+  },
+  {
+    "row": 3867,
+    "word": "unfit",
+    "pos": "adjective",
+    "text": "not fit."
+  },
+  {
+    "row": 3870,
+    "word": "uplifting",
+    "pos": "adjective",
+    "text": "inspiring; elevating."
+  },
+  {
+    "row": 3872,
+    "word": "upward",
+    "pos": "adjective",
+    "text": "moving up."
+  },
+  {
+    "row": 3873,
+    "word": "upwards",
+    "pos": "adverb",
+    "text": "Up."
+  },
+  {
+    "row": 3875,
+    "word": "urgent",
+    "pos": "adjective",
+    "text": "requiring immediate action."
+  },
+  {
+    "row": 3876,
+    "word": "used",
+    "pos": "adjective",
+    "text": "not new; accustomed."
+  },
+  {
+    "row": 3880,
+    "word": "usual",
+    "pos": "adjective",
+    "text": "normal; ordinary."
+  },
+  {
+    "row": 3881,
+    "word": "vacant",
+    "pos": "adjective",
+    "text": "unoccupied; empty."
+  },
+  {
+    "row": 3882,
+    "word": "vague",
+    "pos": "adjective",
+    "text": "not clearly expressed."
+  },
+  {
+    "row": 3883,
+    "word": "vain",
+    "pos": "adjective",
+    "text": "excessively proud; futile."
+  },
+  {
+    "row": 3885,
+    "word": "valid",
+    "pos": "adjective",
+    "text": "sound; legally binding."
+  },
+  {
+    "row": 3888,
+    "word": "variety",
+    "pos": "noun",
+    "text": "diversity; a type."
+  },
+  {
+    "row": 3889,
+    "word": "various",
+    "pos": "adjective",
+    "text": "several; different."
+  },
+  {
+    "row": 3891,
+    "word": "vast",
+    "pos": "adjective",
+    "text": "very large."
+  },
+  {
+    "row": 3896,
+    "word": "verdant",
+    "pos": "adjective",
+    "text": "green with grass."
+  },
+  {
+    "row": 3905,
+    "word": "violent",
+    "pos": "adjective",
+    "text": "using force; intense."
+  },
+  {
+    "row": 3908,
+    "word": "virtual",
+    "pos": "adjective",
+    "text": "almost; simulated."
+  },
+  {
+    "row": 3913,
+    "word": "visual",
+    "pos": "adjective",
+    "text": "relating to sight."
+  },
+  {
+    "row": 3922,
+    "word": "waking",
+    "pos": "adjective",
+    "text": "not asleep."
+  },
+  {
+    "row": 3930,
+    "word": "weekend",
+    "pos": "noun",
+    "text": "Saturday and Sunday."
+  },
+  {
+    "row": 3934,
+    "word": "weighty",
+    "pos": "adjective",
+    "text": "heavy; important."
+  },
+  {
+    "row": 3935,
+    "word": "welfare",
+    "pos": "noun",
+    "text": "well-being; financial aid."
+  },
+  {
+    "row": 3941,
+    "word": "whole",
+    "pos": "adjective",
+    "text": "complete; unbroken."
+  },
+  {
+    "row": 3947,
+    "word": "wise",
+    "pos": "adjective",
+    "text": "having good judgment."
+  },
+  {
+    "row": 3948,
+    "word": "witty",
+    "pos": "adjective",
+    "text": "clever and amusing."
+  },
+  {
+    "row": 3955,
+    "word": "worn",
+    "pos": "adjective",
+    "text": "showing wear; tired."
+  },
+  {
+    "row": 3956,
+    "word": "worst",
+    "pos": "adjective",
+    "text": "most bad."
+  },
+  {
+    "row": 3965,
+    "word": "yours",
+    "pos": "pronoun",
+    "text": "belonging to you."
+  },
+  {
+    "row": 4003,
+    "word": "enormous",
+    "pos": "adjective",
+    "text": "very big; huge."
+  },
+  {
+    "row": 4039,
+    "word": "conservative",
+    "pos": "adjective",
+    "text": "preferring to."
+  },
+  {
+    "row": 4052,
+    "word": "absolutely",
+    "pos": "adverb",
+    "text": "completely and totally."
+  },
+  {
+    "row": 4096,
+    "word": "amusement",
+    "pos": "noun",
+    "text": "enjoyment or entertainment."
+  },
+  {
+    "row": 4116,
+    "word": "assistance",
+    "pos": "noun",
+    "text": "help or support."
+  },
+  {
+    "row": 4141,
+    "word": "breakable",
+    "pos": "adjective",
+    "text": "easily broken."
+  },
+  {
+    "row": 4161,
+    "word": "catastrophic",
+    "pos": "adjective",
+    "text": "disastrous."
+  },
+  {
+    "row": 4162,
+    "word": "categorical",
+    "pos": "adjective",
+    "text": "absolute, unconditional."
+  },
+  {
+    "row": 4173,
+    "word": "centrepiece",
+    "pos": "noun",
+    "text": "British spelling;."
+  },
+  {
+    "row": 4174,
+    "word": "certification",
+    "pos": "noun",
+    "text": "official proof."
+  },
+  {
+    "row": 4177,
+    "word": "chanceful",
+    "pos": "adjective",
+    "text": "full of chances."
+  },
+  {
+    "row": 4182,
+    "word": "charismatic",
+    "pos": "adjective",
+    "text": "having charisma."
+  },
+  {
+    "row": 4185,
+    "word": "chastity",
+    "pos": "noun",
+    "text": "being pure."
+  },
+  {
+    "row": 4186,
+    "word": "cheerful",
+    "pos": "adjective",
+    "text": "happy."
+  },
+  {
+    "row": 4187,
+    "word": "cheerless",
+    "pos": "adjective",
+    "text": "All okay."
+  },
+  {
+    "row": 4189,
+    "word": "chicanery",
+    "pos": "noun",
+    "text": "trickery."
+  },
+  {
+    "row": 4191,
+    "word": "chilliness",
+    "pos": "noun",
+    "text": "being cold."
+  },
+  {
+    "row": 4193,
+    "word": "chivalrous",
+    "pos": "adjective",
+    "text": "polite and brave."
+  },
+  {
+    "row": 4194,
+    "word": "choiceful",
+    "pos": "adjective",
+    "text": "Having many choices."
+  },
+  {
+    "row": 4201,
+    "word": "circuitous",
+    "pos": "adjective",
+    "text": "long and roundabout."
+  },
+  {
+    "row": 4202,
+    "word": "circulation",
+    "pos": "noun",
+    "text": "movement around."
+  },
+  {
+    "row": 4210,
+    "word": "clandestine",
+    "pos": "adjective",
+    "text": "secretive."
+  },
+  {
+    "row": 4213,
+    "word": "cleanliness",
+    "pos": "noun",
+    "text": "being clean."
+  },
+  {
+    "row": 4214,
+    "word": "clearness",
+    "pos": "noun",
+    "text": "being clear."
+  },
+  {
+    "row": 4226,
+    "word": "collapsible",
+    "pos": "adjective",
+    "text": "able to fold."
+  },
+  {
+    "row": 4227,
+    "word": "collectable",
+    "pos": "adjective",
+    "text": "worth collecting."
+  },
+  {
+    "row": 4228,
+    "word": "collection",
+    "pos": "noun",
+    "text": "things gathered together."
+  },
+  {
+    "row": 4229,
+    "word": "collective",
+    "pos": "adjective",
+    "text": "shared."
+  },
+  {
+    "row": 4230,
+    "word": "collegiate",
+    "pos": "adjective",
+    "text": "relating to college."
+  },
+  {
+    "row": 4233,
+    "word": "colouration",
+    "pos": "noun",
+    "text": "colouring."
+  },
+  {
+    "row": 4234,
+    "word": "colourless",
+    "pos": "adjective",
+    "text": "without colour."
+  },
+  {
+    "row": 4235,
+    "word": "combination",
+    "pos": "noun",
+    "text": "things combined."
+  },
+  {
+    "row": 4236,
+    "word": "combustible",
+    "pos": "adjective",
+    "text": "able to burn."
+  },
+  {
+    "row": 4237,
+    "word": "combustion",
+    "pos": "noun",
+    "text": "burning."
+  },
+  {
+    "row": 4241,
+    "word": "commensurate",
+    "pos": "adjective",
+    "text": "proportionate."
+  },
+  {
+    "row": 4244,
+    "word": "commercial",
+    "pos": "adjective",
+    "text": "relating to business."
+  },
+  {
+    "row": 4249,
+    "word": "communique",
+    "pos": "noun",
+    "text": "maybe."
+  },
+  {
+    "row": 4251,
+    "word": "comparable",
+    "pos": "adjective",
+    "text": "similar."
+  },
+  {
+    "row": 4252,
+    "word": "comparative",
+    "pos": "adjective",
+    "text": "relative."
+  },
+  {
+    "row": 4254,
+    "word": "compassionate",
+    "pos": "adjective",
+    "text": "kind."
+  },
+  {
+    "row": 4257,
+    "word": "compelling",
+    "pos": "adjective",
+    "text": "convincing."
+  },
+  {
+    "row": 4260,
+    "word": "competitive",
+    "pos": "adjective",
+    "text": "eager to win."
+  },
+  {
+    "row": 4263,
+    "word": "complacent",
+    "pos": "adjective",
+    "text": "self-satisfied and unconcerned."
+  },
+  {
+    "row": 4264,
+    "word": "completely",
+    "pos": "adverb",
+    "text": "totally; wholly."
+  },
+  {
+    "row": 4285,
+    "word": "concerning",
+    "pos": "preposition",
+    "text": "about; relating to."
+  },
+  {
+    "row": 4286,
+    "word": "concernment",
+    "pos": "noun",
+    "text": "importance or concern."
+  },
+  {
+    "row": 4299,
+    "word": "confidence",
+    "pos": "noun",
+    "text": "trust or self-assurance."
+  },
+  {
+    "row": 4337,
+    "word": "consultative",
+    "pos": "adjective",
+    "text": "advisory; providing consultation."
+  },
+  {
+    "row": 4341,
+    "word": "contemptible",
+    "pos": "adjective",
+    "text": "despicable; deserving contempt."
+  },
+  {
+    "row": 4346,
+    "word": "continuous",
+    "pos": "adjective",
+    "text": "without stopping; uninterrupted."
+  },
+  {
+    "row": 4360,
+    "word": "cooperation",
+    "pos": "noun",
+    "text": "working together."
+  },
+  {
+    "row": 4365,
+    "word": "correspondence",
+    "pos": "noun",
+    "text": "letters."
+  },
+  {
+    "row": 4366,
+    "word": "corrosion",
+    "pos": "noun",
+    "text": "rust."
+  },
+  {
+    "row": 4367,
+    "word": "corruption",
+    "pos": "noun",
+    "text": "dishonesty."
+  },
+  {
+    "row": 4368,
+    "word": "costliness",
+    "pos": "noun",
+    "text": "expensiveness."
+  },
+  {
+    "row": 4370,
+    "word": "counselling",
+    "pos": "noun",
+    "text": "advice."
+  },
+  {
+    "row": 4373,
+    "word": "countryside",
+    "pos": "noun",
+    "text": "rural land."
+  },
+  {
+    "row": 4374,
+    "word": "courageous",
+    "pos": "adjective",
+    "text": "brave."
+  },
+  {
+    "row": 4375,
+    "word": "courseware",
+    "pos": "noun",
+    "text": "educational material."
+  },
+  {
+    "row": 4376,
+    "word": "courteous",
+    "pos": "adjective",
+    "text": "polite."
+  },
+  {
+    "row": 4377,
+    "word": "cowardly",
+    "pos": "adjective",
+    "text": "afraid."
+  },
+  {
+    "row": 4378,
+    "word": "craftiness",
+    "pos": "noun",
+    "text": "cunning."
+  },
+  {
+    "row": 4379,
+    "word": "creation",
+    "pos": "noun",
+    "text": "making."
+  },
+  {
+    "row": 4380,
+    "word": "creative",
+    "pos": "adjective",
+    "text": "imaginative."
+  },
+  {
+    "row": 4381,
+    "word": "creativity",
+    "pos": "noun",
+    "text": "imagination."
+  },
+  {
+    "row": 4383,
+    "word": "credible",
+    "pos": "adjective",
+    "text": "believable."
+  },
+  {
+    "row": 4384,
+    "word": "creditworthy",
+    "pos": "adjective",
+    "text": "able to repay."
+  },
+  {
+    "row": 4385,
+    "word": "credulous",
+    "pos": "adjective",
+    "text": "gullible."
+  },
+  {
+    "row": 4387,
+    "word": "criticism",
+    "pos": "noun",
+    "text": "finding fault."
+  },
+  {
+    "row": 4389,
+    "word": "crystalline",
+    "pos": "adjective",
+    "text": "clear."
+  },
+  {
+    "row": 4393,
+    "word": "culpable",
+    "pos": "adjective",
+    "text": "guilty."
+  },
+  {
+    "row": 4395,
+    "word": "cultivation",
+    "pos": "noun",
+    "text": "farming."
+  },
+  {
+    "row": 4397,
+    "word": "currently",
+    "pos": "adverb",
+    "text": "Now."
+  },
+  {
+    "row": 4399,
+    "word": "customary",
+    "pos": "adjective",
+    "text": "usual."
+  },
+  {
+    "row": 4400,
+    "word": "cylindrical",
+    "pos": "adjective",
+    "text": "tube-shaped."
+  },
+  {
+    "row": 4405,
+    "word": "debtless",
+    "pos": "adjective",
+    "text": "without debt."
+  },
+  {
+    "row": 4408,
+    "word": "deception",
+    "pos": "noun",
+    "text": "trickery."
+  },
+  {
+    "row": 4409,
+    "word": "deceptional",
+    "pos": "adjective",
+    "text": "relating to deception."
+  },
+  {
+    "row": 4410,
+    "word": "deceptive",
+    "pos": "adjective",
+    "text": "misleading."
+  },
+  {
+    "row": 4411,
+    "word": "decisive",
+    "pos": "adjective",
+    "text": "firm."
+  },
+  {
+    "row": 4413,
+    "word": "declarative",
+    "pos": "adjective",
+    "text": "making a statement."
+  },
+  {
+    "row": 4414,
+    "word": "decorative",
+    "pos": "adjective",
+    "text": "ornamental."
+  },
+  {
+    "row": 4415,
+    "word": "deedless",
+    "pos": "adjective",
+    "text": "without deeds."
+  },
+  {
+    "row": 4416,
+    "word": "deepness",
+    "pos": "noun",
+    "text": "depth."
+  },
+  {
+    "row": 4417,
+    "word": "defeatist",
+    "pos": "adjective",
+    "text": "expecting failure."
+  },
+  {
+    "row": 4418,
+    "word": "defective",
+    "pos": "adjective",
+    "text": "faulty."
+  },
+  {
+    "row": 4420,
+    "word": "defensive",
+    "pos": "adjective",
+    "text": "protecting."
+  },
+  {
+    "row": 4422,
+    "word": "definitive",
+    "pos": "adjective",
+    "text": "final."
+  },
+  {
+    "row": 4426,
+    "word": "degradation",
+    "pos": "noun",
+    "text": "downgrading."
+  },
+  {
+    "row": 4429,
+    "word": "dehydration",
+    "pos": "noun",
+    "text": "loss of water."
+  },
+  {
+    "row": 4431,
+    "word": "deliberate",
+    "pos": "adjective",
+    "text": "intentional."
+  },
+  {
+    "row": 4433,
+    "word": "delicate",
+    "pos": "adjective",
+    "text": "easily broken."
+  },
+  {
+    "row": 4434,
+    "word": "delicious",
+    "pos": "adjective",
+    "text": "tasty."
+  },
+  {
+    "row": 4435,
+    "word": "deliciousness",
+    "pos": "noun",
+    "text": "being delicious."
+  },
+  {
+    "row": 4436,
+    "word": "delightful",
+    "pos": "adjective",
+    "text": "charming."
+  },
+  {
+    "row": 4437,
+    "word": "delightfulness",
+    "pos": "noun",
+    "text": "being delightful."
+  },
+  {
+    "row": 4438,
+    "word": "deliverance",
+    "pos": "noun",
+    "text": "rescue."
+  },
+  {
+    "row": 4443,
+    "word": "demeanour",
+    "pos": "noun",
+    "text": "behaviour."
+  },
+  {
+    "row": 4447,
+    "word": "democratic",
+    "pos": "adjective",
+    "text": "based on democracy."
+  },
+  {
+    "row": 4452,
+    "word": "dependable",
+    "pos": "adjective",
+    "text": "reliable."
+  },
+  {
+    "row": 4455,
+    "word": "depletion",
+    "pos": "noun",
+    "text": "using up."
+  },
+  {
+    "row": 4457,
+    "word": "deportation",
+    "pos": "noun",
+    "text": "expulsion."
+  },
+  {
+    "row": 4470,
+    "word": "derogatory",
+    "pos": "adjective",
+    "text": "insulting or disparaging."
+  },
+  {
+    "row": 4480,
+    "word": "desirable",
+    "pos": "adjective",
+    "text": "worth wanting; attractive."
+  },
+  {
+    "row": 4519,
+    "word": "dimensional",
+    "pos": "adjective",
+    "text": "relating to dimensions."
+  },
+  {
+    "row": 4558,
+    "word": "disobedient",
+    "pos": "adjective",
+    "text": "not obeying."
+  },
+  {
+    "row": 4559,
+    "word": "disorder",
+    "pos": "noun",
+    "text": "confusion."
+  },
+  {
+    "row": 4562,
+    "word": "dispensable",
+    "pos": "adjective",
+    "text": "not needed."
+  },
+  {
+    "row": 4565,
+    "word": "dispersion",
+    "pos": "noun",
+    "text": "scattering."
+  },
+  {
+    "row": 4568,
+    "word": "displeasure",
+    "pos": "noun",
+    "text": "being annoyed."
+  },
+  {
+    "row": 4569,
+    "word": "disposable",
+    "pos": "adjective",
+    "text": "throwaway."
+  },
+  {
+    "row": 4572,
+    "word": "disrespect",
+    "pos": "noun",
+    "text": "rudeness."
+  },
+  {
+    "row": 4573,
+    "word": "disruption",
+    "pos": "noun",
+    "text": "interruption."
+  },
+  {
+    "row": 4574,
+    "word": "dissatisfied",
+    "pos": "adjective",
+    "text": "not pleased."
+  },
+  {
+    "row": 4577,
+    "word": "dissipation",
+    "pos": "noun",
+    "text": "scattering, waste."
+  },
+  {
+    "row": 4578,
+    "word": "distinct",
+    "pos": "adjective",
+    "text": "clear."
+  },
+  {
+    "row": 4580,
+    "word": "distinctive",
+    "pos": "adjective",
+    "text": "unique."
+  },
+  {
+    "row": 4582,
+    "word": "distress",
+    "pos": "noun",
+    "text": "pain."
+  },
+  {
+    "row": 4584,
+    "word": "divergence",
+    "pos": "noun",
+    "text": "going apart."
+  },
+  {
+    "row": 4585,
+    "word": "diversification",
+    "pos": "noun",
+    "text": "making diverse."
+  },
+  {
+    "row": 4589,
+    "word": "divisive",
+    "pos": "adjective",
+    "text": "causing disagreement."
+  },
+  {
+    "row": 4591,
+    "word": "documentary",
+    "pos": "adjective",
+    "text": "factual."
+  },
+  {
+    "row": 4592,
+    "word": "documentation",
+    "pos": "noun",
+    "text": "papers."
+  },
+  {
+    "row": 4595,
+    "word": "doubtable",
+    "pos": "adjective",
+    "text": "uncertain."
+  },
+  {
+    "row": 4601,
+    "word": "dreadful",
+    "pos": "adjective",
+    "text": "terrible."
+  },
+  {
+    "row": 4602,
+    "word": "dreadless",
+    "pos": "adjective",
+    "text": "without dread."
+  },
+  {
+    "row": 4604,
+    "word": "drinkable",
+    "pos": "adjective",
+    "text": "safe to drink."
+  },
+  {
+    "row": 4606,
+    "word": "dubious",
+    "pos": "adjective",
+    "text": "doubtful."
+  },
+  {
+    "row": 4607,
+    "word": "dullness",
+    "pos": "noun",
+    "text": "boredom."
+  },
+  {
+    "row": 4608,
+    "word": "duration",
+    "pos": "noun",
+    "text": "length of time."
+  },
+  {
+    "row": 4609,
+    "word": "dynamism",
+    "pos": "noun",
+    "text": "energy."
+  },
+  {
+    "row": 4610,
+    "word": "earthbound",
+    "pos": "adjective",
+    "text": "limited to earth."
+  },
+  {
+    "row": 4612,
+    "word": "easeless",
+    "pos": "adjective",
+    "text": "continuous."
+  },
+  {
+    "row": 4614,
+    "word": "eccentricity",
+    "pos": "noun",
+    "text": "strangeness."
+  },
+  {
+    "row": 4615,
+    "word": "ecological",
+    "pos": "adjective",
+    "text": "relating to ecology."
+  },
+  {
+    "row": 4616,
+    "word": "economical",
+    "pos": "adjective",
+    "text": "cheap to run."
+  },
+  {
+    "row": 4617,
+    "word": "edgewise",
+    "pos": "adverb",
+    "text": "sideways."
+  },
+  {
+    "row": 4618,
+    "word": "effective",
+    "pos": "adjective",
+    "text": "working."
+  },
+  {
+    "row": 4620,
+    "word": "efficiency",
+    "pos": "noun",
+    "text": "productivity."
+  },
+  {
+    "row": 4621,
+    "word": "effortful",
+    "pos": "adjective",
+    "text": "requiring effort."
+  },
+  {
+    "row": 4622,
+    "word": "effortless",
+    "pos": "adjective",
+    "text": "easy."
+  },
+  {
+    "row": 4624,
+    "word": "electrical",
+    "pos": "adjective",
+    "text": "relating to electricity."
+  },
+  {
+    "row": 4625,
+    "word": "electricity",
+    "pos": "noun",
+    "text": "power."
+  },
+  {
+    "row": 4628,
+    "word": "electronic",
+    "pos": "adjective",
+    "text": "relating to electronics."
+  },
+  {
+    "row": 4629,
+    "word": "elevation",
+    "pos": "noun",
+    "text": "height."
+  },
+  {
+    "row": 4632,
+    "word": "embarrassed",
+    "pos": "adjective",
+    "text": "Shy."
+  },
+  {
+    "row": 4633,
+    "word": "embarrassing",
+    "pos": "adjective",
+    "text": "causing embarrassment."
+  },
+  {
+    "row": 4638,
+    "word": "employment",
+    "pos": "noun",
+    "text": "work."
+  },
+  {
+    "row": 4639,
+    "word": "emptiness",
+    "pos": "noun",
+    "text": "being empty."
+  },
+  {
+    "row": 4642,
+    "word": "encircling",
+    "pos": "adjective",
+    "text": "surrounding."
+  },
+  {
+    "row": 4643,
+    "word": "encouraging",
+    "pos": "adjective",
+    "text": "giving hope."
+  },
+  {
+    "row": 4645,
+    "word": "endorsement",
+    "pos": "noun",
+    "text": "support."
+  },
+  {
+    "row": 4650,
+    "word": "enhancement",
+    "pos": "noun",
+    "text": "improvement."
+  },
+  {
+    "row": 4652,
+    "word": "enjoyment",
+    "pos": "noun",
+    "text": "pleasure."
+  },
+  {
+    "row": 4653,
+    "word": "enlightenment",
+    "pos": "noun",
+    "text": "understanding."
+  },
+  {
+    "row": 4655,
+    "word": "entertaining",
+    "pos": "adjective",
+    "text": "amusing."
+  },
+  {
+    "row": 4656,
+    "word": "entertainment",
+    "pos": "noun",
+    "text": "amusement."
+  },
+  {
+    "row": 4657,
+    "word": "enthusiasm",
+    "pos": "noun",
+    "text": "excitement."
+  },
+  {
+    "row": 4665,
+    "word": "equitable",
+    "pos": "adjective",
+    "text": "fair and impartial."
+  },
+  {
+    "row": 4748,
+    "word": "fearless",
+    "pos": "adjective",
+    "text": "without fear; brave."
+  },
+  {
+    "row": 4766,
+    "word": "flavourless",
+    "pos": "adjective",
+    "text": "lacking flavour."
+  },
+  {
+    "row": 4767,
+    "word": "flawless",
+    "pos": "adjective",
+    "text": "without any imperfections."
+  },
+  {
+    "row": 4769,
+    "word": "flightless",
+    "pos": "adjective",
+    "text": "unable to fly."
+  },
+  {
+    "row": 4774,
+    "word": "forceful",
+    "pos": "adjective",
+    "text": "strong and assertive."
+  },
+  {
+    "row": 4792,
+    "word": "fortunate",
+    "pos": "adjective",
+    "text": "lucky."
+  },
+  {
+    "row": 4796,
+    "word": "foursquare",
+    "pos": "adjective",
+    "text": "firm and steady."
+  },
+  {
+    "row": 4803,
+    "word": "frequently",
+    "pos": "adverb",
+    "text": "often."
+  },
+  {
+    "row": 4806,
+    "word": "frightened",
+    "pos": "adjective",
+    "text": "afraid or scared."
+  },
+  {
+    "row": 4825,
+    "word": "genuinely",
+    "pos": "adverb",
+    "text": "truly or honestly."
+  },
+  {
+    "row": 4826,
+    "word": "geographic",
+    "pos": "adjective",
+    "text": "relating to geography."
+  },
+  {
+    "row": 4832,
+    "word": "glorious",
+    "pos": "adjective",
+    "text": "splendid and impressive."
+  },
+  {
+    "row": 4840,
+    "word": "guiltless",
+    "pos": "adjective",
+    "text": "innocent."
+  },
+  {
+    "row": 4846,
+    "word": "hazardous",
+    "pos": "adjective",
+    "text": "dangerous."
+  },
+  {
+    "row": 4847,
+    "word": "healthful",
+    "pos": "adjective",
+    "text": "good for health."
+  },
+  {
+    "row": 4860,
+    "word": "hopeless",
+    "pos": "adjective",
+    "text": "without hope. complete."
+  },
+  {
+    "row": 4862,
+    "word": "horrible",
+    "pos": "adjective",
+    "text": "terrible. Fine;."
+  },
+  {
+    "row": 4975,
+    "word": "indoors",
+    "pos": "adverb",
+    "text": "inside a building."
+  },
+  {
+    "row": 4977,
+    "word": "industrious",
+    "pos": "adjective",
+    "text": "hardworking and diligent."
+  },
+  {
+    "row": 4989,
+    "word": "infinite",
+    "pos": "adjective",
+    "text": "endless; without limits."
+  },
+  {
+    "row": 5151,
+    "word": "loquacious",
+    "pos": "adjective",
+    "text": "Very talkative."
+  },
+  {
+    "row": 5237,
+    "word": "misbehaviour",
+    "pos": "noun",
+    "text": "bad behaviour."
+  },
+  {
+    "row": 5347,
+    "word": "oftentimes",
+    "pos": "adverb",
+    "text": "often; frequently."
+  },
+  {
+    "row": 5350,
+    "word": "omniscient",
+    "pos": "adjective",
+    "text": "knowing everything."
+  },
+  {
+    "row": 5374,
+    "word": "organismal",
+    "pos": "adjective",
+    "text": "relating to organisms."
+  },
+  {
+    "row": 5400,
+    "word": "overbearing",
+    "pos": "adjective",
+    "text": "domineering and forceful."
+  },
+  {
+    "row": 5406,
+    "word": "painless",
+    "pos": "adjective",
+    "text": "without pain."
+  },
+  {
+    "row": 5436,
+    "word": "pentagonal",
+    "pos": "adjective",
+    "text": "having five sides."
+  },
+  {
+    "row": 5437,
+    "word": "penultimate",
+    "pos": "adjective",
+    "text": "second last."
+  },
+  {
+    "row": 5446,
+    "word": "perilous",
+    "pos": "adjective",
+    "text": "dangerous."
+  },
+  {
+    "row": 5453,
+    "word": "permissible",
+    "pos": "adjective",
+    "text": "allowed or permitted."
+  },
+  {
+    "row": 5467,
+    "word": "phenomenal",
+    "pos": "adjective",
+    "text": "remarkable or extraordinary."
+  },
+  {
+    "row": 5484,
+    "word": "planetary",
+    "pos": "adjective",
+    "text": "relating to planets."
+  },
+  {
+    "row": 5489,
+    "word": "plateaux",
+    "pos": "noun",
+    "text": "broad flat highlands."
+  },
+  {
+    "row": 5494,
+    "word": "pleasant",
+    "pos": "adjective",
+    "text": "enjoyable or nice."
+  },
+  {
+    "row": 5527,
+    "word": "posterity",
+    "pos": "noun",
+    "text": "future generations."
+  },
+  {
+    "row": 5528,
+    "word": "postmeridian",
+    "pos": "adjective",
+    "text": "after noon."
+  },
+  {
+    "row": 5539,
+    "word": "precise",
+    "pos": "adjective",
+    "text": "exact and accurate."
+  },
+  {
+    "row": 5547,
+    "word": "prenatal",
+    "pos": "adjective",
+    "text": "before birth."
+  },
+  {
+    "row": 5555,
+    "word": "prevalent",
+    "pos": "adjective",
+    "text": "widespread or common."
+  },
+  {
+    "row": 5612,
+    "word": "radiational",
+    "pos": "adjective",
+    "text": "relating to radiation."
+  },
+  {
+    "row": 5666,
+    "word": "relativeal",
+    "pos": "adjective",
+    "text": "relating to relatives."
+  },
+  {
+    "row": 5667,
+    "word": "relatives",
+    "pos": "noun",
+    "text": "family members."
+  },
+  {
+    "row": 5668,
+    "word": "relaxed",
+    "pos": "adjective",
+    "text": "free from tension."
+  },
+  {
+    "row": 5673,
+    "word": "religious",
+    "pos": "adjective",
+    "text": "relating to religion."
+  },
+  {
+    "row": 5676,
+    "word": "reluctance",
+    "pos": "noun",
+    "text": "unwillingness or disinclination."
+  },
+  {
+    "row": 5677,
+    "word": "reluctant",
+    "pos": "adjective",
+    "text": "unwilling and hesitant."
+  },
+  {
+    "row": 5688,
+    "word": "reporter",
+    "pos": "noun",
+    "text": "resident."
+  },
+  {
+    "row": 5692,
+    "word": "repulsive",
+    "pos": "adjective",
+    "text": "causing intense disgust."
+  },
+  {
+    "row": 5698,
+    "word": "resident",
+    "pos": "noun",
+    "text": "A."
+  },
+  {
+    "row": 5700,
+    "word": "resistant",
+    "pos": "adjective",
+    "text": "offering resistance."
+  },
+  {
+    "row": 5712,
+    "word": "retrograde",
+    "pos": "adjective",
+    "text": "going back; receding."
+  },
+  {
+    "row": 5716,
+    "word": "reviewer",
+    "pos": "noun",
+    "text": "ruler."
+  },
+  {
+    "row": 5717,
+    "word": "revisional",
+    "pos": "adjective",
+    "text": "relating to revision."
+  },
+  {
+    "row": 5718,
+    "word": "rewarding",
+    "pos": "adjective",
+    "text": "giving satisfaction."
+  },
+  {
+    "row": 5719,
+    "word": "rhetorical",
+    "pos": "adjective",
+    "text": "relating to rhetoric."
+  },
+  {
+    "row": 5720,
+    "word": "rhythmical",
+    "pos": "adjective",
+    "text": "having rhythm."
+  },
+  {
+    "row": 5726,
+    "word": "romantic",
+    "pos": "adjective",
+    "text": "inclined toward romance."
+  },
+  {
+    "row": 5728,
+    "word": "rotational",
+    "pos": "adjective",
+    "text": "relating to rotation."
+  },
+  {
+    "row": 5730,
+    "word": "ruthless",
+    "pos": "adjective",
+    "text": "having no pity."
+  },
+  {
+    "row": 5731,
+    "word": "sacrificial",
+    "pos": "adjective",
+    "text": "relating to sacrifice."
+  },
+  {
+    "row": 5733,
+    "word": "salesmanship",
+    "pos": "noun",
+    "text": "skill in selling."
+  },
+  {
+    "row": 5745,
+    "word": "scalding",
+    "pos": "adjective",
+    "text": "very hot."
+  },
+  {
+    "row": 5746,
+    "word": "scholarly",
+    "pos": "adjective",
+    "text": "showing great learning."
+  },
+  {
+    "row": 5747,
+    "word": "scientific",
+    "pos": "adjective",
+    "text": "relating to science."
+  },
+  {
+    "row": 5748,
+    "word": "scientifical",
+    "pos": "adjective",
+    "text": "scientific."
+  },
+  {
+    "row": 5754,
+    "word": "seamless",
+    "pos": "adjective",
+    "text": "without seams."
+  },
+  {
+    "row": 5756,
+    "word": "secondary",
+    "pos": "adjective",
+    "text": "less important than."
+  },
+  {
+    "row": 5758,
+    "word": "secretary",
+    "pos": "noun",
+    "text": "definitely incorrect."
+  },
+  {
+    "row": 5767,
+    "word": "selective",
+    "pos": "adjective",
+    "text": "Choosing carefully fine."
+  },
+  {
+    "row": 5792,
+    "word": "significant",
+    "pos": "adjective",
+    "text": "Important; meaningful fine."
+  },
+  {
+    "row": 5799,
+    "word": "simplistic",
+    "pos": "adjective",
+    "text": "Oversimplified fine."
+  },
+  {
+    "row": 5800,
+    "word": "sinister",
+    "pos": "adjective",
+    "text": "Threatening evil fine."
+  },
+  {
+    "row": 5805,
+    "word": "skateboarding",
+    "pos": "noun",
+    "text": "Skate."
+  },
+  {
+    "row": 5812,
+    "word": "sluggish",
+    "pos": "adjective",
+    "text": "Slow-moving; inactive fine."
+  },
+  {
+    "row": 5822,
+    "word": "software",
+    "pos": "noun",
+    "text": "Computer programs fine."
+  },
+  {
+    "row": 5829,
+    "word": "sophisticated",
+    "pos": "adjective",
+    "text": "Complex; worldly fine."
+  },
+  {
+    "row": 5831,
+    "word": "soulless",
+    "pos": "adjective",
+    "text": "Lacking emotion fine."
+  },
+  {
+    "row": 5836,
+    "word": "specifical",
+    "pos": "adjective",
+    "text": "Specific fine."
+  },
+  {
+    "row": 5839,
+    "word": "spellbound",
+    "pos": "adjective",
+    "text": "Entranced fine."
+  },
+  {
+    "row": 5841,
+    "word": "spirited",
+    "pos": "adjective",
+    "text": "Lively; animated fine."
+  },
+  {
+    "row": 5842,
+    "word": "spiteful",
+    "pos": "adjective",
+    "text": "Malicious fine."
+  },
+  {
+    "row": 5848,
+    "word": "sporadic",
+    "pos": "adjective",
+    "text": "Occurring irregularly fine."
+  },
+  {
+    "row": 5856,
+    "word": "talented",
+    "pos": "adjective",
+    "text": "Having talent fine."
+  },
+  {
+    "row": 5896,
+    "word": "underneath",
+    "pos": "preposition",
+    "text": "beneath; below."
+  },
+  {
+    "row": 5907,
+    "word": "unhurried",
+    "pos": "adjective",
+    "text": "not hurried; leisurely."
+  },
+  {
+    "row": 5920,
+    "word": "unlocked",
+    "pos": "adjective",
+    "text": "not locked."
+  },
+  {
+    "row": 5926,
+    "word": "unsafe",
+    "pos": "adjective",
+    "text": "not safe; dangerous."
+  },
+  {
+    "row": 5932,
+    "word": "unwell",
+    "pos": "adjective",
+    "text": "ill or sick."
+  },
+  {
+    "row": 5960,
+    "word": "wonderful",
+    "pos": "adjective",
+    "text": "very good; amazing."
+  },
+  {
+    "row": 5962,
+    "word": "worthless",
+    "pos": "adjective",
+    "text": "without value."
+  },
+  {
+    "row": 5976,
+    "word": "breakable",
+    "pos": "adjective",
+    "text": "easily broken."
+  },
+  {
+    "row": 5978,
+    "word": "comparable",
+    "pos": "adjective",
+    "text": "similar."
+  },
+  {
+    "row": 5979,
+    "word": "competitive",
+    "pos": "adjective",
+    "text": "eager to win."
+  },
+  {
+    "row": 6002,
+    "word": "advantageous",
+    "pos": "adjective",
+    "text": "helpful."
+  },
+  {
+    "row": 6005,
+    "word": "construction",
+    "pos": "noun",
+    "text": "building."
+  },
+  {
+    "row": 6006,
+    "word": "contractible",
+    "pos": "adjective",
+    "text": "able to contract."
+  },
+  {
+    "row": 6008,
+    "word": "contradictory",
+    "pos": "adjective",
+    "text": "inconsistent."
+  },
+  {
+    "row": 6010,
+    "word": "disadvantageous",
+    "pos": "adjective",
+    "text": "not helpful."
+  },
+  {
+    "row": 6012,
+    "word": "disagreeable",
+    "pos": "adjective",
+    "text": "unpleasant."
+  },
+  {
+    "row": 6017,
+    "word": "displacement",
+    "pos": "noun",
+    "text": "Being displaced."
+  },
+  {
+    "row": 6018,
+    "word": "disproportionate",
+    "pos": "adjective",
+    "text": "too much."
+  },
+  {
+    "row": 6019,
+    "word": "disrespectful",
+    "pos": "adjective",
+    "text": "rude."
+  },
+  {
+    "row": 6020,
+    "word": "dissemination",
+    "pos": "noun",
+    "text": "spreading widely."
+  },
+  {
+    "row": 6022,
+    "word": "distinctiveness",
+    "pos": "noun",
+    "text": "being distinctive (circular)."
+  },
+  {
+    "row": 6023,
+    "word": "distinguishability",
+    "pos": "noun",
+    "text": "being distinguishable (circular)."
+  },
+  {
+    "row": 6024,
+    "word": "distraction",
+    "pos": "noun",
+    "text": "something that distracts."
+  },
+  {
+    "row": 6028,
+    "word": "impartiality",
+    "pos": "noun",
+    "text": "fairness."
+  },
+  {
+    "row": 6034,
+    "word": "inadmissible",
+    "pos": "adjective",
+    "text": "not allowed (clear)."
+  },
+  {
+    "row": 6035,
+    "word": "inadvisable",
+    "pos": "adjective",
+    "text": "not wise (clear)."
+  },
+  {
+    "row": 6037,
+    "word": "inappropriate",
+    "pos": "adjective",
+    "text": "not suitable (clear)."
+  },
+  {
+    "row": 6038,
+    "word": "incompatible",
+    "pos": "adjective",
+    "text": "not matching (clear)."
+  },
+  {
+    "row": 6040,
+    "word": "inconclusive",
+    "pos": "adjective",
+    "text": "not decisive (clear)."
+  },
+  {
+    "row": 6041,
+    "word": "inconspicuous",
+    "pos": "adjective",
+    "text": "not noticeable (clear)."
+  },
+  {
+    "row": 6042,
+    "word": "increasingly",
+    "pos": "adverb",
+    "text": "more and more."
+  },
+  {
+    "row": 6043,
+    "word": "indeterminate",
+    "pos": "adjective",
+    "text": "not fixed (clear)."
+  },
+  {
+    "row": 6044,
+    "word": "indiscriminate",
+    "pos": "adjective",
+    "text": "without care (clear)."
+  },
+  {
+    "row": 6045,
+    "word": "indispensable",
+    "pos": "adjective",
+    "text": "essential (clear)."
+  },
+  {
+    "row": 6047,
+    "word": "infrastructure",
+    "pos": "noun",
+    "text": "basic systems (clear)."
+  },
+  {
+    "row": 6048,
+    "word": "instantaneous",
+    "pos": "adjective",
+    "text": "instant (clear)."
+  },
+  {
+    "row": 6051,
+    "word": "intermediate",
+    "pos": "adjective",
+    "text": "middle (clear)."
+  },
+  {
+    "row": 6055,
+    "word": "intervention",
+    "pos": "noun",
+    "text": "interfering (clear)."
+  },
+  {
+    "row": 6056,
+    "word": "intimidation",
+    "pos": "noun",
+    "text": "frightening (clear)."
+  },
+  {
+    "row": 6060,
+    "word": "jurisdiction",
+    "pos": "noun",
+    "text": "legal power."
+  },
+  {
+    "row": 6061,
+    "word": "manipulation",
+    "pos": "noun",
+    "text": "controlling."
+  },
+  {
+    "row": 6062,
+    "word": "miscellaneous",
+    "pos": "adjective",
+    "text": "various."
+  },
+  {
+    "row": 6065,
+    "word": "nevertheless",
+    "pos": "adverb",
+    "text": "however."
+  },
+  {
+    "row": 6067,
+    "word": "occasionally",
+    "pos": "adverb",
+    "text": "sometimes."
+  },
+  {
+    "row": 6069,
+    "word": "ornamentation",
+    "pos": "noun",
+    "text": "decoration."
+  },
+  {
+    "row": 6070,
+    "word": "ostentatious",
+    "pos": "adjective",
+    "text": "showy."
+  },
+  {
+    "row": 6071,
+    "word": "outrageous",
+    "pos": "adjective",
+    "text": "shocking."
+  },
+  {
+    "row": 6072,
+    "word": "parliamentary",
+    "pos": "adjective",
+    "text": "relating to parliament."
+  },
+  {
+    "row": 6073,
+    "word": "particularly",
+    "pos": "adverb",
+    "text": "especially."
+  },
+  {
+    "row": 6074,
+    "word": "powerlessness",
+    "pos": "noun",
+    "text": "without power."
+  },
+  {
+    "row": 6075,
+    "word": "precarious",
+    "pos": "adjective",
+    "text": "uncertain."
+  },
+  {
+    "row": 6076,
+    "word": "precautional",
+    "pos": "adjective",
+    "text": "as a precaution."
+  },
+  {
+    "row": 6079,
+    "word": "preferential",
+    "pos": "adjective",
+    "text": "favoured."
+  },
+  {
+    "row": 6080,
+    "word": "preoccupation",
+    "pos": "noun",
+    "text": "absorption."
+  },
+  {
+    "row": 6081,
+    "word": "preparation",
+    "pos": "noun",
+    "text": "getting ready."
+  },
+  {
+    "row": 6084,
+    "word": "presentation",
+    "pos": "noun",
+    "text": "showing."
+  },
+  {
+    "row": 6085,
+    "word": "prestigious",
+    "pos": "adjective",
+    "text": "respected."
+  },
+  {
+    "row": 6086,
+    "word": "presumable",
+    "pos": "adjective",
+    "text": "likely."
+  },
+  {
+    "row": 6089,
+    "word": "previously",
+    "pos": "adverb",
+    "text": "before."
+  },
+  {
+    "row": 6090,
+    "word": "profitability",
+    "pos": "noun",
+    "text": "being profitable."
+  },
+  {
+    "row": 6091,
+    "word": "proliferation",
+    "pos": "noun",
+    "text": "rapid growth."
+  },
+  {
+    "row": 6092,
+    "word": "proportionate",
+    "pos": "adjective",
+    "text": "proper."
+  },
+  {
+    "row": 6095,
+    "word": "purification",
+    "pos": "noun",
+    "text": "making pure."
+  },
+  {
+    "row": 6097,
+    "word": "rambunctious",
+    "pos": "adjective",
+    "text": "boisterous and undisciplined."
+  },
+  {
+    "row": 6103,
+    "word": "reasonable",
+    "pos": "adjective",
+    "text": "sensible and fair."
+  },
+  {
+    "row": 6109,
+    "word": "recognitional",
+    "pos": "adjective",
+    "text": "relating to recognition."
+  },
+  {
+    "row": 6116,
+    "word": "recreational",
+    "pos": "adjective",
+    "text": "relating to recreation."
+  },
+  {
+    "row": 6120,
+    "word": "refractory",
+    "pos": "adjective",
+    "text": "stubborn; unmanageable."
+  },
+  {
+    "row": 6121,
+    "word": "refreshment",
+    "pos": "noun",
+    "text": "food and drink."
+  },
+  {
+    "row": 6126,
+    "word": "regulatory",
+    "pos": "adjective",
+    "text": "serving to regulate."
+  },
+  {
+    "row": 6137,
+    "word": "repetitional",
+    "pos": "adjective",
+    "text": "relating to repetition."
+  },
+  {
+    "row": 6141,
+    "word": "representational",
+    "pos": "adjective",
+    "text": "relating to representation."
+  },
+  {
+    "row": 6145,
+    "word": "reputational",
+    "pos": "adjective",
+    "text": "relating to reputation."
+  },
+  {
+    "row": 6163,
+    "word": "satisfactory",
+    "pos": "adjective",
+    "text": "good enough."
+  },
+  {
+    "row": 6168,
+    "word": "unacceptable",
+    "pos": "adjective",
+    "text": "not acceptable."
+  },
+  {
+    "row": 6169,
+    "word": "unadventurous",
+    "pos": "adjective",
+    "text": "not adventurous."
+  },
+  {
+    "row": 6170,
+    "word": "unavailable",
+    "pos": "adjective",
+    "text": "not available."
+  },
+  {
+    "row": 6172,
+    "word": "uncomfortable",
+    "pos": "adjective",
+    "text": "not comfortable."
+  },
+  {
+    "row": 6173,
+    "word": "unconscious",
+    "pos": "adjective",
+    "text": "not conscious; unaware."
+  },
+  {
+    "row": 6174,
+    "word": "undesirable",
+    "pos": "adjective",
+    "text": "not desirable."
+  },
+  {
+    "row": 6176,
+    "word": "unfavourable",
+    "pos": "adjective",
+    "text": "not favourable."
+  },
+  {
+    "row": 6177,
+    "word": "unfortunate",
+    "pos": "adjective",
+    "text": "unlucky; regrettable."
+  },
+  {
+    "row": 6178,
+    "word": "unfriendly",
+    "pos": "adjective",
+    "text": "not friendly."
+  },
+  {
+    "row": 6179,
+    "word": "ungrateful",
+    "pos": "adjective",
+    "text": "not grateful."
+  },
+  {
+    "row": 6181,
+    "word": "unnecessary",
+    "pos": "adjective",
+    "text": "not necessary."
+  },
+  {
+    "row": 6182,
+    "word": "unprofitable",
+    "pos": "adjective",
+    "text": "not profitable."
+  },
+  {
+    "row": 6183,
+    "word": "unreliable",
+    "pos": "adjective",
+    "text": "not reliable."
+  },
+  {
+    "row": 6184,
+    "word": "unsuccessful",
+    "pos": "adjective",
+    "text": "not successful."
+  },
+  {
+    "row": 6186,
+    "word": "questionable",
+    "pos": "adjective",
+    "text": "doubtful; not certain."
+  },
+  {
+    "row": 6192,
+    "word": "abasement",
+    "pos": "noun",
+    "text": "humiliation or degradation."
+  },
+  {
+    "row": 6195,
+    "word": "ablaze",
+    "pos": "adjective",
+    "text": "burning brightly."
+  },
+  {
+    "row": 6196,
+    "word": "ably",
+    "pos": "adverb",
+    "text": "skillfully."
+  },
+  {
+    "row": 6202,
+    "word": "absence",
+    "pos": "noun",
+    "text": "being away."
+  },
+  {
+    "row": 6203,
+    "word": "absent",
+    "pos": "adjective",
+    "text": "not present."
+  },
+  {
+    "row": 6207,
+    "word": "absurd",
+    "pos": "adjective",
+    "text": "completely ridiculous."
+  },
+  {
+    "row": 6214,
+    "word": "accountant",
+    "pos": "noun",
+    "text": "someone who."
+  },
+  {
+    "row": 6217,
+    "word": "achievement",
+    "pos": "noun",
+    "text": "something accomplished."
+  },
+  {
+    "row": 6223,
+    "word": "actuality",
+    "pos": "noun",
+    "text": "reality."
+  },
+  {
+    "row": 6224,
+    "word": "acuteness",
+    "pos": "noun",
+    "text": "sharpness."
+  },
+  {
+    "row": 6230,
+    "word": "adhesive",
+    "pos": "adjective",
+    "text": "sticky."
+  },
+  {
+    "row": 6231,
+    "word": "administrative",
+    "pos": "adjective",
+    "text": "relating to management."
+  },
+  {
+    "row": 6233,
+    "word": "admirable",
+    "pos": "adjective",
+    "text": "deserving respect."
+  },
+  {
+    "row": 6237,
+    "word": "admonitory",
+    "pos": "adjective",
+    "text": "giving a warning."
+  },
+  {
+    "row": 6238,
+    "word": "adobe",
+    "pos": "noun",
+    "text": "sun-dried brick."
+  },
+  {
+    "row": 6241,
+    "word": "adorable",
+    "pos": "adjective",
+    "text": "very cute."
+  },
+  {
+    "row": 6242,
+    "word": "adoration",
+    "pos": "noun",
+    "text": "deep love."
+  },
+  {
+    "row": 6244,
+    "word": "adroitness",
+    "pos": "noun",
+    "text": "skill and cleverness."
+  },
+  {
+    "row": 6248,
+    "word": "advisory",
+    "pos": "adjective",
+    "text": "giving advice."
+  },
+  {
+    "row": 6249,
+    "word": "aeriform",
+    "pos": "adjective",
+    "text": "like air."
+  },
+  {
+    "row": 6252,
+    "word": "affection",
+    "pos": "noun",
+    "text": "gentle love."
+  },
+  {
+    "row": 6253,
+    "word": "affirmative",
+    "pos": "adjective",
+    "text": "saying yes."
+  },
+  {
+    "row": 6254,
+    "word": "affluent",
+    "pos": "adjective",
+    "text": "wealthy."
+  },
+  {
+    "row": 6255,
+    "word": "afforestation",
+    "pos": "noun",
+    "text": "planting trees."
+  },
+  {
+    "row": 6259,
+    "word": "agriculture",
+    "pos": "noun",
+    "text": "farming."
+  },
+  {
+    "row": 6263,
+    "word": "airless",
+    "pos": "adjective",
+    "text": "without fresh air."
+  },
+  {
+    "row": 6271,
+    "word": "algae",
+    "pos": "noun",
+    "text": "simple water plants."
+  },
+  {
+    "row": 6280,
+    "word": "allowable",
+    "pos": "adjective",
+    "text": "permitted or acceptable."
+  },
+  {
+    "row": 6287,
+    "word": "altruistic",
+    "pos": "adjective",
+    "text": "unselfish."
+  },
+  {
+    "row": 6289,
+    "word": "ambiguous",
+    "pos": "adjective",
+    "text": "unclear."
+  },
+  {
+    "row": 6295,
+    "word": "amnesia",
+    "pos": "noun",
+    "text": "loss of memory."
+  },
+  {
+    "row": 6299,
+    "word": "analogue",
+    "pos": "noun",
+    "text": "something similar."
+  },
+  {
+    "row": 6300,
+    "word": "ananas",
+    "pos": "noun",
+    "text": "pineapple."
+  },
+  {
+    "row": 6301,
+    "word": "ancestry",
+    "pos": "noun",
+    "text": "lineage."
+  },
+  {
+    "row": 6304,
+    "word": "angular",
+    "pos": "adjective",
+    "text": "having sharp angles."
+  },
+  {
+    "row": 6318,
+    "word": "antagonism",
+    "pos": "noun",
+    "text": "active opposition."
+  },
+  {
+    "row": 6323,
+    "word": "antemeridian",
+    "pos": "adjective",
+    "text": "before noon."
+  },
+  {
+    "row": 6326,
+    "word": "anticipation",
+    "pos": "noun",
+    "text": "expectation."
+  },
+  {
+    "row": 6329,
+    "word": "antipathy",
+    "pos": "noun",
+    "text": "strong dislike."
+  },
+  {
+    "row": 6334,
+    "word": "apathy",
+    "pos": "noun",
+    "text": "lack of interest."
+  },
+  {
+    "row": 6337,
+    "word": "appetite",
+    "pos": "noun",
+    "text": "hunger."
+  },
+  {
+    "row": 6340,
+    "word": "applicant",
+    "pos": "noun",
+    "text": "Arguer."
+  },
+  {
+    "row": 6342,
+    "word": "approximate",
+    "pos": "adjective",
+    "text": "nearly correct."
+  },
+  {
+    "row": 6343,
+    "word": "aqua",
+    "pos": "noun",
+    "text": "water."
+  },
+  {
+    "row": 6344,
+    "word": "aqualung",
+    "pos": "noun",
+    "text": "breathing equipment."
+  },
+  {
+    "row": 6351,
+    "word": "ardent",
+    "pos": "adjective",
+    "text": "enthusiastic."
+  },
+  {
+    "row": 6352,
+    "word": "ardour",
+    "pos": "noun",
+    "text": "passion."
+  },
+  {
+    "row": 6354,
+    "word": "argent",
+    "pos": "noun",
+    "text": "silver."
+  },
+  {
+    "row": 6355,
+    "word": "argot",
+    "pos": "noun",
+    "text": "slang."
+  },
+  {
+    "row": 6361,
+    "word": "armour",
+    "pos": "noun",
+    "text": "protective clothing."
+  },
+  {
+    "row": 6367,
+    "word": "artfulness",
+    "pos": "noun",
+    "text": "cunning."
+  },
+  {
+    "row": 6369,
+    "word": "artillery",
+    "pos": "noun",
+    "text": "large guns."
+  },
+  {
+    "row": 6376,
+    "word": "assent",
+    "pos": "noun",
+    "text": "agreement."
+  },
+  {
+    "row": 6377,
+    "word": "assertive",
+    "pos": "adjective",
+    "text": "tending to assert."
+  },
+  {
+    "row": 6386,
+    "word": "astonishment",
+    "pos": "noun",
+    "text": "great surprise."
+  },
+  {
+    "row": 6389,
+    "word": "astute",
+    "pos": "adjective",
+    "text": "shrewd."
+  },
+  {
+    "row": 6390,
+    "word": "asunder",
+    "pos": "adverb",
+    "text": "apart."
+  },
+  {
+    "row": 6399,
+    "word": "attentive",
+    "pos": "adjective",
+    "text": "paying attention."
+  },
+  {
+    "row": 6404,
+    "word": "atypical",
+    "pos": "adjective",
+    "text": "relating to atypic."
+  },
+  {
+    "row": 6407,
+    "word": "audio",
+    "pos": "adjective",
+    "text": "relating to sound."
+  },
+  {
+    "row": 6408,
+    "word": "auditory",
+    "pos": "adjective",
+    "text": "related to hearing."
+  },
+  {
+    "row": 6409,
+    "word": "aurum",
+    "pos": "noun",
+    "text": "gold."
+  },
+  {
+    "row": 6415,
+    "word": "authoritarian",
+    "pos": "adjective",
+    "text": "strict ruler."
+  },
+  {
+    "row": 6416,
+    "word": "authoritative",
+    "pos": "adjective",
+    "text": "tending to authoritat."
+  },
+  {
+    "row": 6422,
+    "word": "automatic",
+    "pos": "adjective",
+    "text": "self-acting."
+  },
+  {
+    "row": 6426,
+    "word": "avarice",
+    "pos": "noun",
+    "text": "greed."
+  },
+  {
+    "row": 6428,
+    "word": "averse",
+    "pos": "adjective",
+    "text": "strongly against."
+  },
+  {
+    "row": 6429,
+    "word": "aversion",
+    "pos": "noun",
+    "text": "strong dislike."
+  },
+  {
+    "row": 6431,
+    "word": "avian",
+    "pos": "adjective",
+    "text": "relating to birds."
+  },
+  {
+    "row": 6432,
+    "word": "aviator",
+    "pos": "noun",
+    "text": "backer."
+  },
+  {
+    "row": 6436,
+    "word": "backer",
+    "pos": "noun",
+    "text": "banger."
+  },
+  {
+    "row": 6437,
+    "word": "backlight",
+    "pos": "noun",
+    "text": "light from behind."
+  },
+  {
+    "row": 6440,
+    "word": "bald",
+    "pos": "adjective",
+    "text": "no hair."
+  },
+  {
+    "row": 6444,
+    "word": "banger",
+    "pos": "noun",
+    "text": "banister."
+  },
+  {
+    "row": 6455,
+    "word": "barber",
+    "pos": "noun",
+    "text": "bearer."
+  },
+  {
+    "row": 6467,
+    "word": "beaten",
+    "pos": "adjective",
+    "text": "hit repeatedly; defeated."
+  },
+  {
+    "row": 6540,
+    "word": "booze",
+    "pos": "noun",
+    "text": "alcoholic drink."
+  },
+  {
+    "row": 6569,
+    "word": "broiled",
+    "pos": "adjective",
+    "text": "grilled."
+  },
+  {
+    "row": 6570,
+    "word": "broke",
+    "pos": "adjective",
+    "text": "without money."
+  },
+  {
+    "row": 6583,
+    "word": "buff",
+    "pos": "adjective",
+    "text": "Polished."
+  },
+  {
+    "row": 6593,
+    "word": "buoyant",
+    "pos": "adjective",
+    "text": "able to float."
+  },
+  {
+    "row": 6604,
+    "word": "bye",
+    "pos": "interjection",
+    "text": "goodbye."
+  },
+  {
+    "row": 6607,
+    "word": "ca",
+    "pos": "abbreviation",
+    "text": "circa."
+  },
+  {
+    "row": 6614,
+    "word": "calibre",
+    "pos": "noun",
+    "text": "Quality."
+  },
+  {
+    "row": 6621,
+    "word": "cant",
+    "pos": "noun",
+    "text": "hypocritical talk."
+  },
+  {
+    "row": 6625,
+    "word": "carb",
+    "pos": "noun",
+    "text": "carbohydrate."
+  },
+  {
+    "row": 6629,
+    "word": "cardboard",
+    "pos": "noun",
+    "text": "thick paper."
+  },
+  {
+    "row": 6632,
+    "word": "carnal",
+    "pos": "adjective",
+    "text": "Relating to carn."
+  },
+  {
+    "row": 6639,
+    "word": "cathedral",
+    "pos": "adjective",
+    "text": "Relating to cathedr."
+  },
+  {
+    "row": 6641,
+    "word": "cattle",
+    "pos": "noun",
+    "text": "cows."
+  },
+  {
+    "row": 6646,
+    "word": "ceaseless",
+    "pos": "adjective",
+    "text": "without cease."
+  },
+  {
+    "row": 6650,
+    "word": "celsius",
+    "pos": "adjective",
+    "text": "temperature scale."
+  },
+  {
+    "row": 6651,
+    "word": "centennial",
+    "pos": "adjective",
+    "text": "Relating to centenni."
+  },
+  {
+    "row": 6655,
+    "word": "cerulean",
+    "pos": "adjective",
+    "text": "deep blue."
+  },
+  {
+    "row": 6672,
+    "word": "choc",
+    "pos": "noun",
+    "text": "chocolate."
+  },
+  {
+    "row": 6687,
+    "word": "civilisational",
+    "pos": "adjective",
+    "text": "relating to civilisation."
+  },
+  {
+    "row": 6693,
+    "word": "classical",
+    "pos": "adjective",
+    "text": "relating to classic."
+  },
+  {
+    "row": 6713,
+    "word": "coastal",
+    "pos": "adjective",
+    "text": "relating to coast."
+  },
+  {
+    "row": 6718,
+    "word": "cognitive",
+    "pos": "adjective",
+    "text": "tending to cognit."
+  },
+  {
+    "row": 6743,
+    "word": "communicative",
+    "pos": "adjective",
+    "text": "tending to communicat."
+  },
+  {
+    "row": 6767,
+    "word": "conditional",
+    "pos": "adjective",
+    "text": "relating to condition."
+  },
+  {
+    "row": 6768,
+    "word": "conductive",
+    "pos": "adjective",
+    "text": "tending to conduct."
+  },
+  {
+    "row": 6775,
+    "word": "congeal",
+    "pos": "adjective",
+    "text": "relating to conge."
+  },
+  {
+    "row": 6777,
+    "word": "congressional",
+    "pos": "adjective",
+    "text": "relating to congression."
+  },
+  {
+    "row": 6779,
+    "word": "conjectural",
+    "pos": "adjective",
+    "text": "relating to conjectur."
+  },
+  {
+    "row": 6791,
+    "word": "constructive",
+    "pos": "adjective",
+    "text": "tending to construct."
+  },
+  {
+    "row": 6797,
+    "word": "contextual",
+    "pos": "adjective",
+    "text": "relating to contextu."
+  },
+  {
+    "row": 6801,
+    "word": "continuance",
+    "pos": "noun",
+    "text": "law also."
+  },
+  {
+    "row": 6812,
+    "word": "conversational",
+    "pos": "adjective",
+    "text": "relating to conversation."
+  },
+  {
+    "row": 6814,
+    "word": "coop",
+    "pos": "noun",
+    "text": "okay."
+  },
+  {
+    "row": 6815,
+    "word": "copyright",
+    "pos": "noun",
+    "text": "define clearly."
+  },
+  {
+    "row": 6837,
+    "word": "cove",
+    "pos": "noun",
+    "text": "small sheltered inlet."
+  },
+  {
+    "row": 6839,
+    "word": "covert",
+    "pos": "noun",
+    "text": "secret or hidden."
+  },
+  {
+    "row": 6843,
+    "word": "cowboy",
+    "pos": "adjective",
+    "text": "complete with horseback."
+  },
+  {
+    "row": 6848,
+    "word": "craggy",
+    "pos": "adjective",
+    "text": "rough and rocky."
+  },
+  {
+    "row": 6866,
+    "word": "cryptogram",
+    "pos": "noun",
+    "text": "message in code."
+  },
+  {
+    "row": 6869,
+    "word": "cultivator",
+    "pos": "noun",
+    "text": "farmer/gardener; also tool."
+  },
+  {
+    "row": 6873,
+    "word": "curled",
+    "pos": "noun",
+    "text": "Avoid curled."
+  },
+  {
+    "row": 6875,
+    "word": "custodian",
+    "pos": "noun",
+    "text": "caretaker of building."
+  },
+  {
+    "row": 6882,
+    "word": "daintiness",
+    "pos": "noun",
+    "text": "delicate prettiness."
+  },
+  {
+    "row": 6883,
+    "word": "damnation",
+    "pos": "noun",
+    "text": "complete."
+  },
+  {
+    "row": 6887,
+    "word": "dauntless",
+    "pos": "adjective",
+    "text": "Without daunt."
+  },
+  {
+    "row": 6890,
+    "word": "daybreak",
+    "pos": "noun",
+    "text": "dawn."
+  },
+  {
+    "row": 6894,
+    "word": "dearth",
+    "pos": "noun",
+    "text": "scarcity."
+  },
+  {
+    "row": 6895,
+    "word": "deathlike",
+    "pos": "adjective",
+    "text": "resembling death."
+  },
+  {
+    "row": 6896,
+    "word": "debase",
+    "pos": "noun",
+    "text": "lower quality."
+  },
+  {
+    "row": 6911,
+    "word": "dedicate",
+    "pos": "verb",
+    "text": "devote."
+  },
+  {
+    "row": 6912,
+    "word": "dedication",
+    "pos": "noun",
+    "text": "commitment."
+  },
+  {
+    "row": 6914,
+    "word": "deer",
+    "pos": "noun",
+    "text": "wild animal."
+  },
+  {
+    "row": 6915,
+    "word": "defamation",
+    "pos": "noun",
+    "text": "slander/libel."
+  },
+  {
+    "row": 6916,
+    "word": "defame",
+    "pos": "noun",
+    "text": "harm reputation."
+  },
+  {
+    "row": 6927,
+    "word": "definitely",
+    "pos": "adjective",
+    "text": "without doubt; certainly."
+  },
+  {
+    "row": 6929,
+    "word": "deforestation",
+    "pos": "noun",
+    "text": "They mention avoid."
+  },
+  {
+    "row": 6984,
+    "word": "devalue",
+    "pos": "noun",
+    "text": "Avoid devalue."
+  },
+  {
+    "row": 7039,
+    "word": "dispatch",
+    "pos": "noun",
+    "text": "F."
+  },
+  {
+    "row": 7097,
+    "word": "doubly",
+    "pos": "adjective",
+    "text": "twice as much."
+  },
+  {
+    "row": 7099,
+    "word": "doubtful",
+    "pos": "adjective",
+    "text": "full of doubt."
+  },
+  {
+    "row": 7129,
+    "word": "drudgery",
+    "pos": "adjective",
+    "text": "hard, boring work."
+  },
+  {
+    "row": 7158,
+    "word": "educational",
+    "pos": "adjective",
+    "text": "relating to education."
+  },
+  {
+    "row": 7195,
+    "word": "endless",
+    "pos": "adjective",
+    "text": "without end."
+  },
+  {
+    "row": 7215,
+    "word": "entirely",
+    "pos": "adjective",
+    "text": "completely or wholly."
+  },
+  {
+    "row": 7233,
+    "word": "especial",
+    "pos": "adjective",
+    "text": "special or particular."
+  },
+  {
+    "row": 7250,
+    "word": "examiner",
+    "pos": "noun",
+    "text": "So."
+  },
+  {
+    "row": 7252,
+    "word": "exceedingly",
+    "pos": "adjective",
+    "text": "Very much; extremely."
+  },
+  {
+    "row": 7285,
+    "word": "failed",
+    "pos": "noun",
+    "text": "did not succeed."
+  },
+  {
+    "row": 7312,
+    "word": "fete",
+    "pos": "noun",
+    "text": "source had."
+  },
+  {
+    "row": 7314,
+    "word": "fibreboard",
+    "pos": "noun",
+    "text": "source had."
+  },
+  {
+    "row": 7324,
+    "word": "filthy",
+    "pos": "adjective",
+    "text": "very dirty."
+  },
+  {
+    "row": 7364,
+    "word": "fluvial",
+    "pos": "adjective",
+    "text": "relating to rivers."
+  },
+  {
+    "row": 7470,
+    "word": "gobble",
+    "pos": "noun",
+    "text": "current is okay."
+  },
+  {
+    "row": 7515,
+    "word": "grippy",
+    "pos": "adjective",
+    "text": "current okay;."
+  },
+  {
+    "row": 7520,
+    "word": "groundless",
+    "pos": "adjective",
+    "text": "current."
+  },
+  {
+    "row": 7533,
+    "word": "gunny",
+    "pos": "adjective",
+    "text": "current okay,."
+  },
+  {
+    "row": 7539,
+    "word": "hairy",
+    "pos": "adjective",
+    "text": "Covered with hair."
+  },
+  {
+    "row": 7564,
+    "word": "hazard",
+    "pos": "noun",
+    "text": "Something dangerous."
+  },
+  {
+    "row": 7581,
+    "word": "helical",
+    "pos": "adjective",
+    "text": "define."
+  },
+  {
+    "row": 7593,
+    "word": "hilly",
+    "pos": "adjective",
+    "text": "current okay."
+  },
+  {
+    "row": 7660,
+    "word": "inaction",
+    "pos": "noun",
+    "text": "lack of action."
+  },
+  {
+    "row": 7716,
+    "word": "infrequent",
+    "pos": "noun",
+    "text": "not happening often."
+  },
+  {
+    "row": 7717,
+    "word": "infrequently",
+    "pos": "adjective",
+    "text": "not very often."
+  },
+  {
+    "row": 7737,
+    "word": "insolent",
+    "pos": "noun",
+    "text": "rude and disrespectful."
+  },
+  {
+    "row": 7748,
+    "word": "intentionally",
+    "pos": "adjective",
+    "text": "done on purpose."
+  },
+  {
+    "row": 7905,
+    "word": "listless",
+    "pos": "adjective",
+    "text": "without list."
+  },
+  {
+    "row": 7915,
+    "word": "locomotive",
+    "pos": "adjective",
+    "text": "tending to locomot."
+  },
+  {
+    "row": 7969,
+    "word": "marshal",
+    "pos": "adjective",
+    "text": "relating to marsh."
+  },
+  {
+    "row": 7975,
+    "word": "maternal",
+    "pos": "adjective",
+    "text": "relating to matern."
+  },
+  {
+    "row": 7976,
+    "word": "mathematical",
+    "pos": "adjective",
+    "text": "relating to mathematic."
+  },
+  {
+    "row": 7983,
+    "word": "meaningful",
+    "pos": "adjective",
+    "text": "full of meaning."
+  },
+  {
+    "row": 7995,
+    "word": "methodical",
+    "pos": "adjective",
+    "text": "relating to methodic."
+  },
+  {
+    "row": 8019,
+    "word": "misappropriate",
+    "pos": "verb",
+    "text": "> good."
+  },
+  {
+    "row": 8067,
+    "word": "mt",
+    "pos": "noun",
+    "text": "abbreviation for mountain."
+  },
+  {
+    "row": 8091,
+    "word": "neb",
+    "pos": "noun",
+    "text": "old word; good."
+  },
+  {
+    "row": 8096,
+    "word": "needless",
+    "pos": "adjective",
+    "text": "unnecessary; not needed."
+  },
+  {
+    "row": 8130,
+    "word": "northward",
+    "pos": "adjective",
+    "text": "Toward the north."
+  },
+  {
+    "row": 8171,
+    "word": "officiate",
+    "pos": "verb",
+    "text": "cut after spo."
+  },
+  {
+    "row": 8174,
+    "word": "older",
+    "pos": "noun",
+    "text": "onlooker."
+  },
+  {
+    "row": 8181,
+    "word": "onlooker",
+    "pos": "noun",
+    "text": "optimist."
+  },
+  {
+    "row": 8182,
+    "word": "onward",
+    "pos": "adjective",
+    "text": "moving forward."
+  },
+  {
+    "row": 8185,
+    "word": "oppression",
+    "pos": "noun",
+    "text": "> cruel/unjust treatment."
+  },
+  {
+    "row": 8186,
+    "word": "opt",
+    "pos": "noun",
+    "text": "choose."
+  },
+  {
+    "row": 8187,
+    "word": "optical",
+    "pos": "adjective",
+    "text": "relating to sight/light."
+  },
+  {
+    "row": 8188,
+    "word": "optimist",
+    "pos": "noun",
+    "text": "orbiter."
+  },
+  {
+    "row": 8189,
+    "word": "oracular",
+    "pos": "adjective",
+    "text": "> wise/mysterious."
+  },
+  {
+    "row": 8190,
+    "word": "orang",
+    "pos": "noun",
+    "text": "large orange-brown ape."
+  },
+  {
+    "row": 8365,
+    "word": "precisely",
+    "pos": "adjective",
+    "text": "exactly and carefully."
+  },
+  {
+    "row": 8373,
+    "word": "predictive",
+    "pos": "adjective",
+    "text": "tending to predict."
+  },
+  {
+    "row": 8378,
+    "word": "prescriptive",
+    "pos": "adjective",
+    "text": "tending to prescript."
+  },
+  {
+    "row": 8387,
+    "word": "preventive",
+    "pos": "adjective",
+    "text": "tending to prevent."
+  },
+  {
+    "row": 8389,
+    "word": "pricey",
+    "pos": "adjective",
+    "text": "expensive."
+  },
+  {
+    "row": 8396,
+    "word": "proactive",
+    "pos": "adjective",
+    "text": "tending to proact."
+  },
+  {
+    "row": 8405,
+    "word": "professional",
+    "pos": "adjective",
+    "text": "relating to profession."
+  },
+  {
+    "row": 8423,
+    "word": "prospective",
+    "pos": "adjective",
+    "text": "tending to prospect."
+  },
+  {
+    "row": 8428,
+    "word": "protective",
+    "pos": "adjective",
+    "text": "tending to protect."
+  },
+  {
+    "row": 8441,
+    "word": "psychological",
+    "pos": "adjective",
+    "text": "relating to psychologic."
+  },
+  {
+    "row": 8450,
+    "word": "purge",
+    "pos": "noun",
+    "text": "verb/noun:."
+  },
+  {
+    "row": 8456,
+    "word": "pyramidal",
+    "pos": "adjective",
+    "text": "relating to pyramid."
+  },
+  {
+    "row": 8540,
+    "word": "reek",
+    "pos": "noun",
+    "text": "smell very bad."
+  },
+  {
+    "row": 8558,
+    "word": "regretful",
+    "pos": "adjective",
+    "text": "full of regret."
+  },
+  {
+    "row": 8575,
+    "word": "remorseful",
+    "pos": "adjective",
+    "text": "full of remorse."
+  },
+  {
+    "row": 8620,
+    "word": "respective",
+    "pos": "adjective",
+    "text": "tending to respect."
+  },
+  {
+    "row": 8633,
+    "word": "retributive",
+    "pos": "adjective",
+    "text": "tending to retribut."
+  },
+  {
+    "row": 8636,
+    "word": "retrogressive",
+    "pos": "adjective",
+    "text": "tending to retrogress."
+  },
+  {
+    "row": 8638,
+    "word": "reuse",
+    "pos": "noun",
+    "text": "use again. Definition:."
+  },
+  {
+    "row": 8671,
+    "word": "riparian",
+    "pos": "noun",
+    "text": "ripen."
+  },
+  {
+    "row": 8673,
+    "word": "ritual",
+    "pos": "adjective",
+    "text": "relating to ritu."
+  },
+  {
+    "row": 8689,
+    "word": "rotatory",
+    "pos": "adjective",
+    "text": "Avoid rotatory."
+  },
+  {
+    "row": 8753,
+    "word": "sectional",
+    "pos": "adjective",
+    "text": "relating to section."
+  },
+  {
+    "row": 8765,
+    "word": "semantical",
+    "pos": "adjective",
+    "text": "relating to semantic."
+  },
+  {
+    "row": 8772,
+    "word": "senseless",
+    "pos": "adjective",
+    "text": "without sense."
+  },
+  {
+    "row": 8774,
+    "word": "sensorial",
+    "pos": "adjective",
+    "text": "relating to sensori."
+  },
+  {
+    "row": 8780,
+    "word": "sequester",
+    "pos": "noun",
+    "text": "Old definition."
+  },
+  {
+    "row": 8799,
+    "word": "shameful",
+    "pos": "adjective",
+    "text": "full of shame."
+  },
+  {
+    "row": 8827,
+    "word": "sightless",
+    "pos": "adjective",
+    "text": "without sight."
+  },
+  {
+    "row": 8846,
+    "word": "skeleton",
+    "pos": "noun",
+    "text": "Avoid skele."
+  },
+  {
+    "row": 8847,
+    "word": "skeptical",
+    "pos": "adjective",
+    "text": "relating to skeptic."
+  },
+  {
+    "row": 8868,
+    "word": "slipshod",
+    "pos": "noun",
+    "text": "Good."
+  },
+  {
+    "row": 8884,
+    "word": "smear",
+    "pos": "noun",
+    "text": "Good."
+  },
+  {
+    "row": 8888,
+    "word": "smutty",
+    "pos": "adjective",
+    "text": "Might be okay."
+  },
+  {
+    "row": 8946,
+    "word": "spineless",
+    "pos": "adjective",
+    "text": "without spine."
+  },
+  {
+    "row": 8948,
+    "word": "spiritless",
+    "pos": "adjective",
+    "text": "without spirit."
+  },
+  {
+    "row": 8964,
+    "word": "spotless",
+    "pos": "adjective",
+    "text": "without spot."
+  },
+  {
+    "row": 9007,
+    "word": "statuary",
+    "pos": "adjective",
+    "text": "W."
+  },
+  {
+    "row": 9017,
+    "word": "steal",
+    "pos": "adjective",
+    "text": "relating to ste."
+  },
+  {
+    "row": 9032,
+    "word": "stertorate",
+    "pos": "verb",
+    "text": "note says."
+  },
+  {
+    "row": 9100,
+    "word": "strive",
+    "pos": "adjective",
+    "text": "tending to str."
+  },
+  {
+    "row": 9130,
+    "word": "subjective",
+    "pos": "adjective",
+    "text": "tending to subject."
+  },
+  {
+    "row": 9135,
+    "word": "submissive",
+    "pos": "adjective",
+    "text": "tending to submiss."
+  },
+  {
+    "row": 9146,
+    "word": "subterranean",
+    "pos": "noun",
+    "text": "Under the ground."
+  },
+  {
+    "row": 9154,
+    "word": "successful",
+    "pos": "adjective",
+    "text": "full of success."
+  },
+  {
+    "row": 9156,
+    "word": "successive",
+    "pos": "adjective",
+    "text": "tending to success."
+  },
+  {
+    "row": 9162,
+    "word": "suffer",
+    "pos": "noun",
+    "text": "verb."
+  },
+  {
+    "row": 9187,
+    "word": "superb",
+    "pos": "noun",
+    "text": "extremely good; excellent."
+  },
+  {
+    "row": 9188,
+    "word": "superficial",
+    "pos": "adjective",
+    "text": "relating to superfici."
+  },
+  {
+    "row": 9195,
+    "word": "supple",
+    "pos": "noun",
+    "text": "bending easily; flexible."
+  },
+  {
+    "row": 9196,
+    "word": "supplement",
+    "pos": "noun",
+    "text": "something added to."
+  },
+  {
+    "row": 9216,
+    "word": "surreal",
+    "pos": "adjective",
+    "text": "relating to surre."
+  },
+  {
+    "row": 9219,
+    "word": "survival",
+    "pos": "adjective",
+    "text": "relating to surviv."
+  },
+  {
+    "row": 9220,
+    "word": "survive",
+    "pos": "adjective",
+    "text": "tending to surv."
+  },
+  {
+    "row": 9226,
+    "word": "sw",
+    "pos": "noun",
+    "text": "Abbreviation for southwest."
+  },
+  {
+    "row": 9268,
+    "word": "tactful",
+    "pos": "adjective",
+    "text": "full of tact."
+  },
+  {
+    "row": 9272,
+    "word": "talkative",
+    "pos": "adjective",
+    "text": "tending to talkat."
+  },
+  {
+    "row": 9286,
+    "word": "teal",
+    "pos": "adjective",
+    "text": "relating to te."
+  },
+  {
+    "row": 9300,
+    "word": "temporal",
+    "pos": "adjective",
+    "text": "relating to tempor."
+  },
+  {
+    "row": 9308,
+    "word": "terminal",
+    "pos": "adjective",
+    "text": "relating to termin."
+  },
+  {
+    "row": 9316,
+    "word": "territorial",
+    "pos": "adjective",
+    "text": "relating to territori."
+  },
+  {
+    "row": 9319,
+    "word": "testimonial",
+    "pos": "adjective",
+    "text": "relating to testimoni."
+  },
+  {
+    "row": 9322,
+    "word": "thankful",
+    "pos": "adjective",
+    "text": "full of thank."
+  },
+  {
+    "row": 9323,
+    "word": "thankless",
+    "pos": "adjective",
+    "text": "without thank."
+  },
+  {
+    "row": 9325,
+    "word": "theatrical",
+    "pos": "adjective",
+    "text": "relating to theatric."
+  },
+  {
+    "row": 9329,
+    "word": "theoretical",
+    "pos": "adjective",
+    "text": "relating to theoretic."
+  },
+  {
+    "row": 9338,
+    "word": "thirstyless",
+    "pos": "adjective",
+    "text": "without thirsty."
+  },
+  {
+    "row": 9346,
+    "word": "thrive",
+    "pos": "adjective",
+    "text": "tending to thr."
+  },
+  {
+    "row": 9388,
+    "word": "totally",
+    "pos": "adjective",
+    "text": "completely or entirely."
+  },
+  {
+    "row": 9468,
+    "word": "unanimity",
+    "pos": "adjective",
+    "text": "when everyone agrees."
+  },
+  {
+    "row": 9482,
+    "word": "unclean",
+    "pos": "noun",
+    "text": "not clean; dirty."
+  },
+  {
+    "row": 9554,
+    "word": "unintelligible",
+    "pos": "adjective",
+    "text": "impossible to understand."
+  },
+  {
+    "row": 9568,
+    "word": "unmovable",
+    "pos": "adjective",
+    "text": "impossible to move."
+  },
+  {
+    "row": 9614,
+    "word": "unsinkable",
+    "pos": "adjective",
+    "text": "impossible to sink."
+  },
+  {
+    "row": 9617,
+    "word": "unsolvable",
+    "pos": "adjective",
+    "text": "impossible to solve."
+  },
+  {
+    "row": 9666,
+    "word": "utterly",
+    "pos": "adjective",
+    "text": "completely or totally."
+  },
+  {
+    "row": 9673,
+    "word": "valueless",
+    "pos": "adjective",
+    "text": "without value; worthless."
+  },
+  {
+    "row": 9765,
+    "word": "washbowl",
+    "pos": "noun",
+    "text": "same as washbasin,."
+  },
+  {
+    "row": 9767,
+    "word": "wasteful",
+    "pos": "adjective",
+    "text": "full of waste."
+  },
+  {
+    "row": 9770,
+    "word": "watchful",
+    "pos": "adjective",
+    "text": "full of watch."
+  },
+  {
+    "row": 9790,
+    "word": "wept",
+    "pos": "noun",
+    "text": "cried tears."
+  },
+  {
+    "row": 9793,
+    "word": "westward",
+    "pos": "adjective",
+    "text": "toward the west."
+  },
+  {
+    "row": 9818,
+    "word": "windless",
+    "pos": "adjective",
+    "text": "without wind."
+  },
+  {
+    "row": 9823,
+    "word": "wireless",
+    "pos": "adjective",
+    "text": "without wire."
+  },
+  {
+    "row": 9824,
+    "word": "wishful",
+    "pos": "adjective",
+    "text": "full of wish."
+  },
+  {
+    "row": 9826,
+    "word": "withdrawal",
+    "pos": "adjective",
+    "text": "relating to withdraw."
+  },
+  {
+    "row": 9830,
+    "word": "woeful",
+    "pos": "adjective",
+    "text": "full of woe."
+  },
+  {
+    "row": 9855,
+    "word": "wrongful",
+    "pos": "adjective",
+    "text": "full of wrong."
+  }
+]
