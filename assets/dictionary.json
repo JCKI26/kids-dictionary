@@ -815,78 +815,6 @@
     "image": null
   },
   {
-    "word": "advocate",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To speak up or stand up for someone or something you believe in.",
-        "definition_cn": "倡导；支持",
-        "definition_pinyin": [],
-        "example": "He likes to advocate for recycling to help keep our parks clean.",
-        "example_cn": "他喜欢倡导回收利用，帮助我们保持公园清洁。",
-        "example_pinyin": [],
-        "synonyms": [
-          "support",
-          "promote",
-          "back"
-        ],
-        "antonyms": [
-          "oppose"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "advocates",
-        "present_continuous": "advocating",
-        "past_tense": "advocated",
-        "past_participle": "advocated",
-        "adverb": "",
-        "noun_form": "advocacy",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A person who helps or speaks up for a cause or group.",
-        "definition_cn": "帮助、支持某事业的人",
-        "definition_pinyin": [],
-        "example": "She is an advocate for animal shelters and helps find pets new homes.",
-        "example_cn": "她是动物收容所的倡导者，帮助宠物找到新家。",
-        "example_pinyin": [],
-        "synonyms": [
-          "supporter",
-          "promoter"
-        ],
-        "antonyms": [
-          "opposer"
-        ],
-        "related": [],
-        "plural": "advocates",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "affect",
     "word_cn": "",
     "word_pinyin": [],
@@ -1956,51 +1884,6 @@
     "image": null
   },
   {
-    "word": "ancient",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "adjective",
-        "part_of_speech_cn": "",
-        "definition": "Very, very old.",
-        "definition_cn": "非常古老的；古代的",
-        "definition_pinyin": [],
-        "example": "We learned about ancient pyramids in history class today.",
-        "example_cn": "今天的历史课上我们了解了古老的金字塔。",
-        "example_pinyin": [],
-        "synonyms": [
-          "old",
-          "aged",
-          "historic"
-        ],
-        "antonyms": [
-          "new",
-          "modern"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/ancient.png"
-  },
-  {
     "word": "and",
     "word_cn": "",
     "word_pinyin": [],
@@ -2825,48 +2708,6 @@
     "image": null
   },
   {
-    "word": "arc",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A curved line or shape.",
-        "definition_cn": "弧线；弧形",
-        "definition_pinyin": [],
-        "example": "The rainbow formed a perfect arc across the sky.",
-        "example_cn": "彩虹在天空中形成了一道完美的弧线。",
-        "example_pinyin": [],
-        "synonyms": [
-          "curve",
-          "bend",
-          "arch"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "arcs",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "area",
     "word_cn": "",
     "word_pinyin": [],
@@ -3549,47 +3390,6 @@
     "image": null
   },
   {
-    "word": "assignment",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A task or job you are given to do.",
-        "definition_cn": "任务；分派的工作",
-        "definition_pinyin": [],
-        "example": "Our homework assignment is to read a new book.",
-        "example_cn": "我们的家庭作业任务是读一本新书。",
-        "example_pinyin": [],
-        "synonyms": [
-          "task",
-          "job"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "assignments",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/assignment.png"
-  },
-  {
     "word": "assist",
     "word_cn": "",
     "word_pinyin": [],
@@ -3620,46 +3420,6 @@
         "past_participle": "assisted",
         "adverb": "",
         "noun_form": "assistance",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "assume",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To think something is true without checking.",
-        "definition_cn": "假定；以为（未加核实）",
-        "definition_pinyin": [],
-        "example": "Don’t assume the answer; try to check your work first.",
-        "example_cn": "别贸然猜测答案，先试着检查一下你的作业。",
-        "example_pinyin": [],
-        "synonyms": [
-          "suppose"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "assumes",
-        "present_continuous": "assuming",
-        "past_tense": "assumed",
-        "past_participle": "assumed",
-        "adverb": "",
-        "noun_form": "assumption",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -3763,50 +3523,6 @@
         "past_participle": "",
         "adverb": "",
         "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "attach",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To join or fasten one thing to another.",
-        "definition_cn": "连接；系上；固定",
-        "definition_pinyin": [],
-        "example": "Tim used glue to attach the picture to his art project.",
-        "example_cn": "蒂姆用胶水把图片粘到他的美术作品上。",
-        "example_pinyin": [],
-        "synonyms": [
-          "join",
-          "connect",
-          "link"
-        ],
-        "antonyms": [
-          "detach"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "attaches",
-        "present_continuous": "attaching",
-        "past_tense": "attached",
-        "past_participle": "attached",
-        "adverb": "",
-        "noun_form": "attachment",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -6758,44 +6474,6 @@
     "image": "assets/images/bottle.png"
   },
   {
-    "word": "boulder",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A very large rock.",
-        "definition_cn": "巨石；大圆石",
-        "definition_pinyin": [],
-        "example": "We climbed on a huge boulder at the park.",
-        "example_cn": "我们爬上了公园里一块巨大的圆石。",
-        "example_pinyin": [],
-        "synonyms": [],
-        "antonyms": [],
-        "related": [],
-        "plural": "boulders",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/boulder.png"
-  },
-  {
     "word": "bounce",
     "word_cn": "",
     "word_pinyin": [],
@@ -8433,46 +8111,6 @@
     "image": "assets/images/canyon.png"
   },
   {
-    "word": "capsule",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A tiny pill with medicine inside.",
-        "definition_cn": "胶囊（内含药物的）",
-        "definition_pinyin": [],
-        "example": "The doctor gave me a capsule to help me feel better.",
-        "example_cn": "医生给了我一粒胶囊，帮助我好转。",
-        "example_pinyin": [],
-        "synonyms": [
-          "pill"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "capsules",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/capsule.png"
-  },
-  {
     "word": "car",
     "word_cn": "",
     "word_pinyin": [],
@@ -9032,44 +8670,6 @@
     "image": null
   },
   {
-    "word": "centipede",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A small animal with a long body and many legs.",
-        "definition_cn": "蜈蚣",
-        "definition_pinyin": [],
-        "example": "A centipede crawled quickly under the rock.",
-        "example_cn": "一只蜈蚣迅速爬到石头底下。",
-        "example_pinyin": [],
-        "synonyms": [],
-        "antonyms": [],
-        "related": [],
-        "plural": "centipedes",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/centipede.png"
-  },
-  {
     "word": "cereal",
     "word_cn": "",
     "word_pinyin": [],
@@ -9196,35 +8796,6 @@
         ],
         "related": [],
         "plural": "champions",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To stand up for or support a cause or person.",
-        "definition_cn": "捍卫；支持",
-        "definition_pinyin": [],
-        "example": "He wants to champion recycling at his school.",
-        "example_cn": "他想要在学校倡导回收利用。",
-        "example_pinyin": [],
-        "synonyms": [
-          "support",
-          "advocate",
-          "promote"
-        ],
-        "antonyms": [
-          "oppose"
-        ],
-        "related": [],
-        "plural": "",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -10446,48 +10017,6 @@
     "image": null
   },
   {
-    "word": "closed",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "adjective",
-        "part_of_speech_cn": "",
-        "definition": "Something is shut or not allowing entry.",
-        "definition_cn": "关着的；未开的",
-        "definition_pinyin": [],
-        "example": "The store was closed, so we went back home.",
-        "example_cn": "商店关门了，所以我们回家了。",
-        "example_pinyin": [],
-        "synonyms": [
-          "shut"
-        ],
-        "antonyms": [
-          "open"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "closure",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "cloud",
     "word_cn": "",
     "word_pinyin": [],
@@ -11000,76 +10529,6 @@
     "image": null
   },
   {
-    "word": "coming",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "The act of arriving.",
-        "definition_cn": "到来；到达",
-        "definition_pinyin": [],
-        "example": "The coming of spring brought new life to the garden.",
-        "example_cn": "春天的到来给花园带来了新的生机。",
-        "example_pinyin": [],
-        "synonyms": [
-          "arrival"
-        ],
-        "antonyms": [
-          "departure"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "adjective",
-        "part_of_speech_cn": "",
-        "definition": "Something that is going to happen soon.",
-        "definition_cn": "即将发生的事",
-        "definition_pinyin": [],
-        "example": "Our school is getting ready for the coming winter.",
-        "example_cn": "我们学校正在为即将到来的冬天做准备。",
-        "example_pinyin": [],
-        "synonyms": [
-          "approaching"
-        ],
-        "antonyms": [
-          "leaving",
-          "departure"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "command",
     "word_cn": "",
     "word_pinyin": [],
@@ -11118,114 +10577,6 @@
         "antonyms": [],
         "related": [],
         "plural": "commands",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "community",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A group of people who live in the same place or share something in common.",
-        "definition_cn": "社区；群体",
-        "definition_pinyin": [],
-        "example": "Our community planted trees in the park together.",
-        "example_cn": "我们社区一起在公园里种树。",
-        "example_pinyin": [],
-        "synonyms": [
-          "group"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "communities",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "company",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A business or organisation that sells goods or services in order to make money.",
-        "definition_cn": "公司；企业",
-        "definition_pinyin": [],
-        "example": "My mother works at a company that designs computer games.",
-        "example_cn": "我妈妈在一家设计电脑游戏的公司工作。",
-        "example_pinyin": [],
-        "synonyms": [
-          "business",
-          "firm"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "companies",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Being with other people instead of being alone.",
-        "definition_cn": "陪伴；与人共处",
-        "definition_pinyin": [],
-        "example": "I enjoy the company of my cousins at family picnics.",
-        "example_cn": "家庭野餐时我很享受和表兄妹们在一起。",
-        "example_pinyin": [],
-        "synonyms": [
-          "group"
-        ],
-        "antonyms": [
-          "alone"
-        ],
-        "related": [],
-        "plural": "",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -11319,47 +10670,6 @@
         "past_participle": "",
         "adverb": "",
         "noun_form": "complexity",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "concept",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "An idea or thought about something.",
-        "definition_cn": "概念；观念",
-        "definition_pinyin": [],
-        "example": "The teacher explained a new concept in science class today.",
-        "example_cn": "今天老师讲解了科学课上的一个新概念。",
-        "example_pinyin": [],
-        "synonyms": [
-          "idea",
-          "notion"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "concepts",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -13127,105 +12437,6 @@
       "related": []
     },
     "image": "assets/images/deliver.png"
-  },
-  {
-    "word": "demand",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To ask for something very firmly and expect to get it.",
-        "definition_cn": "强烈要求；坚决索取",
-        "definition_pinyin": [],
-        "example": "Sometimes I demand extra bedtime stories from Dad.",
-        "example_cn": "有时我会向爸爸要求多讲一个睡前故事。",
-        "example_pinyin": [],
-        "synonyms": [
-          "insist",
-          "require",
-          "request"
-        ],
-        "antonyms": [
-          "offer",
-          "give"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "demands",
-        "present_continuous": "demanding",
-        "past_tense": "demanded",
-        "past_participle": "demanded",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "When someone asks for something in a strong way.",
-        "definition_cn": "以强烈的语气索要某物的行为",
-        "definition_pinyin": [],
-        "example": "The children made a demand for pizza at the party, asking for it loudly and all together.",
-        "example_cn": "孩子们在派对上吵着要披萨，大家一起大声提出要求。",
-        "example_pinyin": [],
-        "synonyms": [
-          "request"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "When lots of people want or need something.",
-        "definition_cn": "很多人想要或需要某样东西，需求。",
-        "definition_pinyin": [],
-        "example": "There is a big demand for ice cream on hot days.",
-        "example_cn": "",
-        "example_pinyin": [],
-        "synonyms": [
-          "need",
-          "requirement",
-          "request"
-        ],
-        "antonyms": [
-          "supply"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
   },
   {
     "word": "dentist",
@@ -15317,46 +14528,6 @@
     "image": null
   },
   {
-    "word": "education",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Learning things at school or from teachers.",
-        "definition_cn": "教育；学习",
-        "definition_pinyin": [],
-        "example": "Education is important for reaching your dreams.",
-        "example_cn": "教育对实现你的梦想很重要。",
-        "example_pinyin": [],
-        "synonyms": [
-          "learning"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "education",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/education.png"
-  },
-  {
     "word": "egg",
     "word_cn": "",
     "word_pinyin": [],
@@ -15991,48 +15162,6 @@
       "related": []
     },
     "image": null
-  },
-  {
-    "word": "evidence",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Facts or clues that show something is true.",
-        "definition_cn": "证据；线索",
-        "definition_pinyin": [],
-        "example": "The muddy footprints were evidence that the dog came inside.",
-        "example_cn": "泥泞的脚印证明狗进屋了。",
-        "example_pinyin": [],
-        "synonyms": [
-          "proof"
-        ],
-        "antonyms": [
-          "guess"
-        ],
-        "related": [],
-        "plural": "evidence",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/evidence.png"
   },
   {
     "word": "exam",
@@ -18365,44 +17494,6 @@
     "image": null
   },
   {
-    "word": "fountain",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A structure that shoots water into the air, often in a park.",
-        "definition_cn": "喷泉",
-        "definition_pinyin": [],
-        "example": "The fountain in the park shoots water high into the air.",
-        "example_cn": "公园里的喷泉把水高高地喷向空中。",
-        "example_pinyin": [],
-        "synonyms": [],
-        "antonyms": [],
-        "related": [],
-        "plural": "fountains",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/fountain.png"
-  },
-  {
     "word": "Friday",
     "word_cn": "",
     "word_pinyin": [],
@@ -19964,78 +19055,6 @@
     "image": "assets/images/grapefruit.png"
   },
   {
-    "word": "grasp",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To understand something.",
-        "definition_cn": "理解；弄懂",
-        "definition_pinyin": [],
-        "example": "After listening to the lesson twice, I could finally grasp how to solve the tricky maths problem.",
-        "example_cn": "听了两遍课之后，我终于能理解如何解这道棘手的数学题了。",
-        "example_pinyin": [],
-        "synonyms": [
-          "understand",
-          "get"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "grasps",
-        "present_continuous": "grasping",
-        "past_tense": "grasped",
-        "past_participle": "grasped",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A strong hold on something.",
-        "definition_cn": "",
-        "definition_pinyin": [],
-        "example": "He kept a firm grasp on his backpack so it wouldn’t fall.",
-        "example_cn": "",
-        "example_pinyin": [],
-        "synonyms": [
-          "hold",
-          "grip",
-          "clutch"
-        ],
-        "antonyms": [
-          "release",
-          "loosen",
-          "drop"
-        ],
-        "related": [],
-        "plural": "grasps",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "grass",
     "word_cn": "",
     "word_pinyin": [],
@@ -20588,72 +19607,6 @@
     "image": null
   },
   {
-    "word": "gulf",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A large part of the sea that goes into the land.",
-        "definition_cn": "海湾",
-        "definition_pinyin": [],
-        "example": "The boat sailed across the wide gulf.",
-        "example_cn": "船驶过宽阔的海湾。",
-        "example_pinyin": [],
-        "synonyms": [
-          "bay",
-          "cove"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "gulfs",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A big difference between things.",
-        "definition_cn": "（事物之间的）巨大差距；鸿沟",
-        "definition_pinyin": [],
-        "example": "There was a gulf between the older kids and the younger kids in how they liked to play.",
-        "example_cn": "大孩子和小孩子在喜欢的玩法上有很大的差距。",
-        "example_pinyin": [],
-        "synonyms": [
-          "gap"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "guy",
     "word_cn": "",
     "word_pinyin": [],
@@ -20925,47 +19878,6 @@
         "present_continuous": "happening",
         "past_tense": "happened",
         "past_participle": "happened",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "happening",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Something that is taking place or an event.",
-        "definition_cn": "正在发生的事情；事件",
-        "definition_pinyin": [],
-        "example": "The music festival was the most exciting happening of the summer.",
-        "example_cn": "音乐节是夏天最激动人心的大事。",
-        "example_pinyin": [],
-        "synonyms": [
-          "event",
-          "occurrence"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "happenings",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
         "adverb": "",
         "noun_form": "",
         "comparative": "",
@@ -23191,50 +22103,6 @@
     "image": "assets/images/hyena.png"
   },
   {
-    "word": "hypothesis",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "An idea or guess that you can test to see if it is true.",
-        "definition_cn": "假设；假说",
-        "definition_pinyin": [],
-        "example": "My hypothesis is that the plant will grow faster in sunlight.",
-        "example_cn": "我的假设是植物在阳光下会长得更快。",
-        "example_pinyin": [],
-        "synonyms": [
-          "theory",
-          "guess",
-          "idea"
-        ],
-        "antonyms": [
-          "fact"
-        ],
-        "related": [],
-        "plural": "hypotheses",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "I",
     "word_cn": "",
     "word_pinyin": [],
@@ -23901,78 +22769,6 @@
     "image": "assets/images/island.png"
   },
   {
-    "word": "issue",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A problem or subject that people talk or worry about.",
-        "definition_cn": "问题；议题",
-        "definition_pinyin": [],
-        "example": "The school newspaper talked about an important issue.",
-        "example_cn": "校报谈论了一个重要的问题。",
-        "example_pinyin": [],
-        "synonyms": [
-          "problem",
-          "matter",
-          "topic"
-        ],
-        "antonyms": [
-          "solution"
-        ],
-        "related": [],
-        "plural": "issues",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To officially give out, publish, or produce something (e.g. a statement, document, tickets)",
-        "definition_cn": "发布；颁发；发行",
-        "definition_pinyin": [],
-        "example": "The teacher will issue new books to the class next week.",
-        "example_cn": "老师下周会给全班发放新书。",
-        "example_pinyin": [],
-        "synonyms": [
-          "give out",
-          "distribute"
-        ],
-        "antonyms": [
-          "collect"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "it",
     "word_cn": "",
     "word_pinyin": [],
@@ -24516,48 +23312,6 @@
         "antonyms": [],
         "related": [],
         "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "journal",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A book where you write about your life, like a diary.",
-        "definition_cn": "日记；日志",
-        "definition_pinyin": [],
-        "example": "I write about my adventures in my journal.",
-        "example_cn": "我在日记里写下我的冒险经历。",
-        "example_pinyin": [],
-        "synonyms": [
-          "diary",
-          "log",
-          "record"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "journals",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -26274,48 +25028,6 @@
     "image": null
   },
   {
-    "word": "leaving",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Going away from somewhere or someone.",
-        "definition_cn": "离开；离去",
-        "definition_pinyin": [],
-        "example": "Everyone felt a little sad about Sam’s leaving.",
-        "example_cn": "大家对山姆的离开都有些难过。",
-        "example_pinyin": [],
-        "synonyms": [
-          "departing"
-        ],
-        "antonyms": [
-          "arriving"
-        ],
-        "related": [],
-        "plural": "leaving",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "lecture",
     "word_cn": "",
     "word_pinyin": [],
@@ -27385,49 +26097,6 @@
         "past_participle": "",
         "adverb": "",
         "noun_form": "life",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "living",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "adjective",
-        "part_of_speech_cn": "",
-        "definition": "Being alive, not dead.",
-        "definition_cn": "活着的；有生命的",
-        "definition_pinyin": [],
-        "example": "The museum features a garden filled with living plants from around the world.",
-        "example_cn": "博物馆里有一个种满世界各地活植物的花园。",
-        "example_pinyin": [],
-        "synonyms": [
-          "alive",
-          "existing"
-        ],
-        "antonyms": [
-          "dead"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -29360,71 +28029,6 @@
         "comparative": "",
         "superlative": "",
         "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "model",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A small copy of something.",
-        "definition_cn": "模型；小样",
-        "definition_pinyin": [],
-        "example": "He built a model aeroplane out of plastic.",
-        "example_cn": "他用塑料做了一个飞机模型。",
-        "example_pinyin": [],
-        "synonyms": [
-          "copy",
-          "replica",
-          "figure"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "models",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A person who shows clothing.",
-        "definition_cn": "模特",
-        "definition_pinyin": [],
-        "example": "The model walked down the runway wearing a bright red dress.",
-        "example_cn": "模特穿着一条鲜红色的裙子走在T台上。",
-        "example_pinyin": [],
-        "synonyms": [],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": "assets/images/model 2.png"
       }
     ],
     "relations": {
@@ -31461,50 +30065,6 @@
     "image": null
   },
   {
-    "word": "notion",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "An idea, thought, or belief.",
-        "definition_cn": "想法；观念",
-        "definition_pinyin": [],
-        "example": "I have a notion that we should bake cookies today.",
-        "example_cn": "我觉得我们今天应该烤饼干。",
-        "example_pinyin": [],
-        "synonyms": [
-          "idea",
-          "thought",
-          "belief"
-        ],
-        "antonyms": [
-          "fact"
-        ],
-        "related": [],
-        "plural": "notions",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "November",
     "word_cn": "",
     "word_pinyin": [],
@@ -31848,46 +30408,6 @@
       "related": []
     },
     "image": "assets/images/nut.png"
-  },
-  {
-    "word": "observation",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Watching or noticing something carefully.",
-        "definition_cn": "观察；仔细观看",
-        "definition_pinyin": [],
-        "example": "Careful observation helped me spot the tiny ladybug.",
-        "example_cn": "仔细观察帮我发现了那只小瓢虫。",
-        "example_pinyin": [],
-        "synonyms": [
-          "watching"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "observations",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
   },
   {
     "word": "ocean",
@@ -32596,93 +31116,6 @@
     "image": "assets/images/open.png"
   },
   {
-    "word": "opinion",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "What you think or believe about something.",
-        "definition_cn": "意见；看法",
-        "definition_pinyin": [],
-        "example": "In my opinion, chocolate ice cream is the best.",
-        "example_cn": "在我看来，巧克力冰淇淋是最好的。",
-        "example_pinyin": [],
-        "synonyms": [
-          "belief",
-          "view",
-          "thought"
-        ],
-        "antonyms": [
-          "fact"
-        ],
-        "related": [],
-        "plural": "opinions",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "option",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A choice or something you can choose.",
-        "definition_cn": "选择；选项",
-        "definition_pinyin": [],
-        "example": "You have the option to join the art club or the sports team.",
-        "example_cn": "你可以选择加入艺术俱乐部或运动队。",
-        "example_pinyin": [],
-        "synonyms": [
-          "choice",
-          "alternative"
-        ],
-        "antonyms": [
-          "requirement"
-        ],
-        "related": [],
-        "plural": "options",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "or",
     "word_cn": "",
     "word_pinyin": [],
@@ -32923,44 +31356,6 @@
         "definition_pinyin": [],
         "example": "You take one cookie, and I'll have the other.",
         "example_cn": "你拿一块饼干，另一块我来吃。",
-        "example_pinyin": [],
-        "synonyms": [],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "ought",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "modal verb",
-        "part_of_speech_cn": "",
-        "definition": "Should do it because it is the right thing.",
-        "definition_cn": "应该；应当",
-        "definition_pinyin": [],
-        "example": "You ought to say thank you when someone helps you.",
-        "example_cn": "别人帮你时你应该说谢谢。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -35884,47 +34279,6 @@
     "image": "assets/images/player.png"
   },
   {
-    "word": "plead",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To ask for something in a very serious or desperate way.",
-        "definition_cn": "恳求；恳请",
-        "definition_pinyin": [],
-        "example": "I had to plead with my brother to share his candy.",
-        "example_cn": "我得央求哥哥分享他的糖果。",
-        "example_pinyin": [],
-        "synonyms": [
-          "beg",
-          "implore"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "pleads",
-        "present_continuous": "pleading",
-        "past_tense": "pleaded",
-        "past_participle": "pleaded",
-        "adverb": "",
-        "noun_form": "plea",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "please",
     "word_cn": "",
     "word_pinyin": [],
@@ -36472,47 +34826,6 @@
     "image": null
   },
   {
-    "word": "portrait",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A picture of a person, usually showing their face.",
-        "definition_cn": "肖像；画像",
-        "definition_pinyin": [],
-        "example": "She painted a beautiful portrait of her grandmother for art class.",
-        "example_cn": "她为美术课画了一幅祖母的美丽肖像。",
-        "example_pinyin": [],
-        "synonyms": [
-          "picture",
-          "painting"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "portraits",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": "assets/images/portrait 1.png"
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "potato",
     "word_cn": "",
     "word_pinyin": [],
@@ -36626,82 +34939,6 @@
         "antonyms": [],
         "related": [],
         "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "praise",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To say nice things about someone because they did something well.",
-        "definition_cn": "称赞；表扬",
-        "definition_pinyin": [],
-        "example": "The teacher gave us praise for working so hard.",
-        "example_cn": "因为我们很努力，老师表扬了我们。",
-        "example_pinyin": [],
-        "synonyms": [
-          "applaud",
-          "compliment",
-          "cheer"
-        ],
-        "antonyms": [
-          "criticise",
-          "blame"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "praises",
-        "present_continuous": "praising",
-        "past_tense": "praised",
-        "past_participle": "praised",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "When you say nice things about someone because they did something good.",
-        "definition_cn": "称赞；表扬",
-        "definition_pinyin": [],
-        "example": "The teacher gave praise to the class for working so hard on their project.",
-        "example_cn": "老师表扬全班同学，因为大家在课题项目上付出了很大努力。",
-        "example_pinyin": [],
-        "synonyms": [
-          "compliment",
-          "applause",
-          "approval"
-        ],
-        "antonyms": [
-          "criticism",
-          "blame",
-          "disapproval"
-        ],
-        "related": [],
-        "plural": "praises",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -37599,48 +35836,6 @@
       "related": []
     },
     "image": "assets/images/purple.jpg"
-  },
-  {
-    "word": "purpose",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "The reason why something is done or exists.",
-        "definition_cn": "目的；用途",
-        "definition_pinyin": [],
-        "example": "The purpose of the meeting is to plan our trip.",
-        "example_cn": "这次会议的目的是规划我们的旅行。",
-        "example_pinyin": [],
-        "synonyms": [
-          "reason",
-          "aim",
-          "goal"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "purposes",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
   },
   {
     "word": "push",
@@ -39167,102 +37362,6 @@
     "image": null
   },
   {
-    "word": "release",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To let go or set free.",
-        "definition_cn": "释放；放走",
-        "definition_pinyin": [],
-        "example": "We watched the zookeeper release the turtle back into the pond.",
-        "example_cn": "我们看着动物园管理员把乌龟放回池塘。",
-        "example_pinyin": [],
-        "synonyms": [
-          "free"
-        ],
-        "antonyms": [
-          "hold",
-          "keep"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "releases",
-        "present_continuous": "releasing",
-        "past_tense": "released",
-        "past_participle": "released",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To let something be known by people or to share news or information.",
-        "definition_cn": "公开；发布（消息）",
-        "definition_pinyin": [],
-        "example": "They will release the new movie trailer next week.",
-        "example_cn": "他们下周会发布新电影的预告片。",
-        "example_pinyin": [],
-        "synonyms": [
-          "announce",
-          "publish"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "releases",
-        "present_continuous": "releasing",
-        "past_tense": "released",
-        "past_participle": "released",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Making something available for people, like a new movie or book.",
-        "definition_cn": "让某物（如新电影或新书）面向公众，发布。",
-        "definition_pinyin": [],
-        "example": "Everyone was excited for the release of the new movie.",
-        "example_cn": "",
-        "example_pinyin": [],
-        "synonyms": [
-          "launch",
-          "publication",
-          "debut"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "reliable",
     "word_cn": "",
     "word_pinyin": [],
@@ -39294,211 +37393,6 @@
         "past_participle": "",
         "adverb": "reliably",
         "noun_form": "reliability",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "report",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A written or spoken account of something that happened.",
-        "definition_cn": "报告；汇报",
-        "definition_pinyin": [],
-        "example": "I wrote a report about volcanoes for my science class.",
-        "example_cn": "我为科学课写了一篇关于火山的报告。",
-        "example_pinyin": [],
-        "synonyms": [
-          "article"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "reports",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To give an account or description of what happened.",
-        "definition_cn": "报告；讲述",
-        "definition_pinyin": [],
-        "example": "Please report to the principal’s office after recess.",
-        "example_cn": "请在下课后到校长办公室报到。",
-        "example_pinyin": [],
-        "synonyms": [
-          "cover",
-          "describe",
-          "narrate"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "reports",
-        "present_continuous": "reporting",
-        "past_tense": "reported",
-        "past_participle": "reported",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": "assets/images/report 2.png"
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "request",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "When you politely ask for something.",
-        "definition_cn": "请求；要求",
-        "definition_pinyin": [],
-        "example": "She made a request to have extra time for her project.",
-        "example_cn": "她请求给她的项目更多时间。",
-        "example_pinyin": [],
-        "synonyms": [
-          "ask",
-          "appeal",
-          "plea"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "requests",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To politely ask someone for something.",
-        "definition_cn": "请求；要求",
-        "definition_pinyin": [],
-        "example": "You can request a new book from the librarian.",
-        "example_cn": "你可以向图书管理员借一本新书。",
-        "example_pinyin": [],
-        "synonyms": [
-          "ask",
-          "appeal",
-          "plead"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "requests",
-        "present_continuous": "requesting",
-        "past_tense": "requested",
-        "past_participle": "requested",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "research",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Careful study to find and learn new facts.",
-        "definition_cn": "研究；调查",
-        "definition_pinyin": [],
-        "example": "Our research about penguins taught us many interesting facts.",
-        "example_cn": "我们关于企鹅的研究让我们了解了许多有趣的事实。",
-        "example_pinyin": [],
-        "synonyms": [
-          "study",
-          "investigation",
-          "inquiry"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "research",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To carefully study a subject to find out new facts.",
-        "definition_cn": "研究；探究",
-        "definition_pinyin": [],
-        "example": "Let’s research different kinds of dinosaurs for our project.",
-        "example_cn": "让我们为项目研究各种不同的恐龙。",
-        "example_pinyin": [],
-        "synonyms": [
-          "study",
-          "investigate",
-          "explore"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "researches",
-        "present_continuous": "researching",
-        "past_tense": "researched",
-        "past_participle": "researched",
-        "adverb": "",
-        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -39947,51 +37841,6 @@
     "image": null
   },
   {
-    "word": "rigid",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "adjective",
-        "part_of_speech_cn": "",
-        "definition": "Not able to bend, stiff and hard.",
-        "definition_cn": "僵硬的；不能弯曲的",
-        "definition_pinyin": [],
-        "example": "The ruler was so rigid it wouldn’t bend at all.",
-        "example_cn": "这把尺子太硬了，根本弯不动。",
-        "example_pinyin": [],
-        "synonyms": [
-          "stiff",
-          "firm",
-          "hard"
-        ],
-        "antonyms": [
-          "flexible",
-          "soft"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "rigidly",
-        "noun_form": "rigidity",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "ring",
     "word_cn": "",
     "word_pinyin": [],
@@ -40053,50 +37902,6 @@
       "related": []
     },
     "image": "assets/images/ring.png"
-  },
-  {
-    "word": "risky",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "adjective",
-        "part_of_speech_cn": "",
-        "definition": "Having a chance of danger or something bad happening.",
-        "definition_cn": "有风险的；冒险的",
-        "definition_pinyin": [],
-        "example": "It’s risky to climb tall trees without an adult nearby.",
-        "example_cn": "在附近没有大人的情况下爬高树很危险。",
-        "example_pinyin": [],
-        "synonyms": [
-          "dangerous",
-          "unsafe",
-          "hazardous"
-        ],
-        "antonyms": [
-          "safe"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "riskiness",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
   },
   {
     "word": "river",
@@ -41774,119 +39579,6 @@
     "image": "assets/images/scared.png"
   },
   {
-    "word": "scene",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "The place where something happens, especially in a story or play.",
-        "definition_cn": "场景；现场",
-        "definition_pinyin": [],
-        "example": "My favourite scene in the movie was the big parade.",
-        "example_cn": "电影里我最喜欢的场景是大游行。",
-        "example_pinyin": [],
-        "synonyms": [
-          "setting",
-          "location",
-          "site"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "scenes",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "schedule",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A plan that shows when things will happen.",
-        "definition_cn": "时间表；日程",
-        "definition_pinyin": [],
-        "example": "Our class schedule shows when we have each subject.",
-        "example_cn": "我们的课程表显示了每门课的上课时间。",
-        "example_pinyin": [],
-        "synonyms": [
-          "timetable",
-          "plan",
-          "agenda"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "schedules",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To decide and set a certain time for something to happen.",
-        "definition_cn": "安排；预定时间",
-        "definition_pinyin": [],
-        "example": "The teacher will schedule our spelling test for next Friday.",
-        "example_cn": "老师会把我们的拼写测验安排在下周五。",
-        "example_pinyin": [],
-        "synonyms": [
-          "plan",
-          "organise",
-          "arrange"
-        ],
-        "antonyms": [
-          "cancel"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "schedules",
-        "present_continuous": "scheduling",
-        "past_tense": "scheduled",
-        "past_participle": "scheduled",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "school",
     "word_cn": "",
     "word_pinyin": [],
@@ -42126,46 +39818,6 @@
       "related": []
     },
     "image": null
-  },
-  {
-    "word": "sculpture",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "The art of shaping something, like clay or stone, into a figure or object.",
-        "definition_cn": "雕塑艺术；雕刻",
-        "definition_pinyin": [],
-        "example": "The museum had a sculpture made out of shiny metal.",
-        "example_cn": "博物馆里有一座用闪亮金属制成的雕塑。",
-        "example_pinyin": [],
-        "synonyms": [
-          "carving"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "sculptures",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/sculpture.png"
   },
   {
     "word": "sea",
@@ -42457,112 +40109,6 @@
     "image": "assets/images/second.png"
   },
   {
-    "word": "secure",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "adjective",
-        "part_of_speech_cn": "",
-        "definition": "Safe and protected from harm.",
-        "definition_cn": "安全的；受到保护的",
-        "definition_pinyin": [],
-        "example": "Make sure your bike is secure so it doesn’t fall over.",
-        "example_cn": "确保你的自行车放稳，这样它就不会倒下来。",
-        "example_pinyin": [],
-        "synonyms": [
-          "protected",
-          "safe",
-          "guarded"
-        ],
-        "antonyms": [
-          "insecure",
-          "unprotected"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "securely",
-        "noun_form": "security",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To make something tight, or fixed in place so it doesn’t move or get lost.",
-        "definition_cn": "使安全；使稳固",
-        "definition_pinyin": [],
-        "example": "Dad helped me secure my helmet so it wouldn’t fall off while I rode my bike.",
-        "example_cn": "爸爸帮我把头盔系紧，这样我骑自行车的时候它就不会掉下来。",
-        "example_pinyin": [],
-        "synonyms": [
-          "fasten",
-          "lock",
-          "tie"
-        ],
-        "antonyms": [
-          "unfasten",
-          "loosen",
-          "detach"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "secures",
-        "present_continuous": "securing",
-        "past_tense": "secured",
-        "past_participle": "secured",
-        "adverb": "",
-        "noun_form": "security",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To keep something safe from danger or harm.",
-        "definition_cn": "使某物免受危险或伤害，确保安全。",
-        "definition_pinyin": [],
-        "example": "Please secure your bike with a lock so it doesn’t get stolen.",
-        "example_cn": "",
-        "example_pinyin": [],
-        "synonyms": [
-          "protect",
-          "guard",
-          "safeguard"
-        ],
-        "antonyms": [
-          "endanger",
-          "expose"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "secures",
-        "present_continuous": "securing",
-        "past_tense": "secured",
-        "past_participle": "secured",
-        "adverb": "",
-        "noun_form": "security",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "see",
     "word_cn": "",
     "word_pinyin": [],
@@ -42726,50 +40272,6 @@
         "past_participle": "seemed",
         "adverb": "",
         "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "seize",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To grab or take hold of something very quickly.",
-        "definition_cn": "抓住；夺取",
-        "definition_pinyin": [],
-        "example": "Seize the chance to try something new every day.",
-        "example_cn": "每天抓住机会尝试新事物。",
-        "example_pinyin": [],
-        "synonyms": [
-          "grab",
-          "snatch",
-          "grasp"
-        ],
-        "antonyms": [
-          "release"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "seizes",
-        "present_continuous": "seizing",
-        "past_tense": "seized",
-        "past_participle": "seized",
-        "adverb": "",
-        "noun_form": "seizure",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -42955,74 +40457,6 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "service",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Work that someone does for others, like helping or fixing things.",
-        "definition_cn": "服务；帮助",
-        "definition_pinyin": [],
-        "example": "The pizza place had very fast service.",
-        "example_cn": "这家披萨店的服务非常快。",
-        "example_pinyin": [],
-        "synonyms": [
-          "help",
-          "assistance"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "services",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To check, maintain, or fix something so it works well.",
-        "definition_cn": "检修；保养",
-        "definition_pinyin": [],
-        "example": "The car needs to be serviced.",
-        "example_cn": "这辆车需要保养了。",
-        "example_pinyin": [],
-        "synonyms": [
-          "maintain",
-          "fix",
-          "repair"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "services",
-        "present_continuous": "servicing",
-        "past_tense": "serviced",
-        "past_participle": "serviced",
         "adverb": "",
         "noun_form": "",
         "comparative": "",
@@ -46597,73 +44031,6 @@
     "image": "assets/images/spider.png"
   },
   {
-    "word": "splint",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A stiff support used to keep a broken bone in place while it heals.",
-        "definition_cn": "夹板",
-        "definition_pinyin": [],
-        "example": "The nurse put a splint on my finger to help it heal.",
-        "example_cn": "护士在我的手指上打了夹板，帮助它愈合。",
-        "example_pinyin": [],
-        "synonyms": [
-          "support",
-          "brace"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "splints",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To hold an injured body part steady with a splint.",
-        "definition_cn": "用夹板固定",
-        "definition_pinyin": [],
-        "example": "The doctor splinted my wrist after the fall.",
-        "example_cn": "摔倒后，医生用夹板固定了我的手腕。",
-        "example_pinyin": [],
-        "synonyms": [
-          "support",
-          "brace"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "splints",
-        "present_continuous": "splinting",
-        "past_tense": "splinted",
-        "past_participle": "splinted",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "spoon",
     "word_cn": "",
     "word_pinyin": [],
@@ -47771,73 +45138,6 @@
       "related": []
     },
     "image": null
-  },
-  {
-    "word": "summit",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "The highest point of a mountain.",
-        "definition_cn": "山峰的最高点；顶峰",
-        "definition_pinyin": [],
-        "example": "We cheered when we finally reached the snowy summit after a long hike.",
-        "example_cn": "长途徒步后我们终于到达白雪皑皑的山顶，大家都欢呼起来。",
-        "example_pinyin": [],
-        "synonyms": [
-          "peak",
-          "top"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "summits",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A meeting where leaders from different places come together to talk.",
-        "definition_cn": "峰会（各国领导人会面）",
-        "definition_pinyin": [],
-        "example": "At the summit, important leaders talked about how to help the planet.",
-        "example_cn": "在峰会上，重要的领导人讨论了如何帮助地球。",
-        "example_pinyin": [],
-        "synonyms": [
-          "conference",
-          "meeting"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": "assets/images/summit.png"
   },
   {
     "word": "sun",
@@ -49165,49 +46465,6 @@
     "image": null
   },
   {
-    "word": "theory",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "An idea or set of ideas that explains something.",
-        "definition_cn": "理论",
-        "definition_pinyin": [],
-        "example": "My theory is that the red ball will roll faster than the blue one.",
-        "example_cn": "我的猜想是红色的球会比蓝色的球滚得更快。",
-        "example_pinyin": [],
-        "synonyms": [
-          "idea",
-          "belief"
-        ],
-        "antonyms": [
-          "fact"
-        ],
-        "related": [],
-        "plural": "theories",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "there",
     "word_cn": "",
     "word_pinyin": [],
@@ -49942,71 +47199,6 @@
         "synonyms": [
           "during",
           "while"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "throughout",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "preposition",
-        "part_of_speech_cn": "",
-        "definition": "In every part or place inside something.",
-        "definition_cn": "遍及；到处",
-        "definition_pinyin": [],
-        "example": "We laughed and played throughout the whole afternoon.",
-        "example_cn": "整个下午我们都笑着玩耍。",
-        "example_pinyin": [],
-        "synonyms": [
-          "everywhere"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "adverb",
-        "part_of_speech_cn": "",
-        "definition": "In every part or all over something.",
-        "definition_cn": "遍及；遍布",
-        "definition_pinyin": [],
-        "example": "The house was painted throughout.",
-        "example_cn": "这栋房子被整体粉刷了一遍。",
-        "example_pinyin": [],
-        "synonyms": [
-          "all over"
         ],
         "antonyms": [],
         "related": [],
@@ -50771,47 +47963,6 @@
     "image": null
   },
   {
-    "word": "topic",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "The subject you are talking, reading, or writing about.",
-        "definition_cn": "话题；主题",
-        "definition_pinyin": [],
-        "example": "The topic of today’s lesson is weather.",
-        "example_cn": "今天课的主题是天气。",
-        "example_pinyin": [],
-        "synonyms": [
-          "subject",
-          "theme"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "topics",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "touch",
     "word_cn": "",
     "word_pinyin": [],
@@ -50854,48 +48005,6 @@
         "antonyms": [],
         "related": [],
         "plural": "touches",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "tournament",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "A series of games or contests to find a winner.",
-        "definition_cn": "锦标赛；联赛",
-        "definition_pinyin": [],
-        "example": "Our soccer team entered a big tournament this year.",
-        "example_cn": "我们足球队今年参加了一场大型锦标赛。",
-        "example_pinyin": [],
-        "synonyms": [
-          "competition",
-          "contest",
-          "championship"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "tournaments",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -52236,121 +49345,6 @@
         "past_participle": "",
         "adverb": "",
         "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "vision",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "Being able to see with your eyes.",
-        "definition_cn": "视力；视觉",
-        "definition_pinyin": [],
-        "example": "My vision was blurry until I put on my glasses.",
-        "example_cn": "戴上眼镜前，我的视力很模糊。",
-        "example_pinyin": [],
-        "synonyms": [
-          "sight",
-          "view"
-        ],
-        "antonyms": [
-          "blindness"
-        ],
-        "related": [],
-        "plural": "visions",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": "assets/images/vision 1.jpg"
-      },
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "An idea or picture in your mind about something that could happen or something you want to create.",
-        "definition_cn": "远见；心中的图景",
-        "definition_pinyin": [],
-        "example": "His vision is to make a robot that can help clean his room one day.",
-        "example_cn": "他的愿景是有一天造一个能帮自己打扫房间的机器人。",
-        "example_pinyin": [],
-        "synonyms": [
-          "dream",
-          "idea",
-          "hope"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "vivid",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "adjective",
-        "part_of_speech_cn": "",
-        "definition": "Very bright, colourful, and easy to see or imagine.",
-        "definition_cn": "生动的；鲜明的；清晰的",
-        "definition_pinyin": [],
-        "example": "I had a vivid dream about flying like a bird.",
-        "example_cn": "我做了一个生动的梦，梦见像鸟一样飞翔。",
-        "example_pinyin": [],
-        "synonyms": [
-          "clear",
-          "bright",
-          "colourful"
-        ],
-        "antonyms": [
-          "blurry",
-          "unclear"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "vividly",
-        "noun_form": "vividness",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -54755,71 +51749,6 @@
     "image": null
   },
   {
-    "word": "within",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "preposition",
-        "part_of_speech_cn": "",
-        "definition": "Inside or not beyond a place.",
-        "definition_cn": "在……之内；不超出",
-        "definition_pinyin": [],
-        "example": "Please stay within the playground fence during recess.",
-        "example_cn": "课间请待在操场的围栏内。",
-        "example_pinyin": [],
-        "synonyms": [],
-        "antonyms": [
-          "beyond"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "adverb",
-        "part_of_speech_cn": "",
-        "definition": "Inside or before the end of a certain amount of time.",
-        "definition_cn": "在……之内",
-        "definition_pinyin": [],
-        "example": "You must finish the test within one hour.",
-        "example_cn": "你必须在一小时内完成考试。",
-        "example_pinyin": [],
-        "synonyms": [],
-        "antonyms": [
-          "beyond"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
     "word": "without",
     "word_cn": "",
     "word_pinyin": [],
@@ -55250,76 +52179,6 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      }
-    ],
-    "relations": {
-      "synonyms": [],
-      "antonyms": [],
-      "related": []
-    },
-    "image": null
-  },
-  {
-    "word": "wound",
-    "word_cn": "",
-    "word_pinyin": [],
-    "phonetic": "",
-    "frequency_tier": 1,
-    "meanings": [
-      {
-        "part_of_speech": "noun",
-        "part_of_speech_cn": "",
-        "definition": "An injury or cut on the body.",
-        "definition_cn": "伤口；创伤",
-        "definition_pinyin": [],
-        "example": "He put a bandage on his wound after he fell off his bike.",
-        "example_cn": "他从自行车上摔下来后给伤口贴了绷带。",
-        "example_pinyin": [],
-        "synonyms": [
-          "injury",
-          "cut"
-        ],
-        "antonyms": [],
-        "related": [],
-        "plural": "wounds",
-        "present_tense": "",
-        "present_continuous": "",
-        "past_tense": "",
-        "past_participle": "",
-        "adverb": "",
-        "noun_form": "",
-        "comparative": "",
-        "superlative": "",
-        "image": null
-      },
-      {
-        "part_of_speech": "verb",
-        "part_of_speech_cn": "",
-        "definition": "To hurt or injure someone or something.",
-        "definition_cn": "使受伤；伤害",
-        "definition_pinyin": [],
-        "example": "She wounded her knee when she tripped on the sidewalk.",
-        "example_cn": "她被人行道绊倒时擦伤了膝盖。",
-        "example_pinyin": [],
-        "synonyms": [
-          "injure",
-          "hurt"
-        ],
-        "antonyms": [
-          "heal",
-          "cure"
-        ],
-        "related": [],
-        "plural": "",
-        "present_tense": "wounds",
-        "present_continuous": "wounding",
-        "past_tense": "wounded",
-        "past_participle": "wounded",
         "adverb": "",
         "noun_form": "",
         "comparative": "",

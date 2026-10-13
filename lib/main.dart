@@ -1257,46 +1257,57 @@ class _WordDetailPageState extends State<WordDetailPage> {
           ],
         ),
       ),
-      body: Shortcuts(
-        shortcuts: {
-          LogicalKeySet(LogicalKeyboardKey.arrowLeft): const PreviousWordIntent(),
-          LogicalKeySet(LogicalKeyboardKey.arrowRight): const NextWordIntent(),
-          LogicalKeySet(LogicalKeyboardKey.arrowUp): const ScrollUpIntent(),
-          LogicalKeySet(LogicalKeyboardKey.arrowDown): const ScrollDownIntent(),
+      body: GestureDetector(
+        onHorizontalDragEnd: (details) {
+          if (details.primaryVelocity == null) return;
+          if (details.primaryVelocity! < -200) {
+            // Swipe left -> next word
+            _goToNextWord();
+          } else if (details.primaryVelocity! > 200) {
+            // Swipe right -> previous word
+            _goToPreviousWord();
+          }
         },
-        child: Actions(
-          actions: {
-            PreviousWordIntent: CallbackAction<PreviousWordIntent>(
-              onInvoke: (_) {
-                _goToPreviousWord();
-                return null;
-              },
-            ),
-            NextWordIntent: CallbackAction<NextWordIntent>(
-              onInvoke: (_) {
-                _goToNextWord();
-                return null;
-              },
-            ),
-            ScrollUpIntent: CallbackAction<ScrollUpIntent>(
-              onInvoke: (_) {
-                _scrollBy(-120);
-                return null;
-              },
-            ),
-            ScrollDownIntent: CallbackAction<ScrollDownIntent>(
-              onInvoke: (_) {
-                _scrollBy(120);
-                return null;
-              },
-            ),
+        child: Shortcuts(
+          shortcuts: {
+            LogicalKeySet(LogicalKeyboardKey.arrowLeft): const PreviousWordIntent(),
+            LogicalKeySet(LogicalKeyboardKey.arrowRight): const NextWordIntent(),
+            LogicalKeySet(LogicalKeyboardKey.arrowUp): const ScrollUpIntent(),
+            LogicalKeySet(LogicalKeyboardKey.arrowDown): const ScrollDownIntent(),
           },
-          child: Focus(
-            autofocus: true,
-            child: Padding(
-              padding: const EdgeInsets.all(20.0),
-              child: SelectionArea(
-                child: Column(
+          child: Actions(
+            actions: {
+              PreviousWordIntent: CallbackAction<PreviousWordIntent>(
+                onInvoke: (_) {
+                  _goToPreviousWord();
+                  return null;
+                },
+              ),
+              NextWordIntent: CallbackAction<NextWordIntent>(
+                onInvoke: (_) {
+                  _goToNextWord();
+                  return null;
+                },
+              ),
+              ScrollUpIntent: CallbackAction<ScrollUpIntent>(
+                onInvoke: (_) {
+                  _scrollBy(-120);
+                  return null;
+                },
+              ),
+              ScrollDownIntent: CallbackAction<ScrollDownIntent>(
+                onInvoke: (_) {
+                  _scrollBy(120);
+                  return null;
+                },
+              ),
+            },
+            child: Focus(
+              autofocus: true,
+              child: Padding(
+                padding: const EdgeInsets.all(20.0),
+                child: SelectionArea(
+                  child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
               Row(
@@ -1389,6 +1400,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
           ),
         ),
       ),
-    );
+    ),
+  );
   }
 }
