@@ -39,3 +39,6 @@ app.*.map.json
 /ios/Flutter/Flutter.framework
 /ios/Flutter/Flutter.podspec
 /ios/.generated/
+
+# Original large image backup (do not commit)
+assets/images_backup/

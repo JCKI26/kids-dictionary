@@ -295,7 +295,7 @@
         "definition_cn": "在某事上做得非常好或取得非常高的分数。",
         "definition_pinyin": [],
         "example": "She aced her spelling test and got every word right.",
-        "example_cn": "",
+        "example_cn": "她拼写测验得了满分，每个单词都拼对了。",
         "example_pinyin": [],
         "synonyms": [
           "excel",
@@ -511,14 +511,14 @@
         "definition_cn": "某人做的某件事，比如一件善举。",
         "definition_pinyin": [],
         "example": "Helping a friend is a kind act.",
-        "example_cn": "",
+        "example_cn": "帮助朋友是一件善举。",
         "example_pinyin": [],
         "synonyms": [
           "behaviour"
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "acts",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -1269,7 +1269,7 @@
         "definition_cn": "把某物对准目标。",
         "definition_pinyin": [],
         "example": "Please aim the ball at the basket before you throw it.",
-        "example_cn": "",
+        "example_cn": "投掷之前请把球对准篮筐。",
         "example_pinyin": [],
         "synonyms": [
           "target",
@@ -1325,7 +1325,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/air 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -1351,7 +1351,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/air 2.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -1360,7 +1360,7 @@
         "definition_cn": "让新鲜空气进入某处。",
         "definition_pinyin": [],
         "example": "Open the window to air out the room.",
-        "example_cn": "",
+        "example_cn": "打开窗户给房间通通风。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -1382,7 +1382,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/air.png"
+    "image": null
   },
   {
     "word": "all",
@@ -2821,7 +2821,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/arm 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -2858,7 +2858,7 @@
         "definition_cn": "做好准备去行动或做某件重要的事。",
         "definition_pinyin": [],
         "example": "The team armed themselves with water bottles before the big race.",
-        "example_cn": "",
+        "example_cn": "大赛前，队员们都准备好了水壶。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -2880,7 +2880,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/arm.png"
+    "image": null
   },
   {
     "word": "around",
@@ -3729,7 +3729,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "autumns",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -3911,7 +3911,7 @@
           "front"
         ],
         "related": [],
-        "plural": "",
+        "plural": "backs",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -3929,7 +3929,7 @@
         "definition_cn": "支持某人或同意他们正在做的事。",
         "definition_pinyin": [],
         "example": "My friends always back me up when I need help.",
-        "example_cn": "",
+        "example_cn": "当我需要帮助时，朋友们总是支持我。",
         "example_pinyin": [],
         "synonyms": [
           "support",
@@ -4116,7 +4116,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/bag 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -4151,7 +4151,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/bag.png"
+    "image": null
   },
   {
     "word": "ball",
@@ -4316,7 +4316,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/bandage 2.png"
       }
     ],
     "relations": {
@@ -4324,7 +4324,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/bandage.png"
+    "image": null
   },
   {
     "word": "bank",
@@ -4389,7 +4389,7 @@
         "definition_cn": "把钱存在安全的地方，比如银行。",
         "definition_pinyin": [],
         "example": "I want to bank my birthday money so I can save it.",
-        "example_cn": "",
+        "example_cn": "我想把生日收到的钱存进银行，这样就能存起来。",
         "example_pinyin": [],
         "synonyms": [
           "save",
@@ -4775,7 +4775,7 @@
         "definition_cn": "音乐中听到的有规律的声响或节拍。",
         "definition_pinyin": [],
         "example": "I like to clap my hands to the beat of the song.",
-        "example_cn": "",
+        "example_cn": "我喜欢随着歌曲的节拍拍手。",
         "example_pinyin": [],
         "synonyms": [
           "rhythm",
@@ -4783,7 +4783,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "beats",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -5910,7 +5910,7 @@
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "blood",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -6219,7 +6219,7 @@
           "applaud"
         ],
         "related": [],
-        "plural": "",
+        "plural": "boos",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -6266,7 +6266,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/book 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -6303,7 +6303,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/book.png"
+    "image": null
   },
   {
     "word": "bored",
@@ -6517,7 +6517,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "bounces",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -6599,7 +6599,7 @@
         "definition_cn": "弯下身子，通常是表示尊敬或道谢。",
         "definition_pinyin": [],
         "example": "The actors bow to the audience after the show.",
-        "example_cn": "",
+        "example_cn": "演出结束后，演员们向观众鞠躬。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -6651,7 +6651,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/bowl 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -6684,7 +6684,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/bowl.png"
+    "image": null
   },
   {
     "word": "box",
@@ -6718,7 +6718,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/box 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -6743,7 +6743,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/box 2.png"
       },
       {
         "part_of_speech": "verb",
@@ -6752,7 +6752,7 @@
         "definition_cn": "把某物放进盒子里。",
         "definition_pinyin": [],
         "example": "Let’s box up the toys before we clean the room.",
-        "example_cn": "",
+        "example_cn": "打扫房间前，咱们先把玩具装进盒子里。",
         "example_pinyin": [],
         "synonyms": [
           "pack",
@@ -6780,7 +6780,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/box.png"
+    "image": null
   },
   {
     "word": "boy",
@@ -6994,7 +6994,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/bridge 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -7033,7 +7033,7 @@
         "definition_cn": "缩小两件事之间的差距或不同。",
         "definition_pinyin": [],
         "example": "The teacher tried to bridge the gap between the new students and the rest of the class by having everyone play a game together.",
-        "example_cn": "",
+        "example_cn": "老师让全班一起玩游戏，想缩小新同学与其他同学之间的距离。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -7055,7 +7055,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/bridge.jpg"
+    "image": null
   },
   {
     "word": "bright",
@@ -7466,7 +7466,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/butter 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -7501,7 +7501,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/butter.png"
+    "image": null
   },
   {
     "word": "butterfly",
@@ -7607,7 +7607,7 @@
         "definition_cn": "表示某件事是怎么完成的。",
         "definition_pinyin": [],
         "example": "The door opened by pushing the button.",
-        "example_cn": "",
+        "example_cn": "按下按钮，门就开了。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -7812,7 +7812,7 @@
         "definition_cn": "用声音引起某人的注意。",
         "definition_pinyin": [],
         "example": "I will call your name when it’s your turn.",
-        "example_cn": "",
+        "example_cn": "轮到你时，我会叫你的名字。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -7905,7 +7905,7 @@
         "definition_cn": "一切都平静安宁的时刻或感受。",
         "definition_pinyin": [],
         "example": "There was a calm in the classroom after everyone finished talking.",
-        "example_cn": "",
+        "example_cn": "大家说完话之后，教室里安静了下来。",
         "example_pinyin": [],
         "synonyms": [
           "peace"
@@ -8004,7 +8004,7 @@
         "definition_cn": "用来盛放食物、饮料或其他物品的金属罐。",
         "definition_pinyin": [],
         "example": "I drank a can of orange juice at lunch.",
-        "example_cn": "",
+        "example_cn": "午饭时我喝了一罐橙汁。",
         "example_pinyin": [],
         "synonyms": [
           "tin"
@@ -8348,7 +8348,7 @@
         "definition_cn": "帮助某人或某个团队取得成功，尤其是通过给予支持或做重要的工作。",
         "definition_pinyin": [],
         "example": "The star player helped carry the team to victory.",
-        "example_cn": "",
+        "example_cn": "这位明星球员帮助球队走向胜利。",
         "example_pinyin": [],
         "synonyms": [
           "assist",
@@ -8574,7 +8574,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "catches",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -8735,7 +8735,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/chair 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -8770,7 +8770,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/chair.png"
+    "image": null
   },
   {
     "word": "champion",
@@ -8882,14 +8882,14 @@
         "definition_cn": "买东西付款后找回的零钱。",
         "definition_pinyin": [],
         "example": "I got change back after I bought candy.",
-        "example_cn": "",
+        "example_cn": "买完糖果后，我拿到了找零。",
         "example_pinyin": [],
         "synonyms": [
           "coins"
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "changes",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -9490,6 +9490,33 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
+        "image": "assets/images/clap 1.png"
+      },
+      {
+        "part_of_speech": "noun",
+        "part_of_speech_cn": "",
+        "definition": "The sound you make when you quickly hit your hands together.",
+        "definition_cn": "鼓掌",
+        "definition_pinyin": [],
+        "example": "The audience gave a loud clap when the magician finished his trick.",
+        "example_cn": "魔术师表演完戏法时，观众们大声鼓掌。",
+        "example_pinyin": [],
+        "synonyms": [
+          "applaud"
+        ],
+        "antonyms": [
+          "boo"
+        ],
+        "related": [],
+        "plural": "claps",
+        "present_tense": "",
+        "present_continuous": "",
+        "past_tense": "",
+        "past_participle": "",
+        "adverb": "",
+        "noun_form": "",
+        "comparative": "",
+        "superlative": "",
         "image": null
       }
     ],
@@ -9498,7 +9525,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/clap.png"
+    "image": null
   },
   {
     "word": "class",
@@ -9766,7 +9793,7 @@
           "descent"
         ],
         "related": [],
-        "plural": "",
+        "plural": "climbs",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -9853,7 +9880,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/clock 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -9889,7 +9916,7 @@
         "definition_cn": "记录上下班的时间。",
         "definition_pinyin": [],
         "example": "Don’t forget to clock in when you get to work.",
-        "example_cn": "",
+        "example_cn": "到岗时别忘了打卡。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -9911,7 +9938,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/clock.png"
+    "image": null
   },
   {
     "word": "close",
@@ -9984,7 +10011,7 @@
         "definition_cn": "距离或时间上不远的，接近的。",
         "definition_pinyin": [],
         "example": "The library is close to my house.",
-        "example_cn": "",
+        "example_cn": "图书馆离我家很近。",
         "example_pinyin": [],
         "synonyms": [
           "next to",
@@ -10044,7 +10071,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/cloud 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -10083,7 +10110,7 @@
         "definition_cn": "使某物更难看清或更难理解。",
         "definition_pinyin": [],
         "example": "The fog began to cloud the view outside.",
-        "example_cn": "",
+        "example_cn": "雾气开始遮蔽外面的景色。",
         "example_pinyin": [],
         "synonyms": [
           "blur",
@@ -10110,7 +10137,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/cloud.jpg"
+    "image": null
   },
   {
     "word": "coach",
@@ -10169,7 +10196,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/coach 2.png"
+        "image": null
       },
       {
         "part_of_speech": "verb",
@@ -10178,7 +10205,7 @@
         "definition_cn": "教导或帮助某人在某项技能或运动上进步。",
         "definition_pinyin": [],
         "example": "My mom will coach our soccer team this year.",
-        "example_cn": "",
+        "example_cn": "今年我妈妈会当咱们足球队的教练。",
         "example_pinyin": [],
         "synonyms": [
           "train",
@@ -10196,7 +10223,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/coach 3.png"
       }
     ],
     "relations": {
@@ -10276,7 +10303,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/coat 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -10313,7 +10340,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/coat.png"
+    "image": null
   },
   {
     "word": "cold",
@@ -10390,12 +10417,12 @@
         "definition_cn": "让你流鼻涕或喉咙疼的病，感冒。",
         "definition_pinyin": [],
         "example": "I caught a cold and had to stay home from school.",
-        "example_cn": "",
+        "example_cn": "我感冒了，只好请假待在家里。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "colds",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -10914,7 +10941,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/cough 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -10928,7 +10955,7 @@
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "coughs",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -10945,7 +10972,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/cough.png"
+    "image": null
   },
   {
     "word": "could",
@@ -11334,7 +11361,7 @@
           "sprint"
         ],
         "related": [],
-        "plural": "",
+        "plural": "crawls",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -11442,7 +11469,7 @@
           "stamp"
         ],
         "related": [],
-        "plural": "",
+        "plural": "creeps",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -11675,7 +11702,7 @@
         "definition_cn": "大声的喊叫或呼喊。",
         "definition_pinyin": [],
         "example": "I heard a cry for help on the playground.",
-        "example_cn": "",
+        "example_cn": "我在操场上听到了一声呼救。",
         "example_pinyin": [],
         "synonyms": [
           "short",
@@ -11686,7 +11713,7 @@
           "whisper"
         ],
         "related": [],
-        "plural": "",
+        "plural": "cries",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -11735,7 +11762,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/cup 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -11769,7 +11796,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/cup.png"
+    "image": null
   },
   {
     "word": "cut",
@@ -11841,7 +11868,7 @@
         "definition_cn": "皮肤上被尖锐物划开的小口子或小伤口。",
         "definition_pinyin": [],
         "example": "I have a small cut on my finger from the paper.",
-        "example_cn": "",
+        "example_cn": "我的手指被纸划了一道小口子。",
         "example_pinyin": [],
         "synonyms": [
           "wound",
@@ -11961,7 +11988,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "dares",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -12095,7 +12122,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "dashes",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -12367,7 +12394,7 @@
         "definition_cn": "读完大学后获得的文凭或学位。",
         "definition_pinyin": [],
         "example": "My aunt earned a degree in science.",
-        "example_cn": "",
+        "example_cn": "我姑姑获得了理学学位。",
         "example_pinyin": [],
         "synonyms": [
           "diploma",
@@ -12385,7 +12412,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/degree 3.png"
       }
     ],
     "relations": {
@@ -13735,7 +13762,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/dress 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -13771,7 +13798,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/dress.png"
+    "image": null
   },
   {
     "word": "drink",
@@ -13883,7 +13910,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "drops",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -14044,7 +14071,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/duck 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -14078,7 +14105,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/duck.png"
+    "image": null
   },
   {
     "word": "dull",
@@ -15236,7 +15263,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/experiment 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -15270,7 +15297,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/experiment.png"
+    "image": null
   },
   {
     "word": "eye",
@@ -15300,7 +15327,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/eye 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -15336,7 +15363,7 @@
         "definition_cn": "仔细地看某人或某物，注视。",
         "definition_pinyin": [],
         "example": "The cat likes to eye the fish swimming in the tank.",
-        "example_cn": "",
+        "example_cn": "猫喜欢盯着鱼缸里游来游去的鱼。",
         "example_pinyin": [],
         "synonyms": [
           "watch",
@@ -15361,7 +15388,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/eye.jpg"
+    "image": null
   },
   {
     "word": "face",
@@ -15423,7 +15450,7 @@
         "definition_cn": "勇敢地面对问题或困境。",
         "definition_pinyin": [],
         "example": "She had to face her fear of heights on the climbing wall.",
-        "example_cn": "",
+        "example_cn": "在攀岩墙上，她不得不直面自己的恐高心理。",
         "example_pinyin": [],
         "synonyms": [
           "confront",
@@ -16434,7 +16461,7 @@
         "definition_cn": "对某事物抱有某种看法或感受，认为。",
         "definition_pinyin": [],
         "example": "I find this book really interesting.",
-        "example_cn": "",
+        "example_cn": "我觉得这本书非常有趣。",
         "example_pinyin": [],
         "synonyms": [
           "think",
@@ -16531,7 +16558,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/fire 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -16569,7 +16596,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/fire.png"
+    "image": null
   },
   {
     "word": "firefly",
@@ -16772,7 +16799,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/fish 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -16795,7 +16822,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/fish 2.png"
       }
     ],
     "relations": {
@@ -16803,7 +16830,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/fish.jpg"
+    "image": null
   },
   {
     "word": "flexible",
@@ -16917,7 +16944,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/flower 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -16953,7 +16980,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/flower.png"
+    "image": null
   },
   {
     "word": "flu",
@@ -17124,7 +17151,7 @@
         "definition_cn": "听从某人的话或模仿他们的做法。",
         "definition_pinyin": [],
         "example": "Please follow the teacher’s instructions.",
-        "example_cn": "",
+        "example_cn": "请听从老师的指示。",
         "example_pinyin": [],
         "synonyms": [
           "obey",
@@ -17773,7 +17800,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "frowns",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -17972,7 +17999,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/garden 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -17998,7 +18025,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/garden 2.png"
       }
     ],
     "relations": {
@@ -18006,7 +18033,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/garden.png"
+    "image": null
   },
   {
     "word": "generous",
@@ -18890,7 +18917,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "grabs",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -18941,7 +18968,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/grade 1.png"
+        "image": null
       },
       {
         "part_of_speech": "verb",
@@ -18968,7 +18995,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/grade 2.png"
       }
     ],
     "relations": {
@@ -19244,7 +19271,7 @@
         "definition_cn": "比平时更大、更高或更多，巨大的。",
         "definition_pinyin": [],
         "example": "The elephant is a great animal because it is so big.",
-        "example_cn": "",
+        "example_cn": "大象是一种庞大的动物，因为它太大了。",
         "example_pinyin": [],
         "synonyms": [
           "huge",
@@ -19815,7 +19842,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/hand 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -19849,7 +19876,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/hand.png"
+    "image": null
   },
   {
     "word": "happen",
@@ -20012,7 +20039,7 @@
         "definition_cn": "用很大力气或努力地去做，不轻松。",
         "definition_pinyin": [],
         "example": "She worked hard to finish her project on time.",
-        "example_cn": "",
+        "example_cn": "她非常努力，以便按时完成自己的项目。",
         "example_pinyin": [],
         "synonyms": [
           "vigorously"
@@ -20309,7 +20336,7 @@
         "definition_cn": "朝某个方向走。",
         "definition_pinyin": [],
         "example": "We will head to the park after lunch.",
-        "example_cn": "",
+        "example_cn": "午饭后我们会去公园。",
         "example_pinyin": [],
         "synonyms": [
           "go",
@@ -20545,7 +20572,7 @@
         "definition_cn": "一种顶部有两个圆弧、底部有一个尖角的形状，用来表示爱或关心。",
         "definition_pinyin": [],
         "example": "She drew a heart on her card to show love.",
-        "example_cn": "",
+        "example_cn": "她在卡片上画了一颗爱心来表达爱意。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -21193,7 +21220,7 @@
         "definition_cn": "实现目标或达到指标。",
         "definition_pinyin": [],
         "example": "He hit his goal and finished the puzzle all by himself.",
-        "example_cn": "",
+        "example_cn": "他达成了目标，独自拼完了拼图。",
         "example_pinyin": [],
         "synonyms": [
           "achieve",
@@ -21273,7 +21300,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "holds",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -21525,7 +21552,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "hops",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -21853,7 +21880,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/house 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -21888,7 +21915,7 @@
         "definition_cn": "容纳或存放某物。",
         "definition_pinyin": [],
         "example": "The barn can house many animals during the winter.",
-        "example_cn": "",
+        "example_cn": "冬天这座谷仓能容纳很多动物。",
         "example_pinyin": [],
         "synonyms": [
           "accommodate",
@@ -21913,7 +21940,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/house.png"
+    "image": null
   },
   {
     "word": "however",
@@ -21976,7 +22003,7 @@
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "hundreds",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -22671,7 +22698,7 @@
           "refusal"
         ],
         "related": [],
-        "plural": "",
+        "plural": "invites",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -22975,7 +23002,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/jam 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -23009,7 +23036,7 @@
         "definition_cn": "卡住动不了。",
         "definition_pinyin": [],
         "example": "The lid on the jar jammed and wouldn’t open.",
-        "example_cn": "",
+        "example_cn": "罐子的盖子卡住了，怎么也打不开。",
         "example_pinyin": [],
         "synonyms": [
           "stick",
@@ -23037,7 +23064,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/jam.png"
+    "image": null
   },
   {
     "word": "January",
@@ -23417,7 +23444,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "jumps",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -23435,7 +23462,7 @@
         "definition_cn": "突然的增加或上升。",
         "definition_pinyin": [],
         "example": "There was a big jump in the number of students this year.",
-        "example_cn": "",
+        "example_cn": "今年学生人数大幅上升。",
         "example_pinyin": [],
         "synonyms": [
           "rise",
@@ -23569,7 +23596,7 @@
         "definition_cn": "恰好正确或正好及时，不多不少。",
         "definition_pinyin": [],
         "example": "You arrived just in time for the movie to start.",
-        "example_cn": "",
+        "example_cn": "你来得正好，电影刚好开演。",
         "example_pinyin": [],
         "synonyms": [
           "exactly",
@@ -23686,7 +23713,7 @@
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "kicks",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -23735,7 +23762,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/kid 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -23768,7 +23795,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/kid.png"
+    "image": null
   },
   {
     "word": "kind",
@@ -24348,7 +24375,7 @@
         "definition_cn": "飞行后落到地面，着陆。",
         "definition_pinyin": [],
         "example": "The airplane will land at the airport soon.",
-        "example_cn": "",
+        "example_cn": "飞机很快就要在机场降落了。",
         "example_pinyin": [],
         "synonyms": [
           "arrive",
@@ -24636,7 +24663,7 @@
         "definition_cn": "笑的声音或行为，通常是当某事有趣或令人开心时。",
         "definition_pinyin": [],
         "example": "Her silly story made everyone let out a big laugh.",
-        "example_cn": "",
+        "example_cn": "她的傻故事逗得大家哈哈大笑。",
         "example_pinyin": [],
         "synonyms": [
           "giggle",
@@ -24803,7 +24830,7 @@
           "lag"
         ],
         "related": [],
-        "plural": "",
+        "plural": "leads",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -24909,7 +24936,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "leaps",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -25000,7 +25027,7 @@
         "definition_cn": "获准离开工作或职责的时间，休假。",
         "definition_pinyin": [],
         "example": "Dad took leave from work to go on our family trip.",
-        "example_cn": "",
+        "example_cn": "爸爸请了假，和我们一起去家庭旅行。",
         "example_pinyin": [],
         "synonyms": [
           "time off",
@@ -25097,7 +25124,7 @@
         "definition_cn": "长时间地、常常严肃地对某人说教，指出他们哪里做错了或该怎么做。",
         "definition_pinyin": [],
         "example": "Mom lectured me about cleaning my room after I made a mess.",
-        "example_cn": "",
+        "example_cn": "我把房间弄得一团糟后，妈妈对我说教了一通打扫房间的事。",
         "example_pinyin": [],
         "synonyms": [
           "scold",
@@ -25117,7 +25144,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/lecture 3.png"
       }
     ],
     "relations": {
@@ -25503,7 +25530,7 @@
         "definition_cn": "把某物弄平、弄整齐。",
         "definition_pinyin": [],
         "example": "They used a tool to level the sand in the sandbox.",
-        "example_cn": "",
+        "example_cn": "他们用工具把沙坑里的沙弄平。",
         "example_pinyin": [],
         "synonyms": [
           "balance"
@@ -25619,7 +25646,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "lifts",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -25637,7 +25664,7 @@
         "definition_cn": "载人或载物上下楼的电梯。",
         "definition_pinyin": [],
         "example": "We rode the lift to the top floor of the building.",
-        "example_cn": "",
+        "example_cn": "我们坐电梯到顶楼。",
         "example_pinyin": [],
         "synonyms": [
           "elevator"
@@ -25734,7 +25761,7 @@
         "definition_cn": "非常明亮或充满光线的。",
         "definition_pinyin": [],
         "example": "The classroom was light and sunny with all the windows open.",
-        "example_cn": "",
+        "example_cn": "窗户全开着，教室里明亮又阳光。",
         "example_pinyin": [],
         "synonyms": [
           "bright",
@@ -26080,7 +26107,7 @@
         "definition_cn": "正在实时发生的，不是事先录制的。",
         "definition_pinyin": [],
         "example": "We watched a live concert on TV last night.",
-        "example_cn": "",
+        "example_cn": "昨晚我们在电视上看了一场现场直播的演唱会。",
         "example_pinyin": [],
         "synonyms": [
           "real-time"
@@ -26220,7 +26247,7 @@
         "definition_cn": "强烈地渴望或希望某件事，尤其是非常盼望发生的事。",
         "definition_pinyin": [],
         "example": "I long for summer vacation to start.",
-        "example_cn": "",
+        "example_cn": "我盼望着暑假快点开始。",
         "example_pinyin": [],
         "synonyms": [
           "wish",
@@ -26315,7 +26342,7 @@
         "definition_cn": "看、瞧的动作。",
         "definition_pinyin": [],
         "example": "She gave her friend a look to let him know it was his turn.",
-        "example_cn": "",
+        "example_cn": "她看了朋友一眼，示意轮到他了。",
         "example_pinyin": [],
         "synonyms": [
           "glance",
@@ -26324,7 +26351,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "looks",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -26571,7 +26598,7 @@
         "definition_cn": "感到难过、不开心或没精打采的，情绪低落的。",
         "definition_pinyin": [],
         "example": "He felt low when his pet fish got sick.",
-        "example_cn": "",
+        "example_cn": "当宠物鱼生病时，他情绪很低落。",
         "example_pinyin": [],
         "synonyms": [
           "sad",
@@ -26678,7 +26705,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/mail 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -26714,7 +26741,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/mail.png"
+    "image": null
   },
   {
     "word": "make",
@@ -26877,7 +26904,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/map 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -26911,7 +26938,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/map.png"
+    "image": null
   },
   {
     "word": "March",
@@ -27006,18 +27033,20 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/mark 1.png"
+        "image": null
       },
       {
         "part_of_speech": "noun",
         "part_of_speech_cn": "",
         "definition": "A spot, line, or sign that shows where something is or that something happened.",
-        "definition_cn": "标记；斑点；痕迹",
+        "definition_cn": "痕迹；污渍",
         "definition_pinyin": [],
         "example": "There was a red mark on my shirt from the juice spill.",
-        "example_cn": "",
+        "example_cn": "果汁洒了，在我的衬衫上留下一块红色污渍。",
         "example_pinyin": [],
-        "synonyms": [],
+        "synonyms": [
+          "stain"
+        ],
         "antonyms": [],
         "related": [],
         "plural": "marks",
@@ -27030,6 +27059,32 @@
         "comparative": "",
         "superlative": "",
         "image": null
+      },
+      {
+        "part_of_speech": "noun",
+        "part_of_speech_cn": "",
+        "definition": "The number or letter given to show how well someone did on a test, assignment, or in school.",
+        "definition_cn": "分数",
+        "definition_pinyin": [],
+        "example": "I got a high mark on my math test because I answered all the questions correctly.",
+        "example_cn": "我的数学测验得了高分，因为我所有题目都答对了。",
+        "example_pinyin": [],
+        "synonyms": [
+          "grade",
+          "score"
+        ],
+        "antonyms": [],
+        "related": [],
+        "plural": "",
+        "present_tense": "",
+        "present_continuous": "",
+        "past_tense": "",
+        "past_participle": "",
+        "adverb": "",
+        "noun_form": "",
+        "comparative": "",
+        "superlative": "",
+        "image": "assets/images/mark 3.png"
       }
     ],
     "relations": {
@@ -27070,7 +27125,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/market 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -27104,7 +27159,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/market.png"
+    "image": null
   },
   {
     "word": "match",
@@ -27173,7 +27228,7 @@
         "definition_cn": "与某物很相配、搭配。",
         "definition_pinyin": [],
         "example": "Her blue shirt matches her blue shoes.",
-        "example_cn": "",
+        "example_cn": "她的蓝衬衫和蓝鞋子很相配。",
         "example_pinyin": [],
         "synonyms": [
           "complement",
@@ -27263,7 +27318,7 @@
         "definition_cn": "被允许做某事，可以。",
         "definition_pinyin": [],
         "example": "May I go outside and play after dinner?",
-        "example_cn": "",
+        "example_cn": "晚饭后我可以出去玩吗？",
         "example_pinyin": [],
         "synonyms": [
           "can",
@@ -27399,7 +27454,7 @@
         "definition_cn": "不友善，对别人不友好的，刻薄的。",
         "definition_pinyin": [],
         "example": "It was mean to leave your friend out of the game.",
-        "example_cn": "",
+        "example_cn": "玩游戏不带上朋友，是很不友善的。",
         "example_pinyin": [],
         "synonyms": [
           "unkind",
@@ -27828,7 +27883,7 @@
         "definition_cn": "巨大的力量或力气。",
         "definition_pinyin": [],
         "example": "The superhero used all his might to lift the heavy rock.",
-        "example_cn": "",
+        "example_cn": "这位超级英雄使出全部力气搬起那块沉重的岩石。",
         "example_pinyin": [],
         "synonyms": [
           "power",
@@ -27929,7 +27984,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/milk 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -27960,7 +28015,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/milk.png"
+    "image": null
   },
   {
     "word": "million",
@@ -27981,7 +28036,7 @@
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "millions",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -28640,7 +28695,7 @@
         "definition_cn": "你采取的行动或走的一步棋。",
         "definition_pinyin": [],
         "example": "His next move in the game was very smart.",
-        "example_cn": "",
+        "example_cn": "他在游戏中走出的下一步棋非常聪明。",
         "example_pinyin": [],
         "synonyms": [
           "action",
@@ -28648,7 +28703,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "moves",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -28874,7 +28929,7 @@
         "definition_cn": "必须有或必须做的事，必需品。",
         "definition_pinyin": [],
         "example": "A warm coat is a must when it’s snowing outside.",
-        "example_cn": "",
+        "example_cn": "外面下雪时，暖和的外套是必需品。",
         "example_pinyin": [],
         "synonyms": [
           "necessity",
@@ -29262,7 +29317,7 @@
         "definition_cn": "为了生存或做某事所必需的重要东西。",
         "definition_pinyin": [],
         "example": "Food and water are a need for every living thing.",
-        "example_cn": "",
+        "example_cn": "食物和水是每个生命所必需的。",
         "example_pinyin": [],
         "synonyms": [
           "necessity",
@@ -29711,7 +29766,7 @@
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "nods",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -29961,7 +30016,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/note 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -29996,7 +30051,7 @@
         "definition_cn": "注意到某事物或就某事物发表看法。",
         "definition_pinyin": [],
         "example": "Please note that the test is on Friday.",
-        "example_cn": "",
+        "example_cn": "请注意，考试在周五。",
         "example_pinyin": [],
         "synonyms": [
           "mention"
@@ -30020,7 +30075,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/note.png"
+    "image": null
   },
   {
     "word": "nothing",
@@ -30276,7 +30331,7 @@
         "definition_cn": "数出总数。",
         "definition_pinyin": [],
         "example": "The teacher asked us to number the pages of our book.",
-        "example_cn": "",
+        "example_cn": "老师让我们给书的每一页编号。",
         "example_pinyin": [],
         "synonyms": [
           "tally"
@@ -30333,7 +30388,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/nurse 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -30369,7 +30424,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/nurse.png"
+    "image": null
   },
   {
     "word": "nut",
@@ -30654,7 +30709,7 @@
         "definition_cn": "离开某个地方。",
         "definition_pinyin": [],
         "example": "The cat jumped off the table.",
-        "example_cn": "",
+        "example_cn": "猫从桌子上跳了下来。",
         "example_pinyin": [],
         "synonyms": [
           "away"
@@ -31288,7 +31343,7 @@
         "definition_cn": "按特定方式（如大小、数量或时间）排列事物或人的顺序。",
         "definition_pinyin": [],
         "example": "The teacher lined us up in order by height.",
-        "example_cn": "",
+        "example_cn": "老师让我们按身高排好队。",
         "example_pinyin": [],
         "synonyms": [
           "sequence"
@@ -31594,7 +31649,7 @@
         "definition_cn": "超过某个数量。",
         "definition_pinyin": [],
         "example": "There are over twenty kids in my class.",
-        "example_cn": "",
+        "example_cn": "我们班有二十多个孩子。",
         "example_pinyin": [],
         "synonyms": [
           "above",
@@ -31726,7 +31781,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/package 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -31763,7 +31818,7 @@
         "definition_cn": "设计并包装产品以供销售。",
         "definition_pinyin": [],
         "example": "The company will package the toys in colourful boxes.",
-        "example_cn": "",
+        "example_cn": "公司会用彩色盒子来包装这些玩具。",
         "example_pinyin": [],
         "synonyms": [
           "bundle"
@@ -31787,7 +31842,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/package.png"
+    "image": null
   },
   {
     "word": "palace",
@@ -31889,7 +31944,7 @@
         "definition_cn": "相比之下显得不那么重要，相形见绌。",
         "definition_pinyin": [],
         "example": "The excitement of the new game made the old one pale in comparison.",
-        "example_cn": "",
+        "example_cn": "新游戏带来的兴奋让旧游戏相比之下显得逊色。",
         "example_pinyin": [],
         "synonyms": [
           "fade"
@@ -32059,7 +32114,7 @@
         "definition_cn": "在学校参加的测验或考试，试卷。",
         "definition_pinyin": [],
         "example": "We have a math paper to finish for homework tonight.",
-        "example_cn": "",
+        "example_cn": "今晚我们有一份数学卷子要完成作为作业。",
         "example_pinyin": [],
         "synonyms": [
           "test",
@@ -32117,7 +32172,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/parcel 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -32153,7 +32208,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/parcel.png"
+    "image": null
   },
   {
     "word": "pardon",
@@ -32221,7 +32276,7 @@
         "definition_cn": "原谅某人的行为，宽恕。",
         "definition_pinyin": [],
         "example": "He asked for a pardon after accidentally stepping on her foot.",
-        "example_cn": "",
+        "example_cn": "他不小心踩到她的脚后，请求原谅。",
         "example_pinyin": [],
         "synonyms": [
           "forgiveness"
@@ -32231,7 +32286,7 @@
           "condemnation"
         ],
         "related": [],
-        "plural": "",
+        "plural": "pardons",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -32278,7 +32333,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/parent 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -32314,7 +32369,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/parent.png"
+    "image": null
   },
   {
     "word": "park",
@@ -32451,7 +32506,7 @@
         "definition_cn": "分开或移开。",
         "definition_pinyin": [],
         "example": "The clouds parted and the sun came out.",
-        "example_cn": "",
+        "example_cn": "云层散开，太阳出来了。",
         "example_pinyin": [],
         "synonyms": [
           "separate",
@@ -32680,7 +32735,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "pats",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -32963,7 +33018,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/peak 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -32998,7 +33053,7 @@
         "definition_cn": "达到最高点或最高水平，达到顶峰。",
         "definition_pinyin": [],
         "example": "The sun peaks at noon, shining brightest in the sky.",
-        "example_cn": "",
+        "example_cn": "太阳在正午达到最高点，在天空中最为耀眼。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -33020,7 +33075,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/peak.png"
+    "image": null
   },
   {
     "word": "pear",
@@ -33131,7 +33186,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pen 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -33156,7 +33211,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pen 2.png"
       }
     ],
     "relations": {
@@ -33164,7 +33219,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/pen.png"
+    "image": null
   },
   {
     "word": "pencil",
@@ -33232,7 +33287,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pepper 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -33266,7 +33321,7 @@
         "definition_cn": "用细小的物体连续击打或喷洒。",
         "definition_pinyin": [],
         "example": "The kids peppered the snowman with tiny snowballs.",
-        "example_cn": "",
+        "example_cn": "孩子们用小雪球不停地砸雪人。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -33288,7 +33343,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/pepper.jpg"
+    "image": null
   },
   {
     "word": "person",
@@ -33402,7 +33457,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/photograph 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -33433,7 +33488,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/photograph.png"
+    "image": null
   },
   {
     "word": "picture",
@@ -33467,7 +33522,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/picture 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -33501,7 +33556,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/picture.png"
+    "image": null
   },
   {
     "word": "pie",
@@ -34052,7 +34107,7 @@
         "definition_cn": "用灰泥涂抹墙面。",
         "definition_pinyin": [],
         "example": "The workers will plaster the walls before painting them.",
-        "example_cn": "",
+        "example_cn": "工人会先给墙面抹灰泥，再上油漆。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [
@@ -34109,7 +34164,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/plate 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -34143,7 +34198,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/plate.png"
+    "image": null
   },
   {
     "word": "play",
@@ -34207,7 +34262,7 @@
         "definition_cn": "在舞台上表演给别人看的故事，戏剧。",
         "definition_pinyin": [],
         "example": "Our class put on a play for the school.",
-        "example_cn": "",
+        "example_cn": "我们班给全校演了一出戏。",
         "example_pinyin": [],
         "synonyms": [
           "drama",
@@ -34445,7 +34500,7 @@
         "definition_cn": "伸出手指指向某物来示意。",
         "definition_pinyin": [],
         "example": "Please point to the answer on the board.",
-        "example_cn": "",
+        "example_cn": "请指向黑板上的答案。",
         "example_pinyin": [],
         "synonyms": [
           "indicate",
@@ -34585,7 +34640,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pool 1.jpg"
       },
       {
         "part_of_speech": "noun",
@@ -34620,7 +34675,7 @@
         "definition_cn": "把金钱、资源或想法汇集起来供大家共享。",
         "definition_pinyin": [],
         "example": "We decided to pool our money to buy a pizza for lunch.",
-        "example_cn": "",
+        "example_cn": "我们决定把钱凑在一起，买一个披萨当午饭。",
         "example_pinyin": [],
         "synonyms": [
           "combine",
@@ -34645,7 +34700,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/pool.jpg"
+    "image": null
   },
   {
     "word": "poor",
@@ -34720,7 +34775,7 @@
         "definition_cn": "弱小的、糟糕的或令人失望的，令人同情。",
         "definition_pinyin": [],
         "example": "The poor puppy looked sad and cold in the rain.",
-        "example_cn": "",
+        "example_cn": "那只可怜的小狗在雨中看上去又难过又冷。",
         "example_pinyin": [],
         "synonyms": [
           "pitiful"
@@ -34931,7 +34986,7 @@
         "definition_cn": "为某物提供能量，供电。",
         "definition_pinyin": [],
         "example": "The wind turbines power the lights in our school.",
-        "example_cn": "",
+        "example_cn": "风力涡轮机为学校的灯供电。",
         "example_pinyin": [],
         "synonyms": [
           "fuel"
@@ -35024,7 +35079,7 @@
         "definition_cn": "向他人展示、演示或讲解某物。",
         "definition_pinyin": [],
         "example": "I will present my science project to the class.",
-        "example_cn": "",
+        "example_cn": "我会向全班展示我的科学项目。",
         "example_pinyin": [],
         "synonyms": [
           "demonstrate",
@@ -35306,7 +35361,7 @@
         "definition_cn": "安排或计划某事。",
         "definition_pinyin": [],
         "example": "The teacher will program the computer to help us learn math.",
-        "example_cn": "",
+        "example_cn": "老师会给电脑编程，帮助我们学数学。",
         "example_pinyin": [],
         "synonyms": [
           "schedule",
@@ -35403,7 +35458,7 @@
         "definition_cn": "把某物投射到屏幕上。",
         "definition_pinyin": [],
         "example": "They will project the movie onto a big screen in the gym.",
-        "example_cn": "",
+        "example_cn": "他们会把电影投放到体育馆的大屏幕上。",
         "example_pinyin": [],
         "synonyms": [
           "cast"
@@ -35445,11 +35500,7 @@
         "example": "I promise to feed the goldfish every morning.",
         "example_cn": "我保证每天早上喂金鱼。",
         "example_pinyin": [],
-        "synonyms": [
-          "vow",
-          "pledge",
-          "oath"
-        ],
+        "synonyms": [],
         "antonyms": [],
         "related": [],
         "plural": "",
@@ -35467,20 +35518,13 @@
         "part_of_speech": "noun",
         "part_of_speech_cn": "",
         "definition": "Words you say to show you really mean you will do something.",
-        "definition_cn": "",
+        "definition_cn": "承诺",
         "definition_pinyin": [],
         "example": "I made a promise to my friend that I would keep her secret.",
-        "example_cn": "",
+        "example_cn": "我向朋友许下承诺，会保守她的秘密。",
         "example_pinyin": [],
-        "synonyms": [
-          "pledge",
-          "vow",
-          "agreement"
-        ],
-        "antonyms": [
-          "lie",
-          "denial"
-        ],
+        "synonyms": [],
+        "antonyms": [],
         "related": [],
         "plural": "promises",
         "present_tense": "",
@@ -35678,7 +35722,7 @@
           "push"
         ],
         "related": [],
-        "plural": "",
+        "plural": "pulls",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -35696,7 +35740,7 @@
         "definition_cn": "吸引某人，让他们感兴趣或想靠近。",
         "definition_pinyin": [],
         "example": "The new playground has a big pull for kids in the neighbourhood because it is so much fun.",
-        "example_cn": "",
+        "example_cn": "新游乐场对附近的孩子有巨大的吸引力，因为它太好玩了。",
         "example_pinyin": [],
         "synonyms": [
           "attract",
@@ -35937,7 +35981,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/puzzle 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -35970,7 +36014,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/puzzle.png"
+    "image": null
   },
   {
     "word": "quarter",
@@ -36038,7 +36082,7 @@
         "definition_cn": "把某物切成或分成四等份。",
         "definition_pinyin": [],
         "example": "We will quarter the apple so everyone gets a piece.",
-        "example_cn": "",
+        "example_cn": "我们会把苹果切成四份，这样每人都能分到一块。",
         "example_pinyin": [],
         "synonyms": [
           "divide",
@@ -36464,7 +36508,7 @@
         "definition_cn": "飞快地移动，尤其是为了取胜，赛跑。",
         "definition_pinyin": [],
         "example": "The kids race to see who can reach the playground first.",
-        "example_cn": "",
+        "example_cn": "孩子们比赛，看谁能先到操场。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -36798,12 +36842,12 @@
         "definition_cn": "值得一读或读起来有趣的东西。",
         "definition_pinyin": [],
         "example": "This comic book is a really fun read.",
-        "example_cn": "",
+        "example_cn": "这本漫画书读起来真的很有趣。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "reads",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -37084,10 +37128,10 @@
         "part_of_speech": "noun",
         "part_of_speech_cn": "",
         "definition": "Something written down or saved to remember important information.",
-        "definition_cn": "",
+        "definition_cn": "记录",
         "definition_pinyin": [],
         "example": "The doctor keeps a record of each patient’s visits.",
-        "example_cn": "",
+        "example_cn": "医生会记录每位病人的就诊情况。",
         "example_pinyin": [],
         "synonyms": [
           "note",
@@ -37342,7 +37386,7 @@
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "rejects",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -37649,7 +37693,7 @@
         "definition_cn": "含有大量某物（如营养或重要成分）的，丰富的。",
         "definition_pinyin": [],
         "example": "Spinach is rich in vitamins that help you grow strong.",
-        "example_cn": "",
+        "example_cn": "菠菜富含维生素，能帮助你长得强壮。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [
@@ -37812,7 +37856,7 @@
         "definition_cn": "把某物弄正确或纠正错误。",
         "definition_pinyin": [],
         "example": "He tried to right the answer after seeing it was wrong.",
-        "example_cn": "",
+        "example_cn": "看到答案错了之后，他试着把它纠正过来。",
         "example_pinyin": [],
         "synonyms": [
           "correct",
@@ -37868,7 +37912,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/ring 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -37901,7 +37945,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/ring.png"
+    "image": null
   },
   {
     "word": "river",
@@ -38018,7 +38062,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/rock 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -38050,7 +38094,7 @@
         "definition_cn": "摇晃或使某物摇晃。",
         "definition_pinyin": [],
         "example": "The earthquake made the ground rock back and forth.",
-        "example_cn": "",
+        "example_cn": "地震使地面来回晃动。",
         "example_pinyin": [],
         "synonyms": [
           "shake"
@@ -38076,7 +38120,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/rock.png"
+    "image": null
   },
   {
     "word": "roof",
@@ -38208,7 +38252,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/root 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -38243,7 +38287,7 @@
         "definition_cn": "使某物牢牢扎根、稳固地建立。",
         "definition_pinyin": [],
         "example": "The new trees will root in the garden and start to grow.",
-        "example_cn": "",
+        "example_cn": "这些新树会在花园里扎根并开始生长。",
         "example_pinyin": [],
         "synonyms": [
           "establish"
@@ -38269,7 +38313,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/root.png"
+    "image": null
   },
   {
     "word": "rough",
@@ -38345,7 +38389,7 @@
         "definition_cn": "行为粗鲁、用力或不小心，粗野的。",
         "definition_pinyin": [],
         "example": "The puppy played rough and knocked over the blocks.",
-        "example_cn": "",
+        "example_cn": "小狗玩得很粗暴，把积木碰倒了。",
         "example_pinyin": [],
         "synonyms": [
           "harsh",
@@ -38424,7 +38468,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "rubs",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -38621,7 +38665,7 @@
         "definition_cn": "经营、管理某事物，如店铺或活动。",
         "definition_pinyin": [],
         "example": "My mom helps run the school book fair every year.",
-        "example_cn": "",
+        "example_cn": "每年我妈妈都帮忙操办学校的书展。",
         "example_pinyin": [],
         "synonyms": [
           "manage",
@@ -38896,7 +38940,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/salt 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -38929,7 +38973,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/salt.png"
+    "image": null
   },
   {
     "word": "same",
@@ -39003,7 +39047,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/sand 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -39034,7 +39078,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/sand.png"
+    "image": null
   },
   {
     "word": "sandwich",
@@ -39064,7 +39108,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/sandwich 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -39099,7 +39143,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/sandwich.png"
+    "image": null
   },
   {
     "word": "satisfied",
@@ -39296,7 +39340,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/saw 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -39331,7 +39375,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/saw.png"
+    "image": null
   },
   {
     "word": "say",
@@ -39445,7 +39489,7 @@
         "definition_cn": "称量物体重量的工具，秤。",
         "definition_pinyin": [],
         "example": "Please step on the scale so the doctor can check your weight.",
-        "example_cn": "",
+        "example_cn": "请站到秤上，让医生检查你的体重。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -39673,7 +39717,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/score 1.png"
+        "image": null
       },
       {
         "part_of_speech": "verb",
@@ -39698,7 +39742,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/score 2.png"
       }
     ],
     "relations": {
@@ -39916,7 +39960,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/seal 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -39955,7 +39999,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/seal.png"
+    "image": null
   },
   {
     "word": "season",
@@ -40046,7 +40090,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/second 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -40078,7 +40122,7 @@
         "definition_cn": "支持某人的想法或建议。",
         "definition_pinyin": [],
         "example": "I second your idea to have pizza for lunch.",
-        "example_cn": "",
+        "example_cn": "我赞成你吃披萨当午饭的想法。",
         "example_pinyin": [],
         "synonyms": [
           "support",
@@ -40106,7 +40150,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/second.png"
+    "image": null
   },
   {
     "word": "see",
@@ -40850,7 +40894,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/shell 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -40884,7 +40928,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/shell.png"
+    "image": null
   },
   {
     "word": "ship",
@@ -40918,7 +40962,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/ship 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -40953,7 +40997,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/ship.png"
+    "image": null
   },
   {
     "word": "shirt",
@@ -41066,7 +41110,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/shop 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -41102,7 +41146,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/shop.png"
+    "image": null
   },
   {
     "word": "shore",
@@ -41426,7 +41470,7 @@
         "definition_cn": "为观众进行的唱歌、跳舞或表演的演出。",
         "definition_pinyin": [],
         "example": "We watched a funny show with singing and dancing.",
-        "example_cn": "",
+        "example_cn": "我们看了一场有唱歌又有跳舞的精彩演出。",
         "example_pinyin": [],
         "synonyms": [
           "performance"
@@ -41696,7 +41740,7 @@
         "definition_cn": "比赛或竞赛中的一方队伍或团体。",
         "definition_pinyin": [],
         "example": "Our side cheered loudly when we scored a goal.",
-        "example_cn": "",
+        "example_cn": "当我们进球时，我们队大声欢呼。",
         "example_pinyin": [],
         "synonyms": [
           "team"
@@ -41755,7 +41799,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/sight 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -41789,7 +41833,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/sight.jpg"
+    "image": null
   },
   {
     "word": "silent",
@@ -42398,7 +42442,7 @@
         "definition_cn": "放松或减轻紧张程度。",
         "definition_pinyin": [],
         "example": "Can you slack the rope a little so it’s not too tight?",
-        "example_cn": "",
+        "example_cn": "你能把绳子放松一点，让它不那么紧吗？",
         "example_pinyin": [],
         "synonyms": [
           "loosen",
@@ -42916,7 +42960,7 @@
         "definition_cn": "使困难变得更容易，缓和。",
         "definition_pinyin": [],
         "example": "The teacher helped smooth things over after the argument between friends.",
-        "example_cn": "",
+        "example_cn": "朋友们吵架后，老师帮忙缓和了局面。",
         "example_pinyin": [],
         "synonyms": [
           "ease",
@@ -43017,7 +43061,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/snake 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -43051,7 +43095,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/snake.png"
+    "image": null
   },
   {
     "word": "snatch",
@@ -43152,7 +43196,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/snow 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -43183,7 +43227,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/snow.jpg"
+    "image": null
   },
   {
     "word": "so",
@@ -43717,7 +43761,7 @@
         "definition_cn": "安全的、健康的或状态良好的。",
         "definition_pinyin": [],
         "example": "The bridge is sound and safe to walk on.",
-        "example_cn": "",
+        "example_cn": "这座桥很牢固，走上去很安全。",
         "example_pinyin": [],
         "synonyms": [
           "safe",
@@ -43856,7 +43900,7 @@
         "definition_cn": "地球之外广袤、空旷、布满星星和行星的区域，太空。",
         "definition_pinyin": [],
         "example": "Astronauts travel into space to learn about the stars and planets.",
-        "example_cn": "",
+        "example_cn": "宇航员飞向太空，去了解星星和行星。",
         "example_pinyin": [],
         "synonyms": [
           "universe"
@@ -43957,7 +44001,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/spice 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -43990,7 +44034,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/spice.jpg"
+    "image": null
   },
   {
     "word": "spider",
@@ -44058,7 +44102,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/spoon 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -44089,7 +44133,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/spoon.png"
+    "image": null
   },
   {
     "word": "sport",
@@ -44290,7 +44334,7 @@
         "definition_cn": "突然而快速地跳起或移动。",
         "definition_pinyin": [],
         "example": "The frog can spring out of the water to catch a bug.",
-        "example_cn": "",
+        "example_cn": "青蛙能一下子跳出水面去捉小虫。",
         "example_pinyin": [],
         "synonyms": [
           "leap",
@@ -44366,7 +44410,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "stands",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -44384,7 +44428,7 @@
         "definition_cn": "用来放台灯、电视或书本的小桌子或架子，托架。",
         "definition_pinyin": [],
         "example": "I put my lamp on the stand next to my bed.",
-        "example_cn": "",
+        "example_cn": "我把台灯放在床边的架子上。",
         "example_pinyin": [],
         "synonyms": [],
         "antonyms": [],
@@ -44436,7 +44480,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/star 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -44471,7 +44515,7 @@
         "definition_cn": "在演出、电影或戏剧中担任主角。",
         "definition_pinyin": [],
         "example": "She will star in the school play as the main character.",
-        "example_cn": "",
+        "example_cn": "她将在学校戏剧中饰演主角。",
         "example_pinyin": [],
         "synonyms": [
           "lead",
@@ -44496,7 +44540,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/star.png"
+    "image": null
   },
   {
     "word": "state",
@@ -44566,7 +44610,7 @@
         "definition_cn": "清楚或正式地说出某事，陈述。",
         "definition_pinyin": [],
         "example": "Please state your answer clearly so everyone can hear.",
-        "example_cn": "",
+        "example_cn": "请清楚地说出你的答案，让大家都能听见。",
         "example_pinyin": [],
         "synonyms": [
           "declare",
@@ -44797,7 +44841,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/stream 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -44832,7 +44876,7 @@
         "definition_cn": "持续地流动，涌流。",
         "definition_pinyin": [],
         "example": "Water will stream down the hill after it rains.",
-        "example_cn": "",
+        "example_cn": "雨后，水会顺着山坡往下流。",
         "example_pinyin": [],
         "synonyms": [
           "flow"
@@ -44856,7 +44900,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/stream.png"
+    "image": null
   },
   {
     "word": "street",
@@ -44964,7 +45008,7 @@
         "definition_cn": "人们仔细观察某事物以了解更多，如科学家所做的那样，研究。",
         "definition_pinyin": [],
         "example": "The scientists did a study to learn more about dolphins.",
-        "example_cn": "",
+        "example_cn": "科学家们做了一项研究，以了解更多关于海豚的知识。",
         "example_pinyin": [],
         "synonyms": [
           "research",
@@ -45390,7 +45434,7 @@
         "definition_cn": "某人的看法或他们对某事的理解方式，观点。",
         "definition_pinyin": [],
         "example": "What’s your take on the new playground rules?",
-        "example_cn": "",
+        "example_cn": "你对新游乐场规则有什么看法？",
         "example_pinyin": [],
         "synonyms": [
           "opinion",
@@ -45994,7 +46038,7 @@
         "definition_cn": "正式提出某事物，投标。",
         "definition_pinyin": [],
         "example": "The company will tender an offer to build the new park.",
-        "example_cn": "",
+        "example_cn": "这家公司将投标承建新公园。",
         "example_pinyin": [],
         "synonyms": [
           "offer",
@@ -47069,7 +47113,7 @@
         "synonyms": [],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "thousands",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -47319,7 +47363,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/thumb 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -47353,7 +47397,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/thumb.png"
+    "image": null
   },
   {
     "word": "Thursday",
@@ -47485,7 +47529,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "tills",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -47532,7 +47576,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/time 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -47568,7 +47612,7 @@
         "definition_cn": "测量某事物持续的时间，计时。",
         "definition_pinyin": [],
         "example": "The coach will time us to see how fast we can run.",
-        "example_cn": "",
+        "example_cn": "教练会为我们计时，看看我们能跑多快。",
         "example_pinyin": [],
         "synonyms": [
           "measure",
@@ -47594,7 +47638,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/time.png"
+    "image": null
   },
   {
     "word": "to",
@@ -48095,7 +48139,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/tower 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -48132,7 +48176,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/tower.png"
+    "image": null
   },
   {
     "word": "town",
@@ -48200,7 +48244,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/toy 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -48231,7 +48275,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/toy.png"
+    "image": null
   },
   {
     "word": "track",
@@ -48333,7 +48377,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/train 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -48360,7 +48404,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/train 2.png"
       },
       {
         "part_of_speech": "verb",
@@ -48369,7 +48413,7 @@
         "definition_cn": "反复练习某事以便做得更好，训练。",
         "definition_pinyin": [],
         "example": "I train every day to get better at basketball.",
-        "example_cn": "",
+        "example_cn": "我每天都训练，以提高篮球水平。",
         "example_pinyin": [],
         "synonyms": [
           "practise"
@@ -48393,7 +48437,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/train.png"
+    "image": null
   },
   {
     "word": "tree",
@@ -48649,7 +48693,7 @@
         "definition_cn": "做某事的尝试。",
         "definition_pinyin": [],
         "example": "Give it a try and see if you like it.",
-        "example_cn": "",
+        "example_cn": "试一试，看看你喜不喜欢。",
         "example_pinyin": [],
         "synonyms": [
           "attempt",
@@ -48658,7 +48702,7 @@
         ],
         "antonyms": [],
         "related": [],
-        "plural": "",
+        "plural": "tries",
         "present_tense": "",
         "present_continuous": "",
         "past_tense": "",
@@ -49289,7 +49333,7 @@
         "definition_cn": "你对某事的想法或看法，观点。",
         "definition_pinyin": [],
         "example": "My view is that reading is the best hobby.",
-        "example_cn": "",
+        "example_cn": "我的看法是，阅读是最好的爱好。",
         "example_pinyin": [],
         "synonyms": [
           "opinion",
@@ -49520,7 +49564,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/wall 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -49556,7 +49600,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/wall.png"
+    "image": null
   },
   {
     "word": "war",
@@ -49805,7 +49849,7 @@
         "definition_cn": "戴在手腕上看时间的小钟，手表。",
         "definition_pinyin": [],
         "example": "I wear my watch to school so I know when lunch starts.",
-        "example_cn": "",
+        "example_cn": "我戴手表上学，这样我就知道午餐什么时候开始。",
         "example_pinyin": [],
         "synonyms": [
           "timepiece"
@@ -49895,7 +49939,7 @@
         "definition_cn": "往植物上浇水，让它们生长或保持健康。",
         "definition_pinyin": [],
         "example": "Please water the plants so they don’t get too dry.",
-        "example_cn": "",
+        "example_cn": "请给植物浇浇水，别让它们太干。",
         "example_pinyin": [],
         "synonyms": [
           "irrigate",
@@ -50029,7 +50073,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/wave 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -50062,7 +50106,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/wave.png"
+    "image": null
   },
   {
     "word": "way",
@@ -50417,7 +50461,7 @@
         "definition_cn": "被他人高兴地接纳或欢迎的。",
         "definition_pinyin": [],
         "example": "New students are always welcome in our class.",
-        "example_cn": "",
+        "example_cn": "我们班总是欢迎新同学。",
         "example_pinyin": [],
         "synonyms": [
           "appreciated",
@@ -51403,7 +51447,7 @@
         "definition_cn": "内心做出决定或选择的意志力。",
         "definition_pinyin": [],
         "example": "It takes a lot of will to finish a hard puzzle.",
-        "example_cn": "",
+        "example_cn": "完成一个很难的拼图需要很大的意志力。",
         "example_pinyin": [],
         "synonyms": [
           "determination"
@@ -51461,7 +51505,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/wind 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -51494,7 +51538,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/wind.png"
+    "image": null
   },
   {
     "word": "window",
@@ -52054,7 +52098,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/worm 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -52089,7 +52133,7 @@
       "antonyms": [],
       "related": []
     },
-    "image": "assets/images/worm.png"
+    "image": null
   },
   {
     "word": "worried",
@@ -52316,10 +52360,10 @@
         "part_of_speech": "noun",
         "part_of_speech_cn": "",
         "definition": "A loud shout or cry, usually when you are excited, scared, or want to get attention.",
-        "definition_cn": "",
+        "definition_cn": "大喊",
         "definition_pinyin": [],
         "example": "A loud yell from the playground made everyone look outside.",
-        "example_cn": "操场上一声响亮的喊叫让大家都朝外看。",
+        "example_cn": "操场上传来一声大喊，让所有人都朝外面看去。",
         "example_pinyin": [],
         "synonyms": [
           "shout",

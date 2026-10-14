@@ -7,6 +7,45 @@ import 'alternatives.dart';
 import 'favorites_manager.dart';
 
 final FlutterTts _tts = FlutterTts();
+String? _selectedEnVoice;
+String? _selectedZhVoice;
+
+Future<void> _initBestVoices() async {
+  final voices = await _tts.getVoices;
+  if (voices == null) return;
+
+  String? pickVoice(String localePrefix, List<String> preferredNames) {
+    for (final name in preferredNames) {
+      if (voices.any((v) => v is Map && v['name'].toString() == name)) {
+        return name;
+      }
+    }
+    for (final voice in voices) {
+      if (voice is Map) {
+        final locale = voice['locale']?.toString().toLowerCase() ?? '';
+        if (locale.startsWith(localePrefix.toLowerCase())) {
+          return voice['name']?.toString();
+        }
+      }
+    }
+    return null;
+  }
+
+  _selectedEnVoice = pickVoice('en-US', [
+    'com.apple.voice.enhanced.en-US.Samantha',
+    'com.apple.voice.compact.en-US.Samantha',
+    'com.apple.voice.premium.en-US.Allison',
+    'com.apple.eloquence.en-US.Shelley',
+    'en-US-language',
+  ]);
+
+  _selectedZhVoice = pickVoice('zh-CN', [
+    'com.apple.voice.enhanced.zh-CN.TingTing',
+    'com.apple.voice.compact.zh-CN.TingTing',
+    'com.apple.voice.premium.zh-CN.TingTing',
+    'zh-CN-language',
+  ]);
+}
 
 /// Global application settings.
 class AppSettings extends ChangeNotifier {
@@ -342,6 +381,10 @@ TextSpan _buildDefinitionSpan(
 Future<void> _speak(String text, String language) async {
   if (text.isEmpty) return;
   try {
+    final voiceName = language.toLowerCase().startsWith('zh') ? _selectedZhVoice : _selectedEnVoice;
+    if (voiceName != null && voiceName.isNotEmpty) {
+      await _tts.setVoice({'name': voiceName, 'locale': language});
+    }
     await _tts.setLanguage(language);
     await _tts.setSpeechRate(0.45);
     await _tts.setPitch(1.0);
@@ -354,6 +397,7 @@ Future<void> _speak(String text, String language) async {
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await loadAlternatives();
+  await _initBestVoices();
   appSettings = AppSettings();
   runApp(const KidsDictionaryApp());
 }
@@ -1147,6 +1191,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
 
     return Scaffold(
       appBar: AppBar(
+        automaticallyImplyLeading: false,
         centerTitle: false,
         titleSpacing: 0.0,
         title: Row(
