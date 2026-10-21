@@ -1,14 +1,48 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_tts/flutter_tts.dart';
+import 'dart:math';
 import 'database_helper.dart';
 import 'alternatives.dart';
 import 'favorites_manager.dart';
+import 'learned_manager.dart';
 
 final FlutterTts _tts = FlutterTts();
 String? _selectedEnVoice;
 String? _selectedZhVoice;
+
+String? findBaseWord(String query, Set<String> words) {
+  final q = query.toLowerCase().trim();
+  // Longer suffixes first to avoid over-stripping (e.g., wonderful -> wonder)
+  final suffixes = [
+    'fulness', 'fully',
+    'ness', 'less',
+    'ful', 'ly',
+    'ing',
+    'iest', 'ier', // happiest -> happy, happier -> happy
+    'ies', 'ied',
+    'es',
+    's',
+    'ed',
+    'er', 'est',
+  ];
+
+  for (final suffix in suffixes) {
+    if (q.endsWith(suffix) && q.length > suffix.length + 1) {
+      final base = q.substring(0, q.length - suffix.length);
+      if (words.contains(base)) return base;
+
+      // Handle y -> ie transformations
+      if ((suffix == 'ies' || suffix == 'ied' || suffix == 'ier' || suffix == 'iest') &&
+          words.contains('${base}y')) {
+        return '${base}y';
+      }
+    }
+  }
+  return null;
+}
 
 Future<void> _initBestVoices() async {
   final voices = await _tts.getVoices;
@@ -48,6 +82,7 @@ Future<void> _initBestVoices() async {
 }
 
 /// Global application settings.
+
 class AppSettings extends ChangeNotifier {
   bool _showChinese = true;
   double _textScale = 1.0;
@@ -87,7 +122,6 @@ late final AppSettings appSettings;
 List<WordEntry> _withImages(List<WordEntry> entries) {
   return appSettings.onlyImageWords
       ? entries.where((e) {
-          if (e.image.isNotEmpty) return true;
           return e.meanings.any((m) => m.image?.isNotEmpty == true);
         }).toList()
       : entries;
@@ -192,14 +226,14 @@ Widget _buildRelationChips(
               horizontal: 12.0 * scale,
               vertical: 6.0 * scale,
             ),
-            decoration: BoxDecoration(
+              decoration: BoxDecoration(
               color: label.startsWith('Antonyms')
                   ? (Theme.of(context).brightness == Brightness.dark
                       ? Colors.blue.shade400
                       : Colors.blue.shade300)
                   : (Theme.of(context).brightness == Brightness.dark
-                      ? Colors.green.shade300
-                      : Colors.green.shade100),
+                      ? Colors.orange.shade300
+                      : Colors.orange.shade100),
               borderRadius: BorderRadius.circular(8.0),
             ),
             child: Text(
@@ -413,11 +447,32 @@ class KidsDictionaryApp extends StatelessWidget {
         return MaterialApp(
           title: 'Kids Dictionary',
           debugShowCheckedModeBanner: false,
+          builder: (context, child) {
+            return Stack(
+              children: [
+                child!,
+                // Force google_fonts to load ZCOOL KuaiLe at startup so
+                // the explicitly styled Chinese text renders without a flash.
+                Positioned(
+                  left: 0,
+                  top: 0,
+                  child: Opacity(
+                    opacity: 0,
+                    child: Text('中', style: GoogleFonts.zcoolKuaiLe()),
+                  ),
+                ),
+              ],
+            );
+          },
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.teal),
             scaffoldBackgroundColor: Colors.white,
             useMaterial3: true,
             fontFamily: 'Roboto',
+            fontFamilyFallback: const ['NotoSansSC'],
+            tooltipTheme: TooltipThemeData(
+              textStyle: GoogleFonts.zcoolXiaoWei(),
+            ),
           ),
           darkTheme: ThemeData(
             colorScheme: ColorScheme.fromSeed(
@@ -427,6 +482,10 @@ class KidsDictionaryApp extends StatelessWidget {
             scaffoldBackgroundColor: const Color(0xFF121212),
             useMaterial3: true,
             fontFamily: 'Roboto',
+            fontFamilyFallback: const ['NotoSansSC'],
+            tooltipTheme: TooltipThemeData(
+              textStyle: GoogleFonts.zcoolXiaoWei(),
+            ),
           ),
           themeMode: appSettings.darkMode ? ThemeMode.dark : ThemeMode.light,
           home: const HomePage(),
@@ -483,12 +542,14 @@ class PerCharPinyin extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  SizedBox(
+                  // Use NotoSansSC directly for Chinese + pinyin so it renders
+                // reliably without depending on fontFamilyFallback.
+                SizedBox(
                     height: pinyinFontSize * 1.2,
                     child: Center(
                       child: Text(
                         pinyin[pinyinIndex],
-                        style: TextStyle(
+                        style: GoogleFonts.zcoolKuaiLe().copyWith(
                           fontSize: pinyinFontSize,
                           color: effectiveColor.withValues(alpha: 0.75),
                           height: 1.0,
@@ -498,7 +559,7 @@ class PerCharPinyin extends StatelessWidget {
                   ),
                   Text(
                     char,
-                    style: TextStyle(
+                    style: GoogleFonts.zcoolKuaiLe().copyWith(
                       fontSize: charFontSize,
                       color: effectiveColor,
                       height: 1.1,
@@ -576,7 +637,6 @@ Widget _buildMeaningSection(
   List<WordEntry> entries,
   String word,
   double scale, {
-  String? headerImage,
   List<String> nounFormsToShow = const [],
   bool showOwnNounForm = false,
 }) {
@@ -604,7 +664,6 @@ Widget _buildMeaningSection(
         const SizedBox(height: 8.0),
       ],
       if ((meaning.plural?.isNotEmpty == true && !meaning.plural!.toLowerCase().endsWith('s')) ||
-          (meaning.adverb?.isNotEmpty ?? false) ||
           (nounFormsToShow.isNotEmpty) ||
           (showOwnNounForm && meaning.nounForm?.isNotEmpty == true) ||
           (meaning.comparative?.isNotEmpty ?? false) ||
@@ -620,7 +679,8 @@ Widget _buildMeaningSection(
         const SizedBox(height: 8.0),
         // Show only irregular plurals (plural that does NOT end with 's').
         if (meaning.plural?.isNotEmpty == true && !meaning.plural!.toLowerCase().endsWith('s')) _buildFormLine(context, 'Plural', meaning.plural!, scale),
-        if (meaning.adverb?.isNotEmpty == true) _buildFormLine(context, 'Adverb', meaning.adverb!, scale),
+        // Adverb form hidden by request.
+        // if (meaning.adverb?.isNotEmpty == true) _buildFormLine(context, 'Adverb', meaning.adverb!, scale),
         if (nounFormsToShow.isNotEmpty)
           _buildFormLine(context, 'Noun form', nounFormsToShow.join(' / '), scale)
         else if (showOwnNounForm && meaning.nounForm?.isNotEmpty == true)
@@ -662,10 +722,10 @@ Widget _buildMeaningSection(
         word,
         scale,
       ),
-      SizedBox(height: (headerImage?.isNotEmpty == true || meaning.image?.isNotEmpty == true) ? 8.0 : 0.0),
-      if (headerImage?.isNotEmpty == true || meaning.image?.isNotEmpty == true) ...[
+      if (meaning.image?.isNotEmpty == true) ...[
+        const SizedBox(height: 8.0),
         _ConditionalAssetImage(
-          assetPath: meaning.image?.isNotEmpty == true ? meaning.image! : headerImage!,
+          assetPath: meaning.image!,
           height: 250.0,
         ),
         const SizedBox(height: 8.0),
@@ -856,15 +916,21 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final TextEditingController _searchController = TextEditingController();
+  final FocusNode _searchFocusNode = FocusNode();
   final DatabaseHelper _db = DatabaseHelper.instance;
   final FavoritesManager _favoritesManager = FavoritesManager();
+  final LearnedManager _learnedManager = LearnedManager();
   List<WordEntry> _rawAllWords = [];
   List<WordEntry> _allWords = [];
+  List<WordEntry> _dailyWords = [];
   List<WordEntry> _results = [];
   Set<String> _favorites = {};
+  Set<String> _learned = {};
+  Set<String> _dailyWordsFavorites = {};
+  Set<String> _dailyWordsLearned = {};
+  String? _dailyWordsDate;
   bool _showOnlyFavorites = false;
   bool _isLoading = true;
-  int _selectedIndex = -1;
 
   @override
   void initState() {
@@ -877,65 +943,78 @@ class _HomePageState extends State<HomePage> {
   void dispose() {
     appSettings.removeListener(_onSettingsChanged);
     _searchController.dispose();
+    _searchFocusNode.dispose();
     super.dispose();
   }
 
-  void _onSettingsChanged() {
+  void _onSettingsChanged() async {
     if (mounted) {
-      _applyFilter();
+      await _applyFilter();
     }
   }
 
   Future<void> _loadAllWords() async {
     final words = await _db.getAllWords();
     _rawAllWords = words;
-    _favorites = await _favoritesManager.getFavorites();
-    _applyFilter();
+    await _applyFilter();
   }
 
-  void _toggleFavoritesView() {
+  Future<void> _toggleFavoritesView() async {
     setState(() {
       _showOnlyFavorites = !_showOnlyFavorites;
     });
-    _applyFilter();
+    await _applyFilter();
   }
 
-  void _applyFilter() {
+  Future<void> _applyFilter() async {
+    _favorites = await _favoritesManager.getFavorites();
+    _learned = await _learnedManager.getLearned();
+    if (!mounted) return;
     setState(() {
       _allWords = _withImages(_rawAllWords);
-      if (_showOnlyFavorites) {
-        _allWords = _allWords.where((e) => _favorites.contains(e.word.toLowerCase())).toList();
+      if (_dailyWordsNeedRefresh()) {
+        _recomputeDailyWords();
       }
-      _results = _allWords;
+      if (_showOnlyFavorites) {
+        _results = _allWords.where((e) => _favorites.contains(e.word.toLowerCase())).toList();
+      } else {
+        _results = _dailyWords;
+      }
       _isLoading = false;
     });
   }
 
-  Future<void> _onSearchChanged(String query) async {
-    if (query.trim().isEmpty) {
-      setState(() {
-        _results = _allWords;
-        _selectedIndex = -1;
-      });
-      return;
-    }
-
-    final matches = await _db.searchWords(query.trim());
-    setState(() {
-      _results = _withImages(matches);
-      _selectedIndex = -1;
-    });
+  List<WordEntry> _pickDailyWords(List<WordEntry> pool) {
+    final now = DateTime.now();
+    final seed = now.year * 10000 + now.month * 100 + now.day;
+    final eligible = pool.where((e) {
+      final w = e.word.toLowerCase();
+      return !_favorites.contains(w) && !_learned.contains(w);
+    }).toList();
+    if (eligible.isEmpty) return [];
+    // Sort deterministically so the daily words are stable regardless of DB row order.
+    eligible.sort((a, b) => a.word.toLowerCase().compareTo(b.word.toLowerCase()));
+    eligible.shuffle(Random(seed));
+    final selected = eligible.take(5).toList();
+    selected.sort((a, b) => a.word.toLowerCase().compareTo(b.word.toLowerCase()));
+    return selected;
   }
 
-  void _moveSelection(int delta) {
-    if (_results.isEmpty) return;
-    setState(() {
-      if (_selectedIndex == -1) {
-        _selectedIndex = delta > 0 ? 0 : _results.length - 1;
-      } else {
-        _selectedIndex = (_selectedIndex + delta).clamp(0, _results.length - 1);
-      }
-    });
+  bool _dailyWordsNeedRefresh() {
+    final today = DateTime.now().toIso8601String().substring(0, 10);
+    return _dailyWords.isEmpty ||
+        _dailyWordsDate != today ||
+        !_dailyWordsFavorites.containsAll(_favorites) ||
+        !_favorites.containsAll(_dailyWordsFavorites) ||
+        !_dailyWordsLearned.containsAll(_learned) ||
+        !_learned.containsAll(_dailyWordsLearned);
+  }
+
+  void _recomputeDailyWords() {
+    _dailyWords = _pickDailyWords(_allWords);
+    _dailyWordsDate = DateTime.now().toIso8601String().substring(0, 10);
+    _dailyWordsFavorites = Set<String>.from(_favorites);
+    _dailyWordsLearned = Set<String>.from(_learned);
   }
 
   @override
@@ -948,13 +1027,13 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         leading: IconButton(
           icon: const Icon(Icons.settings),
-          tooltip: 'Settings',
+          tooltip: 'Settings 选项',
           onPressed: () => _showSettingsDialog(context),
         ),
         actions: [
           IconButton(
             icon: Icon(_showOnlyFavorites ? Icons.star : Icons.star_border),
-            tooltip: _showOnlyFavorites ? 'Show all words' : 'Show favorites',
+            tooltip: _showOnlyFavorites ? 'Show all words 显示全部' : 'Show favourites 显示我的收藏',
             onPressed: _toggleFavoritesView,
           ),
         ],
@@ -964,51 +1043,105 @@ class _HomePageState extends State<HomePage> {
         child: SelectionArea(
           child: Column(
             children: [
-              Focus(
-                onKeyEvent: (node, event) {
-                  if (event is KeyDownEvent) {
-                    if (event.logicalKey == LogicalKeyboardKey.arrowDown) {
-                      _moveSelection(1);
-                      return KeyEventResult.handled;
-                    } else if (event.logicalKey == LogicalKeyboardKey.arrowUp) {
-                      _moveSelection(-1);
-                      return KeyEventResult.handled;
-                    }
-                  }
-                  return KeyEventResult.ignored;
+              RawAutocomplete<String>(
+                textEditingController: _searchController,
+                focusNode: _searchFocusNode,
+                optionsBuilder: (TextEditingValue textEditingValue) {
+                  final query = textEditingValue.text.trim().toLowerCase();
+                  if (query.isEmpty) return const Iterable<String>.empty();
+                  return _allWords
+                      .where((e) => e.word.toLowerCase().startsWith(query))
+                      .map((e) => e.word)
+                      .take(10);
                 },
-                child: TextField(
-                  controller: _searchController,
-                  onChanged: _onSearchChanged,
-                  onSubmitted: (value) {
-                    if (_results.isNotEmpty) {
-                      final index = _selectedIndex >= 0 ? _selectedIndex : 0;
-                      _openWordDetail(_results[index], index);
-                    }
-                  },
-                  decoration: InputDecoration(
-                    labelText: 'Search a word / 搜尋單字',
-                    hintText: 'Try "apple" or "happy"',
-                    prefixIcon: const Icon(Icons.search),
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(12.0),
+                onSelected: (String selection) {
+                  final allIndex = _allWords.indexWhere(
+                    (e) => e.word.toLowerCase() == selection.toLowerCase(),
+                  );
+                  if (allIndex >= 0) {
+                    _openWordDetail(_allWords[allIndex], allIndex);
+                  }
+                },
+                optionsViewBuilder: (context, onSelected, options) {
+                  return Align(
+                    alignment: Alignment.topLeft,
+                    child: Material(
+                      elevation: 4.0,
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: Container(
+                        width: MediaQuery.of(context).size.width - 32,
+                        constraints: const BoxConstraints(maxHeight: 250),
+                        child: ListView.builder(
+                          shrinkWrap: true,
+                          padding: EdgeInsets.zero,
+                          itemCount: options.length,
+                          itemBuilder: (BuildContext context, int index) {
+                            final option = options.elementAt(index);
+                            final highlightedIndex = AutocompleteHighlightedOption.of(context);
+                            final isHighlighted = index == highlightedIndex;
+                            return ListTile(
+                              dense: true,
+                              tileColor: isHighlighted
+                                  ? Theme.of(context).colorScheme.primaryContainer
+                                  : null,
+                              title: Text(
+                                option,
+                                style: TextStyle(
+                                  fontSize: 16.0 * scale,
+                                  color: isHighlighted
+                                      ? Theme.of(context).colorScheme.onPrimaryContainer
+                                      : null,
+                                  fontWeight: isHighlighted ? FontWeight.bold : null,
+                                ),
+                              ),
+                              onTap: () => onSelected(option),
+                            );
+                          },
+                        ),
+                      ),
                     ),
-                  ),
-                ),
+                  );
+                },
+                fieldViewBuilder: (context, textEditingController, focusNode, onFieldSubmitted) {
+                  return TextField(
+                    controller: textEditingController,
+                    focusNode: focusNode,
+                    onSubmitted: (_) => onFieldSubmitted(),
+                    decoration: InputDecoration(
+                      labelText: 'Search a word / 搜尋單字',
+                      hintText: 'Try "apple" or "happy"',
+                      prefixIcon: const Icon(Icons.search),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12.0),
+                      ),
+                    ),
+                  );
+                },
               ),
               const SizedBox(height: 16.0),
+              const Center(
+                child: Text(
+                  'Word of the day',
+                  style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                ),
+              ),
+              const SizedBox(height: 8.0),
               Expanded(
                 child: _isLoading
                     ? const Center(child: CircularProgressIndicator())
                     : _results.isEmpty
-                        ? const Center(child: Text('No words found. Keep trying!'))
+                        ? const Center(
+                            child: Text(
+                              "No favourite words found! Let's bookmark some words, shall we?",
+                              style: TextStyle(fontSize: 21),
+                              textAlign: TextAlign.center,
+                            ),
+                          )
                         : ListView.builder(
                             itemCount: _results.length,
                             itemBuilder: (context, index) {
                               final entry = _results[index];
-                              final isSelected = index == _selectedIndex;
                               return Card(
-                                color: isSelected ? Theme.of(context).colorScheme.primaryContainer : null,
                                 child: ListTile(
                                   title: Text(
                                     entry.word,
@@ -1089,13 +1222,34 @@ class _WordDetailPageState extends State<WordDetailPage> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
   final FavoritesManager _favoritesManager = FavoritesManager();
+  final LearnedManager _learnedManager = LearnedManager();
   final ScrollController _scrollController = ScrollController();
   bool _isFavorite = false;
+  bool _isLearned = false;
 
   void _handleSearch(String query) {
     final q = query.trim().toLowerCase();
     if (q.isEmpty) return;
-    final targetIndex = widget.entries.indexWhere((e) => e.word.toLowerCase() == q);
+
+    int targetIndex = widget.entries.indexWhere((e) => e.word.toLowerCase() == q);
+
+    // 2) Try alternatives map (e.g., running -> run)
+    if (targetIndex == -1) {
+      final alt = alternativesMap[q];
+      if (alt != null && alt.isNotEmpty) {
+        targetIndex = widget.entries.indexWhere((e) => e.word.toLowerCase() == alt.toLowerCase());
+      }
+    }
+
+    // 3) Try stripping common suffixes to find a base word (e.g., wonderful -> wonder)
+    if (targetIndex == -1) {
+      final words = widget.entries.map((e) => e.word.toLowerCase()).toSet();
+      final base = findBaseWord(q, words);
+      if (base != null) {
+        targetIndex = widget.entries.indexWhere((e) => e.word.toLowerCase() == base);
+      }
+    }
+
     if (targetIndex != -1) {
       Navigator.of(context).push(
         MaterialPageRoute(
@@ -1113,6 +1267,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
   void initState() {
     super.initState();
     _loadFavoriteStatus();
+    _loadLearnedStatus();
   }
 
   void _goToPreviousWord() {
@@ -1175,6 +1330,25 @@ class _WordDetailPageState extends State<WordDetailPage> {
     }
   }
 
+  Future<void> _loadLearnedStatus() async {
+    final isLearned = await _learnedManager.isLearned(widget.entry.word);
+    if (mounted) {
+      setState(() {
+        _isLearned = isLearned;
+      });
+    }
+  }
+
+  Future<void> _toggleLearned() async {
+    await _learnedManager.toggleLearned(widget.entry.word);
+    final isLearned = await _learnedManager.isLearned(widget.entry.word);
+    if (mounted) {
+      setState(() {
+        _isLearned = isLearned;
+      });
+    }
+  }
+
   @override
   void dispose() {
     _searchController.dispose();
@@ -1198,14 +1372,17 @@ class _WordDetailPageState extends State<WordDetailPage> {
           children: [
             IconButton(
               icon: const Icon(Icons.home),
-              tooltip: 'Home',
+              tooltip: 'Home 首页',
               onPressed: () {
-                Navigator.of(context).popUntil((route) => route.isFirst);
+                Navigator.of(context).pushAndRemoveUntil(
+                  MaterialPageRoute(builder: (context) => const HomePage()),
+                  (route) => false,
+                );
               },
             ),
             IconButton(
               icon: const Icon(Icons.settings),
-              tooltip: 'Settings',
+              tooltip: 'Settings 选项',
               onPressed: () => _showSettingsDialog(context),
             ),
             Expanded(
@@ -1245,9 +1422,23 @@ class _WordDetailPageState extends State<WordDetailPage> {
                               itemCount: options.length,
                               itemBuilder: (BuildContext context, int index) {
                                 final option = options.elementAt(index);
+                                final highlightedIndex = AutocompleteHighlightedOption.of(context);
+                                final isHighlighted = index == highlightedIndex;
                                 return ListTile(
                                   dense: true,
-                                  title: Text(option, style: TextStyle(fontSize: 16.0 * scale)),
+                                  tileColor: isHighlighted
+                                      ? Theme.of(context).colorScheme.primaryContainer
+                                      : null,
+                                  title: Text(
+                                    option,
+                                    style: TextStyle(
+                                      fontSize: 16.0 * scale,
+                                      color: isHighlighted
+                                          ? Theme.of(context).colorScheme.onPrimaryContainer
+                                          : null,
+                                      fontWeight: isHighlighted ? FontWeight.bold : null,
+                                    ),
+                                  ),
                                   onTap: () => onSelected(option),
                                 );
                               },
@@ -1276,8 +1467,15 @@ class _WordDetailPageState extends State<WordDetailPage> {
               ),
             ),
             IconButton(
+              icon: Icon(_isLearned ? Icons.check_circle : Icons.check_circle_outline),
+              tooltip: _isLearned
+              ? 'Mark as not learnt (this word may appear as the word of the day again) 标记为未学会（这个词可能会再次成为每日单词）'
+              : 'Mark as learnt (this word will not appear as the word of the day anymore) 标记为已学会（这个词不会再出现在每日单词中）',
+              onPressed: _toggleLearned,
+            ),
+            IconButton(
               icon: Icon(_isFavorite ? Icons.star : Icons.star_border),
-              tooltip: _isFavorite ? 'Remove from favorites' : 'Add to favorites',
+              tooltip: _isFavorite ? 'Remove from favourites 从收藏中移除' : 'Add to favourites 添加到收藏',
               onPressed: _toggleFavorite,
             ),
           ],
@@ -1417,6 +1615,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
                           .map((m) => m.nounForm)
                           .where((f) => f != null && f.isNotEmpty)
                           .cast<String>()
+                          .toSet()
                           .toList();
                       final firstAdjectiveIndex = sortedMeanings.indexWhere(
                           (m) => m.partOfSpeech.toLowerCase().contains('adjective'));
@@ -1429,7 +1628,6 @@ class _WordDetailPageState extends State<WordDetailPage> {
                             entries,
                             entry.word,
                             scale,
-                            headerImage: i == 0 && entry.image.isNotEmpty ? entry.image : null,
                             nounFormsToShow: firstAdjectiveIndex == i ? nounForms : const [],
                             showOwnNounForm: fallbackNounForms,
                           ),

@@ -80,14 +80,12 @@ class Meaning {
 class WordEntry {
   final String word;
   final String wordCn;
-  final String image;
   final List<String> wordPinyin;
   final List<Meaning> meanings;
 
   WordEntry({
     required this.word,
     required this.wordCn,
-    required this.image,
     required this.wordPinyin,
     required this.meanings,
   });
@@ -98,7 +96,6 @@ class WordEntry {
     return WordEntry(
       word: map['word'] as String,
       wordCn: wordCn,
-      image: map['image'] as String? ?? '',
       wordPinyin: _toPinyinList(wordCn),
       meanings: meaningsJson
           .map((m) => Meaning.fromMap(m as Map<String, dynamic>))

@@ -42,3 +42,6 @@ app.*.map.json
 
 # Original large image backup (do not commit)
 assets/images_backup/
+# Backup folders and files that should not be deployed
+assets/dictionary_backups/
+assets/*_backup_*.json
