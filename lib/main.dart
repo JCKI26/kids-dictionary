@@ -1110,6 +1110,9 @@ class _HomePageState extends State<HomePage> {
         title: const Text('Kids Dictionary'),
         centerTitle: true,
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        elevation: 0,
+        shadowColor: Colors.transparent,
+        surfaceTintColor: Colors.transparent,
         leading: _buildIconButtonWithMixedTooltip(
           context: context,
           english: 'Settings',
@@ -1662,6 +1665,9 @@ class _WordDetailPageState extends State<WordDetailPage> {
           ],
         ),
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        elevation: 0,
+        shadowColor: Colors.transparent,
+        surfaceTintColor: Colors.transparent,
       ),
       bottomNavigationBar: BottomAppBar(
         height: kToolbarHeight,
