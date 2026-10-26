@@ -473,6 +473,22 @@ Future<void> _speak(String text, String language) async {
   }
 }
 
+Widget _buildSpeakerButton({
+  required VoidCallback onPressed,
+  required double iconSize,
+  String? tooltip,
+}) {
+  return IconButton(
+    icon: const Icon(Icons.volume_up),
+    iconSize: iconSize,
+    padding: EdgeInsets.zero,
+    constraints: const BoxConstraints(),
+    splashRadius: iconSize,
+    tooltip: tooltip,
+    onPressed: onPressed,
+  );
+}
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await loadAlternatives();
@@ -800,8 +816,7 @@ Widget _buildMeaningSection(
               ),
             ),
           ),
-          IconButton(
-            icon: const Icon(Icons.volume_up),
+          _buildSpeakerButton(
             iconSize: 24.0 * scale,
             onPressed: () => _speak(meaning.definition, 'en-US'),
           ),
@@ -821,8 +836,7 @@ Widget _buildMeaningSection(
                 charSpacing: 10.0,
               ),
             ),
-            IconButton(
-              icon: const Icon(Icons.volume_up),
+            _buildSpeakerButton(
               iconSize: 24.0,
               onPressed: () => _speak(meaning.definitionCn, 'zh-CN'),
             ),
@@ -853,8 +867,7 @@ Widget _buildMeaningSection(
               ),
             ),
           ),
-          IconButton(
-            icon: const Icon(Icons.volume_up),
+          _buildSpeakerButton(
             iconSize: 24.0 * scale,
             onPressed: () => _speak(meaning.example, 'en-US'),
           ),
@@ -874,8 +887,7 @@ Widget _buildMeaningSection(
                 charSpacing: 10.0,
               ),
             ),
-            IconButton(
-              icon: const Icon(Icons.volume_up),
+            _buildSpeakerButton(
               iconSize: 24.0,
               onPressed: () => _speak(meaning.exampleCn, 'zh-CN'),
             ),
@@ -1787,8 +1799,7 @@ class _WordPageState extends State<_WordPage> {
                   ),
                 ),
                 const SizedBox(width: 8.0),
-                IconButton(
-                  icon: const Icon(Icons.volume_up),
+                _buildSpeakerButton(
                   iconSize: 32.0,
                   tooltip: 'Listen',
                   onPressed: () => _speak(entry.word, 'en-US'),
@@ -1808,8 +1819,7 @@ class _WordPageState extends State<_WordPage> {
                     pinyinFontSize: 15.6 * scale,
                     charSpacing: 12.0,
                   ),
-                  IconButton(
-                    icon: const Icon(Icons.volume_up),
+                  _buildSpeakerButton(
                     iconSize: 26.0,
                     tooltip: 'Listen in Chinese',
                     onPressed: () => _speak(entry.wordCn, 'zh-CN'),
