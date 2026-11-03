@@ -1109,7 +1109,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Kids Dictionary'),
         centerTitle: true,
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        backgroundColor: Theme.of(context).colorScheme.primary,
         elevation: 0,
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
@@ -1673,7 +1673,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
             ),
           ],
         ),
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        backgroundColor: Theme.of(context).colorScheme.primary,
         elevation: 0,
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
