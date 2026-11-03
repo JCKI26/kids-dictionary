@@ -1180,8 +1180,8 @@ class _HomePageState extends State<HomePage> {
                             final option = options.elementAt(index);
                             final highlightedIndex = AutocompleteHighlightedOption.of(context);
                             final isHighlighted = index == highlightedIndex;
-                            return GestureDetector(
-                              behavior: HitTestBehavior.opaque,
+                            return InkWell(
+                              canRequestFocus: false,
                               onTap: () => onSelected(option),
                               child: ListTile(
                                 dense: true,
@@ -1189,16 +1189,15 @@ class _HomePageState extends State<HomePage> {
                                     ? Theme.of(context).colorScheme.primaryContainer
                                     : null,
                                 title: Text(
-                                option,
-                                style: TextStyle(
-                                  fontSize: 16.0 * scale,
-                                  color: isHighlighted
-                                      ? Theme.of(context).colorScheme.onPrimaryContainer
-                                      : null,
-                                  fontWeight: isHighlighted ? FontWeight.bold : null,
+                                  option,
+                                  style: TextStyle(
+                                    fontSize: 16.0 * scale,
+                                    color: isHighlighted
+                                        ? Theme.of(context).colorScheme.onPrimaryContainer
+                                        : null,
+                                    fontWeight: isHighlighted ? FontWeight.bold : null,
+                                  ),
                                 ),
-                              ),
-                                onTap: () => onSelected(option),
                               ),
                             );
                           },
@@ -1607,8 +1606,8 @@ class _WordDetailPageState extends State<WordDetailPage> {
                                 final option = options.elementAt(index);
                                 final highlightedIndex = AutocompleteHighlightedOption.of(context);
                                 final isHighlighted = index == highlightedIndex;
-                                return GestureDetector(
-                                  behavior: HitTestBehavior.opaque,
+                                return InkWell(
+                                  canRequestFocus: false,
                                   onTap: () => onSelected(option),
                                   child: ListTile(
                                     dense: true,
@@ -1625,7 +1624,6 @@ class _WordDetailPageState extends State<WordDetailPage> {
                                         fontWeight: isHighlighted ? FontWeight.bold : null,
                                       ),
                                     ),
-                                    onTap: () => onSelected(option),
                                   ),
                                 );
                               },
