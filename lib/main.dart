@@ -681,7 +681,7 @@ class _ConditionalAssetImage extends StatelessWidget {
             color: Theme.of(context).scaffoldBackgroundColor,
             width: double.infinity,
             height: height,
-            alignment: Alignment.center,
+            alignment: Alignment.centerLeft,
             child: Image.asset(
               assetPath,
               fit: BoxFit.contain,
