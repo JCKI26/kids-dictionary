@@ -681,7 +681,7 @@ class _ConditionalAssetImage extends StatelessWidget {
             color: Theme.of(context).scaffoldBackgroundColor,
             width: double.infinity,
             height: height,
-            alignment: Alignment.centerLeft,
+            alignment: Alignment.center,
             child: Image.asset(
               assetPath,
               fit: BoxFit.contain,
@@ -1110,7 +1110,6 @@ class _HomePageState extends State<HomePage> {
         title: const Text('Kids Dictionary'),
         centerTitle: true,
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-        foregroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
         elevation: 0,
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
@@ -1134,61 +1133,62 @@ class _HomePageState extends State<HomePage> {
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
-        child: Column(
-          children: [
-            RawAutocomplete<String>(
-              textEditingController: _searchController,
-              focusNode: _searchFocusNode,
-              optionsBuilder: (TextEditingValue textEditingValue) {
-                final query = textEditingValue.text.trim().toLowerCase();
-                if (query.isEmpty) return const Iterable<String>.empty();
-                final hasChinese = query.runes.any((r) => r >= 0x4E00 && r <= 0x9FFF);
-                return _allWords
-                    .where((e) {
-                      if (e.word.toLowerCase().startsWith(query)) return true;
-                      if (!hasChinese) return false;
-                      // Chinese search across meanings 1, 2, and 3 (partial match)
-                      return e.meanings.any(
-                        (m) => m.definitionCn.toLowerCase().contains(query),
-                      );
-                    })
-                    .map((e) => e.word)
-                    .take(10);
-              },
-              onSelected: (String selection) {
-                final allIndex = _allWords.indexWhere(
-                  (e) => e.word.toLowerCase() == selection.toLowerCase(),
-                );
-                if (allIndex >= 0) {
-                  _openWordDetail(_allWords[allIndex], allIndex);
-                }
-              },
-              optionsViewBuilder: (context, onSelected, options) {
-                return Align(
-                  alignment: Alignment.topLeft,
-                  child: Material(
-                    elevation: 4.0,
-                    borderRadius: BorderRadius.circular(8.0),
-                    child: Container(
-                      width: MediaQuery.of(context).size.width - 32,
-                      constraints: const BoxConstraints(maxHeight: 250),
-                      child: ListView.builder(
-                        shrinkWrap: true,
-                        padding: EdgeInsets.zero,
-                        itemCount: options.length,
-                        itemBuilder: (BuildContext context, int index) {
-                          final option = options.elementAt(index);
-                          final highlightedIndex = AutocompleteHighlightedOption.of(context);
-                          final isHighlighted = index == highlightedIndex;
-                          return GestureDetector(
-                            behavior: HitTestBehavior.opaque,
-                            onTap: () => onSelected(option),
-                            child: Container(
-                              color: isHighlighted
-                                  ? Theme.of(context).colorScheme.primaryContainer
-                                  : null,
-                              padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
-                              child: Text(
+        child: SelectionArea(
+          child: Column(
+            children: [
+              RawAutocomplete<String>(
+                textEditingController: _searchController,
+                focusNode: _searchFocusNode,
+                optionsBuilder: (TextEditingValue textEditingValue) {
+                  final query = textEditingValue.text.trim().toLowerCase();
+                  if (query.isEmpty) return const Iterable<String>.empty();
+                  final hasChinese = query.runes.any((r) => r >= 0x4E00 && r <= 0x9FFF);
+                  return _allWords
+                      .where((e) {
+                        if (e.word.toLowerCase().startsWith(query)) return true;
+                        if (!hasChinese) return false;
+                        // Chinese search across meanings 1, 2, and 3 (partial match)
+                        return e.meanings.any(
+                          (m) => m.definitionCn.toLowerCase().contains(query),
+                        );
+                      })
+                      .map((e) => e.word)
+                      .take(10);
+                },
+                onSelected: (String selection) {
+                  final allIndex = _allWords.indexWhere(
+                    (e) => e.word.toLowerCase() == selection.toLowerCase(),
+                  );
+                  if (allIndex >= 0) {
+                    _openWordDetail(_allWords[allIndex], allIndex);
+                  }
+                },
+                optionsViewBuilder: (context, onSelected, options) {
+                  return Align(
+                    alignment: Alignment.topLeft,
+                    child: Material(
+                      elevation: 4.0,
+                      borderRadius: BorderRadius.circular(8.0),
+                      child: Container(
+                        width: MediaQuery.of(context).size.width - 32,
+                        constraints: const BoxConstraints(maxHeight: 250),
+                        child: ListView.builder(
+                          shrinkWrap: true,
+                          padding: EdgeInsets.zero,
+                          itemCount: options.length,
+                          itemBuilder: (BuildContext context, int index) {
+                            final option = options.elementAt(index);
+                            final highlightedIndex = AutocompleteHighlightedOption.of(context);
+                            final isHighlighted = index == highlightedIndex;
+                            return GestureDetector(
+                              behavior: HitTestBehavior.opaque,
+                              onTap: () => onSelected(option),
+                              child: ListTile(
+                                dense: true,
+                                tileColor: isHighlighted
+                                    ? Theme.of(context).colorScheme.primaryContainer
+                                    : null,
+                                title: Text(
                                 option,
                                 style: TextStyle(
                                   fontSize: 16.0 * scale,
@@ -1198,62 +1198,62 @@ class _HomePageState extends State<HomePage> {
                                   fontWeight: isHighlighted ? FontWeight.bold : null,
                                 ),
                               ),
-                            ),
-                          );
-                        },
+                                onTap: () => onSelected(option),
+                              ),
+                            );
+                          },
+                        ),
                       ),
                     ),
+                  );
+                },
+                fieldViewBuilder: (context, textEditingController, focusNode, onFieldSubmitted) {
+                  return TextField(
+                    controller: textEditingController,
+                    focusNode: focusNode,
+                    onSubmitted: (_) => onFieldSubmitted(),
+                    decoration: InputDecoration(
+                      labelText: 'Search a word / 搜尋單字',
+                      hintText: 'Try "Apple" or "苹果"',
+                      prefixIcon: const Icon(Icons.search),
+                      border: OutlineInputBorder(
+                        borderRadius: BorderRadius.circular(12.0),
+                      ),
+                    ),
+                  );
+                },
+              ),
+              const SizedBox(height: 16.0),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  const Spacer(),
+                  const Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      Text(
+                        'Word of the day',
+                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                      ),
+                      SizedBox(height: 4.0),
+                      Text(
+                        '每日一词',
+                        style: TextStyle(fontSize: 18),
+                      ),
+                    ],
                   ),
-                );
-              },
-              fieldViewBuilder: (context, textEditingController, focusNode, onFieldSubmitted) {
-                return TextField(
-                  controller: textEditingController,
-                  focusNode: focusNode,
-                  onSubmitted: (_) => onFieldSubmitted(),
-                  decoration: InputDecoration(
-                    labelText: 'Search a word / 搜尋單字',
-                    hintText: 'Try "Apple" or "苹果"',
-                    prefixIcon: const Icon(Icons.search),
-                    border: OutlineInputBorder(
-                      borderRadius: BorderRadius.circular(12.0),
-                    ),
+                  const Spacer(),
+                  _buildIconButtonWithMixedTooltip(
+                    context: context,
+                    english: 'Refresh word of the day',
+                    chinese: '刷新每日单词',
+                    icon: const Icon(Icons.refresh),
+                    onPressed: _refreshDailyWords,
                   ),
-                );
-              },
-            ),
-            const SizedBox(height: 16.0),
-            Row(
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: [
-                const Spacer(),
-                const Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    Text(
-                      'Word of the day',
-                      style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-                    ),
-                    SizedBox(height: 4.0),
-                    Text(
-                      '每日一词',
-                      style: TextStyle(fontSize: 18),
-                    ),
-                  ],
-                ),
-                const Spacer(),
-                _buildIconButtonWithMixedTooltip(
-                  context: context,
-                  english: 'Refresh word of the day',
-                  chinese: '刷新每日单词',
-                  icon: const Icon(Icons.refresh),
-                  onPressed: _refreshDailyWords,
-                ),
-              ],
-            ),
-            const SizedBox(height: 8.0),
-            Expanded(
-              child: SelectionArea(
+                ],
+              ),
+              const SizedBox(height: 8.0),
+              Expanded(
                 child: _isLoading
                     ? const Center(child: CircularProgressIndicator())
                     : _results.isEmpty
@@ -1312,8 +1312,8 @@ class _HomePageState extends State<HomePage> {
                             },
                           ),
               ),
-          ),
             ],
+          ),
         ),
       ),
     );
@@ -1607,26 +1607,27 @@ class _WordDetailPageState extends State<WordDetailPage> {
                                 final option = options.elementAt(index);
                                 final highlightedIndex = AutocompleteHighlightedOption.of(context);
                                 final isHighlighted = index == highlightedIndex;
-                            return GestureDetector(
-                              behavior: HitTestBehavior.opaque,
-                              onTap: () => onSelected(option),
-                              child: Container(
-                                color: isHighlighted
-                                    ? Theme.of(context).colorScheme.primaryContainer
-                                    : null,
-                                padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 12.0),
-                                child: Text(
-                                  option,
-                                  style: TextStyle(
-                                    fontSize: 16.0 * scale,
-                                    color: isHighlighted
-                                        ? Theme.of(context).colorScheme.onPrimaryContainer
+                                return GestureDetector(
+                                  behavior: HitTestBehavior.opaque,
+                                  onTap: () => onSelected(option),
+                                  child: ListTile(
+                                    dense: true,
+                                    tileColor: isHighlighted
+                                        ? Theme.of(context).colorScheme.primaryContainer
                                         : null,
-                                    fontWeight: isHighlighted ? FontWeight.bold : null,
+                                    title: Text(
+                                      option,
+                                      style: TextStyle(
+                                        fontSize: 16.0 * scale,
+                                        color: isHighlighted
+                                            ? Theme.of(context).colorScheme.onPrimaryContainer
+                                            : null,
+                                        fontWeight: isHighlighted ? FontWeight.bold : null,
+                                      ),
+                                    ),
+                                    onTap: () => onSelected(option),
                                   ),
-                                ),
-                              ),
-                            );
+                                );
                               },
                             ),
                           ),
@@ -1673,7 +1674,6 @@ class _WordDetailPageState extends State<WordDetailPage> {
           ],
         ),
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-        foregroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
         elevation: 0,
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
