@@ -678,15 +678,17 @@ class _ConditionalAssetImage extends StatelessWidget {
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.done && snapshot.hasData) {
           return Container(
-          color: Theme.of(context).scaffoldBackgroundColor,
-          width: double.infinity,
-          height: height,
-          alignment: Alignment.centerLeft,
-          child: Image.asset(
-            assetPath,
-            fit: BoxFit.contain,
-          ),
-        );
+            color: Theme.of(context).scaffoldBackgroundColor,
+            width: double.infinity,
+            constraints: BoxConstraints(maxHeight: height),
+            alignment: Alignment.center,
+            clipBehavior: Clip.hardEdge,
+            child: Image.asset(
+              assetPath,
+              width: double.infinity,
+              fit: BoxFit.fitWidth,
+            ),
+          );
         }
         return const SizedBox.shrink();
       },
