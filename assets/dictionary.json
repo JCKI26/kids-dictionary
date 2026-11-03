@@ -68,7 +68,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "ably",
+        "adverb": "",
         "noun_form": "ability",
         "comparative": "",
         "superlative": "",
@@ -2648,7 +2648,7 @@
         "past_tense": "amazed",
         "past_participle": "amazed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "amazement",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -2907,7 +2907,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/anger 1.png"
       }
     ],
     "relations": {
@@ -2982,7 +2982,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "angrily",
+        "adverb": "",
         "noun_form": "anger",
         "comparative": "",
         "superlative": "",
@@ -3103,7 +3103,7 @@
         "past_tense": "annoyed",
         "past_participle": "annoyed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "annoyance",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -3253,7 +3253,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "anxiously",
+        "adverb": "",
         "noun_form": "anxiety",
         "comparative": "",
         "superlative": "",
@@ -4448,8 +4448,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "ashamedly",
-        "noun_form": "shame",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -4927,7 +4927,7 @@
         "past_tense": "attended",
         "past_participle": "attended",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "attention",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -5510,7 +5510,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "awfully",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -5731,8 +5731,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "badly",
-        "noun_form": "badness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "worse",
         "superlative": "worst",
         "image": null
@@ -6053,7 +6053,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/balance 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -6220,7 +6220,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/ban 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -6670,7 +6670,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "barely",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -6783,7 +6783,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "basically",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -8269,7 +8269,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/berry 1.jpg"
+        "image": "assets/images/berry 1.png"
       }
     ],
     "relations": {
@@ -8480,8 +8480,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "bigly",
-        "noun_form": "bigness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -8763,7 +8763,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/birth 1.png"
       }
     ],
     "relations": {
@@ -8982,8 +8982,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "blackly",
-        "noun_form": "blackness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/black 1.jpg"
@@ -9097,7 +9097,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "blankly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -9135,8 +9135,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "blindly",
-        "noun_form": "blindness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/blind 1.png"
@@ -9471,8 +9471,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "bluely",
-        "noun_form": "blueness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/blue 1.jpg"
@@ -9552,8 +9552,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "bluntly",
-        "noun_form": "bluntness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -9763,7 +9763,7 @@
         ],
         "antonyms": [
           "cheer",
-          "applause"
+          "applaud"
         ],
         "related": [],
         "plural": "",
@@ -9792,7 +9792,7 @@
         ],
         "antonyms": [
           "cheer",
-          "applaud"
+          "applause"
         ],
         "related": [],
         "plural": "",
@@ -9980,7 +9980,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "boredly",
+        "adverb": "",
         "noun_form": "boredom",
         "comparative": "",
         "superlative": "",
@@ -10025,8 +10025,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "boringly",
-        "noun_form": "",
+        "adverb": "",
+        "noun_form": "boredom",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -10047,9 +10047,9 @@
     "frequency_tier": 2,
     "meanings": [
       {
-        "part_of_speech": "adjective",
+        "part_of_speech": "verb",
         "part_of_speech_cn": "",
-        "definition": "To come into life.",
+        "definition": "(Past participle) To come into life, used with \"was\" or \"were\" (like \"was born\" or \"were born\") to say when someone or something started living.",
         "definition_cn": "出生的；诞生的",
         "definition_pinyin": [],
         "example": "I was born in the spring, when the flowers started blooming.",
@@ -10060,7 +10060,7 @@
         ],
         "antonyms": [
           "gone",
-          "dead",
+          "died",
           "passed away"
         ],
         "related": [],
@@ -10073,7 +10073,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/born 1.png"
       }
     ],
     "relations": {
@@ -10576,7 +10576,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "bravely",
+        "adverb": "",
         "noun_form": "bravery",
         "comparative": "",
         "superlative": "",
@@ -10919,8 +10919,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "brightly",
-        "noun_form": "brightness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -11072,8 +11072,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "brownly",
-        "noun_form": "brownness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/brown 1.jpg"
@@ -11114,7 +11114,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/brush 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -11366,7 +11366,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/bulb 1.jpg"
+        "image": "assets/images/bulb 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -11758,7 +11758,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "busily",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -12544,7 +12544,7 @@
         "noun_form": "calculation",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/calculate 1.png"
       }
     ],
     "relations": {
@@ -12623,7 +12623,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/call 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -12712,8 +12712,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "calmly",
-        "noun_form": "calmness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/calm 1.png"
@@ -12740,7 +12740,7 @@
         "past_tense": "calmed",
         "past_participle": "calmed",
         "adverb": "",
-        "noun_form": "calmness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -13491,8 +13491,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "carefully",
-        "noun_form": "carefulness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -13536,8 +13536,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "carelessly",
-        "noun_form": "carelessness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -13658,7 +13658,7 @@
         "past_tense": "carried",
         "past_participle": "carried",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "carriage",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/carry 1.png"
@@ -13686,7 +13686,7 @@
         "past_tense": "carried",
         "past_participle": "carried",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "carriage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -13712,7 +13712,7 @@
         "past_tense": "carried",
         "past_participle": "carried",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "carriage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -13968,7 +13968,7 @@
         "past_tense": "caught",
         "past_participle": "caught",
         "adverb": "",
-        "noun_form": "catchment",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/catch 1.png"
@@ -14494,7 +14494,7 @@
         "past_tense": "changed",
         "past_participle": "changed",
         "adverb": "",
-        "noun_form": "changement",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -14521,7 +14521,7 @@
         "past_tense": "changed",
         "past_participle": "changed",
         "adverb": "",
-        "noun_form": "changement",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -14877,7 +14877,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "cheaply",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -15163,7 +15163,7 @@
         "example_cn": "让我们在足球赛上为我们的队伍加油！",
         "example_pinyin": [],
         "synonyms": [
-          "applause"
+          "applaud"
         ],
         "antonyms": [
           "boo",
@@ -15192,7 +15192,7 @@
         "example_cn": "魔术师完成表演时响起了一阵响亮的欢呼声。",
         "example_pinyin": [],
         "synonyms": [
-          "applaud"
+          "applause"
         ],
         "antonyms": [
           "boo",
@@ -16111,7 +16111,7 @@
         "example_cn": "魔术师表演完戏法时，观众们大声鼓掌。",
         "example_pinyin": [],
         "synonyms": [
-          "applaud"
+          "applause"
         ],
         "antonyms": [
           "boo"
@@ -16331,8 +16331,8 @@
         "present_continuous": "cleaning",
         "past_tense": "cleaned",
         "past_participle": "cleaned",
-        "adverb": "cleanly",
-        "noun_form": "cleanness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/clean 1.png"
@@ -16363,7 +16363,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "cleanness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -16405,8 +16405,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "clearly",
-        "noun_form": "",
+        "adverb": "",
+        "noun_form": "clearance",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -16435,7 +16435,7 @@
         "past_tense": "cleared",
         "past_participle": "cleared",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "clearance",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -16778,7 +16778,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/clip 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -17079,7 +17079,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/cloth 1.png"
       }
     ],
     "relations": {
@@ -17657,8 +17657,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "coldly",
-        "noun_form": "coldness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/cold 1.jpg"
@@ -17755,8 +17755,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "colourfully",
-        "noun_form": "colourfulness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/colourful 1.png"
@@ -18437,8 +18437,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "completely",
-        "noun_form": "completeness",
+        "adverb": "",
+        "noun_form": "completion",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -18467,7 +18467,7 @@
         "past_tense": "completed",
         "past_participle": "completed",
         "adverb": "",
-        "noun_form": "completeness",
+        "noun_form": "completion",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -18535,7 +18535,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "complexly",
+        "adverb": "",
         "noun_form": "complexity",
         "comparative": "",
         "superlative": "",
@@ -18984,8 +18984,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "coolly",
-        "noun_form": "coolness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -19008,7 +19008,7 @@
         "past_tense": "cooled",
         "past_participle": "cooled",
         "adverb": "",
-        "noun_form": "coolness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/cool 2.png"
@@ -19277,11 +19277,11 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "correctly",
-        "noun_form": "",
+        "adverb": "",
+        "noun_form": "correction",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/correct 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -19305,7 +19305,7 @@
         "past_tense": "corrected",
         "past_participle": "corrected",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "correction",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -19924,7 +19924,7 @@
         "past_tense": "covered",
         "past_participle": "covered",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "coverage",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/cover 1.png"
@@ -20026,11 +20026,11 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "cozily",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/cozy 1.png"
       }
     ],
     "relations": {
@@ -20301,7 +20301,7 @@
         "past_tense": "craved",
         "past_participle": "craved",
         "adverb": "",
-        "noun_form": "craving",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -20410,8 +20410,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "crazily",
-        "noun_form": "",
+        "adverb": "",
+        "noun_form": "craze",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -20593,7 +20593,7 @@
         "past_tense": "crept",
         "past_participle": "crept",
         "adverb": "",
-        "noun_form": "creep",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -21116,7 +21116,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "cruelly",
+        "adverb": "",
         "noun_form": "cruelty",
         "comparative": "",
         "superlative": "",
@@ -21304,7 +21304,7 @@
         "example_cn": "我在操场上听到了一声呼救。",
         "example_pinyin": [],
         "synonyms": [
-          "short",
+          "shout",
           "yell",
           "scream"
         ],
@@ -21517,7 +21517,7 @@
         "past_tense": "curved",
         "past_participle": "curved",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "curvature",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -21656,7 +21656,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "cutely",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -21967,8 +21967,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "damply",
-        "noun_form": "dampness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -22073,7 +22073,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "dangerously",
+        "adverb": "",
         "noun_form": "danger",
         "comparative": "",
         "superlative": "",
@@ -22183,7 +22183,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "darkly",
+        "adverb": "",
         "noun_form": "darkness",
         "comparative": "",
         "superlative": "",
@@ -22543,7 +22543,7 @@
         "noun_form": "death",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/dead 1.png"
       }
     ],
     "relations": {
@@ -22578,7 +22578,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "deafness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -22684,7 +22684,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "dearly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -22936,7 +22936,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/deck 3.png"
       }
     ],
     "relations": {
@@ -23056,7 +23056,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "deeply",
+        "adverb": "",
         "noun_form": "depth",
         "comparative": "",
         "superlative": "",
@@ -24095,7 +24095,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "differently",
+        "adverb": "",
         "noun_form": "difference",
         "comparative": "",
         "superlative": "",
@@ -24167,7 +24167,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "difficultly",
+        "adverb": "",
         "noun_form": "difficulty",
         "comparative": "",
         "superlative": "",
@@ -24369,7 +24369,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "dimly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -24438,10 +24438,10 @@
         "past_tense": "dined",
         "past_participle": "dined",
         "adverb": "",
-        "noun_form": "dinner",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/dine 1.png"
       }
     ],
     "relations": {
@@ -24587,8 +24587,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "dirtily",
-        "noun_form": "dirtiness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -24701,7 +24701,6 @@
         "example_cn": "野餐因下雨取消时，我很失望。",
         "example_pinyin": [],
         "synonyms": [
-          "let down",
           "unsatisfied"
         ],
         "antonyms": [
@@ -24715,7 +24714,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "disappointedly",
+        "adverb": "",
         "noun_form": "disappointment",
         "comparative": "",
         "superlative": "",
@@ -24758,7 +24757,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "disappointingly",
+        "adverb": "",
         "noun_form": "disappointment",
         "comparative": "",
         "superlative": "",
@@ -25089,7 +25088,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "dishonestly",
+        "adverb": "",
         "noun_form": "dishonesty",
         "comparative": "",
         "superlative": "",
@@ -25795,7 +25794,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "donly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -26733,7 +26732,38 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/drop 2.png"
+      },
+      {
+        "part_of_speech": "noun",
+        "part_of_speech_cn": "",
+        "definition": "When something becomes less or goes down.",
+        "definition_cn": "下降；减少",
+        "definition_pinyin": [],
+        "example": "After summer vacation, there was a drop in how much time I spent playing video games.",
+        "example_cn": "暑假过后，我玩电子游戏的时间变少了。",
+        "example_pinyin": [],
+        "synonyms": [
+          "decrease",
+          "fall",
+          "decline"
+        ],
+        "antonyms": [
+          "increase",
+          "rise",
+          "growth"
+        ],
+        "related": [],
+        "plural": "",
+        "present_tense": "",
+        "present_continuous": "",
+        "past_tense": "",
+        "past_participle": "",
+        "adverb": "",
+        "noun_form": "",
+        "comparative": "",
+        "superlative": "",
+        "image": "assets/images/drop 3.png"
       }
     ],
     "relations": {
@@ -26901,8 +26931,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "drunkly",
-        "noun_form": "drunkenness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -26945,8 +26975,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "drily",
-        "noun_form": "dryness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -26974,7 +27004,7 @@
         "past_tense": "dried",
         "past_participle": "dried",
         "adverb": "",
-        "noun_form": "dryness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -27079,8 +27109,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "dully",
-        "noun_form": "dullness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -27540,8 +27570,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "earlily",
-        "noun_form": "earliness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -27691,7 +27721,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "easily",
+        "adverb": "",
         "noun_form": "ease",
         "comparative": "",
         "superlative": "",
@@ -28319,8 +28349,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "emptily",
-        "noun_form": "emptiness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -28347,7 +28377,7 @@
         "past_tense": "emptied",
         "past_participle": "emptied",
         "adverb": "",
-        "noun_form": "emptiness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -28619,7 +28649,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "enoughly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -28663,7 +28693,7 @@
         "noun_form": "entertainment",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/entertain 1.png"
       }
     ],
     "relations": {
@@ -28699,7 +28729,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "equally",
+        "adverb": "",
         "noun_form": "equality",
         "comparative": "",
         "superlative": "",
@@ -28795,9 +28825,7 @@
         "example": "The mouse made a quick escape from the cat by running under the couch.",
         "example_cn": "老鼠从猫那儿快速逃走，钻到了沙发底下。",
         "example_pinyin": [],
-        "synonyms": [
-          "flee"
-        ],
+        "synonyms": [],
         "antonyms": [],
         "related": [],
         "plural": "",
@@ -29986,7 +30014,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "fairly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -30054,7 +30082,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/fairy.png"
+        "image": "assets/images/fairy 1.png"
       }
     ],
     "relations": {
@@ -30139,7 +30167,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "faithfully",
+        "adverb": "",
         "noun_form": "faith",
         "comparative": "",
         "superlative": "",
@@ -30243,6 +30271,37 @@
           "autumn"
         ],
         "antonyms": [],
+        "related": [],
+        "plural": "",
+        "present_tense": "",
+        "present_continuous": "",
+        "past_tense": "",
+        "past_participle": "",
+        "adverb": "",
+        "noun_form": "",
+        "comparative": "",
+        "superlative": "",
+        "image": null
+      },
+      {
+        "part_of_speech": "noun",
+        "part_of_speech_cn": "",
+        "definition": "When the amount of something gets smaller or lower.",
+        "definition_cn": "下降；减少",
+        "definition_pinyin": [],
+        "example": "There was a fall in the number of books checked out from the library after the school year ended.",
+        "example_cn": "学年结束后，从图书馆借出的书籍数量有所下降。",
+        "example_pinyin": [],
+        "synonyms": [
+          "drop",
+          "decrease",
+          "decline"
+        ],
+        "antonyms": [
+          "rise",
+          "increase",
+          "growth"
+        ],
         "related": [],
         "plural": "",
         "present_tense": "",
@@ -30485,8 +30544,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "fancily",
-        "noun_form": "fanciness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -30516,7 +30575,7 @@
         "past_tense": "fancied",
         "past_participle": "fancied",
         "adverb": "",
-        "noun_form": "fanciness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -30876,8 +30935,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "fastly",
-        "noun_form": "fastness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -30900,7 +30959,7 @@
         "past_tense": "fasted",
         "past_participle": "fasted",
         "adverb": "",
-        "noun_form": "fastness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -32002,7 +32061,7 @@
         "past_tense": "figured",
         "past_participle": "figured",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "figuration",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -32206,7 +32265,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "finally",
+        "adverb": "",
         "noun_form": "finality",
         "comparative": "",
         "superlative": "",
@@ -32371,7 +32430,7 @@
         "present_continuous": "fining",
         "past_tense": "fined",
         "past_participle": "fined",
-        "adverb": "finely",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -32663,8 +32722,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "firmly",
-        "noun_form": "firmness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -32753,7 +32812,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "firstly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -32896,7 +32955,7 @@
         "past_tense": "fixed",
         "past_participle": "fixed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "fixture",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/fix 1.png"
@@ -33200,7 +33259,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "flexibly",
+        "adverb": "",
         "noun_form": "flexibility",
         "comparative": "",
         "superlative": "",
@@ -33619,7 +33678,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/flush 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -34540,7 +34599,7 @@
         "past_tense": "formed",
         "past_participle": "formed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "formation",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -34791,7 +34850,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/freeze 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -34859,8 +34918,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "freshly",
-        "noun_form": "freshness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -34986,8 +35045,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "friendlily",
-        "noun_form": "friendliness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -35032,7 +35091,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/fright 1.png"
       }
     ],
     "relations": {
@@ -35382,7 +35441,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/fry 1.png"
       }
     ],
     "relations": {
@@ -35484,8 +35543,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "fully",
-        "noun_form": "fullness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -35560,7 +35619,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/fun 1.png"
       },
       {
         "part_of_speech": "adjective",
@@ -35630,7 +35689,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "fun",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -36223,7 +36282,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/gecko.png"
+        "image": "assets/images/gecko 1.png"
       }
     ],
     "relations": {
@@ -36263,7 +36322,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "generously",
+        "adverb": "",
         "noun_form": "generosity",
         "comparative": "",
         "superlative": "",
@@ -36348,8 +36407,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "gently",
-        "noun_form": "gentleness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -36855,7 +36914,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "gladly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -37536,7 +37595,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "gonly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -37580,8 +37639,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "goodly",
-        "noun_form": "goodness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "better",
         "superlative": "best",
         "image": null
@@ -37866,7 +37925,7 @@
         "past_tense": "graded",
         "past_participle": "graded",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "gradation",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/grade 2.png"
@@ -37945,7 +38004,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/gram 1.png"
       }
     ],
     "relations": {
@@ -37983,7 +38042,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "grandly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -38246,7 +38305,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "gratefully",
+        "adverb": "",
         "noun_form": "gratitude",
         "comparative": "",
         "superlative": "",
@@ -38288,8 +38347,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "greatly",
-        "noun_form": "greatness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -38388,8 +38447,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "greenly",
-        "noun_form": "greenness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/green 1.jpg"
@@ -38464,8 +38523,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "greyly",
-        "noun_form": "greyness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/grey 1.jpg"
@@ -38861,7 +38920,7 @@
         "noun_form": "growth",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/grow 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -38886,7 +38945,7 @@
         "noun_form": "growth",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/grow 2.png"
       },
       {
         "part_of_speech": "verb",
@@ -39089,7 +39148,7 @@
         "past_tense": "guided",
         "past_participle": "guided",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "guidance",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/guide 2.png"
@@ -39622,7 +39681,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/handle 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -39690,7 +39749,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "handily",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -39719,7 +39778,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/handy 2.png"
       }
     ],
     "relations": {
@@ -39759,7 +39818,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/hang 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -39865,7 +39924,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "happily",
+        "adverb": "",
         "noun_form": "happiness",
         "comparative": "",
         "superlative": "",
@@ -39911,7 +39970,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "hardness",
+        "noun_form": "hardship",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -39968,8 +40027,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "hardly",
-        "noun_form": "hardness",
+        "adverb": "",
+        "noun_form": "hardship",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -40012,7 +40071,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "hardworkingly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -40128,8 +40187,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "harshly",
-        "noun_form": "harshness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -40746,7 +40805,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/heart 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -40904,8 +40963,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "heavily",
-        "noun_form": "heaviness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/heavy 1.png"
@@ -41570,7 +41629,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/hide 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -41632,7 +41691,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "highly",
+        "adverb": "",
         "noun_form": "height",
         "comparative": "",
         "superlative": "",
@@ -42514,7 +42573,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "honestly",
+        "adverb": "",
         "noun_form": "honesty",
         "comparative": "",
         "superlative": "",
@@ -42800,8 +42859,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "hopefully",
-        "noun_form": "hopefulness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -42985,7 +43044,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "hotly",
+        "adverb": "",
         "noun_form": "heat",
         "comparative": "",
         "superlative": "",
@@ -43030,7 +43089,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/hotel 1.png"
       }
     ],
     "relations": {
@@ -43121,8 +43180,8 @@
         "example_cn": "动物收容所会收留这只走失的小狗，直到有人领养它。",
         "example_pinyin": [],
         "synonyms": [
-          "household",
-          "family"
+          "shelter",
+          "accommodate"
         ],
         "antonyms": [],
         "related": [],
@@ -43328,7 +43387,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/hug 1.jpg"
+        "image": "assets/images/hug 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -43396,7 +43455,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "hugely",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -43540,7 +43599,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "humbly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -43875,7 +43934,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/hut 1.png"
       }
     ],
     "relations": {
@@ -44048,8 +44107,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "icily",
-        "noun_form": "iciness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -44094,7 +44153,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/idea 1.png"
       }
     ],
     "relations": {
@@ -44370,7 +44429,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "impatiently",
+        "adverb": "",
         "noun_form": "impatience",
         "comparative": "",
         "superlative": "",
@@ -44415,7 +44474,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "importantly",
+        "adverb": "",
         "noun_form": "importance",
         "comparative": "",
         "superlative": "",
@@ -44787,7 +44846,7 @@
         "past_tense": "instructed",
         "past_participle": "instructed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "instruction",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/instruct 1.png"
@@ -44814,7 +44873,7 @@
         "past_tense": "instructed",
         "past_participle": "instructed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "instruction",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -45608,7 +45667,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "jealously",
+        "adverb": "",
         "noun_form": "jealousy",
         "comparative": "",
         "superlative": "",
@@ -45834,7 +45893,7 @@
         "past_tense": "joined",
         "past_participle": "joined",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "joint",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -45859,7 +45918,7 @@
         "past_tense": "joined",
         "past_participle": "joined",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "joint",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -46141,7 +46200,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "juiciness",
+        "noun_form": "juice",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -46522,8 +46581,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "keenly",
-        "noun_form": "keenness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -47532,7 +47591,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "knowingly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "better known",
         "superlative": "best known",
@@ -48314,8 +48373,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "largely",
-        "noun_form": "largeness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -48401,7 +48460,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "lastly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -48546,8 +48605,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "lately",
-        "noun_form": "lateness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -48701,8 +48760,7 @@
         ],
         "antonyms": [
           "cry",
-          "sob",
-          "weep"
+          "sob"
         ],
         "related": [],
         "plural": "",
@@ -48876,8 +48934,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "lazily",
-        "noun_form": "laziness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/lazy 1.png"
@@ -49027,7 +49085,7 @@
         "past_tense": "leaked",
         "past_participle": "leaked",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "leakage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -49052,7 +49110,7 @@
         "past_tense": "leaked",
         "past_participle": "leaked",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "leakage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -49496,7 +49554,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "leftly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -50317,7 +50375,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "lightly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -50347,7 +50405,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "lightness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -50623,7 +50681,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/limit 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -50645,7 +50703,7 @@
         "past_tense": "limited",
         "past_participle": "limited",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "limitation",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -51092,8 +51150,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "littlly",
-        "noun_form": "littleness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "less",
         "superlative": "least",
         "image": null
@@ -51337,7 +51395,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/load 2.png"
       }
     ],
     "relations": {
@@ -51594,8 +51652,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "longly",
-        "noun_form": "longness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -51653,7 +51711,7 @@
         "past_tense": "longed",
         "past_participle": "longed",
         "adverb": "",
-        "noun_form": "longness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -51884,8 +51942,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "loosely",
-        "noun_form": "looseness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -52000,7 +52058,7 @@
         "noun_form": "loss",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/lose 2.png"
       }
     ],
     "relations": {
@@ -52097,7 +52155,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/loss 3.png"
       }
     ],
     "relations": {
@@ -52207,8 +52265,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "loudly",
-        "noun_form": "loudness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -52368,8 +52426,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "lowly",
-        "noun_form": "lowness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -52387,9 +52445,9 @@
           "little"
         ],
         "antonyms": [
-          "plenty",
+          "high",
           "much",
-          "a lot of"
+          "large"
         ],
         "related": [],
         "plural": "",
@@ -52472,7 +52530,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "loyally",
+        "adverb": "",
         "noun_form": "loyalty",
         "comparative": "",
         "superlative": "",
@@ -52653,7 +52711,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "madly",
+        "adverb": "",
         "noun_form": "madness",
         "comparative": "",
         "superlative": "",
@@ -54064,7 +54122,7 @@
         "past_tense": "meant",
         "past_participle": "meant",
         "adverb": "",
-        "noun_form": "meanness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -54090,7 +54148,7 @@
         "past_tense": "meant",
         "past_participle": "meant",
         "adverb": "",
-        "noun_form": "meanness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -54121,7 +54179,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "meanness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -54810,7 +54868,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "messily",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -54925,7 +54983,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "might",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -54948,7 +55006,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "might",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -55019,8 +55077,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "mildly",
-        "noun_form": "mildness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -55162,7 +55220,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/mind 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -55404,7 +55462,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/minute 1.png"
       }
     ],
     "relations": {
@@ -55943,8 +56001,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "modernly",
-        "noun_form": "modernity",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -56218,8 +56276,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "moodily",
-        "noun_form": "moodiness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -56425,7 +56483,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "mostly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -56669,7 +56727,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/mouth 1.png"
       }
     ],
     "relations": {
@@ -56840,7 +56898,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "movingly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -57021,7 +57079,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/muddy 1.png"
       },
       {
         "part_of_speech": "adjective",
@@ -57307,7 +57365,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/mushroom 1.jpg"
+        "image": "assets/images/mushroom 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -57801,8 +57859,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "narrowly",
-        "noun_form": "narrowness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -57846,6 +57904,29 @@
         "comparative": "",
         "superlative": "",
         "image": null
+      },
+      {
+        "part_of_speech": "adjective",
+        "part_of_speech_cn": "",
+        "definition": "A very dark shade of blue.",
+        "definition_cn": "藏青色",
+        "definition_pinyin": [],
+        "example": "Mum bought me a new navy jumper for school, and it matches my trousers perfectly.",
+        "example_cn": "妈妈给我买了一件新的藏青色校服针织衫，它和我的裤子很配。",
+        "example_pinyin": [],
+        "synonyms": [],
+        "antonyms": [],
+        "related": [],
+        "plural": "",
+        "present_tense": "",
+        "present_continuous": "",
+        "past_tense": "",
+        "past_participle": "",
+        "adverb": "",
+        "noun_form": "",
+        "comparative": "",
+        "superlative": "",
+        "image": "assets/images/navy 2.jpg"
       }
     ],
     "relations": {
@@ -57885,8 +57966,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "nearly",
-        "noun_form": "nearness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -57957,7 +58038,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "neatly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -58074,8 +58155,7 @@
         "example_cn": "我需要先完成作业才能玩。",
         "example_pinyin": [],
         "synonyms": [
-          "have",
-          "must"
+          "have"
         ],
         "antonyms": [],
         "related": [],
@@ -58197,8 +58277,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "nervously",
-        "noun_form": "nervousness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -58412,8 +58492,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "newly",
-        "noun_form": "newness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -58493,7 +58573,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "nextly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -58915,7 +58995,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "noisily",
+        "adverb": "",
         "noun_form": "noise",
         "comparative": "",
         "superlative": "",
@@ -59784,7 +59864,7 @@
         "past_tense": "objected",
         "past_participle": "objected",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "objection",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -59946,7 +60026,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "oddly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -60332,8 +60412,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "oldly",
-        "noun_form": "age",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/old 1.png"
@@ -60738,8 +60818,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "openly",
-        "noun_form": "openness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -60768,7 +60848,7 @@
         "past_tense": "opened",
         "past_participle": "opened",
         "adverb": "",
-        "noun_form": "openness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/open 2.png"
@@ -60871,7 +60951,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "orangeness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/orange 2.jpg"
@@ -61084,8 +61164,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "otherwise",
-        "noun_form": "otherness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -61511,7 +61591,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "ownly",
+        "adverb": "",
         "noun_form": "ownership",
         "comparative": "",
         "superlative": "",
@@ -61608,7 +61688,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pack 2.png"
       }
     ],
     "relations": {
@@ -62028,8 +62108,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "paly",
-        "noun_form": "paleness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -62052,7 +62132,7 @@
         "past_tense": "paled",
         "past_participle": "paled",
         "adverb": "",
-        "noun_form": "paleness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -62077,7 +62157,7 @@
         "past_tense": "paled",
         "past_participle": "paled",
         "adverb": "",
-        "noun_form": "paleness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -62933,7 +63013,7 @@
         "past_tense": "passed",
         "past_participle": "passed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "passage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -62958,7 +63038,7 @@
         "past_tense": "passed",
         "past_participle": "passed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "passage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -62984,7 +63064,7 @@
         "past_tense": "passed",
         "past_participle": "passed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "passage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -63147,10 +63227,10 @@
         "past_tense": "patted",
         "past_participle": "patted",
         "adverb": "",
-        "noun_form": "patness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pat 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -63213,7 +63293,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/patch 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -63312,7 +63392,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "patiently",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -63632,7 +63712,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "peacefully",
+        "adverb": "",
         "noun_form": "peace",
         "comparative": "",
         "superlative": "",
@@ -64115,7 +64195,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "perfectly",
+        "adverb": "",
         "noun_form": "perfection",
         "comparative": "",
         "superlative": "",
@@ -65144,7 +65224,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pine 1.png"
       }
     ],
     "relations": {
@@ -65178,8 +65258,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "pinkly",
-        "noun_form": "pinkness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/pink 1.jpg"
@@ -65511,7 +65591,7 @@
         "past_tense": "placed",
         "past_participle": "placed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "placement",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -65554,8 +65634,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "plainly",
-        "noun_form": "plainness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -66258,7 +66338,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/plum 1.jpg"
+        "image": "assets/images/plum 1.png"
       }
     ],
     "relations": {
@@ -66574,8 +66654,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "politely",
-        "noun_form": "politeness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -66852,11 +66932,11 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "poorly",
-        "noun_form": "poverty",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/poor 1.png"
       },
       {
         "part_of_speech": "adjective",
@@ -67297,7 +67377,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pound 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -67708,8 +67788,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "presently",
-        "noun_form": "presence",
+        "adverb": "",
+        "noun_form": "presentation",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -67761,7 +67841,7 @@
         "past_tense": "presented",
         "past_participle": "presented",
         "adverb": "",
-        "noun_form": "presence",
+        "noun_form": "presentation",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -67898,7 +67978,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/pretend 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -68147,7 +68227,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/print 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -68446,7 +68526,7 @@
         "past_tense": "projected",
         "past_participle": "projected",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "projection",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -68471,7 +68551,7 @@
         "past_tense": "projected",
         "past_participle": "projected",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "projection",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -68617,7 +68697,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "proudly",
+        "adverb": "",
         "noun_form": "pride",
         "comparative": "",
         "superlative": "",
@@ -68660,7 +68740,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "publicly",
+        "adverb": "",
         "noun_form": "publicity",
         "comparative": "",
         "superlative": "",
@@ -69073,8 +69153,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "purply",
-        "noun_form": "purpleness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/purple 1.jpg"
@@ -69624,7 +69704,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "quickly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -69692,8 +69772,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "quietly",
-        "noun_form": "quietness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -69720,7 +69800,7 @@
         "past_tense": "quieted",
         "past_participle": "quieted",
         "adverb": "",
-        "noun_form": "quietness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -69914,7 +69994,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/race 1.jpg"
       },
       {
         "part_of_speech": "noun",
@@ -70252,8 +70332,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "rashly",
-        "noun_form": "rashness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -70999,8 +71079,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "redly",
-        "noun_form": "redness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/red 1.jpg"
@@ -71233,9 +71313,7 @@
         "example": "I regret not studying harder for the test.",
         "example_cn": "我后悔没有为考试更努力学习。",
         "example_pinyin": [],
-        "synonyms": [
-          "remorse"
-        ],
+        "synonyms": [],
         "antonyms": [
           "rejoice"
         ],
@@ -71424,7 +71502,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "reliably",
+        "adverb": "",
         "noun_form": "reliability",
         "comparative": "",
         "superlative": "",
@@ -71577,7 +71655,7 @@
         "past_tense": "repeated",
         "past_participle": "repeated",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "repetition",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -71809,7 +71887,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "responsibly",
+        "adverb": "",
         "noun_form": "responsibility",
         "comparative": "",
         "superlative": "",
@@ -71824,10 +71902,7 @@
         "example": "Eating too many sweets was responsible for my sore tummy.",
         "example_cn": "吃太多甜食导致了我肚子疼。",
         "example_pinyin": [],
-        "synonyms": [
-          "cause",
-          "source"
-        ],
+        "synonyms": [],
         "antonyms": [],
         "related": [],
         "plural": "",
@@ -71975,6 +72050,32 @@
         "comparative": "",
         "superlative": "",
         "image": null
+      },
+      {
+        "part_of_speech": "noun",
+        "part_of_speech_cn": "",
+        "definition": "The grade, mark, or outcome you get after taking a test, exam, or completing an assignment.",
+        "definition_cn": "成绩",
+        "definition_pinyin": [],
+        "example": "I was really happy when I got my maths test result because I did better than I expected.",
+        "example_cn": "拿到数学测验成绩的时候我特别开心，因为考得比预想的要好。",
+        "example_pinyin": [],
+        "synonyms": [
+          "grade",
+          "mark"
+        ],
+        "antonyms": [],
+        "related": [],
+        "plural": "",
+        "present_tense": "",
+        "present_continuous": "",
+        "past_tense": "",
+        "past_participle": "",
+        "adverb": "",
+        "noun_form": "",
+        "comparative": "",
+        "superlative": "",
+        "image": "assets/images/result 3.png"
       }
     ],
     "relations": {
@@ -72001,7 +72102,7 @@
         "example_cn": "妈妈因为我帮忙打扫房子给了我奖励。",
         "example_pinyin": [],
         "synonyms": [
-          "prise",
+          "prize",
           "award"
         ],
         "antonyms": [
@@ -72123,8 +72224,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "richly",
-        "noun_form": "wealth",
+        "adverb": "",
+        "noun_form": "richness",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -72285,7 +72386,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/ride 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -72353,11 +72454,11 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "rightly",
-        "noun_form": "rightness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/right 1.png"
       },
       {
         "part_of_speech": "adjective",
@@ -72406,7 +72507,7 @@
         "past_tense": "righted",
         "past_participle": "righted",
         "adverb": "",
-        "noun_form": "rightness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -72654,7 +72755,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/roast 1.png"
       },
       {
         "part_of_speech": "adjective",
@@ -72677,7 +72778,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/roast 2.png"
       },
       {
         "part_of_speech": "noun",
@@ -72742,7 +72843,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/robot 1.png"
       }
     ],
     "relations": {
@@ -72974,7 +73075,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/root 1.png"
+        "image": "assets/images/root 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -73000,7 +73101,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/root 2.png"
+        "image": null
       },
       {
         "part_of_speech": "verb",
@@ -73134,7 +73235,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/rose 1.jpg"
+        "image": "assets/images/rose 1.png"
       }
     ],
     "relations": {
@@ -73215,8 +73316,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "roughly",
-        "noun_form": "roughness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -73638,8 +73739,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "rudely",
-        "noun_form": "rudeness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/rude 1.png"
@@ -73979,7 +74080,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "sadly",
+        "adverb": "",
         "noun_form": "sadness",
         "comparative": "",
         "superlative": "",
@@ -74024,7 +74125,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "safely",
+        "adverb": "",
         "noun_form": "safety",
         "comparative": "",
         "superlative": "",
@@ -74385,8 +74486,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "samely",
-        "noun_form": "sameness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -74558,7 +74659,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "satisfiedly",
+        "adverb": "",
         "noun_form": "satisfaction",
         "comparative": "",
         "superlative": "",
@@ -75220,7 +75321,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "scaredly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -75579,7 +75680,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/score 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -75914,7 +76015,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/seal 2.png"
       }
     ],
     "relations": {
@@ -76070,8 +76171,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "secondly",
-        "noun_form": "secondment",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/second 1.png"
@@ -76123,7 +76224,7 @@
         "past_tense": "seconded",
         "past_participle": "seconded",
         "adverb": "",
-        "noun_form": "secondment",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -76340,7 +76441,7 @@
         "past_tense": "selected",
         "past_participle": "selected",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "selection",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -76467,7 +76568,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/sell 1.png"
       }
     ],
     "relations": {
@@ -76576,7 +76677,7 @@
         "past_tense": "sensed",
         "past_participle": "sensed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "sensation",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -76908,8 +77009,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "shallowly",
-        "noun_form": "shallowness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -77111,7 +77212,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/share 1.jpg"
       },
       {
         "part_of_speech": "noun",
@@ -77212,7 +77313,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "sharpness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -77239,8 +77340,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "sharply",
-        "noun_form": "sharpness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -77691,7 +77792,7 @@
         "past_tense": "shipped",
         "past_participle": "shipped",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "shipment",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -77895,7 +77996,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/shock 3.png"
       }
     ],
     "relations": {
@@ -78112,8 +78213,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "shortly",
-        "noun_form": "shortness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -78403,7 +78504,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/shout 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -78673,7 +78774,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/shred 2.png"
       }
     ],
     "relations": {
@@ -78824,8 +78925,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "shyly",
-        "noun_form": "shyness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -78850,7 +78951,7 @@
         "past_tense": "shied",
         "past_participle": "shied",
         "adverb": "",
-        "noun_form": "shyness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -79200,7 +79301,7 @@
         "past_tense": "signed",
         "past_participle": "signed",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "signature",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -79376,7 +79477,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "silently",
+        "adverb": "",
         "noun_form": "silence",
         "comparative": "",
         "superlative": "",
@@ -79518,7 +79619,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "similarly",
+        "adverb": "",
         "noun_form": "similarity",
         "comparative": "",
         "superlative": "",
@@ -79561,7 +79662,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "simply",
+        "adverb": "",
         "noun_form": "simplicity",
         "comparative": "",
         "superlative": "",
@@ -80346,8 +80447,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "slackly",
-        "noun_form": "slackness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -80361,15 +80462,8 @@
         "example": "Don't slack off now.",
         "example_cn": "别偷懒。",
         "example_pinyin": [],
-        "synonyms": [
-          "loose",
-          "careless"
-        ],
-        "antonyms": [
-          "tight",
-          "careful",
-          "strict"
-        ],
+        "synonyms": [],
+        "antonyms": [],
         "related": [],
         "plural": "",
         "present_tense": "slacks",
@@ -80377,7 +80471,7 @@
         "past_tense": "slacked",
         "past_participle": "slacked",
         "adverb": "",
-        "noun_form": "slackness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -80405,7 +80499,7 @@
         "past_tense": "slacked",
         "past_participle": "slacked",
         "adverb": "",
-        "noun_form": "slackness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -80703,7 +80797,7 @@
         "past_tense": "slipped",
         "past_participle": "slipped",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "slippage",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/slip 1.png"
@@ -80840,7 +80934,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/sloth 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -80907,8 +81001,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "slowly",
-        "noun_form": "slowness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -80935,7 +81029,7 @@
         "past_tense": "slowed",
         "past_participle": "slowed",
         "adverb": "",
-        "noun_form": "slowness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -80980,8 +81074,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "smally",
-        "noun_form": "smallness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -81053,7 +81147,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "smartly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -81318,7 +81412,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "smokiness",
+        "noun_form": "smoke",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -81362,8 +81456,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "smoothly",
-        "noun_form": "smoothness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -81390,7 +81484,7 @@
         "past_tense": "smoothed",
         "past_participle": "smoothed",
         "adverb": "",
-        "noun_form": "smoothness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -81421,7 +81515,7 @@
         "past_tense": "smoothed",
         "past_participle": "smoothed",
         "adverb": "",
-        "noun_form": "smoothness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -82081,8 +82175,7 @@
         "synonyms": [],
         "antonyms": [
           "dry",
-          "dehydration",
-          "parching"
+          "dehydration"
         ],
         "related": [],
         "plural": "",
@@ -82184,8 +82277,7 @@
         "example_cn": "弄丢了最喜欢的玩具，她开始抽泣。",
         "example_pinyin": [],
         "synonyms": [
-          "cry",
-          "weep"
+          "cry"
         ],
         "antonyms": [],
         "related": [],
@@ -82211,7 +82303,7 @@
         "example_pinyin": [],
         "synonyms": [
           "cry",
-          "weep"
+          "wail"
         ],
         "antonyms": [],
         "related": [],
@@ -82303,7 +82395,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/soda 1.png"
       }
     ],
     "relations": {
@@ -82384,8 +82476,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "softly",
-        "noun_form": "softness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -82428,7 +82520,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/soil 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -83062,7 +83154,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "soundly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -83089,7 +83181,7 @@
         "past_tense": "sounded",
         "past_participle": "sounded",
         "adverb": "",
-        "noun_form": "soundness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -83120,7 +83212,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "soundness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -83163,7 +83255,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/soup 1.jpg"
+        "image": "assets/images/soup 1.png"
       }
     ],
     "relations": {
@@ -83278,11 +83370,11 @@
         "example_cn": "我们的项目一开始进展顺利，但是电脑死机后，所有事情都变糟了。",
         "example_pinyin": [],
         "synonyms": [
-          "deteriorate",
-          "decline"
+          "bad",
+          "wrong"
         ],
         "antonyms": [
-          "improve"
+          "good"
         ],
         "related": [],
         "plural": "",
@@ -83751,7 +83843,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/spice 1.jpg"
+        "image": "assets/images/spice 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -83816,7 +83908,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/spicy 1.png"
       }
     ],
     "relations": {
@@ -83889,7 +83981,7 @@
         "past_tense": "spilled",
         "past_participle": "spilt",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "spillage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -83953,7 +84045,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/spin 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -84948,7 +85040,7 @@
         "past_tense": "stated",
         "past_participle": "stated",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "statement",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -85102,7 +85194,7 @@
         "past_tense": "stopped",
         "past_participle": "stopped",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "stoppage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -85133,7 +85225,7 @@
         "past_tense": "stopped",
         "past_participle": "stopped",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "stoppage",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/stop 2.png"
@@ -85266,7 +85358,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/story 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -86174,7 +86266,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/tale 1.png"
       }
     ],
     "relations": {
@@ -86283,8 +86375,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "tally",
-        "noun_form": "tallness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -86544,7 +86636,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/tart 1.png"
       }
     ],
     "relations": {
@@ -86909,7 +87001,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/tease 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -87119,8 +87211,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "tenderly",
-        "noun_form": "tenderness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -87179,7 +87271,7 @@
         "past_tense": "tendered",
         "past_participle": "tendered",
         "adverb": "",
-        "noun_form": "tenderness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -87222,7 +87314,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/tent 1.png"
       }
     ],
     "relations": {
@@ -87367,7 +87459,7 @@
         "past_tense": "thanked",
         "past_participle": "thanked",
         "adverb": "",
-        "noun_form": "thankfulness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -87842,7 +87934,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "thickly",
+        "adverb": "",
         "noun_form": "thickness",
         "comparative": "",
         "superlative": "",
@@ -87928,8 +88020,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "thinly",
-        "noun_form": "thinness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -87954,7 +88046,7 @@
         "past_tense": "thinned",
         "past_participle": "thinned",
         "adverb": "",
-        "noun_form": "thinness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -88361,7 +88453,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/thought 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -88374,8 +88466,7 @@
         "example_pinyin": [],
         "synonyms": [
           "consideration",
-          "thinking",
-          "pondering"
+          "thinking"
         ],
         "antonyms": [],
         "related": [],
@@ -88639,7 +88730,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/throw 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -88963,7 +89054,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "tidily",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -89123,8 +89214,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "tightly",
-        "noun_form": "tightness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -89372,7 +89463,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/tip 3.png"
       }
     ],
     "relations": {
@@ -90452,7 +90543,7 @@
         "past_tense": "transported",
         "past_participle": "transported",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "transportation",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -90648,7 +90739,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/treasure 1.png"
       },
       {
         "part_of_speech": "verb",
@@ -90697,7 +90788,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/treasure 3.png"
+        "image": null
       }
     ],
     "relations": {
@@ -92188,7 +92279,7 @@
         "past_tense": "used",
         "past_participle": "used",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "usage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -92215,7 +92306,7 @@
         "past_tense": "used",
         "past_participle": "used",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "usage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -92360,7 +92451,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/vegetable 1.jpg"
+        "image": "assets/images/vegetable 1.png"
       },
       {
         "part_of_speech": "adjective",
@@ -92664,7 +92755,7 @@
         "past_tense": "visited",
         "past_participle": "visited",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "visitation",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/visit 1.png"
@@ -92887,7 +92978,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/volunteer 1.jpg"
       },
       {
         "part_of_speech": "verb",
@@ -93270,7 +93361,7 @@
         "synonyms": [
           "wish",
           "desire",
-          "crave"
+          "need"
         ],
         "antonyms": [],
         "related": [],
@@ -93390,7 +93481,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "warmly",
+        "adverb": "",
         "noun_form": "warmth",
         "comparative": "",
         "superlative": "",
@@ -93583,7 +93674,7 @@
         "past_tense": "wasted",
         "past_participle": "wasted",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "wastage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -93610,7 +93701,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "",
+        "noun_form": "wastage",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -93839,7 +93930,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": "assets/images/waterfall 1.jpg"
+        "image": "assets/images/waterfall 1.png"
       }
     ],
     "relations": {
@@ -94086,7 +94177,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "weakly",
+        "adverb": "",
         "noun_form": "weakness",
         "comparative": "",
         "superlative": "",
@@ -94268,7 +94359,7 @@
         "past_tense": "welcomed",
         "past_participle": "welcomed",
         "adverb": "",
-        "noun_form": "welcomeness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -94322,7 +94413,7 @@
         "past_tense": "",
         "past_participle": "",
         "adverb": "",
-        "noun_form": "welcomeness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -94364,8 +94455,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "wetly",
-        "noun_form": "wetness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -94396,7 +94487,7 @@
         "past_tense": "wet / wetted",
         "past_participle": "wet / wetted",
         "adverb": "",
-        "noun_form": "wetness",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": null
@@ -95001,7 +95092,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/whisper 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -95149,8 +95240,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "whitely",
-        "noun_form": "whiteness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/white 1.jpg"
@@ -95395,7 +95486,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "widely",
+        "adverb": "",
         "noun_form": "width",
         "comparative": "",
         "superlative": "",
@@ -95531,7 +95622,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/win 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -96395,7 +96486,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "worriedly",
+        "adverb": "",
         "noun_form": "worry",
         "comparative": "",
         "superlative": "",
@@ -96606,7 +96697,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "wrongly",
+        "adverb": "",
         "noun_form": "",
         "comparative": "",
         "superlative": "",
@@ -96744,7 +96835,7 @@
         "noun_form": "",
         "comparative": "",
         "superlative": "",
-        "image": null
+        "image": "assets/images/yell 1.png"
       },
       {
         "part_of_speech": "noun",
@@ -96811,8 +96902,8 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "yellowly",
-        "noun_form": "yellowness",
+        "adverb": "",
+        "noun_form": "",
         "comparative": "",
         "superlative": "",
         "image": "assets/images/yellow 1.jpg"
@@ -97001,7 +97092,7 @@
         "present_continuous": "",
         "past_tense": "",
         "past_participle": "",
-        "adverb": "youngly",
+        "adverb": "",
         "noun_form": "youth",
         "comparative": "",
         "superlative": "",
