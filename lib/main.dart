@@ -1145,7 +1145,8 @@ class _HomePageState extends State<HomePage> {
         child: SelectionArea(
           child: Column(
             children: [
-              RawAutocomplete<String>(
+              SelectionContainer.disabled(
+                child: RawAutocomplete<String>(
                 textEditingController: _searchController,
                 focusNode: _searchFocusNode,
                 optionsBuilder: (TextEditingValue textEditingValue) {
@@ -1234,6 +1235,7 @@ class _HomePageState extends State<HomePage> {
                     ),
                   );
                 },
+              ),
               ),
               const SizedBox(height: 16.0),
               Row(
