@@ -680,13 +680,11 @@ class _ConditionalAssetImage extends StatelessWidget {
           return Container(
             color: Theme.of(context).scaffoldBackgroundColor,
             width: double.infinity,
-            constraints: BoxConstraints(maxHeight: height),
+            height: height,
             alignment: Alignment.center,
-            clipBehavior: Clip.hardEdge,
             child: Image.asset(
               assetPath,
-              width: double.infinity,
-              fit: BoxFit.fitWidth,
+              fit: BoxFit.contain,
             ),
           );
         }
@@ -1113,6 +1111,7 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         elevation: 0,
+        scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
         leading: _buildIconButtonWithMixedTooltip(
@@ -1181,12 +1180,15 @@ class _HomePageState extends State<HomePage> {
                             final option = options.elementAt(index);
                             final highlightedIndex = AutocompleteHighlightedOption.of(context);
                             final isHighlighted = index == highlightedIndex;
-                            return ListTile(
-                              dense: true,
-                              tileColor: isHighlighted
-                                  ? Theme.of(context).colorScheme.primaryContainer
-                                  : null,
-                              title: Text(
+                            return GestureDetector(
+                              behavior: HitTestBehavior.opaque,
+                              onTap: () => onSelected(option),
+                              child: ListTile(
+                                dense: true,
+                                tileColor: isHighlighted
+                                    ? Theme.of(context).colorScheme.primaryContainer
+                                    : null,
+                                title: Text(
                                 option,
                                 style: TextStyle(
                                   fontSize: 16.0 * scale,
@@ -1196,7 +1198,8 @@ class _HomePageState extends State<HomePage> {
                                   fontWeight: isHighlighted ? FontWeight.bold : null,
                                 ),
                               ),
-                              onTap: () => onSelected(option),
+                                onTap: () => onSelected(option),
+                              ),
                             );
                           },
                         ),
@@ -1604,22 +1607,26 @@ class _WordDetailPageState extends State<WordDetailPage> {
                                 final option = options.elementAt(index);
                                 final highlightedIndex = AutocompleteHighlightedOption.of(context);
                                 final isHighlighted = index == highlightedIndex;
-                                return ListTile(
-                                  dense: true,
-                                  tileColor: isHighlighted
-                                      ? Theme.of(context).colorScheme.primaryContainer
-                                      : null,
-                                  title: Text(
-                                    option,
-                                    style: TextStyle(
-                                      fontSize: 16.0 * scale,
-                                      color: isHighlighted
-                                          ? Theme.of(context).colorScheme.onPrimaryContainer
-                                          : null,
-                                      fontWeight: isHighlighted ? FontWeight.bold : null,
-                                    ),
-                                  ),
+                                return GestureDetector(
+                                  behavior: HitTestBehavior.opaque,
                                   onTap: () => onSelected(option),
+                                  child: ListTile(
+                                    dense: true,
+                                    tileColor: isHighlighted
+                                        ? Theme.of(context).colorScheme.primaryContainer
+                                        : null,
+                                    title: Text(
+                                      option,
+                                      style: TextStyle(
+                                        fontSize: 16.0 * scale,
+                                        color: isHighlighted
+                                            ? Theme.of(context).colorScheme.onPrimaryContainer
+                                            : null,
+                                        fontWeight: isHighlighted ? FontWeight.bold : null,
+                                      ),
+                                    ),
+                                    onTap: () => onSelected(option),
+                                  ),
                                 );
                               },
                             ),
@@ -1668,6 +1675,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
         ),
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         elevation: 0,
+        scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
       ),
