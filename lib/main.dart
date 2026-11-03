@@ -1111,7 +1111,6 @@ class _HomePageState extends State<HomePage> {
         centerTitle: true,
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         elevation: 0,
-        scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
         leading: _buildIconButtonWithMixedTooltip(
@@ -1675,7 +1674,6 @@ class _WordDetailPageState extends State<WordDetailPage> {
         ),
         backgroundColor: Theme.of(context).colorScheme.primaryContainer,
         elevation: 0,
-        scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
       ),
