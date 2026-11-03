@@ -1109,11 +1109,17 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: const Text('Kids Dictionary'),
         centerTitle: true,
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        backgroundColor: Colors.transparent,
         elevation: 0,
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
+<<<<<<< HEAD
+=======
+        flexibleSpace: Container(
+          color: Theme.of(context).colorScheme.primaryContainer,
+        ),
+>>>>>>> 61f13f3 (Use flexibleSpace Container for flat AppBar background to reduce blur)
         leading: _buildIconButtonWithMixedTooltip(
           context: context,
           english: 'Settings',
@@ -1671,11 +1677,17 @@ class _WordDetailPageState extends State<WordDetailPage> {
             ),
           ],
         ),
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
+        backgroundColor: Colors.transparent,
         elevation: 0,
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
+<<<<<<< HEAD
+=======
+        flexibleSpace: Container(
+          color: Theme.of(context).colorScheme.primaryContainer,
+        ),
+>>>>>>> 61f13f3 (Use flexibleSpace Container for flat AppBar background to reduce blur)
       ),
       bottomNavigationBar: BottomAppBar(
         height: kToolbarHeight,
