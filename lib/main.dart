@@ -681,7 +681,7 @@ class _ConditionalAssetImage extends StatelessWidget {
             color: Theme.of(context).scaffoldBackgroundColor,
             width: double.infinity,
             height: height,
-            alignment: Alignment.center,
+            alignment: Alignment.centerLeft,
             child: Image.asset(
               assetPath,
               fit: BoxFit.contain,
@@ -1114,6 +1114,7 @@ class _HomePageState extends State<HomePage> {
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
+        forceMaterialTransparency: true,
         leading: _buildIconButtonWithMixedTooltip(
           context: context,
           english: 'Settings',
@@ -1678,6 +1679,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
+        forceMaterialTransparency: true,
       ),
       bottomNavigationBar: BottomAppBar(
         height: kToolbarHeight,
