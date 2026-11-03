@@ -1114,7 +1114,6 @@ class _HomePageState extends State<HomePage> {
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
-        forceMaterialTransparency: true,
         leading: _buildIconButtonWithMixedTooltip(
           context: context,
           english: 'Settings',
@@ -1677,7 +1676,6 @@ class _WordDetailPageState extends State<WordDetailPage> {
         scrolledUnderElevation: 0,
         shadowColor: Colors.transparent,
         surfaceTintColor: Colors.transparent,
-        forceMaterialTransparency: true,
       ),
       bottomNavigationBar: BottomAppBar(
         height: kToolbarHeight,
