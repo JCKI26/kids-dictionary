@@ -1180,8 +1180,8 @@ class _HomePageState extends State<HomePage> {
                             final option = options.elementAt(index);
                             final highlightedIndex = AutocompleteHighlightedOption.of(context);
                             final isHighlighted = index == highlightedIndex;
-                            return GestureDetector(
-                              behavior: HitTestBehavior.opaque,
+                            return InkWell(
+                              canRequestFocus: false,
                               onTap: () => onSelected(option),
                               child: ListTile(
                                 dense: true,
@@ -1607,8 +1607,8 @@ class _WordDetailPageState extends State<WordDetailPage> {
                                 final option = options.elementAt(index);
                                 final highlightedIndex = AutocompleteHighlightedOption.of(context);
                                 final isHighlighted = index == highlightedIndex;
-                                return GestureDetector(
-                                  behavior: HitTestBehavior.opaque,
+                                return InkWell(
+                                  canRequestFocus: false,
                                   onTap: () => onSelected(option),
                                   child: ListTile(
                                     dense: true,
