@@ -1179,22 +1179,26 @@ class _HomePageState extends State<HomePage> {
                             final option = options.elementAt(index);
                             final highlightedIndex = AutocompleteHighlightedOption.of(context);
                             final isHighlighted = index == highlightedIndex;
-                            return InkWell(
-                              canRequestFocus: false,
+                            return GestureDetector(
+                              behavior: HitTestBehavior.opaque,
                               onTap: () => onSelected(option),
-                              child: ListTile(
-                                dense: true,
-                                tileColor: isHighlighted
-                                    ? Theme.of(context).colorScheme.primaryContainer
-                                    : null,
-                                title: Text(
-                                  option,
-                                  style: TextStyle(
-                                    fontSize: 16.0 * scale,
-                                    color: isHighlighted
-                                        ? Theme.of(context).colorScheme.onPrimaryContainer
-                                        : null,
-                                    fontWeight: isHighlighted ? FontWeight.bold : null,
+                              child: Focus(
+                                canRequestFocus: false,
+                                skipTraversal: true,
+                                child: ListTile(
+                                  dense: true,
+                                  tileColor: isHighlighted
+                                      ? Theme.of(context).colorScheme.primaryContainer
+                                      : null,
+                                  title: Text(
+                                    option,
+                                    style: TextStyle(
+                                      fontSize: 16.0 * scale,
+                                      color: isHighlighted
+                                          ? Theme.of(context).colorScheme.onPrimaryContainer
+                                          : null,
+                                      fontWeight: isHighlighted ? FontWeight.bold : null,
+                                    ),
                                   ),
                                 ),
                               ),
@@ -1605,22 +1609,26 @@ class _WordDetailPageState extends State<WordDetailPage> {
                                 final option = options.elementAt(index);
                                 final highlightedIndex = AutocompleteHighlightedOption.of(context);
                                 final isHighlighted = index == highlightedIndex;
-                                return InkWell(
-                                  canRequestFocus: false,
+                                return GestureDetector(
+                                  behavior: HitTestBehavior.opaque,
                                   onTap: () => onSelected(option),
-                                  child: ListTile(
-                                    dense: true,
-                                    tileColor: isHighlighted
-                                        ? Theme.of(context).colorScheme.primaryContainer
-                                        : null,
-                                    title: Text(
-                                      option,
-                                      style: TextStyle(
-                                        fontSize: 16.0 * scale,
-                                        color: isHighlighted
-                                            ? Theme.of(context).colorScheme.onPrimaryContainer
-                                            : null,
-                                        fontWeight: isHighlighted ? FontWeight.bold : null,
+                                  child: Focus(
+                                    canRequestFocus: false,
+                                    skipTraversal: true,
+                                    child: ListTile(
+                                      dense: true,
+                                      tileColor: isHighlighted
+                                          ? Theme.of(context).colorScheme.primaryContainer
+                                          : null,
+                                      title: Text(
+                                        option,
+                                        style: TextStyle(
+                                          fontSize: 16.0 * scale,
+                                          color: isHighlighted
+                                              ? Theme.of(context).colorScheme.onPrimaryContainer
+                                              : null,
+                                          fontWeight: isHighlighted ? FontWeight.bold : null,
+                                        ),
                                       ),
                                     ),
                                   ),
