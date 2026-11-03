@@ -1106,29 +1106,39 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final scale = appSettings.textScale;
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Kids Dictionary'),
-        centerTitle: true,
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-        elevation: 0,
-        shadowColor: Colors.transparent,
-        surfaceTintColor: Colors.transparent,
-        leading: _buildIconButtonWithMixedTooltip(
-          context: context,
-          english: 'Settings',
-          chinese: '选项',
-          icon: const Icon(Icons.settings),
-          onPressed: () => _showSettingsDialog(context),
-        ),
-        actions: [
-          _buildIconButtonWithMixedTooltip(
-            context: context,
-            english: _showOnlyFavorites ? 'Show all words' : 'Show favourites',
-            chinese: _showOnlyFavorites ? '显示全部' : '显示我的收藏',
-            icon: Icon(_showOnlyFavorites ? Icons.star : Icons.star_border),
-            onPressed: _toggleFavoritesView,
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(kToolbarHeight + MediaQuery.of(context).padding.top),
+        child: Container(
+          color: Theme.of(context).colorScheme.primaryContainer,
+          padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+          child: Row(
+            children: [
+              _buildIconButtonWithMixedTooltip(
+                context: context,
+                english: 'Settings',
+                chinese: '选项',
+                icon: const Icon(Icons.settings),
+                onPressed: () => _showSettingsDialog(context),
+              ),
+              Expanded(
+                child: Text(
+                  'Kids Dictionary',
+                  textAlign: TextAlign.center,
+                  style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                        color: Theme.of(context).colorScheme.onPrimaryContainer,
+                      ),
+                ),
+              ),
+              _buildIconButtonWithMixedTooltip(
+                context: context,
+                english: _showOnlyFavorites ? 'Show all words' : 'Show favourites',
+                chinese: _showOnlyFavorites ? '显示全部' : '显示我的收藏',
+                icon: Icon(_showOnlyFavorites ? Icons.star : Icons.star_border),
+                onPressed: _toggleFavoritesView,
+              ),
+            ],
           ),
-        ],
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -1531,11 +1541,12 @@ class _WordDetailPageState extends State<WordDetailPage> {
     final scale = appSettings.textScale;
 
     return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: false,
-        centerTitle: false,
-        titleSpacing: 0.0,
-        title: Row(
+      appBar: PreferredSize(
+        preferredSize: Size.fromHeight(kToolbarHeight + MediaQuery.of(context).padding.top),
+        child: Container(
+          color: Theme.of(context).colorScheme.primaryContainer,
+          padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
+          child: Row(
           children: [
             Focus(
               skipTraversal: true,
@@ -1678,10 +1689,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
             ),
           ],
         ),
-        backgroundColor: Theme.of(context).colorScheme.primaryContainer,
-        elevation: 0,
-        shadowColor: Colors.transparent,
-        surfaceTintColor: Colors.transparent,
+      ),
       ),
       bottomNavigationBar: BottomAppBar(
         height: kToolbarHeight,
