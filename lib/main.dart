@@ -969,6 +969,8 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
+enum _HomeFilter { daily, learned, favourites }
+
 class _HomePageState extends State<HomePage> {
   final TextEditingController _searchController = TextEditingController();
   final FocusNode _searchFocusNode = FocusNode();
@@ -987,6 +989,7 @@ class _HomePageState extends State<HomePage> {
   int _dailyRefreshSeed = 0;
   int _dailyWordsSeed = 0;
   bool _isLoading = true;
+  _HomeFilter _homeFilter = _HomeFilter.daily;
 
   @override
   void initState() {
@@ -1030,11 +1033,11 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
-  Future<void> _toggleFavorite(String word) async {
-    await _favoritesManager.toggleFavorite(word);
-    if (mounted) {
-      await _applyFilter();
-    }
+  Future<void> _setHomeFilter(_HomeFilter filter) async {
+    setState(() {
+      _homeFilter = filter;
+    });
+    await _applyFilter();
   }
 
   Future<void> _applyFilter({bool forceRefreshDailyWords = false}) async {
@@ -1046,7 +1049,21 @@ class _HomePageState extends State<HomePage> {
       if (forceRefreshDailyWords || _dailyWordsNeedRefresh()) {
         _recomputeDailyWords();
       }
-      _results = _dailyWords;
+      switch (_homeFilter) {
+        case _HomeFilter.daily:
+          _results = _dailyWords;
+          break;
+        case _HomeFilter.learned:
+          _results = _allWords
+              .where((e) => _learned.contains(e.word.toLowerCase()))
+              .toList();
+          break;
+        case _HomeFilter.favourites:
+          _results = _allWords
+              .where((e) => _favorites.contains(e.word.toLowerCase()))
+              .toList();
+          break;
+      }
       _isLoading = false;
     });
   }
@@ -1129,8 +1146,11 @@ class _HomePageState extends State<HomePage> {
                       context: context,
                       english: 'Home',
                       chinese: '首页',
-                      icon: const Icon(Icons.home),
-                      onPressed: () {},
+                      icon: Icon(Icons.home,
+                          color: _homeFilter == _HomeFilter.daily
+                              ? Theme.of(context).colorScheme.onPrimaryContainer
+                              : null),
+                      onPressed: () => _setHomeFilter(_HomeFilter.daily),
                     ),
                     _buildIconButtonWithMixedTooltip(
                       context: context,
@@ -1243,33 +1263,37 @@ RawAutocomplete<String>(
               ),
                     _buildIconButtonWithMixedTooltip(
                       context: context,
-                      english: _dailyWords.isNotEmpty && _learned.contains(_dailyWords.first.word.toLowerCase())
-                          ? 'Mark as not learnt'
-                          : 'Mark as learnt',
-                      chinese: _dailyWords.isNotEmpty && _learned.contains(_dailyWords.first.word.toLowerCase())
-                          ? '标记为未学会'
-                          : '标记为已学会',
-                      icon: Icon(_dailyWords.isNotEmpty && _learned.contains(_dailyWords.first.word.toLowerCase())
+                      english: _homeFilter == _HomeFilter.learned
+                          ? 'Show daily words'
+                          : 'Show learnt words',
+                      chinese: _homeFilter == _HomeFilter.learned
+                          ? '显示每日单词'
+                          : '显示已学会单词',
+                      icon: Icon(_homeFilter == _HomeFilter.learned
                           ? Icons.check_circle
                           : Icons.check_circle_outline),
-                      onPressed: _dailyWords.isNotEmpty
-                          ? () => _toggleLearned(_dailyWords.first.word)
-                          : null,
+                      onPressed: () => _setHomeFilter(
+                        _homeFilter == _HomeFilter.learned
+                            ? _HomeFilter.daily
+                            : _HomeFilter.learned,
+                      ),
                     ),
                     _buildIconButtonWithMixedTooltip(
                       context: context,
-                      english: _dailyWords.isNotEmpty && _favorites.contains(_dailyWords.first.word.toLowerCase())
-                          ? 'Remove from favourites'
-                          : 'Add to favourites',
-                      chinese: _dailyWords.isNotEmpty && _favorites.contains(_dailyWords.first.word.toLowerCase())
-                          ? '从收藏中移除'
-                          : '添加到收藏',
-                      icon: Icon(_dailyWords.isNotEmpty && _favorites.contains(_dailyWords.first.word.toLowerCase())
+                      english: _homeFilter == _HomeFilter.favourites
+                          ? 'Show daily words'
+                          : 'Show favourite words',
+                      chinese: _homeFilter == _HomeFilter.favourites
+                          ? '显示每日单词'
+                          : '显示收藏单词',
+                      icon: Icon(_homeFilter == _HomeFilter.favourites
                           ? Icons.star
                           : Icons.star_border),
-                      onPressed: _dailyWords.isNotEmpty
-                          ? () => _toggleFavorite(_dailyWords.first.word)
-                          : null,
+                      onPressed: () => _setHomeFilter(
+                        _homeFilter == _HomeFilter.favourites
+                            ? _HomeFilter.daily
+                            : _HomeFilter.favourites,
+                      ),
                     ),
                   ],
                 ),
@@ -1288,17 +1312,25 @@ RawAutocomplete<String>(
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
                   const Spacer(),
-                  const Column(
+                  Column(
                     mainAxisSize: MainAxisSize.min,
                     children: [
                       Text(
-                        'Word of the day',
-                        style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+                        _homeFilter == _HomeFilter.learned
+                            ? 'Learnt words'
+                            : _homeFilter == _HomeFilter.favourites
+                                ? 'Favourite words'
+                                : 'Word of the day',
+                        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
                       ),
-                      SizedBox(height: 4.0),
+                      const SizedBox(height: 4.0),
                       Text(
-                        '每日一词',
-                        style: TextStyle(fontSize: 18),
+                        _homeFilter == _HomeFilter.learned
+                            ? '已学会单词'
+                            : _homeFilter == _HomeFilter.favourites
+                                ? '收藏单词'
+                                : '每日一词',
+                        style: const TextStyle(fontSize: 18),
                       ),
                     ],
                   ),
