@@ -1040,6 +1040,13 @@ class _HomePageState extends State<HomePage> {
     await _applyFilter();
   }
 
+  Future<void> _toggleFavorite(String word) async {
+    await _favoritesManager.toggleFavorite(word);
+    if (mounted) {
+      await _applyFilter();
+    }
+  }
+
   Future<void> _applyFilter({bool forceRefreshDailyWords = false}) async {
     _favorites = await _favoritesManager.getFavorites();
     _learned = await _learnedManager.getLearned();
@@ -1388,17 +1395,25 @@ RawAutocomplete<String>(
                                     ),
                                   ),
                                   const SizedBox(width: 4.0),
-                                  _buildIconButtonWithMixedTooltip(
-                                    context: context,
-                                    english: isLearned
-                                        ? 'Mark as not learnt (this word may appear as the word of the day again)'
-                                        : 'Mark as learnt (this word will not appear as the word of the day anymore)',
-                                    chinese: isLearned
-                                        ? '标记为未学会（这个词可能会再次成为每日单词）'
-                                        : '标记为已学会（这个词不会再出现在每日单词中）',
-                                    icon: Icon(isLearned ? Icons.check_circle : Icons.check_circle_outline),
-                                    onPressed: () => _toggleLearned(entry.word),
-                                  ),
+                                  _homeFilter == _HomeFilter.favourites
+                                      ? _buildIconButtonWithMixedTooltip(
+                                          context: context,
+                                          english: 'Remove from favourites',
+                                          chinese: '从收藏中移除',
+                                          icon: const Icon(Icons.star),
+                                          onPressed: () => _toggleFavorite(entry.word),
+                                        )
+                                      : _buildIconButtonWithMixedTooltip(
+                                          context: context,
+                                          english: isLearned
+                                              ? 'Mark as not learnt (this word may appear as the word of the day again)'
+                                              : 'Mark as learnt (this word will not appear as the word of the day anymore)',
+                                          chinese: isLearned
+                                              ? '标记为未学会（这个词可能会再次成为每日单词）'
+                                              : '标记为已学会（这个词不会再出现在每日单词中）',
+                                          icon: Icon(isLearned ? Icons.check_circle : Icons.check_circle_outline),
+                                          onPressed: () => _toggleLearned(entry.word),
+                                        ),
                                 ],
                               );
                             },
