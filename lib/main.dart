@@ -1157,6 +1157,7 @@ body: Column(
                 final allIndex = _allWords.indexWhere((e) => e.word == match.word);
                 if (allIndex >= 0) _openWordDetail(match, allIndex);
               },
+              words: _allWords.map((e) => e.word).toList(),
             ),
           ),
           Expanded(

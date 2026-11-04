@@ -9,6 +9,7 @@ class NativeHeaderCallbacks {
   final VoidCallback onLearned;
   final VoidCallback onFavorites;
   final ValueChanged<String> onSearchSubmitted;
+  final List<String> words;
 
   const NativeHeaderCallbacks({
     required this.onHome,
@@ -16,20 +17,24 @@ class NativeHeaderCallbacks {
     required this.onLearned,
     required this.onFavorites,
     required this.onSearchSubmitted,
+    required this.words,
   });
 }
 
 NativeHeaderCallbacks? _callbacks;
 
+List<String> _words = const [];
+
 void setNativeHeaderCallbacks(NativeHeaderCallbacks? callbacks) {
   _callbacks = callbacks;
+  _words = callbacks?.words ?? const [];
 }
 
 void registerNativeHeaderFactory() {
   ui_web.platformViewRegistry.registerViewFactory('native-header', (int viewId) {
     final root = web.HTMLDivElement()
       ..style.width = '100%'
-      ..style.height = 'calc(env(safe-area-inset-top) + 96px)'
+      ..style.height = '100%'
       ..style.paddingTop = 'env(safe-area-inset-top)'
       ..style.boxSizing = 'border-box'
       ..style.display = 'flex'
@@ -46,6 +51,7 @@ void registerNativeHeaderFactory() {
       ..style.fontSize = '20px'
       ..style.fontWeight = 'bold'
       ..style.letterSpacing = '0.5px'
+      ..style.flexShrink = '0'
       ..textContent = 'Kids Dictionary';
     root.appendChild(titleRow);
 
@@ -55,7 +61,8 @@ void registerNativeHeaderFactory() {
       ..style.alignItems = 'center'
       ..style.justifyContent = 'space-between'
       ..style.padding = '0 12px'
-      ..style.gap = '8px';
+      ..style.gap = '8px'
+      ..style.flexShrink = '0';
     root.appendChild(buttonRow);
 
     final leftGroup = web.HTMLDivElement()
@@ -72,28 +79,47 @@ void registerNativeHeaderFactory() {
     settingsBtn.addEventListener('click', (() => _callbacks?.onSettings()).toJS);
     leftGroup.appendChild(settingsBtn);
 
+    final searchForm = web.HTMLFormElement()
+      ..style.flex = '1'
+      ..style.minWidth = '0'
+      ..style.display = 'flex'
+      ..style.margin = '0'
+      ..style.padding = '0'
+      ..action = 'javascript:void(0)';
+
     final searchInput = web.HTMLInputElement()
       ..type = 'search'
       ..placeholder = 'Search / 搜尋'
-      ..style.flex = '1'
-      ..style.minWidth = '0'
+      ..style.width = '100%'
       ..style.height = '40px'
       ..style.borderRadius = '8px'
       ..style.border = 'none'
       ..style.padding = '0 12px'
       ..style.fontSize = '16px'
       ..style.color = '#005048'
-      ..style.backgroundColor = '#FFFFFF';
-    searchInput.addEventListener(
-      'keydown',
+      ..style.backgroundColor = '#FFFFFF'
+      ..style.outline = 'none';
+
+    final dataListId = 'native-header-search-suggestions';
+    searchInput.setAttribute('list', dataListId);
+
+    final dataList = web.HTMLDataListElement()
+      ..id = dataListId;
+    for (final word in _words) {
+      final option = web.HTMLOptionElement()..value = word;
+      dataList.appendChild(option);
+    }
+
+    searchForm.appendChild(searchInput);
+    searchForm.appendChild(dataList);
+    searchForm.addEventListener(
+      'submit',
       ((web.Event event) {
-        final keyboardEvent = event as web.KeyboardEvent;
-        if (keyboardEvent.key == 'Enter') {
-          _callbacks?.onSearchSubmitted(searchInput.value);
-        }
+        event.preventDefault();
+        _callbacks?.onSearchSubmitted(searchInput.value);
       }).toJS,
     );
-    buttonRow.appendChild(searchInput);
+    buttonRow.appendChild(searchForm);
 
     final rightGroup = web.HTMLDivElement()
       ..style.display = 'flex'
@@ -137,6 +163,11 @@ class NativeHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     setNativeHeaderCallbacks(callbacks);
-    return const HtmlElementView(viewType: 'native-header');
+    final height = MediaQuery.of(context).padding.top + 96.0;
+    return SizedBox(
+      width: double.infinity,
+      height: height,
+      child: const HtmlElementView(viewType: 'native-header'),
+    );
   }
 }

@@ -6,6 +6,7 @@ class NativeHeaderCallbacks {
   final VoidCallback onLearned;
   final VoidCallback onFavorites;
   final ValueChanged<String> onSearchSubmitted;
+  final List<String> words;
 
   const NativeHeaderCallbacks({
     required this.onHome,
@@ -13,6 +14,7 @@ class NativeHeaderCallbacks {
     required this.onLearned,
     required this.onFavorites,
     required this.onSearchSubmitted,
+    required this.words,
   });
 }
 
