@@ -8,6 +8,7 @@ import 'database_helper.dart';
 import 'alternatives.dart';
 import 'favorites_manager.dart';
 import 'learned_manager.dart';
+import 'native_header.dart';
 
 final FlutterTts _tts = FlutterTts();
 String? _selectedEnVoice;
@@ -494,6 +495,7 @@ void main() async {
   await loadAlternatives();
   await _initBestVoices();
   appSettings = AppSettings();
+  registerNativeHeaderFactory();
   runApp(const KidsDictionaryApp());
 }
 
@@ -1125,191 +1127,40 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final scale = appSettings.textScale;
     return Scaffold(
-      appBar: PreferredSize(
-        preferredSize: Size.fromHeight(96.0 + MediaQuery.of(context).padding.top),
-        child: Container(
-          color: Theme.of(context).colorScheme.primaryContainer,
-          padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    'Kids Dictionary',
-                    style: TextStyle(
-                      fontSize: 20.0 * scale,
-                      fontWeight: FontWeight.bold,
-                      color: Theme.of(context).colorScheme.onPrimaryContainer,
-                    ),
+      appBar: null,
+body: Column(
+        children: [
+          NativeHeader(
+            callbacks: NativeHeaderCallbacks(
+              onHome: () => _setHomeFilter(_HomeFilter.daily),
+              onSettings: () => _showSettingsDialog(context),
+              onLearned: () => _setHomeFilter(
+                _homeFilter == _HomeFilter.learned
+                    ? _HomeFilter.daily
+                    : _HomeFilter.learned,
+              ),
+              onFavorites: () => _setHomeFilter(
+                _homeFilter == _HomeFilter.favourites
+                    ? _HomeFilter.daily
+                    : _HomeFilter.favourites,
+              ),
+              onSearchSubmitted: (String query) {
+                final lower = query.trim().toLowerCase();
+                if (lower.isEmpty) return;
+                final match = _allWords.firstWhere(
+                  (e) => e.word.toLowerCase() == lower,
+                  orElse: () => _allWords.firstWhere(
+                    (e) => e.word.toLowerCase().startsWith(lower),
+                    orElse: () => _allWords.first,
                   ),
-                ],
-              ),
-              Expanded(
-                child: Row(
-                  children: [
-                    _buildIconButtonWithMixedTooltip(
-                      context: context,
-                      english: 'Home',
-                      chinese: '首页',
-                      icon: Icon(Icons.home,
-                          color: _homeFilter == _HomeFilter.daily
-                              ? Theme.of(context).colorScheme.onPrimaryContainer
-                              : null),
-                      onPressed: () => _setHomeFilter(_HomeFilter.daily),
-                    ),
-                    _buildIconButtonWithMixedTooltip(
-                      context: context,
-                      english: 'Settings',
-                      chinese: '选项',
-                      icon: const Icon(Icons.settings),
-                      onPressed: () => _showSettingsDialog(context),
-                    ),
-                    Expanded(
-                      child: Padding(
-                        padding: const EdgeInsets.only(right: 12.0),
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: Colors.white,
-                            borderRadius: BorderRadius.circular(8.0),
-                          ),
-                          child:
-RawAutocomplete<String>(
-                      textEditingController: _searchController,
-                      focusNode: _searchFocusNode,
-                      optionsBuilder: (TextEditingValue textEditingValue) {
-                        final query = textEditingValue.text.trim().toLowerCase();
-                        if (query.isEmpty) return const Iterable<String>.empty();
-                        final hasChinese = query.runes.any((r) => r >= 0x4E00 && r <= 0x9FFF);
-                        return _allWords
-                            .where((e) {
-                              if (e.word.toLowerCase().startsWith(query)) return true;
-                              if (!hasChinese) return false;
-                              // Chinese search across meanings 1, 2, and 3 (partial match)
-                              return e.meanings.any(
-                                (m) => m.definitionCn.toLowerCase().contains(query),
-                              );
-                            })
-                            .map((e) => e.word)
-                            .take(10);
-                      },
-                      onSelected: (String selection) {
-                        final allIndex = _allWords.indexWhere(
-                          (e) => e.word.toLowerCase() == selection.toLowerCase(),
-                        );
-                        if (allIndex >= 0) {
-                          _openWordDetail(_allWords[allIndex], allIndex);
-                        }
-                      },
-                      optionsViewBuilder: (context, onSelected, options) {
-                        return Align(
-                          alignment: Alignment.topLeft,
-                          child: Material(
-                            elevation: 4.0,
-                            borderRadius: BorderRadius.circular(8.0),
-                            child: Container(
-                              width: MediaQuery.of(context).size.width * 0.7,
-                              constraints: const BoxConstraints(maxHeight: 250),
-                              child: ListView.builder(
-                                shrinkWrap: true,
-                                padding: EdgeInsets.zero,
-                                itemCount: options.length,
-                                itemBuilder: (BuildContext context, int index) {
-                                  final option = options.elementAt(index);
-                                  final highlightedIndex = AutocompleteHighlightedOption.of(context);
-                                  final isHighlighted = index == highlightedIndex;
-                                  return GestureDetector(
-                                    behavior: HitTestBehavior.opaque,
-                                    onTap: () => onSelected(option),
-                                    child: Focus(
-                                      canRequestFocus: false,
-                                      skipTraversal: true,
-                                      child: ListTile(
-                                        dense: true,
-                                        tileColor: isHighlighted
-                                            ? Theme.of(context).colorScheme.primaryContainer
-                                            : null,
-                                        title: Text(
-                                          option,
-                                          style: TextStyle(
-                                            fontSize: 16.0 * scale,
-                                            color: isHighlighted
-                                                ? Theme.of(context).colorScheme.onPrimaryContainer
-                                                : null,
-                                            fontWeight: isHighlighted ? FontWeight.bold : null,
-                                          ),
-                                        ),
-                                      ),
-                                    ),
-                                  );
-                                },
-                              ),
-                            ),
-                          ),
-                        );
-                      },
-                      fieldViewBuilder: (context, textEditingController, focusNode, onFieldSubmitted) {
-                        return TextField(
-                          controller: textEditingController,
-                          focusNode: focusNode,
-                          onSubmitted: (_) => onFieldSubmitted(),
-                          decoration: InputDecoration(
-                            hintText: 'Search / 搜尋',
-                            hintStyle: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
-                            prefixIcon: const Icon(Icons.search),
-                            border: InputBorder.none,
-                            contentPadding: const EdgeInsets.symmetric(vertical: 12.0),
-                          ),
-                          style: TextStyle(fontSize: 18.0 * scale),
-                        );
-                      },
-                    ),
-                  ),
-                ),
-              ),
-                    _buildIconButtonWithMixedTooltip(
-                      context: context,
-                      english: _homeFilter == _HomeFilter.learned
-                          ? 'Show daily words'
-                          : 'Show learnt words',
-                      chinese: _homeFilter == _HomeFilter.learned
-                          ? '显示每日单词'
-                          : '显示已学会单词',
-                      icon: Icon(_homeFilter == _HomeFilter.learned
-                          ? Icons.check_circle
-                          : Icons.check_circle_outline),
-                      onPressed: () => _setHomeFilter(
-                        _homeFilter == _HomeFilter.learned
-                            ? _HomeFilter.daily
-                            : _HomeFilter.learned,
-                      ),
-                    ),
-                    _buildIconButtonWithMixedTooltip(
-                      context: context,
-                      english: _homeFilter == _HomeFilter.favourites
-                          ? 'Show daily words'
-                          : 'Show favourite words',
-                      chinese: _homeFilter == _HomeFilter.favourites
-                          ? '显示每日单词'
-                          : '显示收藏单词',
-                      icon: Icon(_homeFilter == _HomeFilter.favourites
-                          ? Icons.star
-                          : Icons.star_border),
-                      onPressed: () => _setHomeFilter(
-                        _homeFilter == _HomeFilter.favourites
-                            ? _HomeFilter.daily
-                            : _HomeFilter.favourites,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-            ],
+                );
+                final allIndex = _allWords.indexWhere((e) => e.word == match.word);
+                if (allIndex >= 0) _openWordDetail(match, allIndex);
+              },
+            ),
           ),
-        ),
-      ),
-      body: Padding(
+          Expanded(
+            child: Padding(
         padding: const EdgeInsets.only(top: 8.0, left: 16.0, right: 16.0, bottom: 16.0),
         child: SelectionArea(
           child: Column(
@@ -1427,6 +1278,9 @@ RawAutocomplete<String>(
             ],
           ),
         ),
+      ),
+          ),
+        ],
       ),
     );
   }
