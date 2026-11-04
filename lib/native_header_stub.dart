@@ -22,6 +22,8 @@ void registerNativeHeaderFactory() {}
 
 void setNativeHeaderCallbacks(NativeHeaderCallbacks? callbacks) {}
 
+void setNativeHeaderIconColor(String? color) {}
+
 class NativeHeader extends StatelessWidget {
   final NativeHeaderCallbacks callbacks;
 

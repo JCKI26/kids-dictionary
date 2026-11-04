@@ -483,7 +483,7 @@ Widget _buildSpeakerButton({
     icon: const Icon(Icons.volume_up),
     iconSize: iconSize,
     padding: EdgeInsets.zero,
-    constraints: const BoxConstraints(),
+    constraints: BoxConstraints.tightFor(width: iconSize, height: iconSize),
     splashRadius: iconSize,
     tooltip: tooltip,
     onPressed: onPressed,
@@ -1162,7 +1162,7 @@ body: Column(
           ),
           Expanded(
             child: Padding(
-        padding: const EdgeInsets.only(top: 4.0, left: 16.0, right: 16.0, bottom: 16.0),
+        padding: const EdgeInsets.only(top: 0.0, left: 16.0, right: 16.0, bottom: 16.0),
         child: SelectionArea(
           child: Column(
             children: [
@@ -1204,7 +1204,7 @@ body: Column(
                     ),
                 ],
               ),
-              const SizedBox(height: 2.0),
+              const SizedBox(height: 0.0),
               Expanded(
                 child: _isLoading
                     ? const Center(child: CircularProgressIndicator())
@@ -1615,7 +1615,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
                           hintStyle: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
                           prefixIcon: const Icon(Icons.search),
                           border: InputBorder.none,
-                          contentPadding: const EdgeInsets.symmetric(vertical: 12.0),
+                          contentPadding: const EdgeInsets.symmetric(vertical: 4.0),
                         ),
                         style: TextStyle(fontSize: 18.0 * scale),
                       );

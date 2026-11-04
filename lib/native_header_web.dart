@@ -25,9 +25,15 @@ NativeHeaderCallbacks? _callbacks;
 
 List<String> _words = const [];
 
+String? _iconColor;
+
 void setNativeHeaderCallbacks(NativeHeaderCallbacks? callbacks) {
   _callbacks = callbacks;
   _words = callbacks?.words ?? const [];
+}
+
+void setNativeHeaderIconColor(String? color) {
+  _iconColor = color;
 }
 
 void registerNativeHeaderFactory() {
@@ -91,9 +97,9 @@ void registerNativeHeaderFactory() {
       ..style.padding = '0 8px'
       ..style.position = 'relative';
 
-    final searchIcon = _svgIcon(_searchIconPath);
-    searchIcon.setAttribute('width', '18');
-    searchIcon.setAttribute('height', '18');
+    final searchIcon = _svgIcon(_searchIconPath, fill: _iconColor ?? '#005048');
+    searchIcon.setAttribute('width', '24');
+    searchIcon.setAttribute('height', '24');
 
     final searchInput = web.HTMLInputElement()
       ..type = 'search'
@@ -221,8 +227,8 @@ void registerNativeHeaderFactory() {
 
 web.HTMLButtonElement _iconButton(web.SVGSVGElement icon, String tooltip) {
   final btn = web.HTMLButtonElement()
-    ..style.width = '32px'
-    ..style.height = '32px'
+    ..style.width = '48px'
+    ..style.height = '48px'
     ..style.border = 'none'
     ..style.borderRadius = '8px'
     ..style.backgroundColor = 'transparent'
@@ -235,12 +241,12 @@ web.HTMLButtonElement _iconButton(web.SVGSVGElement icon, String tooltip) {
   return btn;
 }
 
-web.SVGSVGElement _svgIcon(String pathD) {
+web.SVGSVGElement _svgIcon(String pathD, {String? fill}) {
   final svg = web.document.createElementNS('http://www.w3.org/2000/svg', 'svg') as web.SVGSVGElement;
   svg.setAttribute('viewBox', '0 0 24 24');
-  svg.setAttribute('width', '22');
-  svg.setAttribute('height', '22');
-  svg.setAttribute('fill', 'currentColor');
+  svg.setAttribute('width', '24');
+  svg.setAttribute('height', '24');
+  svg.setAttribute('fill', fill ?? _iconColor ?? '#005048');
 
   final path = web.document.createElementNS('http://www.w3.org/2000/svg', 'path') as web.SVGPathElement;
   path.setAttribute('d', pathD);
@@ -263,6 +269,9 @@ class NativeHeader extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     setNativeHeaderCallbacks(callbacks);
+    final colorScheme = Theme.of(context).colorScheme;
+    final onSurfaceVariant = _colorToHex(colorScheme.onSurfaceVariant);
+    setNativeHeaderIconColor(onSurfaceVariant);
     final height = MediaQuery.of(context).padding.top + 96.0;
     return SizedBox(
       width: double.infinity,
@@ -270,4 +279,11 @@ class NativeHeader extends StatelessWidget {
       child: const HtmlElementView(viewType: 'native-header'),
     );
   }
+}
+
+String _colorToHex(Color color) {
+  final r = (color.r * 255.0).round().clamp(0, 255).toRadixString(16).padLeft(2, '0');
+  final g = (color.g * 255.0).round().clamp(0, 255).toRadixString(16).padLeft(2, '0');
+  final b = (color.b * 255.0).round().clamp(0, 255).toRadixString(16).padLeft(2, '0');
+  return '#$r$g$b';
 }
