@@ -1342,13 +1342,14 @@ RawAutocomplete<String>(
                     ],
                   ),
                   const Spacer(),
-                  _buildIconButtonWithMixedTooltip(
-                    context: context,
-                    english: 'Refresh word of the day',
-                    chinese: '刷新每日单词',
-                    icon: const Icon(Icons.refresh),
-                    onPressed: _refreshDailyWords,
-                  ),
+                  if (_homeFilter == _HomeFilter.daily)
+                    _buildIconButtonWithMixedTooltip(
+                      context: context,
+                      english: 'Refresh word of the day',
+                      chinese: '刷新每日单词',
+                      icon: const Icon(Icons.refresh),
+                      onPressed: _refreshDailyWords,
+                    ),
                 ],
               ),
               const SizedBox(height: 8.0),
