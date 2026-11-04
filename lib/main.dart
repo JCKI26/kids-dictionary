@@ -1107,18 +1107,39 @@ class _HomePageState extends State<HomePage> {
     final scale = appSettings.textScale;
     return Scaffold(
       appBar: PreferredSize(
-        preferredSize: Size.fromHeight(kToolbarHeight + MediaQuery.of(context).padding.top),
+        preferredSize: Size.fromHeight(96.0 + MediaQuery.of(context).padding.top),
         child: Container(
           color: Theme.of(context).colorScheme.primaryContainer,
           padding: EdgeInsets.only(top: MediaQuery.of(context).padding.top),
-          child: Row(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
             children: [
-              _buildIconButtonWithMixedTooltip(
-                context: context,
-                english: 'Settings',
-                chinese: '选项',
-                icon: const Icon(Icons.settings),
-                onPressed: () => _showSettingsDialog(context),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                children: [
+                  _buildIconButtonWithMixedTooltip(
+                    context: context,
+                    english: 'Settings',
+                    chinese: '选项',
+                    icon: const Icon(Icons.settings),
+                    onPressed: () => _showSettingsDialog(context),
+                  ),
+                  Text(
+                    'Kids Dictionary',
+                    style: TextStyle(
+                      fontSize: 20.0 * scale,
+                      fontWeight: FontWeight.bold,
+                      color: Theme.of(context).colorScheme.onPrimaryContainer,
+                    ),
+                  ),
+                  _buildIconButtonWithMixedTooltip(
+                    context: context,
+                    english: _showOnlyFavorites ? 'Show all words' : 'Show favourites',
+                    chinese: _showOnlyFavorites ? '显示全部' : '显示我的收藏',
+                    icon: Icon(_showOnlyFavorites ? Icons.star : Icons.star_border),
+                    onPressed: _toggleFavoritesView,
+                  ),
+                ],
               ),
               Expanded(
                 child: Padding(
@@ -1128,7 +1149,8 @@ class _HomePageState extends State<HomePage> {
                       color: Colors.white,
                       borderRadius: BorderRadius.circular(8.0),
                     ),
-                    child: RawAutocomplete<String>(
+                    child:
+RawAutocomplete<String>(
                       textEditingController: _searchController,
                       focusNode: _searchFocusNode,
                       optionsBuilder: (TextEditingValue textEditingValue) {
