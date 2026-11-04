@@ -1162,7 +1162,7 @@ body: Column(
           ),
           Expanded(
             child: Padding(
-        padding: const EdgeInsets.only(top: 8.0, left: 16.0, right: 16.0, bottom: 16.0),
+        padding: const EdgeInsets.only(top: 4.0, left: 16.0, right: 16.0, bottom: 16.0),
         child: SelectionArea(
           child: Column(
             children: [
@@ -1204,7 +1204,7 @@ body: Column(
                     ),
                 ],
               ),
-              const SizedBox(height: 4.0),
+              const SizedBox(height: 2.0),
               Expanded(
                 child: _isLoading
                     ? const Center(child: CircularProgressIndicator())

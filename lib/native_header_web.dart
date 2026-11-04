@@ -56,7 +56,7 @@ void registerNativeHeaderFactory() {
     root.appendChild(titleRow);
 
     final buttonRow = web.HTMLDivElement()
-      ..style.height = '56px'
+      ..style.height = '48px'
       ..style.display = 'flex'
       ..style.alignItems = 'center'
       ..style.justifyContent = 'space-between'
@@ -71,51 +71,131 @@ void registerNativeHeaderFactory() {
       ..style.gap = '8px';
     buttonRow.appendChild(leftGroup);
 
-    final homeBtn = _iconButton('🏠', 'Home / 首页');
+    final homeBtn = _iconButton(_svgIcon(_homeIconPath), 'Home / 首页');
     homeBtn.addEventListener('click', (() => _callbacks?.onHome()).toJS);
     leftGroup.appendChild(homeBtn);
 
-    final settingsBtn = _iconButton('⚙️', 'Settings / 选项');
+    final settingsBtn = _iconButton(_svgIcon(_settingsIconPath), 'Settings / 选项');
     settingsBtn.addEventListener('click', (() => _callbacks?.onSettings()).toJS);
     leftGroup.appendChild(settingsBtn);
+
+    final searchBox = web.HTMLDivElement()
+      ..style.flex = '1'
+      ..style.minWidth = '0'
+      ..style.height = '32px'
+      ..style.display = 'flex'
+      ..style.alignItems = 'center'
+      ..style.gap = '4px'
+      ..style.backgroundColor = '#FFFFFF'
+      ..style.borderRadius = '8px'
+      ..style.padding = '0 8px'
+      ..style.position = 'relative';
+
+    final searchIcon = _svgIcon(_searchIconPath);
+    searchIcon.setAttribute('width', '18');
+    searchIcon.setAttribute('height', '18');
+
+    final searchInput = web.HTMLInputElement()
+      ..type = 'search'
+      ..placeholder = 'Search / 搜尋'
+      ..style.flex = '1'
+      ..style.height = '100%'
+      ..style.border = 'none'
+      ..style.backgroundColor = 'transparent'
+      ..style.fontSize = '16px'
+      ..style.color = '#005048'
+      ..style.outline = 'none';
+
+    final dropdown = web.HTMLDivElement()
+      ..style.position = 'absolute'
+      ..style.top = 'calc(100% + 4px)'
+      ..style.left = '0'
+      ..style.right = '0'
+      ..style.maxHeight = '250px'
+      ..style.overflowY = 'auto'
+      ..style.backgroundColor = '#FFFFFF'
+      ..style.borderRadius = '8px'
+      ..style.boxShadow = '0 4px 12px rgba(0,0,0,0.15)'
+      ..style.zIndex = '1000'
+      ..style.display = 'none';
+
+    void updateSuggestions() {
+      final query = searchInput.value.trim().toLowerCase();
+      dropdown.textContent = '';
+      if (query.isEmpty) {
+        dropdown.style.display = 'none';
+        return;
+      }
+      final matches = _words
+          .where((w) => w.toLowerCase().startsWith(query))
+          .take(10)
+          .toList();
+      if (matches.isEmpty) {
+        dropdown.style.display = 'none';
+        return;
+      }
+      for (final match in matches) {
+        final item = web.HTMLDivElement()
+          ..style.padding = '10px 12px'
+          ..style.cursor = 'pointer'
+          ..style.fontSize = '16px'
+          ..style.color = '#005048'
+          ..style.borderBottom = '1px solid #EEEEEE'
+          ..style.userSelect = 'none'
+          ..textContent = match;
+        item.addEventListener('click', (() {
+          searchInput.value = match;
+          dropdown.style.display = 'none';
+          _callbacks?.onSearchSubmitted(match);
+        }).toJS);
+        item.addEventListener('touchstart', (() {
+          searchInput.value = match;
+          dropdown.style.display = 'none';
+          _callbacks?.onSearchSubmitted(match);
+        }).toJS);
+        dropdown.appendChild(item);
+      }
+      dropdown.style.display = 'block';
+    }
+
+    searchInput.addEventListener('input', (() => updateSuggestions()).toJS);
+    searchInput.addEventListener('focus', (() => updateSuggestions()).toJS);
+    searchInput.addEventListener(
+      'keydown',
+      ((web.Event event) {
+        final keyboardEvent = event as web.KeyboardEvent;
+        if (keyboardEvent.key == 'Escape') {
+          dropdown.style.display = 'none';
+        }
+      }).toJS,
+    );
+    searchInput.addEventListener(
+      'blur',
+      (() {
+        Future.delayed(const Duration(milliseconds: 150), () {
+          dropdown.style.display = 'none';
+        });
+      }).toJS,
+    );
+
+    searchBox.appendChild(searchIcon);
+    searchBox.appendChild(searchInput);
+    searchBox.appendChild(dropdown);
 
     final searchForm = web.HTMLFormElement()
       ..style.flex = '1'
       ..style.minWidth = '0'
       ..style.display = 'flex'
+      ..style.alignItems = 'center'
       ..style.margin = '0'
       ..style.padding = '0'
       ..action = 'javascript:void(0)';
-
-    final searchInput = web.HTMLInputElement()
-      ..type = 'search'
-      ..placeholder = 'Search / 搜尋'
-      ..style.width = '100%'
-      ..style.height = '40px'
-      ..style.borderRadius = '8px'
-      ..style.border = 'none'
-      ..style.padding = '0 12px'
-      ..style.fontSize = '16px'
-      ..style.color = '#005048'
-      ..style.backgroundColor = '#FFFFFF'
-      ..style.outline = 'none';
-
-    final dataListId = 'native-header-search-suggestions';
-    searchInput.setAttribute('list', dataListId);
-
-    final dataList = web.HTMLDataListElement()
-      ..id = dataListId;
-    for (final word in _words) {
-      final option = web.HTMLOptionElement()..value = word;
-      dataList.appendChild(option);
-    }
-
-    searchForm.appendChild(searchInput);
-    searchForm.appendChild(dataList);
+    searchForm.appendChild(searchBox);
     searchForm.addEventListener(
       'submit',
       ((web.Event event) {
         event.preventDefault();
+        dropdown.style.display = 'none';
         _callbacks?.onSearchSubmitted(searchInput.value);
       }).toJS,
     );
@@ -127,11 +207,11 @@ void registerNativeHeaderFactory() {
       ..style.gap = '8px';
     buttonRow.appendChild(rightGroup);
 
-    final learnedBtn = _iconButton('✅', 'Learnt words / 已学会单词');
+    final learnedBtn = _iconButton(_svgIcon(_checkCircleIconPath), 'Learnt words / 已学会单词');
     learnedBtn.addEventListener('click', (() => _callbacks?.onLearned()).toJS);
     rightGroup.appendChild(learnedBtn);
 
-    final favoritesBtn = _iconButton('⭐', 'Favourite words / 收藏单词');
+    final favoritesBtn = _iconButton(_svgIcon(_starBorderIconPath), 'Favourite words / 收藏单词');
     favoritesBtn.addEventListener('click', (() => _callbacks?.onFavorites()).toJS);
     rightGroup.appendChild(favoritesBtn);
 
@@ -139,21 +219,41 @@ void registerNativeHeaderFactory() {
   });
 }
 
-web.HTMLButtonElement _iconButton(String emoji, String tooltip) {
-  return web.HTMLButtonElement()
-    ..style.width = '40px'
-    ..style.height = '40px'
+web.HTMLButtonElement _iconButton(web.SVGSVGElement icon, String tooltip) {
+  final btn = web.HTMLButtonElement()
+    ..style.width = '32px'
+    ..style.height = '32px'
     ..style.border = 'none'
     ..style.borderRadius = '8px'
     ..style.backgroundColor = 'transparent'
-    ..style.fontSize = '22px'
     ..style.display = 'flex'
     ..style.alignItems = 'center'
     ..style.justifyContent = 'center'
     ..style.cursor = 'pointer'
-    ..title = tooltip
-    ..textContent = emoji;
+    ..title = tooltip;
+  btn.appendChild(icon);
+  return btn;
 }
+
+web.SVGSVGElement _svgIcon(String pathD) {
+  final svg = web.document.createElementNS('http://www.w3.org/2000/svg', 'svg') as web.SVGSVGElement;
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('width', '22');
+  svg.setAttribute('height', '22');
+  svg.setAttribute('fill', 'currentColor');
+
+  final path = web.document.createElementNS('http://www.w3.org/2000/svg', 'path') as web.SVGPathElement;
+  path.setAttribute('d', pathD);
+  svg.appendChild(path);
+  return svg;
+}
+
+const _homeIconPath = 'M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z';
+const _settingsIconPath = 'M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58a.49.49 0 0 0 .12-.64l-1.92-3.32a.488.488 0 0 0-.59-.22l-2.39.96c-.54-.4-1.08-.73-1.69-.98l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84a.484.484 0 0 0-.48.41l-.36 2.54c-.61.25-1.15.57-1.69.98l-2.39-.96a.488.488 0 0 0-.59.22L2.74 8.84a.49.49 0 0 0 .12.64l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58a.49.49 0 0 0-.12.64l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.54.4 1.08.73 1.69.98l.36 2.54c.05.24.27.41.48.41h3.84c.24 0 .44-.17.48-.41l.36-2.54c.61-.25 1.15-.57 1.69-.98l2.39.96c.22.08.47 0 .59-.22l1.92-3.32a.49.49 0 0 0-.12-.64l-2.03-1.58zM12 15.6A3.6 3.6 0 1 1 12 8.4a3.6 3.6 0 0 1 0 7.2z';
+const _checkCircleIconPath = 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.88-11.71L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41L10 17l6.71-6.71a.996.996 0 0 0-1.41-1.41z';
+const _starBorderIconPath = 'M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.03 4.38.38-3.32 2.88 1 4.28L12 15.4z';
+
+const _searchIconPath = 'M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z';
 
 class NativeHeader extends StatelessWidget {
   final NativeHeaderCallbacks callbacks;
