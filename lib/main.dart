@@ -305,7 +305,7 @@ Widget _buildIconButtonWithMixedTooltip({
   required String english,
   String? chinese,
   required Widget icon,
-  required VoidCallback onPressed,
+  required VoidCallback? onPressed,
 }) {
   final tooltipStyle = TooltipTheme.of(context).textStyle ?? DefaultTextStyle.of(context).style;
   final List<InlineSpan> spans = [
@@ -986,7 +986,6 @@ class _HomePageState extends State<HomePage> {
   String? _dailyWordsDate;
   int _dailyRefreshSeed = 0;
   int _dailyWordsSeed = 0;
-  bool _showOnlyFavorites = false;
   bool _isLoading = true;
 
   @override
@@ -1016,13 +1015,6 @@ class _HomePageState extends State<HomePage> {
     await _applyFilter();
   }
 
-  Future<void> _toggleFavoritesView() async {
-    setState(() {
-      _showOnlyFavorites = !_showOnlyFavorites;
-    });
-    await _applyFilter();
-  }
-
   Future<void> _toggleLearned(String word) async {
     await _learnedManager.toggleLearned(word);
     final isLearned = await _learnedManager.isLearned(word);
@@ -1038,6 +1030,13 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
+  Future<void> _toggleFavorite(String word) async {
+    await _favoritesManager.toggleFavorite(word);
+    if (mounted) {
+      await _applyFilter();
+    }
+  }
+
   Future<void> _applyFilter({bool forceRefreshDailyWords = false}) async {
     _favorites = await _favoritesManager.getFavorites();
     _learned = await _learnedManager.getLearned();
@@ -1047,11 +1046,7 @@ class _HomePageState extends State<HomePage> {
       if (forceRefreshDailyWords || _dailyWordsNeedRefresh()) {
         _recomputeDailyWords();
       }
-      if (_showOnlyFavorites) {
-        _results = _allWords.where((e) => _favorites.contains(e.word.toLowerCase())).toList();
-      } else {
-        _results = _dailyWords;
-      }
+      _results = _dailyWords;
       _isLoading = false;
     });
   }
@@ -1115,15 +1110,8 @@ class _HomePageState extends State<HomePage> {
             mainAxisSize: MainAxisSize.min,
             children: [
               Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  _buildIconButtonWithMixedTooltip(
-                    context: context,
-                    english: 'Settings',
-                    chinese: '选项',
-                    icon: const Icon(Icons.settings),
-                    onPressed: () => _showSettingsDialog(context),
-                  ),
                   Text(
                     'Kids Dictionary',
                     style: TextStyle(
@@ -1132,24 +1120,34 @@ class _HomePageState extends State<HomePage> {
                       color: Theme.of(context).colorScheme.onPrimaryContainer,
                     ),
                   ),
-                  _buildIconButtonWithMixedTooltip(
-                    context: context,
-                    english: _showOnlyFavorites ? 'Show all words' : 'Show favourites',
-                    chinese: _showOnlyFavorites ? '显示全部' : '显示我的收藏',
-                    icon: Icon(_showOnlyFavorites ? Icons.star : Icons.star_border),
-                    onPressed: _toggleFavoritesView,
-                  ),
                 ],
               ),
               Expanded(
-                child: Padding(
-                  padding: const EdgeInsets.only(right: 12.0),
-                  child: Container(
-                    decoration: BoxDecoration(
-                      color: Colors.white,
-                      borderRadius: BorderRadius.circular(8.0),
+                child: Row(
+                  children: [
+                    _buildIconButtonWithMixedTooltip(
+                      context: context,
+                      english: 'Home',
+                      chinese: '首页',
+                      icon: const Icon(Icons.home),
+                      onPressed: () {},
                     ),
-                    child:
+                    _buildIconButtonWithMixedTooltip(
+                      context: context,
+                      english: 'Settings',
+                      chinese: '选项',
+                      icon: const Icon(Icons.settings),
+                      onPressed: () => _showSettingsDialog(context),
+                    ),
+                    Expanded(
+                      child: Padding(
+                        padding: const EdgeInsets.only(right: 12.0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Colors.white,
+                            borderRadius: BorderRadius.circular(8.0),
+                          ),
+                          child:
 RawAutocomplete<String>(
                       textEditingController: _searchController,
                       focusNode: _searchFocusNode,
@@ -1243,12 +1241,38 @@ RawAutocomplete<String>(
                   ),
                 ),
               ),
-              _buildIconButtonWithMixedTooltip(
-                context: context,
-                english: _showOnlyFavorites ? 'Show all words' : 'Show favourites',
-                chinese: _showOnlyFavorites ? '显示全部' : '显示我的收藏',
-                icon: Icon(_showOnlyFavorites ? Icons.star : Icons.star_border),
-                onPressed: _toggleFavoritesView,
+                    _buildIconButtonWithMixedTooltip(
+                      context: context,
+                      english: _dailyWords.isNotEmpty && _learned.contains(_dailyWords.first.word.toLowerCase())
+                          ? 'Mark as not learnt'
+                          : 'Mark as learnt',
+                      chinese: _dailyWords.isNotEmpty && _learned.contains(_dailyWords.first.word.toLowerCase())
+                          ? '标记为未学会'
+                          : '标记为已学会',
+                      icon: Icon(_dailyWords.isNotEmpty && _learned.contains(_dailyWords.first.word.toLowerCase())
+                          ? Icons.check_circle
+                          : Icons.check_circle_outline),
+                      onPressed: _dailyWords.isNotEmpty
+                          ? () => _toggleLearned(_dailyWords.first.word)
+                          : null,
+                    ),
+                    _buildIconButtonWithMixedTooltip(
+                      context: context,
+                      english: _dailyWords.isNotEmpty && _favorites.contains(_dailyWords.first.word.toLowerCase())
+                          ? 'Remove from favourites'
+                          : 'Add to favourites',
+                      chinese: _dailyWords.isNotEmpty && _favorites.contains(_dailyWords.first.word.toLowerCase())
+                          ? '从收藏中移除'
+                          : '添加到收藏',
+                      icon: Icon(_dailyWords.isNotEmpty && _favorites.contains(_dailyWords.first.word.toLowerCase())
+                          ? Icons.star
+                          : Icons.star_border),
+                      onPressed: _dailyWords.isNotEmpty
+                          ? () => _toggleFavorite(_dailyWords.first.word)
+                          : null,
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
