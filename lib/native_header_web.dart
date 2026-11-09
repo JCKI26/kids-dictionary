@@ -26,6 +26,7 @@ NativeHeaderCallbacks? _callbacks;
 List<String> _words = const [];
 
 String? _iconColor;
+String? _backgroundColor;
 
 void setNativeHeaderCallbacks(NativeHeaderCallbacks? callbacks) {
   _callbacks = callbacks;
@@ -34,6 +35,10 @@ void setNativeHeaderCallbacks(NativeHeaderCallbacks? callbacks) {
 
 void setNativeHeaderIconColor(String? color) {
   _iconColor = color;
+}
+
+void setNativeHeaderBackgroundColor(String? color) {
+  _backgroundColor = color;
 }
 
 void registerNativeHeaderFactory() {
@@ -45,7 +50,7 @@ void registerNativeHeaderFactory() {
       ..style.boxSizing = 'border-box'
       ..style.display = 'flex'
       ..style.flexDirection = 'column'
-      ..style.backgroundColor = '#9EF2E4'
+      ..style.backgroundColor = _backgroundColor ?? '#9EF2E4'
       ..style.color = '#005048'
       ..style.fontFamily = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
 
@@ -62,19 +67,19 @@ void registerNativeHeaderFactory() {
     root.appendChild(titleRow);
 
     final buttonRow = web.HTMLDivElement()
-      ..style.height = '48px'
+      ..style.height = '56px'
       ..style.display = 'flex'
       ..style.alignItems = 'center'
       ..style.justifyContent = 'space-between'
-      ..style.padding = '0 12px'
-      ..style.gap = '8px'
+      ..style.padding = '0'
+      ..style.gap = '0'
       ..style.flexShrink = '0';
     root.appendChild(buttonRow);
 
     final leftGroup = web.HTMLDivElement()
       ..style.display = 'flex'
       ..style.alignItems = 'center'
-      ..style.gap = '8px';
+      ..style.gap = '0';
     buttonRow.appendChild(leftGroup);
 
     final homeBtn = _iconButton(_svgIcon(_homeIconPath), 'Home / 首页');
@@ -93,15 +98,16 @@ void registerNativeHeaderFactory() {
       ..style.height = '40px'
       ..style.display = 'flex'
       ..style.alignItems = 'center'
-      ..style.gap = '6px'
+      ..style.gap = '0'
       ..style.backgroundColor = '#FFFFFF'
       ..style.borderRadius = '8px'
-      ..style.padding = '0 10px'
+      ..style.padding = '0 12px'
+      ..style.marginRight = '12px'
       ..style.position = 'relative';
 
     final searchIcon = _svgIcon(_searchIconPath, fill: _iconColor ?? '#005048');
-    searchIcon.setAttribute('width', '22');
-    searchIcon.setAttribute('height', '22');
+    searchIcon.setAttribute('width', '24');
+    searchIcon.setAttribute('height', '24');
 
     final searchInput = web.HTMLInputElement()
       ..type = 'search'
@@ -212,7 +218,7 @@ void registerNativeHeaderFactory() {
     final rightGroup = web.HTMLDivElement()
       ..style.display = 'flex'
       ..style.alignItems = 'center'
-      ..style.gap = '8px';
+      ..style.gap = '0';
     buttonRow.appendChild(rightGroup);
 
     final learnedBtn = _iconButton(_svgIcon(_checkCircleIconPath), 'Learnt words / 已学会单词');
@@ -276,7 +282,9 @@ class NativeHeader extends StatelessWidget {
     setNativeHeaderCallbacks(callbacks);
     final colorScheme = Theme.of(context).colorScheme;
     final onSurfaceVariant = _colorToHex(colorScheme.onSurfaceVariant);
+    final primaryContainer = _colorToHex(colorScheme.primaryContainer);
     setNativeHeaderIconColor(onSurfaceVariant);
+    setNativeHeaderBackgroundColor(primaryContainer);
     final height = MediaQuery.of(context).padding.top + 96.0;
     return SizedBox(
       width: double.infinity,

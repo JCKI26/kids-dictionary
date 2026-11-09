@@ -1535,6 +1535,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
               child: Padding(
                 padding: const EdgeInsets.only(right: 12.0),
                 child: Container(
+                  height: 36.0,
                   decoration: BoxDecoration(
                     color: Colors.white,
                     borderRadius: BorderRadius.circular(8.0),
