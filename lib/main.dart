@@ -1619,7 +1619,6 @@ class _WordDetailPageState extends State<WordDetailPage> {
                         decoration: InputDecoration(
                           hintText: 'Search / 搜尋',
                           hintStyle: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
-                          prefixIcon: const Icon(Icons.search),
                           border: InputBorder.none,
                           contentPadding: const EdgeInsets.symmetric(vertical: 2.0),
                         ),

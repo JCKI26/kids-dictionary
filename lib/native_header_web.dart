@@ -116,12 +116,10 @@ void registerNativeHeaderFactory() {
 
     final homeBtn = _iconButton(_svgIcon(_homeIconPath), 'Home / 首页');
     homeBtn.addEventListener('click', (() => _callbacks?.onHome()).toJS);
-    homeBtn.addEventListener('touchstart', (() => _callbacks?.onHome()).toJS);
     leftGroup.appendChild(homeBtn);
 
     final settingsBtn = _iconButton(_svgIcon(_settingsIconPath), 'Settings / 选项');
     settingsBtn.addEventListener('click', (() => _callbacks?.onSettings()).toJS);
-    settingsBtn.addEventListener('touchstart', (() => _callbacks?.onSettings()).toJS);
     leftGroup.appendChild(settingsBtn);
 
     final searchBox = web.HTMLDivElement()
@@ -256,13 +254,11 @@ void registerNativeHeaderFactory() {
     final learnedBtn = _iconButton(_svgLearnedIcon(filled: _isLearnedSelected), 'Learnt words / 已学会单词');
     _learnedBtn = learnedBtn;
     learnedBtn.addEventListener('click', (() => _callbacks?.onLearned()).toJS);
-    learnedBtn.addEventListener('touchstart', (() => _callbacks?.onLearned()).toJS);
     rightGroup.appendChild(learnedBtn);
 
     final favoritesBtn = _iconButton(_svgFavouritesIcon(filled: _isFavouritesSelected), 'Favourite words / 收藏单词');
     _favouritesBtn = favoritesBtn;
     favoritesBtn.addEventListener('click', (() => _callbacks?.onFavorites()).toJS);
-    favoritesBtn.addEventListener('touchstart', (() => _callbacks?.onFavorites()).toJS);
     rightGroup.appendChild(favoritesBtn);
 
     return root;
@@ -280,6 +276,7 @@ web.HTMLButtonElement _iconButton(web.SVGSVGElement icon, String tooltip) {
     ..style.alignItems = 'center'
     ..style.justifyContent = 'center'
     ..style.cursor = 'pointer'
+    ..style.touchAction = 'manipulation'
     ..title = tooltip;
   btn.appendChild(icon);
   return btn;
