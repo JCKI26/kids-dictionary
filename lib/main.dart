@@ -1161,6 +1161,8 @@ body: Column(
                 if (allIndex >= 0) _openWordDetail(match, allIndex);
               },
               words: _allWords.map((e) => e.word).toList(),
+              isLearnedSelected: _homeFilter == _HomeFilter.learned,
+              isFavouritesSelected: _homeFilter == _HomeFilter.favourites,
             ),
           ),
           Expanded(

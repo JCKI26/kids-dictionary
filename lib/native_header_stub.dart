@@ -7,6 +7,8 @@ class NativeHeaderCallbacks {
   final VoidCallback onFavorites;
   final ValueChanged<String> onSearchSubmitted;
   final List<String> words;
+  final bool isLearnedSelected;
+  final bool isFavouritesSelected;
 
   const NativeHeaderCallbacks({
     required this.onHome,
@@ -15,6 +17,8 @@ class NativeHeaderCallbacks {
     required this.onFavorites,
     required this.onSearchSubmitted,
     required this.words,
+    this.isLearnedSelected = false,
+    this.isFavouritesSelected = false,
   });
 }
 
@@ -23,6 +27,8 @@ void registerNativeHeaderFactory() {}
 void setNativeHeaderCallbacks(NativeHeaderCallbacks? callbacks) {}
 
 void setNativeHeaderIconColor(String? color) {}
+
+void setNativeHeaderBackgroundColor(String? color) {}
 
 class NativeHeader extends StatelessWidget {
   final NativeHeaderCallbacks callbacks;

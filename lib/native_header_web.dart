@@ -10,6 +10,8 @@ class NativeHeaderCallbacks {
   final VoidCallback onFavorites;
   final ValueChanged<String> onSearchSubmitted;
   final List<String> words;
+  final bool isLearnedSelected;
+  final bool isFavouritesSelected;
 
   const NativeHeaderCallbacks({
     required this.onHome,
@@ -18,6 +20,8 @@ class NativeHeaderCallbacks {
     required this.onFavorites,
     required this.onSearchSubmitted,
     required this.words,
+    this.isLearnedSelected = false,
+    this.isFavouritesSelected = false,
   });
 }
 
@@ -28,9 +32,18 @@ List<String> _words = const [];
 String? _iconColor;
 String? _backgroundColor;
 
+bool _isLearnedSelected = false;
+bool _isFavouritesSelected = false;
+
+web.HTMLButtonElement? _learnedBtn;
+web.HTMLButtonElement? _favouritesBtn;
+
 void setNativeHeaderCallbacks(NativeHeaderCallbacks? callbacks) {
   _callbacks = callbacks;
   _words = callbacks?.words ?? const [];
+  _isLearnedSelected = callbacks?.isLearnedSelected ?? false;
+  _isFavouritesSelected = callbacks?.isFavouritesSelected ?? false;
+  _updateSelectionIcons();
 }
 
 void setNativeHeaderIconColor(String? color) {
@@ -39,6 +52,17 @@ void setNativeHeaderIconColor(String? color) {
 
 void setNativeHeaderBackgroundColor(String? color) {
   _backgroundColor = color;
+}
+
+void _updateSelectionIcons() {
+  if (_learnedBtn != null) {
+    _learnedBtn!.textContent = '';
+    _learnedBtn!.appendChild(_svgLearnedIcon(filled: _isLearnedSelected));
+  }
+  if (_favouritesBtn != null) {
+    _favouritesBtn!.textContent = '';
+    _favouritesBtn!.appendChild(_svgFavouritesIcon(filled: _isFavouritesSelected));
+  }
 }
 
 void registerNativeHeaderFactory() {
@@ -53,6 +77,14 @@ void registerNativeHeaderFactory() {
       ..style.backgroundColor = _backgroundColor ?? '#9EF2E4'
       ..style.color = '#005048'
       ..style.fontFamily = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
+
+    final style = web.HTMLStyleElement()
+      ..textContent = '''
+        .native-header-search::placeholder { color: ${_iconColor ?? '#005048'}; opacity: 1; }
+        .native-header-search::-webkit-input-placeholder { color: ${_iconColor ?? '#005048'}; opacity: 1; }
+        .native-header-search::-moz-placeholder { color: ${_iconColor ?? '#005048'}; opacity: 1; }
+      ''';
+    root.appendChild(style);
 
     final titleRow = web.HTMLDivElement()
       ..style.height = '40px'
@@ -95,7 +127,7 @@ void registerNativeHeaderFactory() {
     final searchBox = web.HTMLDivElement()
       ..style.flex = '1'
       ..style.minWidth = '0'
-      ..style.height = '40px'
+      ..style.height = '36px'
       ..style.display = 'flex'
       ..style.alignItems = 'center'
       ..style.gap = '0'
@@ -111,6 +143,7 @@ void registerNativeHeaderFactory() {
 
     final searchInput = web.HTMLInputElement()
       ..type = 'search'
+      ..className = 'native-header-search'
       ..placeholder = 'Search / 搜尋'
       ..style.flex = '1'
       ..style.height = '100%'
@@ -192,7 +225,6 @@ void registerNativeHeaderFactory() {
       }).toJS,
     );
 
-    searchBox.appendChild(searchIcon);
     searchBox.appendChild(searchInput);
     searchBox.appendChild(dropdown);
 
@@ -221,12 +253,14 @@ void registerNativeHeaderFactory() {
       ..style.gap = '0';
     buttonRow.appendChild(rightGroup);
 
-    final learnedBtn = _iconButton(_svgIcon(_checkCircleIconPath), 'Learnt words / 已学会单词');
+    final learnedBtn = _iconButton(_svgLearnedIcon(filled: _isLearnedSelected), 'Learnt words / 已学会单词');
+    _learnedBtn = learnedBtn;
     learnedBtn.addEventListener('click', (() => _callbacks?.onLearned()).toJS);
     learnedBtn.addEventListener('touchstart', (() => _callbacks?.onLearned()).toJS);
     rightGroup.appendChild(learnedBtn);
 
-    final favoritesBtn = _iconButton(_svgIcon(_starBorderIconPath), 'Favourite words / 收藏单词');
+    final favoritesBtn = _iconButton(_svgFavouritesIcon(filled: _isFavouritesSelected), 'Favourite words / 收藏单词');
+    _favouritesBtn = favoritesBtn;
     favoritesBtn.addEventListener('click', (() => _callbacks?.onFavorites()).toJS);
     favoritesBtn.addEventListener('touchstart', (() => _callbacks?.onFavorites()).toJS);
     rightGroup.appendChild(favoritesBtn);
@@ -269,6 +303,48 @@ const _homeIconPath = 'M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z';
 const _settingsIconPath = 'M19.14 12.94c.04-.31.06-.63.06-.94 0-.31-.02-.63-.06-.94l2.03-1.58a.49.49 0 0 0 .12-.64l-1.92-3.32a.488.488 0 0 0-.59-.22l-2.39.96c-.54-.4-1.08-.73-1.69-.98l-.36-2.54a.484.484 0 0 0-.48-.41h-3.84a.484.484 0 0 0-.48.41l-.36 2.54c-.61.25-1.15.57-1.69.98l-2.39-.96a.488.488 0 0 0-.59.22L2.74 8.84a.49.49 0 0 0 .12.64l2.03 1.58c-.04.31-.06.63-.06.94s.02.63.06.94l-2.03 1.58a.49.49 0 0 0-.12.64l1.92 3.32c.12.22.37.29.59.22l2.39-.96c.54.4 1.08.73 1.69.98l.36 2.54c.05.24.27.41.48.41h3.84c.24 0 .44-.17.48-.41l.36-2.54c.61-.25 1.15-.57 1.69-.98l2.39.96c.22.08.47 0 .59-.22l1.92-3.32a.49.49 0 0 0-.12-.64l-2.03-1.58zM12 15.6A3.6 3.6 0 1 1 12 8.4a3.6 3.6 0 0 1 0 7.2z';
 const _checkCircleIconPath = 'M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm3.88-11.71L10 14.17l-1.88-1.88a.996.996 0 1 0-1.41 1.41L10 17l6.71-6.71a.996.996 0 0 0-1.41-1.41z';
 const _starBorderIconPath = 'M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.03 4.38.38-3.32 2.88 1 4.28L12 15.4z';
+
+web.SVGSVGElement _svgLearnedIcon({required bool filled, String? fill}) {
+  final svg = web.document.createElementNS('http://www.w3.org/2000/svg', 'svg') as web.SVGSVGElement;
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('width', '24');
+  svg.setAttribute('height', '24');
+  svg.style.pointerEvents = 'none';
+  final color = fill ?? _iconColor ?? '#005048';
+  if (filled) {
+    final circle = web.document.createElementNS('http://www.w3.org/2000/svg', 'circle') as web.SVGCircleElement;
+    circle.setAttribute('cx', '12');
+    circle.setAttribute('cy', '12');
+    circle.setAttribute('r', '10');
+    circle.setAttribute('fill', color);
+    svg.appendChild(circle);
+    final check = web.document.createElementNS('http://www.w3.org/2000/svg', 'path') as web.SVGPathElement;
+    check.setAttribute('d', 'M10 17l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z');
+    check.setAttribute('fill', '#FFFFFF');
+    svg.appendChild(check);
+  } else {
+    svg.setAttribute('fill', color);
+    final path = web.document.createElementNS('http://www.w3.org/2000/svg', 'path') as web.SVGPathElement;
+    path.setAttribute('d', _checkCircleIconPath);
+    svg.appendChild(path);
+  }
+  return svg;
+}
+
+web.SVGSVGElement _svgFavouritesIcon({required bool filled, String? fill}) {
+  final svg = web.document.createElementNS('http://www.w3.org/2000/svg', 'svg') as web.SVGSVGElement;
+  svg.setAttribute('viewBox', '0 0 24 24');
+  svg.setAttribute('width', '24');
+  svg.setAttribute('height', '24');
+  svg.setAttribute('fill', fill ?? _iconColor ?? '#005048');
+  svg.style.pointerEvents = 'none';
+  final path = web.document.createElementNS('http://www.w3.org/2000/svg', 'path') as web.SVGPathElement;
+  path.setAttribute('d', filled
+      ? 'M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z'
+      : _starBorderIconPath);
+  svg.appendChild(path);
+  return svg;
+}
 
 const _searchIconPath = 'M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z';
 
