@@ -1214,17 +1214,21 @@ body: Column(
                 child: _isLoading
                     ? const Center(child: CircularProgressIndicator())
                     : _results.isEmpty
-                        ? Center(
-                            child: Text(
-                              _homeFilter == _HomeFilter.learned
-                                  ? "No words have been marked as learned yet!\nLet’s pick some words you already know so they won’t show up again as the word of the day."
-                                  : _homeFilter == _HomeFilter.favourites
-                                      ? "No favourite words found!\nLet's bookmark some words, shall we?"
-                                      : "No words found today!",
+                        ? (() {
+                            final text = _homeFilter == _HomeFilter.learned
+                                ? "No words have been marked as learned yet!\nLet’s pick some words you already know so they won’t show up again as the word of the day."
+                                : _homeFilter == _HomeFilter.favourites
+                                    ? "No favourite words found!\nLet's bookmark some words, shall we?"
+                                    : "No words found today!";
+                            final child = Text(
+                              text,
                               style: const TextStyle(fontSize: 21),
                               textAlign: TextAlign.center,
-                            ),
-                          )
+                            );
+                            return (_homeFilter == _HomeFilter.learned || _homeFilter == _HomeFilter.favourites)
+                                ? Align(alignment: Alignment.topCenter, child: child)
+                                : Center(child: child);
+                          })()
                         : ListView.builder(
                             itemCount: _results.length,
                             itemBuilder: (context, index) {
