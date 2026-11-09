@@ -479,14 +479,17 @@ Widget _buildSpeakerButton({
   required double iconSize,
   String? tooltip,
 }) {
-  return IconButton(
-    icon: const Icon(Icons.volume_up),
-    iconSize: iconSize,
-    padding: EdgeInsets.zero,
-    constraints: BoxConstraints.tightFor(width: iconSize, height: iconSize),
-    splashRadius: iconSize,
-    tooltip: tooltip,
-    onPressed: onPressed,
+  final icon = SizedBox(
+    width: iconSize,
+    height: iconSize,
+    child: Icon(Icons.volume_up, size: iconSize),
+  );
+  final tappable = tooltip != null && tooltip.isNotEmpty
+      ? Tooltip(message: tooltip, child: icon)
+      : icon;
+  return GestureDetector(
+    onTap: onPressed,
+    child: tappable,
   );
 }
 
@@ -1615,7 +1618,7 @@ class _WordDetailPageState extends State<WordDetailPage> {
                           hintStyle: TextStyle(color: Theme.of(context).colorScheme.onSurfaceVariant),
                           prefixIcon: const Icon(Icons.search),
                           border: InputBorder.none,
-                          contentPadding: const EdgeInsets.symmetric(vertical: 4.0),
+                          contentPadding: const EdgeInsets.symmetric(vertical: 2.0),
                         ),
                         style: TextStyle(fontSize: 18.0 * scale),
                       );

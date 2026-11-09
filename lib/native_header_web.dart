@@ -79,27 +79,29 @@ void registerNativeHeaderFactory() {
 
     final homeBtn = _iconButton(_svgIcon(_homeIconPath), 'Home / 首页');
     homeBtn.addEventListener('click', (() => _callbacks?.onHome()).toJS);
+    homeBtn.addEventListener('touchstart', (() => _callbacks?.onHome()).toJS);
     leftGroup.appendChild(homeBtn);
 
     final settingsBtn = _iconButton(_svgIcon(_settingsIconPath), 'Settings / 选项');
     settingsBtn.addEventListener('click', (() => _callbacks?.onSettings()).toJS);
+    settingsBtn.addEventListener('touchstart', (() => _callbacks?.onSettings()).toJS);
     leftGroup.appendChild(settingsBtn);
 
     final searchBox = web.HTMLDivElement()
       ..style.flex = '1'
       ..style.minWidth = '0'
-      ..style.height = '32px'
+      ..style.height = '40px'
       ..style.display = 'flex'
       ..style.alignItems = 'center'
-      ..style.gap = '4px'
+      ..style.gap = '6px'
       ..style.backgroundColor = '#FFFFFF'
       ..style.borderRadius = '8px'
-      ..style.padding = '0 8px'
+      ..style.padding = '0 10px'
       ..style.position = 'relative';
 
     final searchIcon = _svgIcon(_searchIconPath, fill: _iconColor ?? '#005048');
-    searchIcon.setAttribute('width', '24');
-    searchIcon.setAttribute('height', '24');
+    searchIcon.setAttribute('width', '22');
+    searchIcon.setAttribute('height', '22');
 
     final searchInput = web.HTMLInputElement()
       ..type = 'search'
@@ -108,7 +110,7 @@ void registerNativeHeaderFactory() {
       ..style.height = '100%'
       ..style.border = 'none'
       ..style.backgroundColor = 'transparent'
-      ..style.fontSize = '16px'
+      ..style.fontSize = '18px'
       ..style.color = '#005048'
       ..style.outline = 'none';
 
@@ -215,10 +217,12 @@ void registerNativeHeaderFactory() {
 
     final learnedBtn = _iconButton(_svgIcon(_checkCircleIconPath), 'Learnt words / 已学会单词');
     learnedBtn.addEventListener('click', (() => _callbacks?.onLearned()).toJS);
+    learnedBtn.addEventListener('touchstart', (() => _callbacks?.onLearned()).toJS);
     rightGroup.appendChild(learnedBtn);
 
     final favoritesBtn = _iconButton(_svgIcon(_starBorderIconPath), 'Favourite words / 收藏单词');
     favoritesBtn.addEventListener('click', (() => _callbacks?.onFavorites()).toJS);
+    favoritesBtn.addEventListener('touchstart', (() => _callbacks?.onFavorites()).toJS);
     rightGroup.appendChild(favoritesBtn);
 
     return root;
@@ -247,6 +251,7 @@ web.SVGSVGElement _svgIcon(String pathD, {String? fill}) {
   svg.setAttribute('width', '24');
   svg.setAttribute('height', '24');
   svg.setAttribute('fill', fill ?? _iconColor ?? '#005048');
+  svg.style.pointerEvents = 'none';
 
   final path = web.document.createElementNS('http://www.w3.org/2000/svg', 'path') as web.SVGPathElement;
   path.setAttribute('d', pathD);
